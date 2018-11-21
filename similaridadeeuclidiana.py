@@ -7,20 +7,20 @@ def euclidiana(item1, item2):
 
 def getRecomendacoes(item, dados, funcao):
     totais = {}
-    contaSimilaridade = {}
+    totalSimilares = 0;
 
     for outro in dados:
         similaridade = funcao(item, outro['features'])
 
         if similaridade < 0.5: continue
 
+        totalSimilares += 1;
+
         for valor in outro['testcases']:
             totais.setdefault(valor['desc'], 0)
             totais[valor['desc']] += similaridade
-            contaSimilaridade.setdefault(valor['desc'], 0)
-            contaSimilaridade[valor['desc']] += 1
 
-    rankings = [(total/len(totais), item) for item, total in totais.items() if total/len(totais) > 0.5]
+    rankings = [(total/totalSimilares, item) for item, total in totais.items() if total/totalSimilares > 0.5]
     rankings.sort()
     rankings.reverse()
     return rankings

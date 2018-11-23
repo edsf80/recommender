@@ -7,14 +7,14 @@ def euclidiana(item1, item2):
 
 def getRecomendacoes(item, dados, funcao):
     totais = {}
-    totalSimilares = 0;
+    totalSimilares = 0
 
     for outro in dados:
         similaridade = funcao(item, outro['features'])
 
         if similaridade < 0.5: continue
 
-        totalSimilares += 1;
+        totalSimilares += 1
 
         for valor in outro['testcases']:
             totais.setdefault(valor['desc'], 0)

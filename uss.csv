@@ -1,0 +1,523 @@
+Módulo,Operação,Tarefa,ID (mapeamento),Projeto,ID_US,DESC_US,ID_Task,DESC_Task,Tipo            ,Mapeado? (SIM ou NAO),Origem
+X,X,X,1,SMON,756,Bug Fixing,1986,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,2,SMON,756,Bug Fixing,1987,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,3,SMON,756,Bug Fixing,1988,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,4,SMON,756,Bug Fixing,1989,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,5,SMON,756,Bug Fixing,1990,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,6,SMON,757,Bug Fixing,1954,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,7,SMON,757,Bug Fixing,1955,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,8,SMON,757,Bug Fixing,1956,Bug Fixing,Tecnica,Nao,Virtus
+X,X,X,9,SMON,757,Bug Fixing,1957,Bug Fixing,Tecnica,Nao,Virtus
+Autenticação,Acessar_pela_primeira_vez_o_sistema,,10,Gestão da Capacitação,US01,Como administrador desejo fazer login para ter o primeiro acesso ao sistema sistema,,,,,Capacitação
+Autenticação,Atualizar_perfil,,11,Gestão da Capacitação,US02,Como administrador desejo alterar minha senha para atualizá-la quando necessário,,,,,Capacitação
+Autenticação,Recuperar_senha,,12,Gestão da Capacitação,US03,Como administrador desejo recuperar minha senha	para ter acesso ao sistema novamente,,,,,Capacitação
+Cadastro,Inserir_dados,,13,Gestão da Capacitação,US04,Como administrador desejo criar um contrato para associar às contas criadas,,,,,Capacitação
+Autenticação,Criar_conta,,14,Gestão da Capacitação,US05,Como administrador desejo criar conta de gestor para que o gestor tenha acesso ao sistema,,,,,Capacitação
+Autenticação,Remover_conta,,15,Gestão da Capacitação,US06,Como administrador desejo excluir conta de gestor para remover o gestor do sistema,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,16,Gestão da Capacitação,US08,Como administrador desejo ordenar a lista de gestores cadastrados para facilitar a visualização das suas informações,,,,,Capacitação
+Autenticação,Fazer_login_com_usuário_e_senha,,17,Gestão da Capacitação,US09,Como administrador desejo fazer logout do sistema	para sair o sistema,,,,,Capacitação
+Autenticação,Criar_conta,,18,Gestão da Capacitação,US10,Como administrador desejo criar conta de coach para que o coach tenha acesso ao sistema.,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,19,Gestão da Capacitação,US13,Como administrador desejo ordenar a lista de coaches cadastrados	para facilitar a visualização das suas informações,,,,,Capacitação
+Autenticação,Criar_conta,,20,Gestão da Capacitação,US14,Como administrador desejo criar conta de aluno para que o aluni tenha acesso ao sistema,,,,,Capacitação
+Autenticação,Remover_conta,,21,Gestão da Capacitação,US15,Como administrador desejo excluir conta de aluno para remover o aluno do sistema,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,22,Gestão da Capacitação,US16,Como administrador desejo expandir as informações de um aluno cadastrado para ter acesso a mais informações de seu perfil,,,,,Capacitação
+Cadastro,Atualizar_dados,,23,Gestão da Capacitação,US18,Como coach desejo selecionar alunos para criar minha equipe,,,,,Capacitação
+Autenticação,Atualizar_perfil,,24,Gestão da Capacitação,US19,Como aluno	desejo atualizar meus dados para completar as informações do meu perfil,,,,,Capacitação
+Cadastro,Inserir_dados,,25,Gestão da Capacitação,US20,Como aluno	desejo cadastrar meus horários para que o coach responsável esteja ciente da minha carga horária,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,26,Gestão da Capacitação,US21,Como coach	desejo visualizar os horários da minha equipe para saber quando os alunos estarão no laboratório,,,,,Capacitação
+Cadastro,Inserir_dados,,27,Gestão da Capacitação,US22,Como aluno desejo registrar minha atividade da semana para que o meu coach possa fazer o acompanhamento,,,,,Capacitação
+Cadastro,Atualizar_dados,,28,Gestão da Capacitação,US23,Como coach	desejo revisar ou validar as atividades semanais do alunos da minha equipe para monito3rar as atividades realizadas,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,29,Gestão da Capacitação,US24,Como gestor	desejo visualizar os relatórios semanais que foram validados pelos coaches	para ficar 4a par do andamento dos projetos,,,,,Capacitação
+Cadastro,Atualizar_dados,,30,Gestão da Capacitação,US25,Como coach	desejo desalocar alunos da minha equipe que os alunos possam ser alocados em outra equipe,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,31,Gestão da Capacitação,US26,Como administrador desejo realizar buscas para ter acesso as suas informações deu um indivíduo específico,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,32,Gestão da Capacitação,US27,Como gestor	desejo realizar buscas	para ter acesso as suas informações deu um indivíduo específico,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,33,Gestão da Capacitação,US28,Como coach	desejo realizar buscas	para ter acesso as suas informações deu um indivíduo específico,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,34,Gestão da Capacitação,US29,Como gestor desejo visualizar os horários dos alunos no laboratório por contrato para exibir os horários de determinado aluno por contrato,,,,,Capacitação
+Gerencial,Notificar_via_aplicação,,35,Gestão da Capacitação,US30,Como desenvolvedor desejo criar um sistema de notificaçao para que os usarios possam ser notificado quando necessario,,,,,Capacitação
+Cadastro,Inserir_dados,,36,Gestão da Capacitação,US35,Como aluno desejo cadastrar horarios na agenda fora do horario regular para poder cumprir as 20 horas exigidas no projeto,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,37,Gestão da Capacitação,US36,Como coach desejo visualizar e gerenciar as informações da minha equipe para que eu possa ver e gerenciar de forma mais centralizada as informaçoes dos membros da minha equipe,,,,,Capacitação
+Cadastro,Atualizar_dados,,38,Gestão da Capacitação,US39,Como administrador desejo editar usuários já cadastrados no sistema para corrigir inconformidades dos dados cadastrados,,,,,Capacitação
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,39,NewPCS,#14947,Refatorar R&D Investment,#36699,Ajustar FormData,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,40,NewPCS,#14947,Refatorar R&D Investment,#36940,Ajustar banco de dados e scripts,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Recuperar dados do banco de dados,41,NewPCS,#14947,Refatorar R&D Investment,#36970,Carregar dados em inputs dependentes,Negocio,Sim,Virtus
+X,X,X,42,NewPCS,#14947,Refatorar R&D Investment,#36700,Ajustes em ações Insert e Delete,Negocio,Nao,Virtus
+X,X,X,43,NewPCS,#14947,Refatorar R&D Investment,#36701,Ajustes Testes Unitários,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,44,NewPCS,#14947,Refatorar R&D Investment,#36971,Ajustar método GET,Negocio,Sim,Virtus
+X,X,X,45,NewPCS,#14947,Refatorar R&D Investment,#37374,Update Action,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,46,NewPCS,#15110,[CR] Alterações de campos,#37431,Coluna - CFOP e Part,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,47,NewPCS,#15110,[CR] Alterações de campos,#37434,Coluna - Role,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Alterar menu do sistema,48,NewPCS,#15110,[CR] Alterações de campos,#37435,Menu e Coluna - Commodity e Menu,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,49,NewPCS,#15110,[CR] Alterações de campos,#37436,Coluna - Customer,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,50,NewPCS,#15110,[CR] Alterações de campos,#37437,Coluna - Master Customer,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,51,NewPCS,#15110,[CR] Alterações de campos,#37440,Coluna - SKU,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,52,NewPCS,#15110,[CR] Alterações de campos,#37441,Coluna - Supplier,Negocio,Sim,Virtus
+X,X,X,53,NewPCS,#14950,Reunião com Compal,#36758,Reunião com a Compal,Tecnica,Nao,Virtus
+Cadastro,Recuperação_de_dados,Alterar menu do sistema,54,NewPCS,#15110,[CR] Alterações de campos,#37443,Menu - PPB Concession,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Alterar menu do sistema,55,NewPCS,#15110,[CR] Alterações de campos,#37444,Menu - Master Customer,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Alterar menu do sistema,56,NewPCS,#15110,[CR] Alterações de campos,#37445,Menu - Product,Negocio,Sim,Virtus
+X,X,X,57,NewPCS,#14950,Reunião com Compal,#36759,Reunião com a Compal,Tecnica,Nao,Virtus
+X,X,X,58,NewPCS,#14950,Reunião com Compal,#36760,Reunião com a CompalReunião NewPCS: Revisão de Telas,Tecnica,Nao,Virtus
+X,X,X,59,NewPCS,#14950,Reunião com Compal,#37205,Reunião NewPCS: Revisão de Telas,Tecnica,Nao,Virtus
+X,X,X,60,NewPCS,#14891,Revisar performance Form Part,#36673,Analisar código do Formulário Part,Tecnica,Nao,Virtus
+X,X,X,61,NewPCS,#14891,Revisar performance Form Part,#36674,Corrigir causa da lentidão do Formulário de Part,Tecnica,Nao,Virtus
+Cadastro,Inserir_dados,Criar tela inserção,62,NewPCS,#14941,Criar tela de Produto PPB,#36675,Criar formdata de Produto PPB,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Consumir serviço para inserção,63,NewPCS,#14941,Criar tela de Produto PPB,#36677,Criar Service de Produto PPB,Negocio,Sim,Virtus
+,,,64,NewPCS,#14941,Criar tela de Produto PPB,#36678,Criar integração com Protheus para Produto PPB,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,65,NewPCS,#14941,Criar tela de Produto PPB,#36679,Ajustar integração de SKU,Negocio,Sim,Virtus
+X,X,X,66,NewPCS,#14941,Criar tela de Produto PPB,#36680,Teste de integração do relatório de Produto,Tecnica,Nao,Virtus
+X,X,X,67,NewPCS,#14941,Criar tela de Produto PPB,#36787,Teste de unidade para o relatório de Produto,Tecnica,Nao,Virtus
+X,X,X,68,NewPCS,#14941,Criar tela de Produto PPB,#36799,Criar teste de unidade para integração com o Protheus,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,69,NewPCS,#14889,Melhoria no Layout - Adição de Tooltips nos botões superiores da tela,#36682,Adicionar ToolTips,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,70,NewPCS,#14894,Verificar e adequar os filtros das telas desenvolvidas na Release Um,#36686,Ajustar os filtros,Negocio,Sim,Virtus
+X,X,X,71,NewPCS,#14894,Verificar e adequar os filtros das telas desenvolvidas na Release Um,#37113,Efetuar correções nos filtros,Tecnica,Nao,Virtus
+X,X,X,72,NewPCS,#14892,Criação de Componente InputTextArea,#36752,Ajuste na camada de frontend/backend,Negocio,Nao,Virtus
+Cadastro,Inserir_dados,Criar rota de inserção de dados,73,NewPCS,#14935,Configuração da diferença residual,#36859,Possibilitar adicionar a condição de taxa proporcional,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Fazer validação de dados no cliente,74,NewPCS,#14935,Configuração da diferença residual,#36590,Criação de validação,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Criar filtro para listagem,75,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36614,Definição de Campo principal na listagem do MiniCrud,Negocio,Sim,Virtus
+Cadastro,X,X,76,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36615,Correção na Loading Animation,Tecnica,Nao,Virtus
+Cadastro,Recuperação_de_dados,Expandir informações de item da listagem,77,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36616,Definir destaque do 'Radio' selecionado no MiniCrud,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,78,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36617,Desabilitar Exclusão Individual,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Criar ordenação para listagem,79,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36618,Adequar ordenação dos MiniCrud's,Negocio,Sim,Virtus
+Cadastro,X,X,80,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36619,Ajustar valor do Swap no MiniCrud,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,81,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36620,Ajustar validação do Swap,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,82,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36628,Validação no MiniCrud,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,83,NewPCS,#14887,Ajustes nos Componentes MiniCrud e Swap,#36827,Desabilitar accordions quando não houver commodity selecionado,Negocio,Sim,Virtus
+X,X,X,84,NewPCS,#14893,Alterações em Event Log,#36683,Remover Id da exibição dos Logs,Negocio,Nao,Virtus
+X,X,X,85,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ações de Modificar  CFOP,Negocio,Nao,Virtus
+X,X,X,86,NewPCS,#14893,Alterações em Event Log,,"Exibir mais detalhes sobre os registros nas ações de Modificar, Inserir e Deletar Detached Record",Negocio,Nao,Virtus
+X,X,X,87,NewPCS,#14893,Alterações em Event Log,,"Exibir mais detalhes sobre os registros nas ações de Modificar, Inserir e Deletar Commodity Interchange",Negocio,Nao,Virtus
+X,X,X,88,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ações de Modificar Part,Negocio,Nao,Virtus
+X,X,X,89,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ações de Modificar e Inserir Commodity Config - Obligation,Negocio,Nao,Virtus
+X,X,X,90,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ações de Modificar e Inserir Commodity Config - Exchange Rate Limit,Negocio,Nao,Virtus
+X,X,X,91,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ação de Inserir - Surplus,Negocio,Nao,Virtus
+X,X,X,92,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ações de Modificar e Inserir Commodity Config - Exemption,Negocio,Nao,Virtus
+X,X,X,93,NewPCS,#14893,Alterações em Event Log,,Exibir mais detalhes sobre os registros nas ações de Modificar e Inserir Commodity Config - Residual Difference,Negocio,Nao,Virtus
+X,X,X,94,NewPCS,#14888,Desenvolvimento do componente ChoicesFilterKey,,Análise de solução,Tecnica,Nao,Virtus
+Cadastro,Inserir_dados,Criar método de inserção,95,NewPCS,#14888,Desenvolvimento do componente ChoicesFilterKey,#36976,[Frontend] Implementação do novo componente no frontend,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,96,NewPCS,#14888,Desenvolvimento do componente ChoicesFilterKey,#37121,[Backend] Implementar modificações na inserção de dados no framework,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Fazer chamada para tela de inserção,97,NewPCS,#14888,Desenvolvimento do componente ChoicesFilterKey,#37122,[Frontend] Implementar chamadas às APIs geradas,Negocio,Sim,Virtus
+X,X,X,98,NewPCS,#14936,Implementar exclusão de configurações em cascata,#36692,Criar carga inicial (Dump) para o banco,Tecnica,Nao,Virtus
+X,X,X,99,NewPCS,#14936,Implementar exclusão de configurações em cascata,,Criar Trigger para exclusão das configurações de portaria,Tecnica,Nao,Virtus
+X,X,X,100,NewPCS,#14936,Implementar exclusão de configurações em cascata,,Alinhar comportamento com Stakeholders,Gerencial,Nao,Virtus
+Cadastro,Inserir_dados,Criar tela inserção,101,NewPCS,#14924,Duplicação de Configuração de Portaria,#36689,Criar FormAction DuplicateOrdinance,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Recuperar dados do banco de dados,102,NewPCS,#14924,Duplicação de Configuração de Portaria,#36690,Buscar as referências da Portaria que será duplicada,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Consumir serviço para inserção,103,NewPCS,#14924,Duplicação de Configuração de Portaria,#36691,Criar service para duplicar os dados das portarias,Negocio,Sim,Virtus
+X,X,X,104,NewPCS,#14923,Importação das NFs do PPB Link,#36691,Criar/atualizar Job para realizar a importação,Negocio,Nao,Virtus
+X,X,X,105,NewPCS,#14923,Importação das NFs do PPB Link,#36691,Criação das tabelas de persistência dos dados raw,Negocio,Nao,Virtus
+X,X,X,106,NewPCS,#14923,Importação das NFs do PPB Link,#36691,Criação das tabelas de mock do PPB Link,Negocio,Nao,Virtus
+X,X,X,107,NewPCS,#14923,Importação dos dados de produção do SFIS,#36691,Definir formato final dos dados de produção relacionado ao SKU e Part Numbers relacionados,Negocio,Nao,Virtus
+X,X,X,108,NewPCS,#14923,Importação dos dados de produção do SFIS,#36691,Criar/atualizar Job para realizar a importação,Negocio,Nao,Virtus
+X,X,X,109,NewPCS,#14923,Processamento inicial de NF (Validação de dados),#36691,Chamar o processamento em lote das NF no evento de importação de novas NF (se houver),Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,110,NewPCS,#14923,Validação de Campos Excludentes,#36687,Ajustar validações no FrontEnd,Negocio,Sim,Virtus
+X,X,X,111,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Commodity),Tecnica,Nao,Virtus
+X,X,X,112,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Part Number),Tecnica,Nao,Virtus
+X,X,X,113,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (CFOP),Tecnica,Nao,Virtus
+X,X,X,114,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (SKU),Tecnica,Nao,Virtus
+X,X,X,115,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (NCM),Tecnica,Nao,Virtus
+X,X,X,116,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Produto),Tecnica,Nao,Virtus
+X,X,X,117,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Master Customer),Tecnica,Nao,Virtus
+X,X,X,118,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Comercial Name),Tecnica,Nao,Virtus
+X,X,X,119,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Customer),Tecnica,Nao,Virtus
+X,X,X,120,NewPCS,#14942,Criação dos testes unitários de integração com o Protheus,#36687,Criação dos testes unitários de integração com o Protheus (Supplier),Tecnica,Nao,Virtus
+Cadastro,Inserir_dados,Criar tela inserção,121,NewPCS,#36703,Criar Compensation List,#36703,[Frontend] Criar componente de visualização de preview,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Consumir serviço para inserção,122,NewPCS,#36703,Criar Compensation List,#36704,[Frontend] Implementar infraestrutura de chamada à api,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,123,NewPCS,#36703,Criar Compensation List,#37204,[Backend] Adicionar suporte do componente de 'Preview' ao framework,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,124,NewPCS,#36703,Criar Compensation List,#37332,Adicionar campos de preview na tela de Commodity Interchange,Negocio,Sim,Virtus
+,,,125,Kaizen,#9,Como usuário quero me cadastrar no sistema - Frontend,,,,,
+X,X,X,126,NewPCS,#15135,Alterações em Event Log,#37586,Ajustar a implementação de eventos para criar o log ao deletar registros usando o EventLogBuilder,Negocio,Nao,Virtus
+X,X,X,127,NewPCS,#15135,Alterações em Event Log,#37827,"Alteração para Event Log de CFOP, PPBConssecion, Detached Record e Obligation Exchange",Negocio,Nao,Virtus
+X,X,X,128,NewPCS,#15135,Alterações em Event Log,#37833,Alteração para Event Log de  R&D Investiment,Negocio,Nao,Virtus
+X,X,X,129,NewPCS,#15135,Alterações em Event Log,#37932,Ajuste no Log de Ordinance,Negocio,Nao,Virtus
+X,X,X,130,NewPCS,#15135,Alterações em Event Log,#37961,Criação do log de Exchange Rate Matrix,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,131,NewPCS,#15125,"Ajuste no componente ""Swap""",#37591,Ajustar o componente para apagar o valor preenchido no input que for desabilitado,Negocio,Nao,Virtus
+X,X,X,132,NewPCS,#15126,Tratar visibilidade dos inputs na compensação de P&D,#37588,Analisar solução atual do framework,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,133,NewPCS,#15126,Tratar visibilidade dos inputs na compensação de P&D,#37589,Ajustar frontend,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,134,NewPCS,#15126,Tratar visibilidade dos inputs na compensação de P&D,#37590,[Backend] Adicionar suporte ao input condicional nos forms de Exemption e Residual Difference.,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar chamada para tela de inserção,135,NewPCS,#15124,"Substituir o componente ""transfer"" pelo ""mini crud com autocomplete""",#37592,Substituir na tela de Part,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar chamada para tela de inserção,136,NewPCS,#15124,"Substituir o componente ""transfer"" pelo ""mini crud com autocomplete""",#37593,Substituir na tela de PPB Rules,Negocio,Sim,Virtus
+X,X,X,137,NewPCS,#15108,Ajustar validações e testes Unitários e de Integração de Configuração de Commodity,#37408,Teste de Integração de Obrigação (Obligation),Tecnica,Nao,Virtus
+X,X,X,138,NewPCS,#15108,Ajustar validações e testes Unitários e de Integração de Configuração de Commodity,#37409,Teste de unidade de Dispensa (Exemption),Tecnica,Nao,Virtus
+X,X,X,139,NewPCS,#15108,Ajustar validações e testes Unitários e de Integração de Configuração de Commodity,#37410,Teste de integração de Excedente (Surplus),Tecnica,Nao,Virtus
+X,X,X,140,NewPCS,#15108,Ajustar validações e testes Unitários e de Integração de Configuração de Commodity,#37411,Teste de integração - Diferença Residual (Residual Diff.),Tecnica,Nao,Virtus
+X,X,X,141,NewPCS,#15121,Ajustes de validação de commodity config,#37596,Ajustar Log da copia de uma portaria,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,142,NewPCS,#15121,Ajustes de validação de commodity config,#37597,"Ajustar a ação de ""Copy ordinance"" mediante aos ajustes das validações",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação dados inserção no servidor,143,NewPCS,#15121,Ajustes de validação de commodity config,#37598,Adicionar alerta ao usuário caso alguma commodity não possuir pelo menos a obrigação cadastrada,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação dados inserção no servidor,144,NewPCS,#15121,Ajustes de validação de commodity config,#37835,"Ajustar para apenas a section ""Obligation"" ser obrigatória",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,145,NewPCS,#15184,Ajuste nos scripts de banco de dados,#37716,Ajuste nos scripts de banco de dados e atualização do EDMX,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Consumir serviço para inserção,146,NewPCS,#15185,Implementação do preview na tela Commodity Interchange,#37714,[Backend] Implementar service de preview,Negocio,Sim,Virtus
+X,X,X,147,NewPCS,#15136,Refatorar R&D Investment,#37553,Ajustar testes de integração,Tecnica,Nao,Virtus
+X,X,X,148,NewPCS,#15136,Refatorar R&D Investment,#37595,Correção de comportamento do select atrelado ao radios,Tecnica,Nao,Virtus
+X,X,X,149,NewPCS,#15136,Refatorar R&D Investment,#37721,Finalizar ajustes de integration Tests,Tecnica,Nao,Virtus
+X,X,X,150,NewPCS,#15127,[P&D Investment] Adicionar validações referentes as compensações de P&D,#37605,Checar se o investimento para compensar dispensa é válido,Tecnica,Nao,Virtus
+X,X,X,151,NewPCS,#15127,[P&D Investment] Adicionar validações referentes as compensações de P&D,#37606,Elencar as validações em casos de dispensa,Tecnica,Nao,Virtus
+X,X,X,152,NewPCS,#15127,[P&D Investment] Adicionar validações referentes as compensações de P&D,#38064,Elencar validações para compensação de P&D quando existe diferença residual,Tecnica,Nao,Virtus
+X,X,X,153,NewPCS,#15127,[P&D Investment] Adicionar validações referentes as compensações de P&D,#38191,Análise da portaria para elencar validações de investimento,Tecnica,Nao,Virtus
+X,X,X,154,NewPCS,#15127,[P&D Investment] Adicionar validações referentes as compensações de P&D,#38207,Checar se o investimento para compensar uma diferença residual é válido,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,155,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#35672,Adicionar componente para commodity e a quantidade adicional a ser contabilizada,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,Fazer validação de dados no cliente.,156,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#35673,Validações persistência das alterações,Negocio,Sim,Virtus
+X,X,X,157,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#37607,Testes de unidade,Tecnica,Nao,Virtus
+X,X,X,158,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#37608,Testes de integração,Tecnica,Nao,Virtus
+X,X,X,159,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#38192,Análise do relacionamento de SKU com Commodity no banco de dados.,Tecnica,Tecnica,Tecnica
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,160,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#38276,Alterar método de modificação de SKU,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,161,NewPCS,#14341,Adicionar suporte a contabilização automática de insumos por SKU,#38335,Ajustes do script de banco de dados e EDMX,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,,162,Kaizen,#12,Como admin quero criar projetos - Frontend,,,,,
+Cadastro,Atualizar_dados,,163,Kaizen,#14,Como ScrumMaster quero editar a descrição dos projetos - Frontend,,,,,
+Cadastro,Inserir_dados,,164,Kaizen,#16,Como ScrumMaster quero criar uma sprint - Frontend,,,,,
+Cadastro,Atualizar_dados,,165,Kaizen,#22,Como ScrumMaster quero atualizar as lições aprendidas do projeto - Frontend,,,,,
+Cadastro,Atualizar_dados,,166,Kaizen,#24,Como ScrumMaster quero gerenciar os impedimentos do projeto - Frontend,,,,,
+Cadastro,Inserir_dados,Fazer validação de dados no cliente,167,NewPCS,#15109,Processamento inicial de NF (Validação de dados),#37407,Validar se os Part Numbers relacionados as NFs (para cada uma) existem no New PCS,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Fazer validação de dados no cliente,168,NewPCS,#15109,Processamento inicial de NF (Validação de dados),#38771,Validar se os SKUs relacionados as NFs (para cada uma) existem no New PCS,Negocio,Sim,Virtus
+X,X,X,169,NewPCS,#14934,Importação dos dados de produção do SFIS,#36585,Criar/atualizar Job para realizar a importação,Negocio,Nao,Virtus
+X,X,X,170,NewPCS,#14934,Importação dos dados de produção do SFIS,#35586,"Realizar importação e persistir dados ""raw""",Negocio,Nao,Virtus
+X,X,X,171,NewPCS,#14934,Importação dos dados de produção do SFIS,#36584,Definir formato final dos dados de produção relacionado ao SKU e Part Numbers relacionados,Tecnica,Nao,Virtus
+X,X,X,172,NewPCS,#14934,Importação dos dados de produção do SFIS,#38251,Análise do código fonte do PCS,Tecnica,Nao,Virtus
+X,X,X,173,NewPCS,#14934,Importação dos dados de produção do SFIS,#38277,Análise do código fonte do PCS (parte 2),Tecnica,Nao,Virtus
+X,X,X,174,NewPCS,#15137,Modelagem das tabelas de registro (saída do processamento da NF),#37602,Definição do modelo para consolidação dos dados da obrigação (Part 1),Tecnica,Nao,Virtus
+X,X,X,175,NewPCS,#15137,Modelagem das tabelas de registro (saída do processamento da NF),#37603,Criação do script,Tecnica,Nao,Virtus
+X,X,X,176,NewPCS,#15137,Modelagem das tabelas de registro (saída do processamento da NF),#38547,Definição do modelo para consolidação dos dados da obrigação (Part 2),Tecnica,Nao,Virtus
+X,X,X,177,NewPCS,#15137,Modelagem das tabelas de registro (saída do processamento da NF),#38629,Ajustar código após alterações no banco,Tecnica,Nao,Virtus
+X,X,X,178,NewPCS,#15129,[NFe Processing] Calculo da obrigação,#37580,Criar testes de unidade,Tecnica,Nao,Virtus
+X,X,X,179,NewPCS,#15129,[NFe Processing] Calculo da obrigação,#37573,Implementar tratamento da regra,Tecnica,Nao,Virtus
+X,X,X,180,NewPCS,#15129,[NFe Processing] Calculo da obrigação,#37567,Definir casos a tratar,Tecnica,Nao,Virtus
+X,X,X,181,NewPCS,#15129,[NFe Processing] Calculo da obrigação,#38303,Ajustes nos processador de notas ficais para receber os parâmetros necessários para o cálculo/validação da obrigação,Negocio,Nao,Virtus
+X,X,X,182,NewPCS,#15129,[NFe Processing] Calculo da obrigação,#38426,Definição e passagens de parâmetros que serão utilizados por todos os processadores de notas fiscais,Negocio,Nao,Virtus
+X,X,X,183,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#37582,Criar testes de unidade,Tecnica,Nao,Virtus
+X,X,X,184,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#37575,Implementar tratamento da regra,Negocio,Nao,Virtus
+X,X,X,185,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#37569,Definir casos a tratar,Tecnica,Nao,Virtus
+X,X,X,186,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#37500,Análise da portaria para elencar validações de investimento,Tecnica,Nao,Virtus
+X,X,X,187,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#37672,Análise das regras,Tecnica,Nao,Virtus
+X,X,X,188,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#38740,"Atualização do banco, script e EDMX",Tecnica,Nao,Virtus
+X,X,X,189,NewPCS,#15130,[NFe Processing] Calcular as dispensas de PartNumbers específicos,#38751,Implementar leitura dos dados,Negocio,Nao,Virtus
+X,X,X,190,NewPCS,#15132,[NFe Processing] Calcular a diferença residual corrente,#37583,Criar testes de unidade,Tecnica,Nao,Virtus
+X,X,X,191,NewPCS,#15132,[NFe Processing] Calcular a diferença residual corrente,#37576,Implementar tratamento da regra,Negocio,Nao,Virtus
+X,X,X,192,NewPCS,#15132,[NFe Processing] Calcular a diferença residual corrente,#37570,Definir casos a tratar,Tecnica,Nao,Virtus
+X,X,X,193,NewPCS,#15133,Cálculo de compensação entre insumos,#37571,Definir casos a tratar,Tecnica,Nao,Virtus
+X,X,X,194,NewPCS,#15133,Cálculo de compensação entre insumos,#37578,Implementar tratamento da regra,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,195,NewPCS,#15133,Cálculo de compensação entre insumos,#37584,Ajustes no service de Ordinance,Negocio,Sim,Virtus
+X,X,X,196,NewPCS,#15133,Cálculo de compensação entre insumos,#37545,Criação da tabela no banco de dados e ajustes no metadata,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,197,NewPCS,#15133,Cálculo de compensação entre insumos,#37749,Ajustar atualização da matriz de proporcionalidade para a consolidação,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,198,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37572,"Adicionar a label ""(+/-)"" no campo valor.",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,199,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37579,"Adicionar a opção para selecionar entre: ""Base de cálculo"" e ""obrigação""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,200,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37585,Adicionar campo para informar o cliente (Master Customer) logo antes do valor,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,201,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37531,Validação para aceitar valores (+/-),Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,202,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37557,Atualizar o Insert e Modify,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,203,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37558,Validação dos novos campos,Negocio,Sim,Virtus
+X,X,X,204,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37559,Atualizar testes Unitários e Integração,Tecnica,Nao,Virtus
+X,X,X,205,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37775,Atualizar Teste Integração,Tecnica,Nao,Virtus
+Cadastro,Inserir_dados,,206,NewPCS,#14941,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Remover_dados,,207,NewPCS,#14941,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,,208,NewPCS,#14941,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,,209,NewPCS,#14329,Investments,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Remover_dados,,210,NewPCS,#14329,Investments,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,,211,NewPCS,#14329,Investments,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,,212,NewPCS,#14315,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Remover_dados,,213,NewPCS,#14315,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,,214,NewPCS,#14315,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,,16,Gestão da Capacitação,US07,Como administrador desejo expandir as informações de um gestor cadastrado para ter acesso a mais informações de seu perfil,,,,,Capacitação
+Cadastro,Recuperação_de_dados,,216,Gestão da Capacitação,US17,Como administrador desejo ordenar a lista de alunos cadastrados para facilitar a visualização das suas informações,,,,,Capacitação
+X,X,X,217,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39043,Tratamento da base de cálculo,Negocio,Nao,Virtus
+X,X,X,218,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39044,Agrupamento de obrigação por customer,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,219,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39142,"Remover campo ""deadline"" da configuração de obrigação",Negocio,Sim,Virtus
+X,X,X,220,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39324,"Ao reprocessar uma nota, apagar todos os registros referentes a mesma na tabela de obrigação",Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,221,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39326,Ajustes no cálculo da obrigação,Negocio,Sim,Virtus
+X,X,X,222,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39328,Alterar a estratégia de controle de jobs para banco de dados ao invés de em memória,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,223,NewPCS,#15320,Ajustes de layout,#38967,Alterar o layout da barra de rolagem para os demais fomulários,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,224,NewPCS,#15320,Ajustes de layout,#38968,Remover/ajustar barra de rolagem do MiniCRUD,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,225,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#38969,"Na seção ""Obligation"" os campos ""Production"" e ""Done"" devem conter o sufixo "" (%)""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,226,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#38971,Validação de mesmo Part Number para múltiplas regras de Dispensa ou diferença residual,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,227,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#38972,"Formatar as datas para o formato (""DD/MM/YYYY"") como no caso de ""Deadline"" de ""Exemption""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,228,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#38973,"Adicionar o input de ""limite de dispensas"" em unidade em ""Exemption""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,229,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#38974,"Os Part Numbers exibidos no ""auto complete"" devem ser apenas os relacionados a commodity selecionada",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,230,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#38975,[MiniCrud] Adicionar funcionalidade de permitir seleção de itens por grupo.,Negocio,Sim,Virtus
+X,X,X,231,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39099,Análise do modelo de dependência de inputs no autocomplete,Tecnica,Nao,Virtus
+X,X,X,232,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39184,Mudança no framework para suporte de filtragem no autocomplete baseado em valores de outros inputs,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,233,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39209,"Alterar o label ""base de cálculo"" para ""Obligation type"" com os tipos: ""By origin"" e ""By part category""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,234,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39210,"Mudar o input ""Done"" da configuração de obrigação para ""Assembled""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,235,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39212,"Remover a seleção de ""Obligation type"" de crédito e débito avulso e compensação em P&D",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,236,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39229,"Remover o campo ""Benefits"" da portaria",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,237,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39269,[Frontend] Adicionar suporte a agrupamento de itens no MiniCrud.,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,238,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39270,[Backend] Adicionar suporte a agrupamento de itens no MiniCrud.,Negocio,Sim,Virtus
+X,X,X,239,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39279,Mudança no frontend para envio dos dados dos inputs de filtro do autocomplete,Negocio,Nao,Virtus
+X,X,X,240,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39451,[MiniCrud] Formatar valores numéricos,Negocio,Nao,Virtus
+X,X,X,241,NewPCS,#15325,Ajustes em PPB Rules (Commodity Config),#39452,[MiniCrud] Validar inputs autocomplete ao adicionar,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,242,NewPCS,#15324,Ajustes em Compensação entre Insumos,#38976,Ajustar as ordens dos inputs do formulário de acordo com o protótipo,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,243,NewPCS,#15324,Ajustes em Compensação entre Insumos,#38977,Adicionar a informação de período em que a compensação será realizada (mês/ano). Importante,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,244,NewPCS,#15470,Ajustes em Compensação em P&D,#38978,Ajustar formato e visibilidade dos inputs de acordo com a definição de cada um,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,245,NewPCS,#15470,Ajustes em Compensação em P&D,#39238,Remover Calculation Basis,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,246,NewPCS,#15470,Ajustes em Compensação em P&D,#39271,Adicionar campo Proportion (Unit.) e tratar habilitação do campo a partir da seleção de um RD Compensation Type,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,247,NewPCS,#15326,Ajustes em Investimento em R&D,#38979,[Frontend] Ajustar a lista de condições de investimento para apenas incluir as condições relacionadas a compensação em P&D (Adicionar tooltip para identificar as condições selecionadas),Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,248,NewPCS,#15326,Ajustes em Investimento em R&D,#38980,"Alterar a ordem dos campos para: Product/Year, Part Category, Exemption, Res. Difference, Percentual, Quantity (unit.), Monetary Value, Justificative",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,249,NewPCS,#15326,Ajustes em Investimento em R&D,#39159,[Backend] Ajustar a lista de condições de investimento para apenas incluir as condições relacionadas a compensação em P&D (Adicionar tooltip para identificar as condições selecionadas),Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,250,NewPCS,#15331,"Ajustes em ""PPB License""",#38989,"Acrescentar as colunas: data da portaria, data da publicação e número da portaria",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,251,NewPCS,#15331,"Ajustes em ""PPB License""",#39687,"Criação dos campos na tabela ""PPB_CONCESSION""",Negocio,Sim,Virtus
+Gerencial,Exportar_relatório_em_PDF,Criar Relatório,252,NewPCS,#12520,Visualize Invoice Details,#38990,Implementação do relatório de notas fiscais de despacho,Negocio,Sim,Virtus
+Gerencial,Exportar_relatório_em_PDF,Criar Relatório,253,NewPCS,#12520,Visualize Invoice Details,#38991,Implementação do relatório de serial numbers de um nota fiscal,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Criar filtro para listagem,254,NewPCS,#12520,Visualize Invoice Details,#38992,[Frontend] Criação de componente para filtrar os part numbers de cada serial number selecionado,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Alterar menu do sistema,255,NewPCS,#12520,Visualize Invoice Details,#38993,Adicionar menu de contexto para redirecionamento para tela de visualização de Serial Numbers da NF,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,256,NewPCS,#12520,Visualize Invoice Details,#39768,[Frontend] Adaptar estrutura dos filtros para as novas features,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Criar filtro para listagem,257,NewPCS,#12520,Visualize Invoice Details,#38994,Implementação da consulta dos dados referentes ao relatório,Negocio,Sim,Virtus
+Gerencial,Exportar_relatório_em_XLS,Implementar método para exportação de relatório,258,NewPCS,#12520,Visualize Invoice Details,#38996,Exportação do relatório para excel,Negocio,Sim,Virtus
+X,X,X,259,NewPCS,#12520,Visualize Invoice Details,#39557,[Frontend] Popular itens do filtro através de chamada ao backend,Negocio,Nao,Virtus
+X,X,X,260,NewPCS,#12520,Visualize Invoice Details,#39786,Extração dos dados da planilha para script sql,Negocio,Nao,Virtus
+X,X,X,261,NewPCS,#12520,Visualize Invoice Details,#39741,Ajustes no relacionamento entre os relatórios de Invoice Details e Serial Number Detais,Negocio,Nao,Virtus
+X,X,X,262,NewPCS,#15499,Merge com o repositório da Venturus,#38998,Merge Venturus -> Virtus,Tecnica,Nao,Virtus
+X,X,X,263,NewPCS,#15499,Merge com o repositório da Venturus,#38997,Merge Virtus -> Venturus,Tecnica,Nao,Virtus
+X,X,X,264,NewPCS,#15499,Merge com o repositório da Venturus,#15506,Geração de Builds para QA,Tecnica,Nao,Virtus
+X,X,X,265,NewPCS,#15518,Atualização do guia do usuário,#39563,Revisar user guide,Tecnica,Nao,Virtus
+X,X,X,266,NewPCS,#15518,Atualização do guia do usuário,#39083,Atualização do guia do usuário,Tecnica,Nao,Virtus
+X,X,X,267,NewPCS,#15518,Atualização do guia do usuário,#39177,Atualização do guia do usuário,Tecnica,Nao,Virtus
+X,X,X,268,NewPCS,#15518,Atualização do guia do usuário,#39461,Atualização do guia do usuário,Tecnica,Nao,Virtus
+X,X,X,269,NewPCS,#15329,Importar NFs de Compra / Devolução,#39545,Validar notas e Part Numbers,Negocio,Nao,Virtus
+X,X,X,270,NewPCS,#15329,Importar NFs de Compra / Devolução,#39544,Criar operação importação,Negocio,Nao,Virtus
+X,X,X,271,NewPCS,#15329,Importar NFs de Compra / Devolução,#39543,Criar tabelas de armazenamento da nota e PNS,Negocio,Nao,Virtus
+X,X,X,272,NewPCS,#15329,Importar NFs de Compra / Devolução,#15519,"""Configuração"" do spec flow",Negocio,Nao,Virtus
+X,X,X,273,NewPCS,#15520,Correção de bug,#39540,"Bug Fix 12053 -  [Framework] Ao abrir um FormAction e pressionar 'ESC', o sistema fica preso naquele estado.",Tecnica,Nao,Virtus
+X,X,X,274,NewPCS,#15520,Correção de bug,#39542,Bug Fix 11882 - [Commodity Interchange] Mensagem de erro incorreta ao não conseguir carregar as informações do campo Preview,Tecnica,Nao,Virtus
+X,X,X,275,NewPCS,#15520,Correção de bug,#39552,Bug fix 12066 - [PPB Rules] [Surplus] O sistema permite adicionar a lista de Surplus preenchendo apenas hífen ( - ) nos campos,Tecnica,Nao,Virtus
+X,X,X,276,NewPCS,#15520,Correção de bug,#39556,Merge branch de QA com branch Develop,Tecnica,Nao,Virtus
+X,X,X,277,NewPCS,#15520,Correção de bug,#39558,"Bug fix - 12059 - [PPB Rules][Exemption] Inserir apenas os caracteres ( "" , "" "" . "" "" - "" ) no campo Exemption Limit",Tecnica,Nao,Virtus
+X,X,X,278,NewPCS,#15556,Integração com o Protheus,#39123,Ajuste nas integrações de SKU,Tecnica,Nao,Virtus
+X,X,X,279,NewPCS,#15606,Manutenção de banco de dados,#39323,Ajuste no banco de dados referente a criação do formulário de Governement Report Parameters,Tecnica,Nao,Virtus
+X,X,X,280,NewPCS,#15606,Manutenção de banco de dados,#39699,Setup do ambiente de testes de QA,Tecnica,Nao,Virtus
+X,X,X,281,NewPCS,#15682,Reunião com Stakeholders,#39774,Reunião para alinhar as modificações necessárias no NewPcs,Tecnica,Nao,Virtus
+X,X,X,282,NewPCS,#15682,Reunião com Stakeholders,#39700,Reunião para tirar dúvidas sobre as mudanças na portaria,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,283,SPGEC,#15048,Cadastros gerais,#39441,Criar coluna variação na tela de equipamentos,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,284,SPGEC,#15048,Cadastros gerais,#39442,Inserir campo Variação no cadastro de equipamentos,Negocio,Sim,Virtus
+X,X,X,285,SPGEC,#15627,Associação do PN ao cliente e às configurações,#39444,Criar nova configuração de Clientes,Negocio,Nao,Virtus
+Cadastro,Recuperação de Dados,Criar paginação para listagem,286,SPGEC,#15627,Associação do PN ao cliente e às configurações,#39445,Paginação da tela de Configuração de Clientes,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,287,SPGEC,#15627,Associação do PN ao cliente e às configurações,#39446,Filtros da tela de Configuração de Clientes,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Criar tela inserção,288,SPGEC,#15627,Associação do PN ao cliente e às configurações,#39447,Criar tela de Configuração de Clientes,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,Criar tela alteração,289,SPGEC,#15627,Associação do PN ao cliente e às configurações,#39956,Editar Configuração de Cliente,Negocio,Sim,Virtus
+X,X,X,290,SPGEC,#15631,Impressão de etiquetas,#39449,Implementar o script da etiqueta,Negocio,Nao,Virtus
+X,X,X,291,SPGEC,#15631,Impressão de etiquetas,#40145,Implementação de código zpl das etiquetas,Negocio,Nao,Virtus
+X,X,X,292,SPGEC,#15631,Impressão de etiquetas,#39448,Definir layout da etiqueta,Negocio,Nao,Virtus
+X,X,X,293,SPGEC,#15631,Impressão de etiquetas,#39450,Imprimir etiqueta,Negocio,Nao,Virtus
+X,X,X,294,SPGEC,#15632,Estabilização,#39638,Correções no histórico de insumos,Tecnica,Nao,Virtus
+X,X,X,295,SPGEC,#15632,Estabilização,#39717,Estabilização da máquina de estados,Tecnica,Nao,Virtus
+X,X,X,296,SPGEC,#15632,Estabilização,#39718,Treinamento para realização de testes para qualidade,Tecnica,Nao,Virtus
+X,X,X,297,SPGEC,#15632,Estabilização,#39957,Obter a listagem de equipamentos a partir do backend,Negocio,Nao,Virtus
+X,X,X,298,SPGEC,#15632,Estabilização,#40502,[Android] Correções nos serviços,Tecnica,Nao,Virtus
+Cadastro,Recuperação de Dados,Criar tela listagem,299,SPGEC,#15632,Estabilização,#39479,Filtragem por equipamento,Negocio,Sim,Virtus
+X,X,X,300,SPGEC,#15628,Dashboard pasta de solda e cola,#39428,Exibir Part Number e MO do insumo,Negocio,Nao,Virtus
+X,X,X,301,SPGEC,#15628,Dashboard pasta de solda e cola,#39430,Corrigir barra de progresso,Tecnica,Nao,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,302,SPGEC,#15628,Dashboard pasta de solda e cola,#39433,Criar filtros da pasta,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,303,SPGEC,#15628,Dashboard pasta de solda e cola,#39434,Criar filtros do Log,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,304,SPGEC,#15628,Dashboard pasta de solda e cola,#39783,Filtro de LOG por status,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,305,SPGEC,#15628,Dashboard pasta de solda e cola,#39871,Criar filtro de cola,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar tela listagem,306,SPGEC,#15628,Dashboard pasta de solda e cola,#39429,Filtragem por Cliente ,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar tela listagem,307,SPGEC,#15628,Dashboard pasta de solda e cola,#39432,Filtragem por status,Negocio,Sim,Virtus
+X,X,X,308,SPGEC,#16225,Calculo do vencimento do insumo,#41183,Modelar as regras de negócio,Negocio,Nao,Virtus
+Cadastro,Recuperação_de_dados,Expandir informações de item da listagem,309,SPGEC,#16225,Calculo do vencimento do insumo,#41184,Cadastrar tempos de alerta do vencimento,Negocio,Sim,Virtus
+X,X,X,310,SPGEC,#16225,Calculo do vencimento do insumo,#41185,Calculo do vencimento,Negocio,Nao,Virtus
+X,X,X,311,SPGEC,#16240,Atividades gerais,#41060,Atualização da documentação de requisitos,Tecnica,Nao,Virtus
+X,X,X,312,SPGEC,#16240,Atividades gerais,#41061,Atualização das atividades no SIG,Tecnica,Nao,Virtus
+X,X,X,313,SPGEC,#16240,Atividades gerais,#41425,Atualizar as atividades no SIG,Tecnica,Nao,Virtus
+X,X,X,314,SPGEC,#16240,Atividades gerais,#41801,Registro das atividades no SIG,Tecnica,Nao,Virtus
+X,X,X,315,SPGEC,#16240,Atividades gerais,#41845,Atualização das atividades no SIG,Tecnica,Nao,Virtus
+X,X,X,316,SPGEC,#15630,Check-Out no Refrigerador,#39480,Obter dados dos insumo após realizar a leitura do código,Negocio,Nao,Virtus
+Cadastro,Recuperação_de_dados,Expandir informações de item da listagem,317,SPGEC,#15630,Check-Out no Refrigerador,#39482,Criar dialog para selecionar Cliente e MO,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Criar tela inserção,318,SPGEC,#15630,Check-Out no Refrigerador,#39483,Criar tela de seleção de tipo de leitura (NFC ou QRCode),Negocio,Sim,Virtus
+X,X,X,319,SPGEC,#15630,Check-Out no Refrigerador,#39484,Enviar os dados para checkout,Negocio,Nao,Virtus
+X,X,X,320,SPGEC,#15630,Check-Out no Refrigerador,#41055,Teste de integração,Tecnica,Nao,Virtus
+X,X,X,321,SPGEC,#15630,Check-Out no Refrigerador,#41056,Testes de unidade,Tecnica,Nao,Virtus
+X,X,X,322,SPGEC,#15630,Check-Out no Refrigerador,#41062,Leitura do equipamento,Tecnica,Nao,Virtus
+X,X,X,323,SPGEC,#15629,Check-In no Refrigerador,#39473,Obter part number para o lote,Tecnica,Nao,Virtus
+Cadastro,Inserir dados,Validar dados inserção no servidor,324,SPGEC,#15629,Check-In no Refrigerador,#39474,Validar leitura do código do insumo,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Expandir informações de item da listagem,325,SPGEC,#15629,Check-In no Refrigerador,#39475,Exibir lote após leitura dos insumos,Negocio,Sim,Virtus
+Cadastro,Remover dados,Criar rotas para remoção de dados,326,SPGEC,#15629,Check-In no Refrigerador,#39476,"Remover insumo, lote e editar data de vencimento",Negocio,Sim,Virtus
+X,X,X,327,SPGEC,#15629,Check-In no Refrigerador,#39477,Leitura do NFC ou Barcode do equipamento com validação,Negocio,Nao,Virtus
+X,X,X,328,SPGEC,#15629,Check-In no Refrigerador,#39478,Enviar dados dos lotes para o servidor,Negocio,Nao,Virtus
+Cadastro,Recuperação de Dados,Criar tela listagem,329,SPGEC,#16219,[Web] Ajustes gerais,#41163,Listagem de Insumos,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,330,SPGEC,#16219,[Web] Ajustes gerais,#41164,Equipamento,Negocio,Sim,Virtus
+X,X,X,331,SPGEC,#16219,[Web] Ajustes gerais,#41165,Configuração de insumos,Negocio,Nao,Virtus
+X,X,X,332,SPGEC,#16219,[Web] Ajustes gerais,#41166,Configuração de Cliente,Negocio,Nao,Virtus
+X,X,X,333,SPGEC,#16224,Login,#41107,Sair da aplicação a partir da tela de Perfil,Negocio,Nao,Virtus
+Autenticação,Validar Permissão do Usuário,Recuperar dados do usuário logado,334,SPGEC,#16224,Login,#41106,Exibir os dados na tela de Perfil,Negocio,Sim,Virtus
+X,X,X,335,SPGEC,#16224,Login,#41108,Trocar usuário,Negocio,Nao,Virtus
+Autenticação,Fazer login com usuário e senha,Fazer o roteamento da URL,336,SPGEC,#16224,Login,#41104,Autenticar e obter os dados do usuário,Negocio,Sim,Virtus
+X,X,X,337,SPGEC,#16224,Login,#41686,Exibir mensagens de erro ao logar,Negocio,Nao,Virtus
+X,X,X,338,SPGEC,#15628,Pesquisar por insumos,#39428,Exibir Part Number e MO do insumo,Negocio,Nao,Virtus
+Cadastro,Recuperação_de_dados,Criar tela listagem,339,SPGEC,#15628,Pesquisar por insumos,#39429,Filtragem por Cliente e MO,Negocio,Sim,Virtus
+,,,340,SPGEC,#15628,Pesquisar por insumos,#39430,Corrigir barra de progresso,Tecnica,Nao,Virtus
+Cadastro,Recuperação_de_dados,Criar tela listagem,341,SPGEC,#15628,Pesquisar por insumos,#39432,Filtragem por status ,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,342,SPGEC,#15628,Pesquisar por insumos,#39433,Criar filtros da pasta,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,343,SPGEC,#15628,Pesquisar por insumos,#39434,Criar filtros do Log,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,344,SPGEC,#15628,Pesquisar por insumos,#39783,Filtro de LOG por status,Negocio,Sim,Virtus
+Cadastro,Recuperação de Dados,Criar filtro para listagem,345,SPGEC,#15628,Pesquisar por insumos,#39871,Criar filtro de cola,Negocio,Sim,Virtus
+X,X,X,346,NewPCS,#16387,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),#42230,Cálculo do balanço da portaria,Negocio,Nao,Virtus
+Cadastro,Inserir_dados,Persistir dados banco de dados,347,NewPCS,#16387,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),#42231,Persistência/gerenciamento do balanço da portaria,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Persistir dados banco de dados,348,NewPCS,#16387,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),#42305,Persistência do histórico,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar método de inserção,349,NewPCS,#15765,[R&D Investment] Exibir pontos atingidos vs pontos a atingir (target) e o percentual de investimento acumulado no preview,#42239,"Ajustar a seção ""Product Achievement"" do preview para utilizar o cálculo de achievement da portaria",Negocio,Sim,Virtus
+X,X,X,350,NewPCS,#15765,[R&D Investment] Exibir pontos atingidos vs pontos a atingir (target) e o percentual de investimento acumulado no preview,#42238,Não permitir investimento acima do máximo permitido quando ainda não há investimentos realizadas para um dado produto/ano (Modify),Negocio,Nao,Virtus
+Cadastro,Recuperação_de_dados,Criar tela para visualizar detalhes,351,NewPCS,#15765,[R&D Investment] Exibir pontos atingidos vs pontos a atingir (target) e o percentual de investimento acumulado no preview,#42240,"Carregar e exibir os dados no preview já na hora que o usuário clicar em ""Modify""",Negocio,Sim,Virtus
+X,X,X,352,NewPCS,#15765,[R&D Investment] Exibir pontos atingidos vs pontos a atingir (target) e o percentual de investimento acumulado no preview,#42468,Expandir Preview quando o formulário de uma action for aberto,Negocio,Nao,Virtus
+X,X,X,353,NewPCS,#16557,Adicionar Suporte ao Dapper,#42347,Alterar código do core atual para utilizar o contexto do Dapper,Negocio,Nao,Virtus
+X,X,X,354,NewPCS,#16557,Adicionar Suporte ao Dapper,#42346,Adicionar suporte ao Dapper,Negocio,Nao,Virtus
+X,X,X,355,NewPCS,#16533,Consolidação mensal de Part Types,#42826,Consolidação de logs por nota (Job de importação de notas de venda),Negocio,Nao,Virtus
+Cadastro,Inserir_dados,Consumir serviço para inserção,356,NewPCS,#16533,Consolidação mensal de Part Types,#42255,Criação de serviço para gerenciamento consolidação mensal de part type,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,357,NewPCS,#16533,Consolidação mensal de Part Types,#42256,"Atualização no processamento diário para ""chamar"" o serviço de consolidação mensal caso uma NF de um mês ""fechado"" seja importado",Negocio,Sim,Virtus
+X,X,X,358,NewPCS,#16533,Consolidação mensal de Part Types,#42254,Criação de Job para consolidação mensal de part type,Negocio,Nao,Virtus
+X,X,X,359,NewPCS,#16533,Consolidação mensal de Part Types,#42634,Consolidação de logs por nota (Job de validação de notas de compra),Negocio,Nao,Virtus
+X,X,X,360,NewPCS,#16534,Consolidação mensal de FGs,#42257,Ajuste no Job de consolidação mensal para consolidar FGs,Negocio,Nao,Virtus
+Cadastro,Inserir_dados,Consumir serviço para inserção,361,NewPCS,#16534,Consolidação mensal de FGs,#42258,Criação de serviço para gerenciamento consolidação mensal de FGs,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,362,NewPCS,#16534,Consolidação mensal de FGs,#42259,"Atualização no processamento diário para ""chamar"" o serviço de consolidação mensal caso uma NF de um mês ""fechado"" seja importado",Negocio,Sim,Virtus
+X,X,X,363,NewPCS,#16547,Remoção da tabela de ligação entre o lacre e os S/N das NFs de vendas importadas,#42296,Remover a tabela de relacionamento RAW_INVOICE_PALLET,Tecnica,Nao,Virtus
+Cadastro,Modificar inserção de dados,Modificar entidade no banco de dados,364,NewPCS,#16547,Remoção da tabela de ligação entre o lacre e os S/N das NFs de vendas importadas,#42297,Ajustar a tabela RAW_INVOICE_ITEM para ligar a tabela RAW_INVOICE_DATA,Negocio,Sim,Virtus
+Cadastro,Modificar inserção de dados,Modificar entidade no banco de dados,365,NewPCS,#16547,Remoção da tabela de ligação entre o lacre e os S/N das NFs de vendas importadas,#42298,Atualizar scripts do banco e arquivo emdx,Negocio,Sim,Virtus
+X,X,X,366,NewPCS,#16547,Remoção da tabela de ligação entre o lacre e os S/N das NFs de vendas importadas,#42299,Ajustar código para não considerar a informação de pallet,Negocio,Nao,Virtus
+Cadastro,Modificar inserção de dados,Modificar entidade no banco de dados,367,NewPCS,#16547,Remoção da tabela de ligação entre o lacre e os S/N das NFs de vendas importadas,#42316,Atualizar as views,Negocio,Sim,Virtus
+X,X,X,368,NewPCS,#16536,"Apresentação dos ""protótipos""",#42260,Preparar telas para apresentação,Tecnica,Nao,Virtus
+X,X,X,369,NewPCS,#16536,"Apresentação dos ""protótipos""",#42261,Realizar a apresentação ao cliente,Tecnica,Nao,Virtus
+X,X,X,370,NewPCS,#16536,"Apresentação dos ""protótipos""",#42262,Coletar e registrar sugestões de melhorias,Tecnica,Nao,Virtus
+X,X,X,371,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42264,Gerenciamento/importação de CFOP,Tecnica,Nao,Virtus
+X,X,X,372,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42721,Gerenciamento de PPB Rules,Tecnica,Nao,Virtus
+X,X,X,373,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42277,Visualização do Log,Tecnica,Nao,Virtus
+X,X,X,374,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42270,"Funcionamento geral do sistema login, menus, exportação, link do user guide, etc.",Tecnica,Nao,Virtus
+X,X,X,375,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42264,Gerenciamento de usuário,Tecnica,Nao,Virtus
+X,X,X,376,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42265,Gerenciamento de papéis,Tecnica,Nao,Virtus
+X,X,X,377,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42266,Gerenciamento de Jobs,Tecnica,Nao,Virtus
+X,X,X,378,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42267,Gerenciamento de Goverment Report Parameters,Tecnica,Nao,Virtus
+X,X,X,379,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42268,Gerenciamento de R&D Investment,Tecnica,Nao,Virtus
+X,X,X,380,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42269,Gerenciamento/importação de Part Numbers,Tecnica,Nao,Virtus
+X,X,X,381,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42272,Gerenciamento PPB License,Tecnica,Nao,Virtus
+X,X,X,382,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42273,Visualização/importação de Brand Name,Tecnica,Nao,Virtus
+X,X,X,383,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42274,Visualização/importação de Customer,Tecnica,Nao,Virtus
+X,X,X,384,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42275,Visualização/importação de Invoice Details,Tecnica,Nao,Virtus
+X,X,X,385,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42276,Visualização/importação do Part Type,Tecnica,Nao,Virtus
+X,X,X,386,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42278,Visualização/importação Product Category,Tecnica,Nao,Virtus
+X,X,X,387,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42279,Visualização/importação Returned Machines,Tecnica,Nao,Virtus
+X,X,X,388,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42281,Visualização/importação de SKU,Tecnica,Nao,Virtus
+X,X,X,389,NewPCS,#16537,Atualização do User Guide com detalhamento de requisito,#42282,Visualização/importação Supplier,Tecnica,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,390,NewPCS,#16539,Ajustes em PPB rules,#42287,Não permitir a alteração da pontuação máxima para etapas do tipo comp. em P&D quando o valor for menor do que o já investido.,Negocio,Sim,Virtus
+X,X,X,391,NewPCS,#16539,Ajustes em PPB rules,#42288,Evitar/tratar a adição de etapas produtivas sem pontuação máxima,Negocio,Nao,Virtus
+X,X,X,392,NewPCS,#16541,Merge de código com o Venturus,#42289,Atualização UFCG < VNT,Tecnica,Nao,Virtus
+X,X,X,393,NewPCS,#16541,Merge de código com o Venturus,#42290,Atualização UFCG > VNT,Tecnica,Nao,Virtus
+X,X,X,394,NewPCS,#15605,Bug fixing,#42885,Bug Fix 12743 - [Job Management] O sistema está exibindo uma mensagem de Erro ao inserir apenas espaços no campo Frequency,Tecnica,Nao,Virtus
+X,X,X,395,NewPCS,#15605,Bug fixing,#42889,Bug Fix 12671 - [Job] O campo Description está sendo obrigatório para modificação de um registro,Tecnica,Nao,Virtus
+X,X,X,396,NewPCS,#15605,Bug fixing,#42802,Bug Fix 12691 - [R&D] O sistema está exibindo uma mensagem de erro na criação/alteração de um investimento em P&D sem etapa produtiva do tipo,Tecnica,Nao,Virtus
+X,X,X,397,NewPCS,#15605,Bug fixing,#42819,Bug Fix 12695 - [Invoice] O sistema está permitindo inserir uma nota sem informar nenhum partnumber,Tecnica,Nao,Virtus
+X,X,X,398,NewPCS,#15605,Bug fixing,#42852,Bug Fix 12696 - [Invoice Details] Label incorreta ao exibir as opções de filtro,Tecnica,Nao,Virtus
+X,X,X,399,NewPCS,#15605,Bug fixing,#42857,Bug Fix 12688 - [R&D] O sistema está permitindo preencher um valor maior que o limite no campo monetary value,Tecnica,Nao,Virtus
+X,X,X,400,NewPCS,#15605,Bug fixing,#42860,Bug Fix 12700 - [Invoice Details] O limite da filtragem pelo campo Part Type está incorreto,Tecnica,Nao,Virtus
+X,X,X,401,NewPCS,#15542,Geração de builds,#42407,Geração da build 14.4.0,Tecnica,Nao,Virtus
+X,X,X,402,NewPCS,#15542,Geração de builds,#16230,[PPB Rules] Permitir compensação em P&D como etapa produtiva,Tecnica,Nao,Virtus
+X,X,X,403,NewPCS,#15542,Geração de builds,#15744,[SKU] Remover “Part Categories Rate” que permitia uma “taxa” diferenciada de uma commodity para um dado SKU,Tecnica,Nao,Virtus
+X,X,X,404,NewPCS,#15542,Geração de builds,#16231,[Detached Record] Remover a funcionalidade e todas referências do mesmo no sistema tratando “side-effects” dessa remoção.,Tecnica,Nao,Virtus
+X,X,X,405,NewPCS,#15542,Geração de builds,#15771,[Overall] Tratamento geral de cálculos para considerar pontuação atingida ao invés do percentual,Tecnica,Nao,Virtus
+X,X,X,406,NewPCS,#15542,Geração de builds,#12498,Government Report Parameters,Tecnica,Nao,Virtus
+X,X,X,407,NewPCS,#15542,Geração de builds,#16234,"Alterar ""Master Customer"" para ""Brand Name""",Tecnica,Nao,Virtus
+X,X,X,408,NewPCS,#15542,Geração de builds,#16530,"Alterar ""Commodity/Part Category"" para ""Part Type""",Tecnica,Nao,Virtus
+Cadastro,Atualizar_dados,Criar tela alteração,409,SPGEC,#16759,Check-In no Refrigerador,#42902,Editar lotes,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,Validar Dados no Servidor,410,SPGEC,#16759,Check-In no Refrigerador,#42901,Enviar dados dos lotes para o servidor,Negocio,Sim,Virtus
+X,X,X,411,SPGEC,#16759,Check-In no Refrigerador,#43091,Montagem do lote,Negocio,Nao,Virtus
+X,X,X,412,SPGEC,#15056,Estabilização,#43520,Data no formato do SO. (corrigir conforme idioma do sistema - SI2),Negocio,Nao,Virtus
+X,X,X,413,SPGEC,#15056,Estabilização,#43530,Correção de bugs,Tecnica,Nao,Virtus
+X,X,X,414,SPGEC,#15056,Estabilização,#43600,Correção de bugs no fluxo do checkin,Tecnica,Nao,Virtus
+X,X,X,415,SPGEC,#15056,Estabilização,#43709,Scrap de um insumo,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,416,SPGEC,#15056,Estabilização,#43094,[Check-In] Correções de layout,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,417,SPGEC,#15056,Estabilização,#43096,[Tela de detalhes] Corrigir o calculo da hora,Negocio,Sim,Virtus
+X,X,X,418,SPGEC,#15056,Estabilização,#43099,[web] Aba pasta de solda e cola,Negocio,Nao,Virtus
+X,X,X,419,SPGEC,#15056,Estabilização,#43100,[Web] Histórico,Negocio,Nao,Virtus
+X,X,X,420,SPGEC,#15056,Estabilização,#43101,[Web] Equipamento,Negocio,Nao,Virtus
+X,X,X,421,SPGEC,#15056,Estabilização,#43103,[Web] Configuração de insumo,Negocio,Nao,Virtus
+X,X,X,422,SPGEC,#15056,Estabilização,#43104,[Web] Configuração de cliente,Negocio,Nao,Virtus
+X,X,X,423,SPGEC,#15056,Estabilização,#43167,Correção de bugs,Tecnica,Nao,Virtus
+X,X,X,424,SPGEC,#15056,Estabilização,#43266,[Web] Criar parâmetros para total de dias limite após retirada do refrigerador e total de horas para uso do insumo após aberto o pote,Negocio,Nao,Virtus
+X,X,X,425,SPGEC,#15056,Estabilização,#43329,Criar ids no frontend para testes de UI,Negocio,Nao,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,426,SPGEC,#16806,Check-in na máquina de descanso ou skip,#43107,Modificar o estado após check-out no refrigerador,Negocio,Sim,Virtus
+X,X,X,427,SPGEC,#16806,Check-in na máquina de descanso ou skip,#43109,[web] Check-out na máquina de descanso,Negocio,Nao,Virtus
+X,X,X,428,SPGEC,#16806,Check-in na máquina de descanso ou skip,#43110,Estabilização,Tecnica,Nao,Virtus
+X,X,X,429,SPGEC,#16806,Check-in na máquina de descanso ou skip,#43799,[web]  Check-in na máquina de descanso. Fluxos alternativos.,Negocio,Nao,Virtus
+X,X,X,430,SPGEC,#16806,Check-in na máquina de descanso ou skip,#43108,[web]  Check-in na máquina de descanso. Caminho feliz.,Negocio,Nao,Virtus
+X,X,X,431,SPGEC,#15051,Calcular o vencimento dos insumos,#43119,Calcular o vencimento após mudança de estado,Negocio,Nao,Virtus
+X,X,X,432,SPGEC,#15051,Calcular o vencimento dos insumos,#43121,Criar job para alerta de vencimento do fabricante,Negocio,Nao,Virtus
+X,X,X,433,SPGEC,#15051,Calcular o vencimento dos insumos,#43122,Cadastrar variáveis globais para alerta de vencimento,Negocio,Nao,Virtus
+X,X,X,434,SPGEC,#15051,Calcular o vencimento dos insumos,#43171,Criar job para alerta de vencimento após check-out no refrigerador,Negocio,Nao,Virtus
+X,X,X,435,SPGEC,#15051,Calcular o vencimento dos insumos,#43172,Criar job para alerta de vencimento após abertura do insumo,Negocio,Nao,Virtus
+X,X,X,436,SPGEC,#15051,Calcular o vencimento dos insumos,#15046,Atualizar a documentação de requisitos,Tecnica,Nao,Virtus
+X,X,X,437,SPGEC,#15051,Calcular o vencimento dos insumos,#43120,Criar Job para verificação de vencimento,Negocio,Nao,Virtus
+X,X,X,438,SPGEC,#15051,Calcular o vencimento dos insumos,#43113,Implementar estrutura base para os Jobs,Negocio,Nao,Virtus
+X,X,X,439,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#42237,Ajustar o cálculo de pontuação geral e por cliente para considerar as Step exceptions,Negocio,Nao,Virtus
+X,X,X,440,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44389,Code Review,Tecnica,Nao,Virtus
+X,X,X,441,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44737,Implementar solução para tratar caso onde o usuário altera o campo Product Type após a inserção de um SKU Exception / tratar comportamento do autocomplete quando é habilitado por múltiplos componentes,Negocio,Nao,Virtus
+X,X,X,442,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44900,Testes de integração,Tecnica,Nao,Virtus
+X,X,X,443,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44390,Testes de unidade,Tecnica,Nao,Virtus
+Cadastro,Inserir_dados,Criar tela inserção,444,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#42233,Criação de tela para gerenciamento de 'Step Exceptions',Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Persistir dados banco de dados,445,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44381,Ação de adição de registro,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,Atualizar dados banco de dados,446,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44382,Ação de atualização de registro,Negocio,Sim,Virtus
+X,X,X,447,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44384,Modelagem de dados,Tecnica,Nao,Virtus
+Cadastro,Remover_dados,Remover dados banco de dados,448,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44385,Remoção de registro,Negocio,Sim,Virtus
+X,X,X,449,NewPCS,#16232,[Step Exceptions] Adicionar a possibilidade de adicionar “Productive Stages carrapato” para contabilização adicional,#44388,Atualização da trigger de delete cascade de PPB Rules,Tecnica,Nao,Virtus
+X,X,X,450,NewPCS,#16988,Adicionar tela de Tax Origin,#44454,Criar metadata para relatório,Negocio,Nao,Virtus
+X,X,X,451,NewPCS,#16988,Adicionar tela de Tax Origin,#44455,Implementar método Get e filtros,Negocio,Nao,Virtus
+X,X,X,452,NewPCS,#16988,Adicionar tela de Tax Origin,#44456,Implementar testes de unidade,Tecnica,Nao,Virtus
+X,X,X,453,NewPCS,#16988,Adicionar tela de Tax Origin,#44457,Criar tabela no banco de dados,Tecnica,Nao,Virtus
+X,X,X,454,NewPCS,#16988,Adicionar tela de Tax Origin,#44487,Code Review,Tecnica,Nao,Virtus
+,,,455,NewPCS,#16989,[PPB Rules] Adicionar suporte a seleção de origin em Prod. Stages,#44498,"Adicionar componente de seleção origens carregando os dados dinamicamente de ""Tax Origin""",,,
+,,,456,NewPCS,#16989,[PPB Rules] Adicionar suporte a seleção de origin em Prod. Stages,#44490,Salvar/atualizar origens de etapas produtivas,,,
+,,,457,NewPCS,#16989,[PPB Rules] Adicionar suporte a seleção de origin em Prod. Stages,#44491,Testes de unidade e integração,Tecnica,Nao,Virtus
+,,,458,NewPCS,#16989,[PPB Rules] Adicionar suporte a seleção de origin em Prod. Stages,#44492,Code Review,Tecnica,Nao,Virtus
+,,,459,NewPCS,#16989,[PPB Rules] Adicionar suporte a seleção de origin em Prod. Stages,#44514,Ajustar cálculos do core para levar em consideração as origens das etapas,,,
+,,,460,NewPCS,#16989,[PPB Rules] Adicionar suporte a seleção de origin em Prod. Stages,#44488,"Transformar radio buttons de ""score"" em apenas um input com a mesma validação do input associado ao radio",,,
+,,,461,NewPCS,#12525,PPB Score Report,#38988,Exportação do relatório para excel,,,
+,,,462,NewPCS,#12525,PPB Score Report,#44379,Code Review,,,
+,,,463,NewPCS,#12525,PPB Score Report,#44380,Testes de unidade e integração,,,
+,,,464,NewPCS,#12525,PPB Score Report,,Implementação da consulta dos dados referentes ao relatório (Part 2),,,
+,,,465,NewPCS,#12525,PPB Score Report,,"Layout da aba ""PPB Rules""",,,
+,,,466,NewPCS,#12525,PPB Score Report,,Implementação da consulta dos dados referentes ao relatório (Part 1),,,
+,,,467,NewPCS,#12525,PPB Score Report,,Adicionar suporte ao framework para permitir exportações customizadas e relatórios/formulários sem exportação,,,
+,,,468,NewPCS,#12525,PPB Score Report,,Code Review,,,
+,,,469,NewPCS,#16532,Adicionar link para CFOP nas NFs,,Adicionar link de CFOP nas NFs de compra\devolução\cancelamento,,,
+,,,470,NewPCS,#12519,Manutenção do Core Engine,,Atualização do job de consolidação para considerar alteração de Part Types atrelados ao Part,,,
+,,,471,NewPCS,#12519,Manutenção do Core Engine,,Validar link de NFs de venda considerando a adição de SKU,,,
+,,,472,NewPCS,#12519,Manutenção do Core Engine,,Verificar link das NFs de venda e compra para considerar adição de Part,,,
+,,,473,NewPCS,#12519,Manutenção do Core Engine,,Verificar link de NFs de compra para considerar adição de Supplier,,,
+,,,474,NewPCS,#12519,Manutenção do Core Engine,,"Atualização do job de link de NFs de venda/compra para considerar atualização da flag ""Subsidized Operations"" em CFOP",,,
+,,,475,NewPCS,#12519,Manutenção do Core Engine,,"Atualização dos job de balanço para considerar atualização de ""score"" de etapas produtivas",,,
+,,,476,NewPCS,#12519,Manutenção do Core Engine,,"Atualização dos job de balanço para considerar atualização de ""surplus"" ou ""resid. diff.""",,,
+,,,477,NewPCS,#12519,Manutenção do Core Engine,,Code Review,,,
+,,,478,NewPCS,#12519,Manutenção do Core Engine,,Atualizar consolidação de Part Type para considerar Part Types adicionais nos Part Numbers,,,
+,,,479,NewPCS,#12519,Manutenção do Core Engine,,Refatorar projeto do Dapper para ser instalado à partir do nuget,,,
+,,,480,NewPCS,#12519,Manutenção do Core Engine,,Ajustes em referências desnecessárias do projeto,,,
+,,,481,NewPCS,#12519,Manutenção do Core Engine,,Code Review,,,
+,,,482,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Code Review,,,
+,,,483,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Testes de unidade,,,
+,,,484,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Ajuste na verificação de reconsolidação do balanço da portaria após implementação da flag indicará essa necessidade,,,
+,,,485,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Persistência do histórico,,,
+,,,486,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Cálculo do balanço da portaria,,,
+,,,487,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Persistência/gerenciamento do balanço da portaria,,,
+,,,488,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Alterar o status da notas ao final do processamento,,,
+,,,489,NewPCS,#16984,[Scheduled Job] Tratamento do fechamento da portaria (cálculo de saldo total (crédito/débito) de pontos),,Code Review,,,
+,,,490,NewPCS,#16986,Suporte a integrações com o Protheus,,Code Review,,,
+,,,491,NewPCS,#16986,Suporte a integrações com o Protheus,,Testes de unidade e integração.,,,
+,,,492,NewPCS,#16986,Suporte a integrações com o Protheus,,"Validar campos ""Required"" das entidades de integração com o Protheus, possibilitando que se algum campo não for enviado, que ele seja identificado na resposta",,,
+,,,493,NewPCS,#16986,Suporte a integrações com o Protheus,,"Testes de unidade e integração Part, Supplier, Invoice Purchase e Product Category",,,
+,,,494,NewPCS,#16986,Suporte a integrações com o Protheus,,Corrigir itens reportados pelo Michael,,,
+,,,495,NewPCS,#16986,Suporte a integrações com o Protheus,,"Remover serviço de integração ""PartPartType""",,,
+,,,496,NewPCS,#16986,Suporte a integrações com o Protheus,,"Transformar serviço de integração do ""Commercial Name"" em um serviço ""comum""",,,
+,,,497,NewPCS,#16986,Suporte a integrações com o Protheus,,"Transformar serviço de integração do ""NCM"" em um serviço ""comum""",,,
+,,,498,NewPCS,#16986,Suporte a integrações com o Protheus,,Teste Unidade e Integração SKU,,,
+,,,499,NewPCS,#16986,Suporte a integrações com o Protheus,,Teste Unidade e Integração PART TYPE,,,
+,,,500,NewPCS,#16987,"Remover alteração de ""Product Category"" na tela de Part",,Remover alteração,,,
+,,,501,NewPCS,#16990,Sincronização com o repositório da VNT,,Sincronização Virtus <-> VNT (2/2),,,
+,,,502,NewPCS,#16990,Sincronização com o repositório da VNT,,Sincronização Virtus <-> VNT (1/2),,,
+,,,503,NewPCS,#17017,Integração com o PPB Link,,Criação de endpoint no SMOM de importação de NFs de venda,,,
+,,,504,NewPCS,#17017,Integração com o PPB Link,,"Ajuste nas NFs do MesClient para ""marcar"" as que já foram enviadas ao newPCS com sucesso",,,
+,,,505,NewPCS,#17017,Integração com o PPB Link,,Integração com o newPCS,,,
+,,,506,NewPCS,#17017,Integração com o PPB Link,,Code Review,,,
+,,,507,NewPCS,#17017,Integração com o PPB Link,,Testes de integração,,,
+,,,508,NewPCS,#17017,Integração com o PPB Link,,Criar endPoint no SMOM para validação de notas importadas,,,
+,,,509,NewPCS,#17017,Integração com o PPB Link,,Criação do Form no projeto SMOM e criação da consulta dos dados,,,
+,,,510,NewPCS,#17017,Integração com o PPB Link,,Adicionar as tabelas do PPBLink no EDMX do SMOM.,,,
+,,,511,NewPCS,#17017,Integração com o PPB Link,,Ajuste no Service da integração,,,
+,,,512,NewPCS,#17017,Integração com o PPB Link,,Criação do método de atualização da tabela NFE,,,
+,,,513,NewPCS,#17043,"Disponibilizar endpoint com o ""PPB Summary"" de uma dada portaria",,Coletar dados de sumarização de Etapas Produtivas,,,
+,,,514,NewPCS,#17043,"Disponibilizar endpoint com o ""PPB Summary"" de uma dada portaria",,Code Review,,,
+,,,515,NewPCS,#17043,"Disponibilizar endpoint com o ""PPB Summary"" de uma dada portaria",,Criação de endpoint e estrutura de dados para o summary,,,
+,,,516,NewPCS,#17043,"Disponibilizar endpoint com o ""PPB Summary"" de uma dada portaria",,Coletar dados de sumarização do Produto/Identificação,,,
+,,,517,NewPCS,#17043,"Disponibilizar endpoint com o ""PPB Summary"" de uma dada portaria",,Coletar dados de sumarização de SKU,,,
+,,,518,NewPCS,#17043,"Disponibilizar endpoint com o ""PPB Summary"" de uma dada portaria",,Code Review,,,
+,,,519,NewPCS,#14890,Reagrupar os itens do menu principal,,Ajustar agrupamentos,,,
+,,,520,NewPCS,#14890,Reagrupar os itens do menu principal,,"Ajustar o ""code generator"" para permitir a ordenação dos itens de menu",,,
+,,,521,NewPCS,#14890,Reagrupar os itens do menu principal,,Code Review,,,
+,,,522,NewPCS,#17062,Geração de Builds,,Geração da Build v0.15.1,,,

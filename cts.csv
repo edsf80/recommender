@@ -1,0 +1,40 @@
+ID,Descrição
+1,Inserção com dados corretos
+2,Inserção com campos obrigatórios não preenchidos
+3,Inserção com campos inválidos
+4,Inserção sem autenticação
+5,Inserção sem autorização
+6,Inserção com identificador existente
+7,Inserção com senha diferente da confirmação
+8,Alteração com dados corretos
+9,Alteração com campos obrigatórios não preenchidos
+10,Alteração com campos inválidos
+11,Alteração sem autenticação
+12,Alteração sem autorização
+13,Alteração com identificador existente
+14,Alteração com senha diferente da confirmação
+15,Listagem de dados
+16,Listagem sem dados cadastrados
+17,Listagem com paginação
+18,Listagem com valor do filtro cadastrado
+19,Listagem com valor do filtro não cadastrado
+20,Listagem sem autenticação
+21,Listagem sem autorização
+22,Listagem ordenar dados
+23,Fazer primeiro login
+24,Fazer primeiro login nome de usuário inválido
+25,Alteração senha do usuário
+26,Alteração senha do usuário senha antiga inválida
+27,Alteração senha do usuário nova senha inválida
+28,Recuperação senha do usuário
+29,Recuperação senha do usuário nome de usuário inválido
+30,Recuperação senha do usuário senha nova inválida
+31,Exclusão de dados
+32,Exclusão de dados sem autenticação
+33,Exclusão de dados sem autorização
+34,Buscar dados de um item
+35,Buscar dados de um item inexistente
+36,Buscar dados de um item sem autenticação
+37,Buscar dados de um item sem autorização
+38,Fazer logout
+39,Atualizar dados com cartateres especiais

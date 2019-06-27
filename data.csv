@@ -1,0 +1,156 @@
+Projeto,ID_US,ID_TC,CA,RNF's,ID_REC_TC
+Gestão da Capacitação,US01,gestao-capacita-5: Primeiro Login do Administrador,Primeiro acesso ao sistema,"Autenticação, Autorização",23
+Gestão da Capacitação,US02,gestao-capacita-6: Alteração de Senha do Administrador,Alterar senha do administrador,"Autenticação, Autorização",25
+Gestão da Capacitação,US03,gestao-capacita-7: Recuperação de senha de administrador,,"Autenticação, Autorização",28
+Gestão da Capacitação,US04,gestao-capacita-8: Criação de Contrato,,"Autenticação, Autorização",1
+Gestão da Capacitação,US04,gestao-capacita-9:Criaçao de Contrato apenas com Campos Obrigatorios,,"Autenticação, Autorização",2
+Gestão da Capacitação,US04,Criação de Contrato campos inválidos,Validado com especialistas,"Autenticação, Autorização",3
+Gestão da Capacitação,US04,Criação de contrato sem autenticação,Validado com especialistas,"Autenticação, Autorização",4
+Gestão da Capacitação,US04,Criação de contrato sem autorização,Validado com especialistas,"Autenticação, Autorização",5
+Gestão da Capacitação,US05,gestao-capacita-10: Criação de Gestor,,"Autenticação, Autorização",1
+Gestão da Capacitação,US05,Criação de gestor campos obrigatórios não preenchidos,Validado com especialistas,"Autenticação, Autorização",2
+Gestão da Capacitação,US05,Criação de gestor campos inválidos,Validado com especialistas,"Autenticação, Autorização",3
+Gestão da Capacitação,US05,Criação de gestor sem autenticação,Validado com especialistas,"Autenticação, Autorização",4
+Gestão da Capacitação,US05,Criação de gestor sem autorização,Validado com especialistas,"Autenticação, Autorização",5
+Gestão da Capacitação,US06,gestao-capacita-11: Exclusão de Conta de Gestor,,"Autenticação, Autorização",31
+Gestão da Capacitação,US06,Exclusão de conta de gestor sem autenticação,Validado com especialistas,"Autenticação, Autorização",32
+Gestão da Capacitação,US06,Exclusão de conta de gestor sem autorização,Validado com especialistas,"Autenticação, Autorização",33
+Gestão da Capacitação,US07,Expandir informações de um gestro cadastrado,Validado com especialistas,"Autenticação, Autorização",34
+Gestão da Capacitação,US07,Expandir informações de um gestro cadastrado sem autorização,Validado com especialistas,"Autenticação, Autorização",37
+Gestão da Capacitação,US07,Expandir informações de um gestro cadastrado sem autenticação,Validado com especialistas,"Autenticação, Autorização",36
+Gestão da Capacitação,US08,gestao-capacita-13: Ordenação de Gestores,,"Autenticação, Autorização",22
+Gestão da Capacitação,US08,gestao-capacita-13: Ordenação de Gestores - Sem autenticação,,"Autenticação, Autorização",20
+Gestão da Capacitação,US08,gestao-capacita-13: Ordenação de Gestores - Sem autorização,,"Autenticação, Autorização",21
+Gestão da Capacitação,US09,gestao-capacita-14: Fazer logout,,"Autenticação, Autorização",38
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach,Validado com especialistas,"Autenticação, Autorização",1
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Campos Obrigatórios,Validado com especialistas,"Autenticação, Autorização",2
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Campos Inválidos,Validado com especialistas,"Autenticação, Autorização",3
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Sem Autenticação,Validado com especialistas,"Autenticação, Autorização",4
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Sem Autorização,Validado com especialistas,"Autenticação, Autorização",5
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados,,"Autenticação, Autorização",22
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados - Sem dados,Validado com especialistas,"Autenticação, Autorização",16
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",20
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados - Sem autorização,Validado com especialistas,"Autenticação, Autorização",21
+Gestão da Capacitação,US14,gestao-capacita-18: Criação de Conta de Aluno,,"Autenticação, Autorização",1
+Gestão da Capacitação,US15,gestao-capacita-19: Exclusão de Conta de Aluno,,"Autenticação, Autorização",31
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno,,"Autenticação, Autorização",34
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno - Sem dados,Validado com especialistas,"Autenticação, Autorização",35
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",36
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno - Sem autorização,Validado com especialistas,"Autenticação, Autorização",37
+Gestão da Capacitação,US17,Ordenar lista de alunos cadastrados,,"Autenticação, Autorização",22
+Gestão da Capacitação,US17,Ordenar lista de alunos cadastrados - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",20
+Gestão da Capacitação,US17,Ordenar lista de alunos cadastrados - Sem autorização,Validado com especialistas,"Autenticação, Autorização",21
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe,,"Autenticação, Autorização",1
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Campos obrigatórios,Validado com especialistas,"Autenticação, Autorização",2
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Campos inválidos,Validado com especialistas,"Autenticação, Autorização",3
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",4
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Sem autorização,Validado com especialistas,"Autenticação, Autorização",5
+Gestão da Capacitação,US19,"gestao-capacita-23: Atualização de Dados,",,"Autenticação, Autorização",8
+Gestão da Capacitação,US20,gestao-capacita-24: Cadastro de Horarios,,"Autenticação, Autorização",1
+Gestão da Capacitação,US20,gestao-capacita-24: Cadastro de Horarios - Sem campos obrigatórios,Validado com especialistas,"Autenticação, Autorização",2
+Gestão da Capacitação,US20,"gestao-capacita-37: Cadastrar horários, com menos de duas horas diárias, na agenda.",,"Autenticação, Autorização",
+Gestão da Capacitação,US20,"gestao-capacita-38: Cadastrar horários, com mais de quatro horas diárias, na agenda.",,"Autenticação, Autorização",
+Gestão da Capacitação,US20,"gestao-capacita-39: Cadastrar horários, com menos de vintes horas semanais, na agenda.",,"Autenticação, Autorização",
+Gestão da Capacitação,US20,"gestao-capacita-40: Cadastrar horários, com mais de vintes horas semanais, na agenda.",,"Autenticação, Autorização",
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe,,"Autenticação, Autorização",34
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe - Sem dados,Validado com especialistas,"Autenticação, Autorização",35
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",36
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autorização,Validado com especialistas,"Autenticação, Autorização",37
+Gestão da Capacitação,US22,gestao-capacita-26: Registro de Atividade de Teste,,"Autenticação, Autorização",1
+Gestão da Capacitação,US22,gestao-capacita-27: Registro de Atividade de Desenvolvimento,,"Autenticação, Autorização",1
+Gestão da Capacitação,US23,gestao-capacita-28: Revisar atividade de Teste,,"Autenticação, Autorização",34
+Gestão da Capacitação,US24,gestao-capacita-28: Revisar atividade de Teste,,"Autenticação, Autorização",34
+Gestão da Capacitação,US25,gestao-capacita-29: Desalocar Alunos da Equipe - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",11
+Gestão da Capacitação,US25,gestao-capacita-29: Desalocar Alunos da Equipe - Sem autorização,Validado com especialistas,"Autenticação, Autorização",12
+Gestão da Capacitação,US25,gestao-capacita-29: Desalocar Alunos da Equipe,,"Autenticação, Autorização",8
+Gestão da Capacitação,US26,gestao-capacita-30: Buscas por Usuários,,"Autenticação, Autorização",15
+Gestão da Capacitação,US27,gestao-capacita-30: Buscas por Usuários,,"Autenticação, Autorização",15
+Gestão da Capacitação,US28,gestao-capacita-30: Buscas por Usuários,,"Autenticação, Autorização",15
+Gestão da Capacitação,US28,gestao-capacita-30: Buscas por Usuários - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",20
+Gestão da Capacitação,US28,gestao-capacita-30: Buscas por Usuários - Sem autorização,Validado com especialistas,"Autenticação, Autorização",21
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe,,"Autenticação, Autorização",34
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe - Sem dados,Validado com especialistas,"Autenticação, Autorização",35
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autenticação,Validado com especialistas,"Autenticação, Autorização",36
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autorização,Validado com especialistas,"Autenticação, Autorização",37
+Gestão da Capacitação,US30,gestao-capacita-30: Buscas por Usuários,,"Autenticação, Autorização",15
+Gestão da Capacitação,US35,gestao-capacita-24:Cadastro de Horarios,Verificar o cadastro de horarios de alunos,"Autenticação, Autorização",1
+Gestão da Capacitação,US35,"gestao-capacita-37:Cadastrar horários, com menos de duas horas diárias, na agenda.","Verificar se o sistema impede o cadastramentos de horários, com menos de duas horas sucessivas, na agenda.","Autenticação, Autorização",
+Gestão da Capacitação,US35,"gestao-capacita-38:Cadastrar horários, com mais de quatro horas diárias, na agenda.","Verificar se o sistema impede o cadastramentos de horários, com mais de quatro horas sucessivas, na agenda.","Autenticação, Autorização",
+Gestão da Capacitação,US35,"gestao-capacita-39:Cadastrar horários, com menos de vintes horas semanais, na agenda.","Verificar se o sistema impede o cadastramentos de horários, com menos de vintes horas semanais, na agenda.","Autenticação, Autorização",
+Gestão da Capacitação,US35,"gestao-capacita-40:Cadastrar horários, com mais de vintes horas semanais, na agenda.
+","Verificar se o sistema impede o cadastramentos de horários, com mais de vintes horas semanais, na agenda.","Autenticação, Autorização",
+Gestão da Capacitação,US35,"gestao-capacita-68:Cadastrar horários irregulares, com permissão do coach",Verificar as funcionalidades de permissões de horario,"Autenticação, Autorização",3
+Gestão da Capacitação,US36,gestao-capacita-22: Criação de Equipe,,"Autenticação, Autorização",1
+Gestão da Capacitação,US36,gestao-capacita-69: Listagem de Equipes,,"Autenticação, Autorização",15
+Gestão da Capacitação,US39,gestao-capacita-41: Atualizar nome de usuários contendo números.,,"Autenticação, Autorização",8
+Gestão da Capacitação,US39,gestao-capacita-42: Atualizar nome de usuários contendo caracteres especiais.,,"Autenticação, Autorização",39
+Gestão da Capacitação,US39,gestao-capacita-43: Atualizar cpf de usuários menos de onze números.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-44: Atualizar cpf de usuários contendo letras.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-45: Atualizar cpf de usuários contendo caracteres especiais.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-57: Atualizar RG com menos de sete números.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-58: Atualizar data de nascimento de usuários para menos de 16 anos.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-59: Salvar sem selecionar perído.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-60: Salvar sem selecionar um curso.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-61: Atualizar CRA para um valor maior que dez,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-62: Atualizar CRA para um valor menor que zero.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-63: Atualizar dados de conclusão contendo letras.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-64: Atualizar dados de conclusão contendo caracteres especiais.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-65: Atualizar dados do histórico acadêmico com arquivos em outros formatos.,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-66: Atualizar CRA com mais de duas casas após a vírgula,,"Autenticação, Autorização",10
+Gestão da Capacitação,US39,gestao-capacita-67: Atualizar CRA com símbolo de menos,,"Autenticação, Autorização",10
+Kaizen,#9,kaizen-59:Cadastrar usuário com permissão Básica,Validar se é possível cadastrar um usuário com permissão básica na ferramenta.,,5
+Kaizen,#9,kaizen-2:Cadastro de usuário válido,Verificar se é possível cadastrar um usuário na aplicação utilizando uma conta de administrador.,,1
+Kaizen,#9,kaizen-66:Cadastro de Usuário válido,"Verificar se é possível um usuário se cadastrar atráves da opção ""Cadastre-se"" na tela de login.",,1
+Kaizen,#9,kaizen-60:Cadastrar usuário com permissão Administrador,Validar se é possível cadastrar um usuário com permissão de administrador.,,1
+Kaizen,#9,kaizen-61:Cadastrar usuário sem permissão,Validar se é possível cadastrar um usuário sem definir permissão.,,4
+Kaizen,#12,kaizen-20:Criar um Projeto válido,Verificar se é possível criar um projeto válido.,,1
+Kaizen,#12,kaizen-78:Adicionar foto ao projeto,Verificar se é possível adicionar uma foto ao projeto no momento de criação,,8
+Kaizen,#12,kaizen-79:Adicionar descrição ao projeto,Verificar se é possível adicionar uma descrição ao projeto no momento de criação,,8
+Kaizen,#14,kaizen-30:Editar um Projeto corretamente,Verificar se é possível editar um projeto corretamente.,,8
+Kaizen,#14,kaizen-97:Alterar foto do projeto,Verificar se é possível trocar a imagem de um projeto após sua criação,,8
+Kaizen,#14,kaizen-98:Editar descrição do projeto,Verificar se é possível alterar a descrição de um projeto após sua criação,,8
+Kaizen,#16,kaizen-34:Criar uma Sprint válida,Verificar se é possível criar uma sprint válida de acordo com as especificações.,,1
+Kaizen,#22,kaizen-42: Cadastrar um Ponto Positivo válido,Verificar se é possível criar um Ponto Positivo nas Lições,,1
+Kaizen,#22,kaizen-43: Cadastrar um Ponto Negativo válido,Verificar se é possível cadastrar um Ponto Negativo nas Lições,,1
+Kaizen,#22,kaizen-46: Criar uma Sugestão válida,Verificar se é possível cadastrar uma Sugestão válida em Lições.,,1
+Kaizen,#22,kaizen-48: Editar um Ponto Positivo,Verificar se é possível editar um Ponto Positivo criado,,8
+Kaizen,#22,kaizen-101: Editar um Ponto Negativo,Verificar se é possível editar um Ponto Negativo criado,,8
+Kaizen,#22,kaizen-102: Editar uma Sugestão,Verificar se é possível editar uma Sugestão criada,,8
+Kaizen,#22,kaizen-112: Deletar uma Sugestão,Verificar se é possivel deletar uma Sugestão criada,,31
+Kaizen,#22,kaizen-110: Deletar um Ponto Positivo,Verificar se é possível deletar um Ponto Positivo criado,,31
+Kaizen,#22,kaizen-111: Deletar um Ponto Negativo,Verificar se é possível deletar um Ponto Negativo criado,,31
+Kaizen,#24,kaizen-49: Adicionar impedimento,Verificar se é possível adicionar um impedimento ao projeto.,,8
+Kaizen,#24,kaizen-51: Excluir impedimento (ScrumMaster),Verificar se o ScrumMaster pode excluir um impedimento.,,31
+Kaizen,#24,kaizen-52: Excluir impedimento (Criador),Verificar se o criador do impedimento pode excuir o impedimento criado.,,31
+Kaizen,#24,kaizen-54: Alocar impedimento,Verificar se é possível alocar um impedimento para um membro da equipe.,,8
+Kaizen,#24,kaizen-56: Desalocar impedimento,Verificar se é possível desalocar um impedimento de um membro.,,8
+Kaizen,#24,kaizen-76: Excluir impedimento (desenvolvedor),Verificar se é possível um usuário excluir um impedimento sem ter as permissões necessárias.,,31
+Kaizen,#24,kaizen-100: Mover impedimentos entre os quadros,"Verificar se a funcionalidade de mover um impedimento entre os quadros ""TODO"", ""ONGOING"" e ""DONE"" se encontra funcionando.",,8
+NewPCS,#14941,Inserir Product com sucesso,Garantir que o sistema atualize a lista ao inserir um novo registro no Protheus.,,8
+NewPCS,#14941,Inserir Product com valores inválidos,Garantir que não seja possível cadastrar um product através do protheus inserindo o mesmo com valores inválidos.,,1
+NewPCS,#14941,Remover Product através do Protheus,Garantir que o sistema atualize a lista ao remover um registro no Protheus.,,31
+NewPCS,#14941,Modificar um Product com sucesso,Garantir que o sistema atualize a lista ao modificar um registro no Protheus.,,8
+NewPCS,#14941,Modificar um Product com valores inválidos,Garantir que não seja possível modificar um product através do protheus inserindo valores inválidos.,,10
+NewPCS,#14329,Inserir registro com sucesso,Garantir que seja possível cadastrar um item válido no relatório R&D Investiment.,,1
+NewPCS,#14329,Cancelar inserção,Garantir que seja possível realizar o cancelamento da inserção de uma item no formulário R&D Investiment.,,
+NewPCS,#14329,Inserir registro com um valor já existente,Garantir que o sistema permita que o usuário insira um item repetido. ,,6
+NewPCS,#14329,Campos Obrigatórios Vazios,Garantir que o sistema não permita inserir um novo registro não informando um dos campos obrigatórios.,,2
+NewPCS,#14329,Limite de caracteres para a inserção,Este teste tem como objetivo validar o limite de caracteres para os campos em um cadastro de um item no relatório.,,3
+NewPCS,#14329,Modificar um registro com sucesso,Garantir que o sistema realiza com sucesso a modificação de um registro no formulário de R&D Investiment.,,8
+NewPCS,#14329,Cancelar a modificação,Garantir que o sistema permita realizar o cancelamento da ação Modify em uma R&D Investiment.,,
+NewPCS,#14329,Campos obrigatórios vazios,Garantir que o sistema não permita realizar uma modificação sem um dos campos obrigatórios.,,9
+NewPCS,#14329,Limite de caracteres para a modificação,Garantir que o sistema valida o limite de caracteres para os campos na alteração da tela de uma R&D Investiment.,,10
+NewPCS,#14329,Remover registro com sucesso,O sistema deve permitir cancelar a remoção de um item referente a uma R&D Investiment.,,31
+NewPCS,#14329,Cancelar registro com sucesso,Garantir que o sistema permite cancelar a remoção de um registro com sucesso.,,
+NewPCS,#14329,Atualizar Formulário,"Garantir que seja possível atualizar os dados do relatório através do botão ""Refresh"".",,
+NewPCS,#14315,Remover registro com sucesso,O sistema deve permitir cancelar a remoção de um item referente a uma Detached Record.,,31
+NewPCS,#14315,Cancelar registro com sucesso,Garantir que o sistema permite cancelar a remoção de um registro com sucesso.,,
+NewPCS,#14315,Modificar um registro com sucesso,Garantir que o sistema realiza com sucesso a modificação de um registro no formulário de Detached Record.,,8
+NewPCS,#14315,Cancelar a modificação,"Garantir que o sistema permita realizar o cancelamento da ação ""Modify"" em uma Detached Record.",,
+NewPCS,#14315,Limite de caracteres,Garantir que o sistema valida o limite de caracteres para os campos na alteração da tela de uma Detached Record.,,9
+NewPCS,#14315,Campos obrigatórios vazios,Garantir que o sistema não permita realizar uma modificação sem um dos campos obrigatórios.,,9
+NewPCS,#14315,Inserir registro com sucesso,Garantir que seja possível cadastrar um item válido no relatório Detached Records.,,8
+NewPCS,#14315,Cancelar inserção,Garantir que seja possível realizar o cancelamento da inserção de uma item no formulário Detached Record.,,
+NewPCS,#14315,Inserir registro com um valor já existente,Garantir que o sistema permita que o usuário insira um item repetido. ,,6
+NewPCS,#14315,Campos Obrigatórios Vazios,Garantir que o sistema não permita inserir um novo registro não informando um dos campos obrigatórios.,,2
+NewPCS,#14315,Limite de caracteres para a inserção,Este teste tem como objetivo validar o limite de caracteres para os campos em um cadastro de um item no relatório.,,3

@@ -1,4 +1,4 @@
-Módulo,Operação,Tarefa,ID (mapeamento),Projeto,ID_US,DESC_US,ID_Task,DESC_Task,Tipo            ,Mapeado? (SIM ou NAO),Origem
+Módulo,Operação,Tarefa,ID (mapeamento),Projeto,ID_US,DESC_US,ID_Task,DESC_Task,Tipo,Mapeado? (SIM ou NAO),Origem
 X,X,X,1,SMON,756,Bug Fixing,1986,Bug Fixing,Tecnica,Nao,Virtus
 X,X,X,2,SMON,756,Bug Fixing,1987,Bug Fixing,Tecnica,Nao,Virtus
 X,X,X,3,SMON,756,Bug Fixing,1988,Bug Fixing,Tecnica,Nao,Virtus
@@ -8,35 +8,35 @@ X,X,X,6,SMON,757,Bug Fixing,1954,Bug Fixing,Tecnica,Nao,Virtus
 X,X,X,7,SMON,757,Bug Fixing,1955,Bug Fixing,Tecnica,Nao,Virtus
 X,X,X,8,SMON,757,Bug Fixing,1956,Bug Fixing,Tecnica,Nao,Virtus
 X,X,X,9,SMON,757,Bug Fixing,1957,Bug Fixing,Tecnica,Nao,Virtus
-Autenticação,Acessar_pela_primeira_vez_o_sistema,,10,Gestão da Capacitação,US01,Como administrador desejo fazer login para ter o primeiro acesso ao sistema sistema,,,,,Capacitação
-Autenticação,Atualizar_perfil,,11,Gestão da Capacitação,US02,Como administrador desejo alterar minha senha para atualizá-la quando necessário,,,,,Capacitação
-Autenticação,Recuperar_senha,,12,Gestão da Capacitação,US03,Como administrador desejo recuperar minha senha	para ter acesso ao sistema novamente,,,,,Capacitação
-Cadastro,Inserir_dados,,13,Gestão da Capacitação,US04,Como administrador desejo criar um contrato para associar às contas criadas,,,,,Capacitação
-Autenticação,Criar_conta,,14,Gestão da Capacitação,US05,Como administrador desejo criar conta de gestor para que o gestor tenha acesso ao sistema,,,,,Capacitação
-Autenticação,Remover_conta,,15,Gestão da Capacitação,US06,Como administrador desejo excluir conta de gestor para remover o gestor do sistema,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,16,Gestão da Capacitação,US08,Como administrador desejo ordenar a lista de gestores cadastrados para facilitar a visualização das suas informações,,,,,Capacitação
-Autenticação,Fazer_login_com_usuário_e_senha,,17,Gestão da Capacitação,US09,Como administrador desejo fazer logout do sistema	para sair o sistema,,,,,Capacitação
-Autenticação,Criar_conta,,18,Gestão da Capacitação,US10,Como administrador desejo criar conta de coach para que o coach tenha acesso ao sistema.,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,19,Gestão da Capacitação,US13,Como administrador desejo ordenar a lista de coaches cadastrados	para facilitar a visualização das suas informações,,,,,Capacitação
-Autenticação,Criar_conta,,20,Gestão da Capacitação,US14,Como administrador desejo criar conta de aluno para que o aluni tenha acesso ao sistema,,,,,Capacitação
-Autenticação,Remover_conta,,21,Gestão da Capacitação,US15,Como administrador desejo excluir conta de aluno para remover o aluno do sistema,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,22,Gestão da Capacitação,US16,Como administrador desejo expandir as informações de um aluno cadastrado para ter acesso a mais informações de seu perfil,,,,,Capacitação
-Cadastro,Atualizar_dados,,23,Gestão da Capacitação,US18,Como coach desejo selecionar alunos para criar minha equipe,,,,,Capacitação
-Autenticação,Atualizar_perfil,,24,Gestão da Capacitação,US19,Como aluno	desejo atualizar meus dados para completar as informações do meu perfil,,,,,Capacitação
-Cadastro,Inserir_dados,,25,Gestão da Capacitação,US20,Como aluno	desejo cadastrar meus horários para que o coach responsável esteja ciente da minha carga horária,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,26,Gestão da Capacitação,US21,Como coach	desejo visualizar os horários da minha equipe para saber quando os alunos estarão no laboratório,,,,,Capacitação
-Cadastro,Inserir_dados,,27,Gestão da Capacitação,US22,Como aluno desejo registrar minha atividade da semana para que o meu coach possa fazer o acompanhamento,,,,,Capacitação
-Cadastro,Atualizar_dados,,28,Gestão da Capacitação,US23,Como coach	desejo revisar ou validar as atividades semanais do alunos da minha equipe para monito3rar as atividades realizadas,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,29,Gestão da Capacitação,US24,Como gestor	desejo visualizar os relatórios semanais que foram validados pelos coaches	para ficar 4a par do andamento dos projetos,,,,,Capacitação
-Cadastro,Atualizar_dados,,30,Gestão da Capacitação,US25,Como coach	desejo desalocar alunos da minha equipe que os alunos possam ser alocados em outra equipe,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,31,Gestão da Capacitação,US26,Como administrador desejo realizar buscas para ter acesso as suas informações deu um indivíduo específico,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,32,Gestão da Capacitação,US27,Como gestor	desejo realizar buscas	para ter acesso as suas informações deu um indivíduo específico,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,33,Gestão da Capacitação,US28,Como coach	desejo realizar buscas	para ter acesso as suas informações deu um indivíduo específico,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,34,Gestão da Capacitação,US29,Como gestor desejo visualizar os horários dos alunos no laboratório por contrato para exibir os horários de determinado aluno por contrato,,,,,Capacitação
-Gerencial,Notificar_via_aplicação,,35,Gestão da Capacitação,US30,Como desenvolvedor desejo criar um sistema de notificaçao para que os usarios possam ser notificado quando necessario,,,,,Capacitação
-Cadastro,Inserir_dados,,36,Gestão da Capacitação,US35,Como aluno desejo cadastrar horarios na agenda fora do horario regular para poder cumprir as 20 horas exigidas no projeto,,,,,Capacitação
-Cadastro,Recuperação_de_dados,,37,Gestão da Capacitação,US36,Como coach desejo visualizar e gerenciar as informações da minha equipe para que eu possa ver e gerenciar de forma mais centralizada as informaçoes dos membros da minha equipe,,,,,Capacitação
-Cadastro,Atualizar_dados,,38,Gestão da Capacitação,US39,Como administrador desejo editar usuários já cadastrados no sistema para corrigir inconformidades dos dados cadastrados,,,,,Capacitação
+Autenticação,Acessar_pela_primeira_vez_o_sistema,,10,Gestão da Capacitação,US01,Como administrador desejo fazer login para ter o primeiro acesso ao sistema sistema,,,Negocio,Sim,Capacitação
+Autenticação,Atualizar_perfil,,11,Gestão da Capacitação,US02,Como administrador desejo alterar minha senha para atualizá-la quando necessário,,,Negocio,Sim,Capacitação
+Autenticação,Recuperar_senha,,12,Gestão da Capacitação,US03,Como administrador desejo recuperar minha senha	para ter acesso ao sistema novamente,,,Negocio,Sim,Capacitação
+Cadastro,Inserir_dados,,13,Gestão da Capacitação,US04,Como administrador desejo criar um contrato para associar às contas criadas,,,Negocio,Sim,Capacitação
+Autenticação,Criar_conta,,14,Gestão da Capacitação,US05,Como administrador desejo criar conta de gestor para que o gestor tenha acesso ao sistema,,,Negocio,Sim,Capacitação
+Autenticação,Remover_conta,,15,Gestão da Capacitação,US06,Como administrador desejo excluir conta de gestor para remover o gestor do sistema,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,16,Gestão da Capacitação,US08,Como administrador desejo ordenar a lista de gestores cadastrados para facilitar a visualização das suas informações,,,Negocio,Sim,Capacitação
+Autenticação,Fazer_login_com_usuário_e_senha,,17,Gestão da Capacitação,US09,Como administrador desejo fazer logout do sistema	para sair o sistema,,,Negocio,Sim,Capacitação
+Autenticação,Criar_conta,,18,Gestão da Capacitação,US10,Como administrador desejo criar conta de coach para que o coach tenha acesso ao sistema.,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,19,Gestão da Capacitação,US13,Como administrador desejo ordenar a lista de coaches cadastrados	para facilitar a visualização das suas informações,,,Negocio,Sim,Capacitação
+Autenticação,Criar_conta,,20,Gestão da Capacitação,US14,Como administrador desejo criar conta de aluno para que o aluni tenha acesso ao sistema,,,Negocio,Sim,Capacitação
+Autenticação,Remover_conta,,21,Gestão da Capacitação,US15,Como administrador desejo excluir conta de aluno para remover o aluno do sistema,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,22,Gestão da Capacitação,US16,Como administrador desejo expandir as informações de um aluno cadastrado para ter acesso a mais informações de seu perfil,,,Negocio,Sim,Capacitação
+Cadastro,Atualizar_dados,,23,Gestão da Capacitação,US18,Como coach desejo selecionar alunos para criar minha equipe,,,Negocio,Sim,Capacitação
+Autenticação,Atualizar_perfil,,24,Gestão da Capacitação,US19,Como aluno	desejo atualizar meus dados para completar as informações do meu perfil,,,Negocio,Sim,Capacitação
+Cadastro,Inserir_dados,,25,Gestão da Capacitação,US20,Como aluno	desejo cadastrar meus horários para que o coach responsável esteja ciente da minha carga horária,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,26,Gestão da Capacitação,US21,Como coach	desejo visualizar os horários da minha equipe para saber quando os alunos estarão no laboratório,,,Negocio,Sim,Capacitação
+Cadastro,Inserir_dados,,27,Gestão da Capacitação,US22,Como aluno desejo registrar minha atividade da semana para que o meu coach possa fazer o acompanhamento,,,Negocio,Sim,Capacitação
+Cadastro,Atualizar_dados,,28,Gestão da Capacitação,US23,Como coach	desejo revisar ou validar as atividades semanais do alunos da minha equipe para monito3rar as atividades realizadas,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,29,Gestão da Capacitação,US24,Como gestor	desejo visualizar os relatórios semanais que foram validados pelos coaches	para ficar 4a par do andamento dos projetos,,,Negocio,Sim,Capacitação
+Cadastro,Atualizar_dados,,30,Gestão da Capacitação,US25,Como coach	desejo desalocar alunos da minha equipe que os alunos possam ser alocados em outra equipe,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,31,Gestão da Capacitação,US26,Como administrador desejo realizar buscas para ter acesso as suas informações deu um indivíduo específico,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,32,Gestão da Capacitação,US27,Como gestor	desejo realizar buscas	para ter acesso as suas informações deu um indivíduo específico,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,33,Gestão da Capacitação,US28,Como coach	desejo realizar buscas	para ter acesso as suas informações deu um indivíduo específico,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,34,Gestão da Capacitação,US29,Como gestor desejo visualizar os horários dos alunos no laboratório por contrato para exibir os horários de determinado aluno por contrato,,,Negocio,Sim,Capacitação
+Gerencial,Notificar_via_aplicação,,35,Gestão da Capacitação,US30,Como desenvolvedor desejo criar um sistema de notificaçao para que os usarios possam ser notificado quando necessario,,,Negocio,Sim,Capacitação
+Cadastro,Inserir_dados,,36,Gestão da Capacitação,US35,Como aluno desejo cadastrar horarios na agenda fora do horario regular para poder cumprir as 20 horas exigidas no projeto,,,Negocio,Sim,Capacitação
+Cadastro,Recuperação_de_dados,,37,Gestão da Capacitação,US36,Como coach desejo visualizar e gerenciar as informações da minha equipe para que eu possa ver e gerenciar de forma mais centralizada as informaçoes dos membros da minha equipe,,,Negocio,Sim,Capacitação
+Cadastro,Atualizar_dados,,38,Gestão da Capacitação,US39,Como administrador desejo editar usuários já cadastrados no sistema para corrigir inconformidades dos dados cadastrados,,,Negocio,Sim,Capacitação
 Cadastro,Modificar_inserção_de_dados,Modificar tela inserção,39,NewPCS,#14947,Refatorar R&D Investment,#36699,Ajustar FormData,Negocio,Sim,Virtus
 Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,40,NewPCS,#14947,Refatorar R&D Investment,#36940,Ajustar banco de dados e scripts,Negocio,Sim,Virtus
 Cadastro,Recuperação_de_dados,Recuperar dados do banco de dados,41,NewPCS,#14947,Refatorar R&D Investment,#36970,Carregar dados em inputs dependentes,Negocio,Sim,Virtus
@@ -63,7 +63,7 @@ X,X,X,61,NewPCS,#14891,Revisar performance Form Part,#36674,Corrigir causa da le
 Cadastro,Inserir_dados,Criar tela inserção,62,NewPCS,#14941,Criar tela de Produto PPB,#36675,Criar formdata de Produto PPB,Negocio,Sim,Virtus
 Cadastro,Inserir_dados,Consumir serviço para inserção,63,NewPCS,#14941,Criar tela de Produto PPB,#36677,Criar Service de Produto PPB,Negocio,Sim,Virtus
 ,,,64,NewPCS,#14941,Criar tela de Produto PPB,#36678,Criar integração com Protheus para Produto PPB,Negocio,Nao,Virtus
-Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,65,NewPCS,#14941,Criar tela de Produto PPB,#36679,Ajustar integração de SKU,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,65,NewPCS,#14941-2,Criar tela de Produto PPB,#36679,Ajustar integração de SKU,Negocio,Sim,Virtus
 X,X,X,66,NewPCS,#14941,Criar tela de Produto PPB,#36680,Teste de integração do relatório de Produto,Tecnica,Nao,Virtus
 X,X,X,67,NewPCS,#14941,Criar tela de Produto PPB,#36787,Teste de unidade para o relatório de Produto,Tecnica,Nao,Virtus
 X,X,X,68,NewPCS,#14941,Criar tela de Produto PPB,#36799,Criar teste de unidade para integração com o Protheus,Tecnica,Nao,Virtus
@@ -205,14 +205,14 @@ Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente
 X,X,X,204,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37559,Atualizar testes Unitários e Integração,Tecnica,Nao,Virtus
 X,X,X,205,NewPCS,#15134,Ajustes no gerenciamento de Crédito/débito avulso,#37775,Atualizar Teste Integração,Tecnica,Nao,Virtus
 Cadastro,Inserir_dados,,206,NewPCS,#14941,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
-Cadastro,Remover_dados,,207,NewPCS,#14941,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
-Cadastro,Modificar_inserção_de_dados,,208,NewPCS,#14941,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Remover_dados,,207,NewPCS,#14941-3,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,,208,NewPCS,#14941-2,Product Category,,Backlog de Testes,Negocio,Sim,Virtus
 Cadastro,Inserir_dados,,209,NewPCS,#14329,Investments,,Backlog de Testes,Negocio,Sim,Virtus
-Cadastro,Remover_dados,,210,NewPCS,#14329,Investments,,Backlog de Testes,Negocio,Sim,Virtus
-Cadastro,Modificar_inserção_de_dados,,211,NewPCS,#14329,Investments,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Remover_dados,,210,NewPCS,#14329-2,Investments,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,,211,NewPCS,#14329-3,Investments,,Backlog de Testes,Negocio,Sim,Virtus
 Cadastro,Inserir_dados,,212,NewPCS,#14315,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
-Cadastro,Remover_dados,,213,NewPCS,#14315,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
-Cadastro,Modificar_inserção_de_dados,,214,NewPCS,#14315,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Remover_dados,,213,NewPCS,#14315-2,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,,214,NewPCS,#14315-3,MainTain Detached Record,,Backlog de Testes,Negocio,Sim,Virtus
 Cadastro,Recuperação_de_dados,,16,Gestão da Capacitação,US07,Como administrador desejo expandir as informações de um gestor cadastrado para ter acesso a mais informações de seu perfil,,,,,Capacitação
 Cadastro,Recuperação_de_dados,,216,Gestão da Capacitação,US17,Como administrador desejo ordenar a lista de alunos cadastrados para facilitar a visualização das suas informações,,,,,Capacitação
 X,X,X,217,NewPCS,#15478,[NFe Processing] Calculo da obrigação,#39043,Tratamento da base de cálculo,Negocio,Nao,Virtus
@@ -521,3 +521,19 @@ X,X,X,454,NewPCS,#16988,Adicionar tela de Tax Origin,#44487,Code Review,Tecnica,
 ,,,520,NewPCS,#14890,Reagrupar os itens do menu principal,,"Ajustar o ""code generator"" para permitir a ordenação dos itens de menu",,,
 ,,,521,NewPCS,#14890,Reagrupar os itens do menu principal,,Code Review,,,
 ,,,522,NewPCS,#17062,Geração de Builds,,Geração da Build v0.15.1,,,
+Autenticação,Criar_conta,,523,ARTools,#11971,[Adm] Eu como Gerente de TI gostaria de Cadastrar um Usuário,#25746,Criar(Editar) Front-End da criação de Usuário.,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,,524,ARTools,#11971-2,[Adm] Eu como Gerente de TI atualizar o Cadastrar um Usuário,#25746,Criar(Editar) Front-End da criação de Usuário.,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,,525,ARTools,#11971-3,[Adm] Eu como Gerente de TI gostaria de listar Usuários,#25747,[Back] Criar api de criação de Usuário.,Negocio,Sim,Virtus
+Autenticação,Criar_conta,,526,ARTools,#11972,[Adm] Eu como Gerente de TI gostaria de Cadastrar os Perfis de Usuário,#25741,[Infra] Criar arcabouço do projeto,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,,527,ARTools,#11972-2,[Adm] Eu como Gerente de TI gostaria de atualizar o cadastro dos Perfis de Usuário,#25743,[Back] Criar api de criação de Perfil.,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,,528,ARTools,#11972 -3,[Adm] Eu como GERENTE de TI gostaria de listar os Perfis de Usuário,#25744,[Web] Criar(Editar) Front-End da criação de Perfil.,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,,529,ARTools,#11972-3,[Adm] Eu como Gerente de TI gostaria de Listar os Perfis de Usuário,#25834,"[Back] Adicionar as permissões ao ""script"" do mongobee.",Negocio,Sim,Virtus
+Autenticação,Criar_conta,,530,ARTools,#11973,[Adm] Eu como Gerente de TI gostaria de criar Permissões do Usuário,#25737,[WEB] Criar o front-end,Negocio,Sim,Virtus
+Cadastro,Atualizar_dados,,531,ARTools,#11973-2,[Adm] Eu como Gerente de TI gostaria de atualizar as Permissões do Usuário,#25740,[Back] Criar api de listagem.,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,,532,ARTools,#11973-3,[Adm] Eu como Gerente de TI gostaria de listarPermissões do Usuário,#25740,[Back] Criar api de listagem.,Negocio,Sim,Virtus
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,ARTools,,,,,,,
+,,,,ARTools,,,,,,,
+,,,,ARTools,,,,,,,
+,,,,ARTools,,,,,,,

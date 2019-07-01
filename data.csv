@@ -128,29 +128,51 @@ Kaizen,#24,kaizen-76: Excluir impedimento (desenvolvedor),Verificar se é possí
 Kaizen,#24,kaizen-100: Mover impedimentos entre os quadros,"Verificar se a funcionalidade de mover um impedimento entre os quadros ""TODO"", ""ONGOING"" e ""DONE"" se encontra funcionando.",,8
 NewPCS,#14941,Inserir Product com sucesso,Garantir que o sistema atualize a lista ao inserir um novo registro no Protheus.,,8
 NewPCS,#14941,Inserir Product com valores inválidos,Garantir que não seja possível cadastrar um product através do protheus inserindo o mesmo com valores inválidos.,,1
-NewPCS,#14941,Remover Product através do Protheus,Garantir que o sistema atualize a lista ao remover um registro no Protheus.,,31
-NewPCS,#14941,Modificar um Product com sucesso,Garantir que o sistema atualize a lista ao modificar um registro no Protheus.,,8
-NewPCS,#14941,Modificar um Product com valores inválidos,Garantir que não seja possível modificar um product através do protheus inserindo valores inválidos.,,10
+NewPCS,#14941-3,Remover Product através do Protheus,Garantir que o sistema atualize a lista ao remover um registro no Protheus.,,31
+NewPCS,#14941-2,Modificar um Product com sucesso,Garantir que o sistema atualize a lista ao modificar um registro no Protheus.,,8
+NewPCS,#14941-2,Modificar um Product com valores inválidos,Garantir que não seja possível modificar um product através do protheus inserindo valores inválidos.,,10
 NewPCS,#14329,Inserir registro com sucesso,Garantir que seja possível cadastrar um item válido no relatório R&D Investiment.,,1
 NewPCS,#14329,Cancelar inserção,Garantir que seja possível realizar o cancelamento da inserção de uma item no formulário R&D Investiment.,,
 NewPCS,#14329,Inserir registro com um valor já existente,Garantir que o sistema permita que o usuário insira um item repetido. ,,6
 NewPCS,#14329,Campos Obrigatórios Vazios,Garantir que o sistema não permita inserir um novo registro não informando um dos campos obrigatórios.,,2
 NewPCS,#14329,Limite de caracteres para a inserção,Este teste tem como objetivo validar o limite de caracteres para os campos em um cadastro de um item no relatório.,,3
-NewPCS,#14329,Modificar um registro com sucesso,Garantir que o sistema realiza com sucesso a modificação de um registro no formulário de R&D Investiment.,,8
+NewPCS,#14329-3,Modificar um registro com sucesso,Garantir que o sistema realiza com sucesso a modificação de um registro no formulário de R&D Investiment.,,8
 NewPCS,#14329,Cancelar a modificação,Garantir que o sistema permita realizar o cancelamento da ação Modify em uma R&D Investiment.,,
-NewPCS,#14329,Campos obrigatórios vazios,Garantir que o sistema não permita realizar uma modificação sem um dos campos obrigatórios.,,9
-NewPCS,#14329,Limite de caracteres para a modificação,Garantir que o sistema valida o limite de caracteres para os campos na alteração da tela de uma R&D Investiment.,,10
-NewPCS,#14329,Remover registro com sucesso,O sistema deve permitir cancelar a remoção de um item referente a uma R&D Investiment.,,31
+NewPCS,#14329-3,Campos obrigatórios vazios,Garantir que o sistema não permita realizar uma modificação sem um dos campos obrigatórios.,,9
+NewPCS,#14329-3,Limite de caracteres para a modificação,Garantir que o sistema valida o limite de caracteres para os campos na alteração da tela de uma R&D Investiment.,,10
+NewPCS,#14329-2,Remover registro com sucesso,O sistema deve permitir cancelar a remoção de um item referente a uma R&D Investiment.,,31
 NewPCS,#14329,Cancelar registro com sucesso,Garantir que o sistema permite cancelar a remoção de um registro com sucesso.,,
 NewPCS,#14329,Atualizar Formulário,"Garantir que seja possível atualizar os dados do relatório através do botão ""Refresh"".",,
-NewPCS,#14315,Remover registro com sucesso,O sistema deve permitir cancelar a remoção de um item referente a uma Detached Record.,,31
+NewPCS,#14315-2,Remover registro com sucesso,O sistema deve permitir cancelar a remoção de um item referente a uma Detached Record.,,31
 NewPCS,#14315,Cancelar registro com sucesso,Garantir que o sistema permite cancelar a remoção de um registro com sucesso.,,
-NewPCS,#14315,Modificar um registro com sucesso,Garantir que o sistema realiza com sucesso a modificação de um registro no formulário de Detached Record.,,8
+NewPCS,#14315-3,Modificar um registro com sucesso,Garantir que o sistema realiza com sucesso a modificação de um registro no formulário de Detached Record.,,8
 NewPCS,#14315,Cancelar a modificação,"Garantir que o sistema permita realizar o cancelamento da ação ""Modify"" em uma Detached Record.",,
-NewPCS,#14315,Limite de caracteres,Garantir que o sistema valida o limite de caracteres para os campos na alteração da tela de uma Detached Record.,,9
-NewPCS,#14315,Campos obrigatórios vazios,Garantir que o sistema não permita realizar uma modificação sem um dos campos obrigatórios.,,9
+NewPCS,#14315-3,Limite de caracteres,Garantir que o sistema valida o limite de caracteres para os campos na alteração da tela de uma Detached Record.,,9
+NewPCS,#14315-3,Campos obrigatórios vazios,Garantir que o sistema não permita realizar uma modificação sem um dos campos obrigatórios.,,9
 NewPCS,#14315,Inserir registro com sucesso,Garantir que seja possível cadastrar um item válido no relatório Detached Records.,,8
 NewPCS,#14315,Cancelar inserção,Garantir que seja possível realizar o cancelamento da inserção de uma item no formulário Detached Record.,,
 NewPCS,#14315,Inserir registro com um valor já existente,Garantir que o sistema permita que o usuário insira um item repetido. ,,6
 NewPCS,#14315,Campos Obrigatórios Vazios,Garantir que o sistema não permita inserir um novo registro não informando um dos campos obrigatórios.,,2
 NewPCS,#14315,Limite de caracteres para a inserção,Este teste tem como objetivo validar o limite de caracteres para os campos em um cadastro de um item no relatório.,,3
+ARTools, #11971,#4139 - Cadastro de usuário com dados válidos,Verificar cadastro de usuários quando os dados forem inseridos corretamente.,,1
+ARTools, #11971,#4106 - Cadastro com dados inválidos - dados pessoais,Verificar que usuário não é cadastrado quando dados inválidos forem inseridos nos campos de cadastro de usuário.,,3
+ARTools, #11971,#4403 - Cadastro com dados inválidos - autenticação,Verificar que usuário não é cadastrado quando dados inválidos forem inseridos nos campos de: usuário e senha durante cadastro de usuário.,,3
+ARTools,#11971-2,#4211 - Editar Usuário com dados válidos,Verificar a edição de usuários quando os dados forem alterados corretamente.,,8
+ARTools,#11971-2,#4189 - Editar Usuário com dados inválidos - dados pessoais,Verificar a proibição de edição de usuários quando os dados não forem editados corretamente.,,10
+ARTools,#11971-2,#4405 - Editar Usuário com dados inválidos - autenticação,Verificar a proibição de edição de usuários quando os dados dos campos: usuário e senha não forem editados corretamente.,,10
+ARTools,#11971-2,#4179 - Listagem de Usuários - botões ativar/desativar,Validar ação de ativar e desativar usuários.,,8
+ARTools,#11971-3,#4435 - Paginação de Usuários - avançar páginas,Validar a lista e paginação de usuários,,17
+ARTools,#11971-3,#4437 - Paginação de Usuários - voltar páginas,Validar a lista e paginação de usuários,,17
+ARTools,#11971-3,#4439 - Paginação de Usuários - única página,Validar a paginação de usuários quando tiver até 20 usuários,,17
+ARTools,#11972,#4112 - Cadastro de perfil com dados inválidos,Verificar a criação de cadastro de perfis com dados incorretos,,3
+ARTools,#11972-2,#4205 - Editar perfil com dados inválidos,Verificar a validação de edição de perfis quando os dados forem alterados corretamente.,,10
+ARTools,#11972-2,#4210 - Editar perfil com dados válidos,Verificar a validação de edição de perfis quando os dados forem alterados corretamente.,,8
+ARTools,#11972-2,#4443 - Listagem de Perfis - botões ativar/desativar,Validar ação de ativar e desativar perfis.,,8
+ARTools,#11972-3,#4438 - Paginação de perfis - avançar páginas,Validar a listagem e paginação de perfis,,17
+ARTools,#11972-3,#4440 - Paginação de perfis - voltar páginas,Validar a listagem e a navegação de perfis,,17
+ARTools,#11972-3,#4448 - Listagem de Perfis - Layout,Validar se os perfis estão sendo listados corretamente,,17
+ARTools,#11972-3,#4129 - Paginação de perfis - única página,Validar a listagem e a navegação de perfis,,17
+ARTools,#11973,#4742 - Permissões,Verificar cadastro de permissões quando os dados forem inseridos corretamente.,,1
+ARtolls,#11973-3,#4430 - Paginação de Permissões - avançar páginas,Validar a paginação de permissões,,17
+ARtolls,#11973-3,#4431 - Paginação de Permissões - voltar páginas,Validar a paginação de permissões,,17
+ARtolls,#11973-3,#4132 - Paginação de Permissões - única página,Validar a paginação de permissões,,17

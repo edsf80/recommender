@@ -1,0 +1,24 @@
+ID,Descrição
+1,Cadastrar <entidade> com sucesso
+2,Cancelar cadastro de <entidade> com sucesso
+3,Cadastrar <entidade> com ID existente
+4,Cadastrar <entidade> sem campos obrigatórios preenchidos
+5,Cadastrar usuários com diferentes papéis
+6,Editar informações da <entidade> com sucesso
+7,Editar entidade alterando o ID para um existente
+8,Editar entidade deixando todos os campos de texto do formulário em branco
+9,Verificar a presença do botão cancelar
+10,Cancelar edição da <entidade> com sucesso
+11,Verificar acessibilidade às páginas
+12,Excluir <entidade>
+13,Acessar tela sem estar logado na aplicação
+14,Acessar tela com usuário inativo
+15,Listar todas as <entidades> com sucesso
+16,Validar nomenclatura das colunas listadas
+17,Validar resultado da consulta de <entidade> sem dados
+18,Tentar acessar tela após time out
+19,Verificar paginação
+20,Verificar acesso por papéis
+21,Validar resultado da consulta de <entidade>
+22,Verificar se todos os dados da <entidade> estão sendo exibidos
+23,Verificar inserção de link de <entidade> inexistente

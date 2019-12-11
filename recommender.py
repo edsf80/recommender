@@ -1,32 +1,27 @@
-import pandas as pd
+from datahandler import NewUSsDataHandler
+from sklearn.neighbors import NearestNeighbors
 
-newUS = {'Módulo': 'Cadastro', 'Operação': 'Recuperação de dados', 'Plataforma': 'Web', 'Bugs Low': 0, 'Bugs Medium': 0,
-         'Bugs High': 0, 'CAs': '43,44,11,12', 'RNFs': '1,2'}
-uss = pd.read_csv('newUSs.csv')
-acs = pd.read_csv('CAs.csv')
-ussacs = pd.merge(uss, acs, how='left', on='ID_US')
-print(uss)
-print(newUS)
-print(ussacs)
 
-# cas = newUS['CAs'].split(',')
-# rnfs = newUS['RNFs'].split(',')
-#
-# filtered_uss = uss.loc[:,
-#                ['ID_US', 'Módulo', 'Operação', 'Plataforma', 'Bugs Low', 'Bugs Medium', 'Bugs High', 'CAs', 'RNFs']]
-# for i in range(len(cas)):
-#     filtered_uss['CA_' + str(i)] = 0
-# for i in range(len(rnfs)):
-#     filtered_uss['RNF_' + str(i)] = 0
-# filtered_uss.loc[filtered_uss['Módulo'] != newUS['Módulo'], 'Módulo'] = 0
-# filtered_uss.loc[filtered_uss['Módulo'] == newUS['Módulo'], 'Módulo'] = 1
-# filtered_uss.loc[filtered_uss['Operação'] != newUS['Operação'], 'Operação'] = 0
-# filtered_uss.loc[filtered_uss['Operação'] == newUS['Operação'], 'Operação'] = 1
-# filtered_uss.loc[filtered_uss['Plataforma'] != newUS['Plataforma'], 'Plataforma'] = 0
-# filtered_uss.loc[filtered_uss['Plataforma'] == newUS['Plataforma'], 'Plataforma'] = 1
-#
-# for i, ca in enumerate(cas):
-#     print(ca, i)
-#     filtered_uss.loc[filtered_uss['CAs'].str.contains(ca), 'CA_' + str(i)] = 1
-#
-# print(filtered_uss)
+def get_recommendations(newUS, k):
+    data_handler = NewUSsDataHandler()
+
+    df = data_handler.load_filtered_us_data(newUS)
+    knn = NearestNeighbors(metric='euclidean', algorithm='ball_tree', n_neighbors=k).fit(df)
+
+    # Pega a quantidade de colunas para gerar uma lista de 1.
+    l = [1 for i in range(len(df.columns))]
+
+    distances, indices = knn.kneighbors([l])
+    candidate_uss = df.iloc[indices[0]]
+    candidate_uss['similaridade'] = 1 / (1 + distances[0])
+
+    test_data = data_handler.load_test_data(candidate_uss.index.values)
+    test_data = test_data.merge(candidate_uss, left_on='ID_US', right_on='ID_US')
+
+    results = test_data.groupby("ID_STD_TC").sum()["similaridade"] / k
+    results = results.to_frame()
+
+    cts = data_handler.load_test_cases(results.index.values)
+
+    cts = cts.merge(results, left_on="ID", right_on="ID_STD_TC", how='inner')
+    return cts.sort_values("similaridade", ascending=False)

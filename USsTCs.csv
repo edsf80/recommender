@@ -1,0 +1,65 @@
+ID_US,ID_TC,ID_STD_TC
+#2376,HWLL-18:[TC] Cadastrar usuário com sucesso,1
+#2376,HWLL-20:[TC] Cancelar cadastro de usuário com sucesso,2
+#2376,HWLL-21:[SPEC] Verificar duplicidade no cadastro de usuário,3
+#2376,HWLL-28:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,4
+#2376,HWLL-29:[SPEC] Criar usuários utilizando diferentes perfis,5
+#2392,HWLL-39:[SPEC] Editar informações do usuário com sucesso,6
+#2392,HWLL-40:[SPEC] Verificar duplicidade na edição de usuário,7
+#2392,HWLL-41:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,8
+#2392,"HWLL-42:[TC] Verificar presença do botão ""Cancelar""",9
+#2392,HWLL-43:[TC] Cancelar edição de usuário com sucesso,10
+#2399,HWLL-13:[TC] Verificar acessibilidade às páginas,11
+#2399,HWLL-12:[TC] Excluir papel User,12
+#2399,HWLL-11:[TC] Incluir papel User,1
+#2399,HWLL-6:[TC] Incluir papel Admin,1
+#2399,HWLL-7:[TC] Excluir papel Admin,12
+#2399,HWLL-8:[TC] Verificar acessibilidade às páginas,11
+#2377,HWLL-22:[SPEC] Verificar acesso por Perfis,20
+#2377,HWLL-49:[TC] Acessar tela de consulta de OPS sem estar logado a aplicação,13
+#2377,HWLL-50:[TC] Validar acesso de usuário inativado,14
+#2377,HWLL-51:[TC] Listar todas as OPs com sucesso,15
+#2377,HWLL-52:[TC] Validar nomenclatura das colunas listadas,16
+#2377,HWLL-53:[TC] Validar resultado de consulta por OP's vazia,17
+#2377,HWLL-54:[TC] Verificar redirecionamento a tela de login após time out,18
+#2377,HWLL-55:[TC] Validar paginação,19
+#2383,HWLL-56:[TC] Validar paginação,19
+#2383,HWLL-57:[SPEC] Verificar acesso por Perfis,20
+#2383,HWLL-58:[TC] Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,13
+#2383,HWLL-59:[TC] Validar acesso de usuário inativado,14
+#2383,HWLL-60:[TC] Listar todas as Matérias-Primas com sucesso,15
+#2383,HWLL-61:[TC] Validar nomenclatura das colunas listadas,16
+#2383,HWLL-62:[TC] Validar resultado de consulta de Matéria-Prima vazia,17
+#2383,HWLL-63:[TC] Verificar redirecionamento a tela de login após time out,18
+#2383,HWLL-65:[SPEC] Verificar acesso por Perfis,20
+#2383,HWLL-67:[TC] Validar acesso de usuário inativado,14
+#2383,HWLL-71:[TC] Verificar redirecionamento a tela de login após time out,18
+#2490,HWLL-64:[TC] Validar paginação,19
+#2490,HWLL-66:[TC] Acessar tela Consultar produtos finais sem estar logado a aplicação,13
+#2490,HWLL-68:[TC] Listar todas os produtos finais com sucesso,15
+#2490,HWLL-69:[TC] Validar nomenclatura das colunas listadas,16
+#2490,HWLL-70:[TC] Validar resultado de consulta de produtos finais,21
+#3381,HWLL-75:[SPEC] Verificar acesso por Perfis,20
+#3381,HWLL-76:[TC] Acessar tela de Detalhamento de OP's sem estar logado a aplicação,13
+#3381,HWLL-77:[TC] Validar acesso de usuário inativado,14
+#3381,HWLL-78:[TC] Verificar se todos os dados da OP estão sendo exibidos,22
+#3381,HWLL-79:[TC] Verificar inserção de link em ordem de produção inexistente,23
+#3381,HWLL-80:[TC] Verificar redirecionamento a tela de login após time out,18
+#3390,HWLL-81:[SPEC] Verificar acesso por Perfis,20
+#3390,HWLL-82:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,13
+#3390,HWLL-83:[TC] Validar acesso de usuário inativado,14
+#3390,HWLL-84:[TC] Listar todas as Matérias-Primas com sucesso,15
+#3390,HWLL-85:[TC] Validar resultado de consulta por matérias-primas vazia,17
+#3390,HWLL-86:[TC] Verificar redirecionamento a tela de login após time out,18
+#3390,HWLL-87:[TC] Validar paginação,19
+#3390,HWLL-88:[TC] Validar nomenclatura das colunas listadas,16
+#3392,HWLL-89:[SPEC] Verificar acesso por Perfis,20
+#3392,HWLL-90:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,13
+#3392,HWLL-91:[TC] Validar acesso de usuário inativado,14
+#3392,HWLL-92:[TC] Listar todos os Produtos Finais com sucesso,15
+#3392,HWLL-93:[TC] Validar resultado de consulta por produtos finais vazia,17
+#3392,HWLL-94:[TC] Verificar redirecionamento a tela de login após time out,18
+#3392,HWLL-95:[TC] Validar paginação,19
+#3392,HWLL-96:[TC] Validar nomenclatura das colunas listadas,16
+#2379,HWLL-1:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,13
+#2379,HWLL-3:[SPEC] Validar acesso de usuário Ativo e Inativo,14

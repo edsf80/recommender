@@ -1,0 +1,39 @@
+ID_US,ID_TC,CA,RNFs,ID_STD_AC
+#2379,#2523, Ao informar login e senha cadastrados usuário deve acessar o sistema,"1,2",24
+#2379,#2524,Ao informar login cadastro e senha incorreta o sistema deve exibir mensagem de senha incorreta.,"1,2",40
+#2379,#2525,Ao informar login e senha não cadastrada o sistema deverá exibir mensagem de login incorreto.,"1,2",41
+#2379,#2526,Ao não informar o login ou a senha o sistema deve exibir mensagem login e senha devem ser informados.,"1,2",42
+#2376,#2533,"Ao acessar a tela de cadastro os campos matrícula, nome e função devem ser exibidos.","1,2",43
+#2376,#2534,Ao informar os campos da tela e clicar em salvar o usuário deve ser cadastrado.,"1,2",1
+#2376,#2535,Ao não fornecer um dos campos o sistema deve exibir mensagem de campo obrigatório não preenchido.,"1,2",2
+#2376,#2536,Ao informar matrícula do novo usuário igual ao de usuário já cadastrado o sistema deve informar o usuário e não permitir o cadastro.,"1,2",6
+#2376,#2537,Ao informar e-mail inválido o sistema deverá exibir mensagem de e-mail inválido para o usuário.,"1,2",3
+#2392,#2539,"Ao acessar o usuário os dados matrícula, nome e função devem estar preenchidos para edição","1,2",43
+#2392,#2540,Ao alterar algum campo ou não e clicar em salvar o usuário deve ser cadastrado com os novos dados registrados.,"1,2",8
+#2392,#2541,Ao apagar um dos campos o sistema deve exibir mensagem de campo obrigatório não preenchido.,"1,2",9
+#2392,#2542,Ao alterar matrícula do usuário para a de outro usuário já cadastrado o sistema deve informar o usuário e não permitir a alteração.,"1,2",13
+#2392,#2543,Ao alterar o e-mail para um inválido o sistema deverá exibir mensagem de e-mail inválido para o usuário.,"1,2",10
+#3392,#3881,Ao acessar tela de detalhe de produto final os dados do produto final devem ser exibidos.,"1,2",43
+#3392,#3882,Caso o usuário insira o link para o detalhe de um produto final inexistente uma erro 404 deve ser exibido.,"1,2",44
+#3392,#3883,Ao tentar acessar tela de detalhes de produto final sem estar autenticado o sistema deverá exibir a tela de login.,"1,2",36
+#3392,#3897,"Ao tentar acessar a tela de detalhes cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",37
+#2377,#3907,Ao acessar tela de ordens de produção os cadastrados devem ser exibidos.,"1,2",43
+#2377,#3908,"Ao acessar a tela de consulta de ordens de produção, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",16
+#2377,#3909,"Caso a quantidade de ordens de produção cadastradas seja maior que 10, a paginação deve ser exibida.","1,2",17
+#2377,#3910,"Ao tentar acessar tela de listagem de ordens de produção sem estar autenticado, a tela de login deve ser exibida.","1,2",20
+#2377,#3911,"Ao tentar acessar a tela de listagem cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",21
+#3381,#3914,Ao acessar tela de detalhe de ordens de produção os dados do produto final devem ser exibidos.,"1,2",43
+#3381,#3915,Caso o usuário insira o link para o detalhe de uma ordem de produção inexistente uma erro 404 deve ser exibido.,"1,2",44
+#3381,#3916,Ao tentar acessar tela de detalhes de ordem de produção sem estar autenticado o sistema deverá exibir a tela de login.,"1,2",11
+#3381,#3917,"Ao tentar acessar a tela de detalhes cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",12
+#2383,#3920,Ao acessar tela de BOM (matéria prima) os cadastrados devem ser exibidos.,"1,2",15
+#2383,#3921,"Ao acessar a tela de consulta de BOMs, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",16
+#2383,#3923,"Caso a quantidade de BOMs cadastradas seja maior que 10, a paginação deve ser exibida.","1,2",17
+#2383,#3924,"Ao tentar acessar tela de listagem de BOMs sem estar autenticado, a tela de login deve ser exibida.","1,2",20
+#2383,#3926,"Ao tentar acessar a tela de listagem cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",21
+#3390,#3928,Ao acessar tela de detalhe de BOM os dados do produto final devem ser exibidos.,"1,2",43
+#3390,#3929,Caso o usuário insira o link para o detalhe de BOM inexistente uma erro 404 deve ser exibido.,"1,2",44
+#3390,#3930,Ao tentar acessar tela de detalhes de BOMs sem estar autenticado o sistema deverá exibir a tela de login.,"1,2",11
+#3390,#3931,"Ao tentar acessar a tela de detalhes cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",12
+#2376,#5323,"Ao selecionar um usuário e informar os campos obrigatórios e não informar a senha, a senha do usuário sendo atualizado não deve ser alterada.","1,2",45
+#2376,#5324,"Ao selecionar um usuário e informar os campos obrigatórios e informar a senha, a senha do usuário sendo atualizado deve ser alterada.","1,2",8

@@ -1,9 +1,9 @@
-ID_US,DESC_US,Módulo,Operação,Plataforma,Bugs Low,Bugs Medium,Bugs High,CAs,RNFs
-#2379,Efetuar login no sistema,Autenticação,Fazer login com usuários e senha,Web,0,0,0,"24,40,41,42","1,2"
-#2376,Cadastro de Usuários,Cadastro,Inserir dados,Web,0,0,0,"43,1,2,6,3,45,8","1,2"
-#2392,Atualização de Usuários,Cadastro,Atualizar dados,Web,0,0,0,"43,8,9,13,10","1,2"
-#3392,Exibir detalhes de produto final,Cadastro,Recuperação de dados,Web,0,0,0,"43,44,36,37","1,2"
-#2377,Consultar ordens de produção,Cadastro,Recuperação de dados,Web,0,0,0,"43,16,17,20,21","1,2"
-#3381,Exibir detalhes da ordem de produção,Cadastro,Recuperação de dados,Web,0,0,0,"43,44,11,12","1,2"
-#2383,Consultar BOM (matéria-prima),Cadastro,Recuperação de dados,Web,0,0,0,"15,16,17,20,21","1,2"
-#3390,Exibir detalhes de BOM,Cadastro,Recuperação de dados,Web,0,0,0,"43,44,11,12","1,2"
+ID_US,DESC_US,Módulo,Operação,Plataforma
+#2379,Efetuar login no sistema,Autenticação,Fazer login com usuários e senha,Web
+#2376,Cadastro de Usuários,Cadastro,Inserir dados,Web
+#2392,Atualização de Usuários,Cadastro,Atualizar dados,Web
+#3392,Exibir detalhes de produto final,Cadastro,Recuperação de dados,Web
+#2377,Consultar ordens de produção,Cadastro,Recuperação de dados,Web
+#3381,Exibir detalhes da ordem de produção,Cadastro,Recuperação de dados,Web
+#2383,Consultar BOM (matéria-prima),Cadastro,Recuperação de dados,Web
+#3390,Exibir detalhes de BOM,Cadastro,Recuperação de dados,Web

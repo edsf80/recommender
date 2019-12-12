@@ -22,6 +22,9 @@ class NewUSsDataHandler(DataHandler):
     def load_filtered_us_data(self, newUS):
         # Arquivo que contém as user stories
         uss = pd.read_csv('newUSs.csv')
+        tcs = pd.read_csv('USsTCs.csv')
+        # Filtra apenas as User Stories que possuem casos de teste
+        uss = uss.loc[uss['ID_US'].isin(tcs['ID_US']), ['ID_US', 'DESC_US', 'Módulo', 'Operação', 'Plataforma']]
         # Arquivo que contém os critérios de aceitação
         acs = pd.read_csv('USsCAs.csv')
         # Merge entre os dois dataframes com base no id da User Story

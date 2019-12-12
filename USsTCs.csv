@@ -1,65 +1,254 @@
-ID_US,ID_TC,ID_STD_TC
-#2376,HWLL-18:[TC] Cadastrar usuário com sucesso,1
-#2376,HWLL-20:[TC] Cancelar cadastro de usuário com sucesso,2
-#2376,HWLL-21:[SPEC] Verificar duplicidade no cadastro de usuário,3
-#2376,HWLL-28:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,4
-#2376,HWLL-29:[SPEC] Criar usuários utilizando diferentes perfis,5
-#2392,HWLL-39:[SPEC] Editar informações do usuário com sucesso,6
-#2392,HWLL-40:[SPEC] Verificar duplicidade na edição de usuário,7
-#2392,HWLL-41:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,8
-#2392,"HWLL-42:[TC] Verificar presença do botão ""Cancelar""",9
-#2392,HWLL-43:[TC] Cancelar edição de usuário com sucesso,10
-#2399,HWLL-13:[TC] Verificar acessibilidade às páginas,11
-#2399,HWLL-12:[TC] Excluir papel User,12
-#2399,HWLL-11:[TC] Incluir papel User,1
-#2399,HWLL-6:[TC] Incluir papel Admin,1
-#2399,HWLL-7:[TC] Excluir papel Admin,12
-#2399,HWLL-8:[TC] Verificar acessibilidade às páginas,11
-#2377,HWLL-22:[SPEC] Verificar acesso por Perfis,20
-#2377,HWLL-49:[TC] Acessar tela de consulta de OPS sem estar logado a aplicação,13
-#2377,HWLL-50:[TC] Validar acesso de usuário inativado,14
-#2377,HWLL-51:[TC] Listar todas as OPs com sucesso,15
-#2377,HWLL-52:[TC] Validar nomenclatura das colunas listadas,16
-#2377,HWLL-53:[TC] Validar resultado de consulta por OP's vazia,17
-#2377,HWLL-54:[TC] Verificar redirecionamento a tela de login após time out,18
-#2377,HWLL-55:[TC] Validar paginação,19
-#2383,HWLL-56:[TC] Validar paginação,19
-#2383,HWLL-57:[SPEC] Verificar acesso por Perfis,20
-#2383,HWLL-58:[TC] Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,13
-#2383,HWLL-59:[TC] Validar acesso de usuário inativado,14
-#2383,HWLL-60:[TC] Listar todas as Matérias-Primas com sucesso,15
-#2383,HWLL-61:[TC] Validar nomenclatura das colunas listadas,16
-#2383,HWLL-62:[TC] Validar resultado de consulta de Matéria-Prima vazia,17
-#2383,HWLL-63:[TC] Verificar redirecionamento a tela de login após time out,18
-#2383,HWLL-65:[SPEC] Verificar acesso por Perfis,20
-#2383,HWLL-67:[TC] Validar acesso de usuário inativado,14
-#2383,HWLL-71:[TC] Verificar redirecionamento a tela de login após time out,18
-#2490,HWLL-64:[TC] Validar paginação,19
-#2490,HWLL-66:[TC] Acessar tela Consultar produtos finais sem estar logado a aplicação,13
-#2490,HWLL-68:[TC] Listar todas os produtos finais com sucesso,15
-#2490,HWLL-69:[TC] Validar nomenclatura das colunas listadas,16
-#2490,HWLL-70:[TC] Validar resultado de consulta de produtos finais,21
-#3381,HWLL-75:[SPEC] Verificar acesso por Perfis,20
-#3381,HWLL-76:[TC] Acessar tela de Detalhamento de OP's sem estar logado a aplicação,13
-#3381,HWLL-77:[TC] Validar acesso de usuário inativado,14
-#3381,HWLL-78:[TC] Verificar se todos os dados da OP estão sendo exibidos,22
-#3381,HWLL-79:[TC] Verificar inserção de link em ordem de produção inexistente,23
-#3381,HWLL-80:[TC] Verificar redirecionamento a tela de login após time out,18
-#3390,HWLL-81:[SPEC] Verificar acesso por Perfis,20
-#3390,HWLL-82:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,13
-#3390,HWLL-83:[TC] Validar acesso de usuário inativado,14
-#3390,HWLL-84:[TC] Listar todas as Matérias-Primas com sucesso,15
-#3390,HWLL-85:[TC] Validar resultado de consulta por matérias-primas vazia,17
-#3390,HWLL-86:[TC] Verificar redirecionamento a tela de login após time out,18
-#3390,HWLL-87:[TC] Validar paginação,19
-#3390,HWLL-88:[TC] Validar nomenclatura das colunas listadas,16
-#3392,HWLL-89:[SPEC] Verificar acesso por Perfis,20
-#3392,HWLL-90:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,13
-#3392,HWLL-91:[TC] Validar acesso de usuário inativado,14
-#3392,HWLL-92:[TC] Listar todos os Produtos Finais com sucesso,15
-#3392,HWLL-93:[TC] Validar resultado de consulta por produtos finais vazia,17
-#3392,HWLL-94:[TC] Verificar redirecionamento a tela de login após time out,18
-#3392,HWLL-95:[TC] Validar paginação,19
-#3392,HWLL-96:[TC] Validar nomenclatura das colunas listadas,16
-#2379,HWLL-1:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,13
-#2379,HWLL-3:[SPEC] Validar acesso de usuário Ativo e Inativo,14
+Projeto,ID_US,ID_TC,ID_STD_TC
+RCP,#2376,HWLL-18:[TC] Cadastrar usuário com sucesso,1
+RCP,#2376,HWLL-20:[TC] Cancelar cadastro de usuário com sucesso,2
+RCP,#2376,HWLL-21:[SPEC] Verificar duplicidade no cadastro de usuário,3
+RCP,#2376,HWLL-28:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,4
+RCP,#2376,HWLL-29:[SPEC] Criar usuários utilizando diferentes perfis,5
+RCP,#2376,HWLL-30:[SPEC] Validar comportamento do campo Confirmar Senha,6
+RCP,#2376,HWLL-31:[SPEC] Validar comportamento do campo Matrícula,7
+RCP,#2376,HWLL-32:[SPEC] Validar comportamento do campo Nome,8
+RCP,#2376,HWLL-33:[SPEC] Validar comportamento do campo Função,9
+RCP,#2376,HWLL-34:[SPEC] Validar comportamento do campo Senha,10
+RCP,#2376,HWLL-35:[SPEC] Validar comportamento do campo Perfil,11
+RCP,#2392,HWLL-36:[SPEC] Validar comportamento do campo Função,12
+RCP,#2392,HWLL-37:[SPEC] Validar comportamento do campo Nome,1
+RCP,#2392,HWLL-38:[SPEC] Validar comportamento do campo Matrícula,1
+RCP,#2392,HWLL-39:[SPEC] Editar informações do usuário com sucesso,12
+RCP,#2392,HWLL-40:[SPEC] Verificar duplicidade na edição de usuário,11
+RCP,#2392,HWLL-41:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,20
+RCP,#2392,"HWLL-42:[TC] Verificar presença do botão ""Cancelar""",13
+RCP,#2392,HWLL-43:[TC] Cancelar edição de usuário com sucesso,14
+RCP,#2399,HWLL-14:[SPEC] Validações de dados,15
+RCP,#2399,HWLL-13:[TC] Verificar acessibilidade às páginas,16
+RCP,#2399,HWLL-12:[TC] Excluir papel User,17
+RCP,#2399,HWLL-11:[TC] Incluir papel User,18
+RCP,#2399,HWLL-6:[TC] Incluir papel Admin,19
+RCP,#2399,HWLL-7:[TC] Excluir papel Admin,19
+RCP,#2399,HWLL-8:[TC] Verificar acessibilidade às páginas,20
+RCP,#2399,HWLL-9:[SPEC] Validações de dados,13
+RCP,#2377,HWLL-22:[SPEC] Verificar acesso por Perfis,14
+RCP,#2377,HWLL-49:[TC] Acessar tela de consulta de OPS sem estar logado a aplicação,15
+RCP,#2377,HWLL-50:[TC] Validar acesso de usuário inativado,16
+RCP,#2377,HWLL-51:[TC] Listar todas as OPs com sucesso,17
+RCP,#2377,HWLL-52:[TC] Validar nomenclatura das colunas listadas,18
+RCP,#2377,HWLL-53:[TC] Validar resultado de consulta por OP's vazia,20
+RCP,#2377,HWLL-54:[TC] Verificar redirecionamento a tela de login após time out,14
+RCP,#2377,HWLL-55:[TC] Validar paginação,18
+RCP,#2383,HWLL-56:[TC] Validar paginação,19
+RCP,#2383,HWLL-57:[SPEC] Verificar acesso por Perfis,13
+RCP,#2383,HWLL-58:[TC] Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,15
+RCP,#2383,HWLL-59:[TC] Validar acesso de usuário inativado,16
+RCP,#2383,HWLL-60:[TC] Listar todas as Matérias-Primas com sucesso,21
+RCP,#2383,HWLL-61:[TC] Validar nomenclatura das colunas listadas,20
+RCP,#2383,HWLL-62:[TC] Validar resultado de consulta de Matéria-Prima vazia,13
+RCP,#2383,HWLL-63:[TC] Verificar redirecionamento a tela de login após time out,14
+RCP,#2383,HWLL-65:[SPEC] Verificar acesso por Perfis,22
+RCP,#2383,HWLL-67:[TC] Validar acesso de usuário inativado,23
+RCP,#2383,HWLL-71:[TC] Verificar redirecionamento a tela de login após time out,18
+RCP,#2490,HWLL-64:[TC] Validar paginação,20
+RCP,#2490,HWLL-66:[TC] Acessar tela Consultar produtos finais sem estar logado a aplicação,13
+RCP,#2490,HWLL-68:[TC] Listar todas os produtos finais com sucesso,14
+RCP,#2490,HWLL-69:[TC] Validar nomenclatura das colunas listadas,15
+RCP,#2490,HWLL-70:[TC] Validar resultado de consulta de produtos finais,17
+RCP,#2598-1,HWLL-72:[SPEC] Validar ações no campo Search em Ordens de Produção,18
+RCP,#2383,HWLL-73:[SPEC] Validar ações no campo Search em BOM (matéria-prima),19
+RCP,#2490,HWLL-74:[SPEC] Validar ações no campo Search em Produtos Finais,16
+RCP,#3381,HWLL-75:[SPEC] Verificar acesso por Perfis,20
+RCP,#3381,HWLL-76:[TC] Acessar tela de Detalhamento de OP's sem estar logado a aplicação,13
+RCP,#3381,HWLL-77:[TC] Validar acesso de usuário inativado,14
+RCP,#3381,HWLL-78:[TC] Verificar se todos os dados da OP estão sendo exibidos,15
+RCP,#3381,HWLL-79:[TC] Verificar inserção de link em ordem de produção inexistente,17
+RCP,#3381,HWLL-80:[TC] Verificar redirecionamento a tela de login após time out,18
+RCP,#3390,HWLL-81:[SPEC] Verificar acesso por Perfis,19
+RCP,#3390,HWLL-82:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,16
+RCP,#3390,HWLL-83:[TC] Validar acesso de usuário inativado,13
+RCP,#3390,HWLL-84:[TC] Listar todas as Matérias-Primas com sucesso,14
+RCP,#3390,HWLL-85:[TC] Validar resultado de consulta por matérias-primas vazia,
+RCP,#3390,HWLL-86:[TC] Verificar redirecionamento a tela de login após time out,
+RCP,#3390,HWLL-87:[TC] Validar paginação,
+RCP,#3390,HWLL-88:[TC] Validar nomenclatura das colunas listadas,
+RCP,#3392,HWLL-89:[SPEC] Verificar acesso por Perfis,
+RCP,#3392,HWLL-90:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,
+RCP,#3392,HWLL-91:[TC] Validar acesso de usuário inativado,
+RCP,#3392,HWLL-92:[TC] Listar todos os Produtos Finais com sucesso,
+RCP,#3392,HWLL-93:[TC] Validar resultado de consulta por produtos finais vazia,
+RCP,#3392,HWLL-94:[TC] Verificar redirecionamento a tela de login após time out,
+RCP,#3392,HWLL-95:[TC] Validar paginação,
+RCP,#3392,HWLL-96:[TC] Validar nomenclatura das colunas listadas,
+RCP,#2379,HWLL-1:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,
+RCP,#2379,HWLL-2:[SPEC] Validar se página é redirecionada ao colar link em outra aba do navegador,
+RCP,#2379,HWLL-3:[SPEC] Validar acesso de usuário Ativo e Inativo,
+RCP,#2379,HWLL-4:[SPEC] Validar campo Nome,
+RCP,#2379,HWLL-5:[SPEC] Validar campo Senha,
+SSPI,#2570,ENERSH-224:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,
+SSPI,#2570,ENERSH-225:[TC] Verificar duplicidade na edição de Máquinas,
+SSPI,#2570,ENERSH-226:[SPEC] Validar comportamento do campo Descrição,
+SSPI,#2570,ENERSH-227:[TC] Verificar presença do botão Cancelar,
+SSPI,#2570,ENERSH-228:[TC] Editar Máquina com sucesso,
+SSPI,#2570,ENERSH-229:[TC] Cancelar cadastro de Máquinas com sucesso,
+SSPI,#2570,ENERSH-230:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,
+SSPI,#2570,ENERSH-231:[TC] Deletar Máquina com sucesso,
+SSPI,#2570,ENERSH-232:[TC] Cancelar a remoção de uma Máquina,
+SSPI,#2570,ENERSH-233:[Spec] Validar acesso a lista de Máquinas por perfis,
+SSPI,#2570,ENERSH-234:[TC] Paginar listagem de Máquinas ao atingir número máximo de linhas,
+SSPI,#2570,ENERSH-235:[TC] Verificar a presença do botão para criação de uma nova Máquina,
+SSPI,#2570,ENERSH-236:[TC] Verificar a presença de botões de edição para cada Máquina listada,
+SSPI,#2570,ENERSH-237:[TC] Verificar a presença de botões de exclusão para cada Máquina listada,
+SSPI,#2570,ENERSH-238:[TC] Tentar listar Máquina utilizando um usuário inativo,
+SSPI,#2570,ENERSH-239:[TC] Validar nomenclatura das colunas listadas,
+SSPI,#2570,ENERSH-240:[TC] Listar todas as Máquina com sucesso,
+SSPI,#2570,"ENERSH-241:[TC] Verificar presença do botão ""Cancelar""",
+SSPI,#2570,ENERSH-242:[SPEC] Validar comportamento do campo Descrição,
+SSPI,#2570,ENERSH-243:[SPEC] Validar controle de acesso para criação de nova Máquina,
+SSPI,#2570,ENERSH-244:[TC] Cadastrar Máquina com sucesso,
+SSPI,#2570,ENERSH-245:[TC] Verificar duplicidade no cadastro de um tipo de operação já registrado,
+SSPI,#2570,ENERSH-246:[TC] Cadastrar Máquina sem informar nenhum campo obrigatório,
+SSPI,#2570,ENERSH-247:[TC] Cancelar cadastro de Máquina com sucesso,
+SSPI,#2278,ENERSH-1:[TC] Validar redirecionamento a página de login em usuário não autenticado,
+SSPI,#2278,ENERSH-2:[SPEC] Validar se página é redirecionada ao colar link em outra aba do navegador,
+SSPI,#2278,ENERSH-3:[TC] Validar usuário sem preencher campo $Matricula,
+SSPI,#2278,ENERSH-4:[SPEC] Validar acesso de usuário Ativo e Inativo,
+SSPI,#2278,ENERSH-5:[SPEC] Validar campo $Matrícula,
+SSPI,#2278,ENERSH-6:[SPEC] Validar campo $Senha,
+SSPI,#2279,"ENERSH-82:[TC] Validar presença do botão ""Sair""",
+SSPI,#2279,ENERSH-7:[TC] Validar redirecionamento a página de login ao clicar no botão <Sair>,
+SSPI,#2279,ENERSH-8:[TC] Validar se sistema ainda ficará logado caso feche a sessão e abra novamente,
+SSPI,#2279,"ENERSH-9:[TC] Validar ação do clique no botão ""Sair"" na ausência de conexão com o servidor",
+SSPI,#2276,ENERSH-48:[TC] Cadastrar usuário com sucesso,
+SSPI,#2276,ENERSH-50:[TC] Cadastrar mais de um Administrador no sistema,
+SSPI,#2276,ENERSH-51:[TC] Cadastrar usuário informando senhas diferentes nos campos senha e confirmação,
+SSPI,#2276,ENERSH-53:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,
+SSPI,#2276,ENERSH-55:[TC] Cadastrar Usuário deixando todos os campos do formulário sem preenchimento,
+SSPI,#2276,ENERSH-57:Verificar duplicidade de cadastro de Usuário,
+SSPI,#2276,ENERSH-58:[SPEC] Criar usuários utilizando diferentes perfis,
+SSPI,#2276,ENERSH-60:[TC] Cadastrar usuário sem registrar perfil,
+SSPI,#2275,ENERSH-32:[TC] Verificar ação do botão Excluir para um usuário listado e ativo,
+SSPI,#2275,ENERSH-31:[TC] Verificar ação do botão Adicionar para um usuário listado e ativo,
+SSPI,#2275,ENERSH-29:[TC] Verificar presença do botão Adicionar para um usuário listado e ativo,
+SSPI,#2275,ENERSH-28:[TC] Verificar presença do botão Excluir para um usuário listado e ativo,
+SSPI,#2275,ENERSH-22:[SPEC] Verificar acesso por Perfis,
+SSPI,#2275,ENERSH-23:[TC] Listar usuário inativo,
+SSPI,#2275,ENERSH-25:[TC] Verificar presença do botão Editar para um usuário listado e ativo,
+SSPI,#2275,ENERSH-30:[TC] Verificar ação do botão Editar para um usuário listado e ativo,
+SSPI,#2275,ENERSH-33:[TC] Validar ação de paginação,
+SSPI,#2275,ENERSH-34:[TC] Validar nomenclatura das colunas,
+SSPI,#2277,"ENERSH-81:[TC] Verificar layout do botão ""Editar"" para cada usuário cadastrado",
+SSPI,#2277,ENERSH-80:[TC] Cancelar edição de usuário com sucesso,
+SSPI,#2277,ENERSH-79:[TC] Tentar editar ID interno do usuário,
+SSPI,#2277,ENERSH-69:[SPEC] Editar informações do usuário com sucesso,
+SSPI,#2277,ENERSH-70:[TC] Verificar duplicidade de nome na edição de usuário,
+SSPI,#2277,ENERSH-71:[TC] Verificar duplicidade de matricula na edição de usuário,
+SSPI,#2277,ENERSH-72:[TC] Verificar duplicidade de perfil administrador na edição de usuário,
+SSPI,#2277,"ENERSH-73:[TC] Verificar presença do botão ""Cancelar""",
+SSPI,#2252,ENERSH-68:[TC] Validar acesso de usuário inativo,
+SSPI,#2252,ENERSH-66:[TC] Selecionar dois ou mais filtros para visualização das OPs,
+SSPI,#2252,ENERSH-65:[SPEC] Verificar filtro de visualização,
+SSPI,#2252,ENERSH-67:[SPEC] Verificar acesso por Perfis,
+SSPI,#2252,ENERSH-64:[TC] Fechar visualização da Ordens de Produção,
+SSPI,#2252,ENERSH-63:[TC] Validar se todas as OPs disponíveis para planejamento são listadas,
+SSPI,#2252,ENERSH-62:[TC] Verificar presença do botão para expandir o sidebar de exibição das OPs,
+SSPI,#2589-2,ENERSH-90:[SPEC] Validar acesso a lista de tipos de problemas por perfis,
+SSPI,#2589-2,ENERSH-89:[TC] Paginar listagem de tipos de problemas ao atingir número máximo de linhas,
+SSPI,#2589-2,ENERSH-88:[TC] Verificar a presença do botão para criação de um novo tipo de problema,
+SSPI,#2589-2,ENERSH-87:[TC] Verificar a presença de botões de edição para cada tipo de problema listado,
+SSPI,#2589-2,ENERSH-86:[TC] Verificar a presença de botões de exclusão para cada tipo de problema listado,
+SSPI,#2589-2,ENERSH-85:[TC] Tentar listar Tipos de Problemas utilizando um usuário inativo,
+SSPI,#2589-2,ENERSH-83:[TC] Listar todos tipos de problemas com sucesso,
+SSPI,#2589-2,ENERSH-84:[TC] Validar nomenclatura das colunas listadas,
+SSPI,#2589-2,ENERSH-83:[TC] Listar todos tipos de problemas com sucesso,
+SSPI,#2589-1,"ENERSH-98:[TC] Verificar presença do botão ""Cancelar""",
+SSPI,#2589-1,ENERSH-95:[SPEC] Validar controle de acesso para criação de novos tipos de problemas,
+SSPI,#2589-1,ENERSH-91:[TC] Cadastrar Tipos de Problemas com sucesso,
+SSPI,#2589-1,ENERSH-92:[TC] Verificar duplicidade no cadastro de um tipo de problema já registrado,
+SSPI,#2589-1,ENERSH-93:[TC] Cadastrar tipo de problema sem informar nenhum campo obrigatório,
+SSPI,#2589-1,ENERSH-97:[TC] Cancelar cadastro de Tipo de Problema com sucesso,
+SSPI,#2589-3,ENERSH-103:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,
+SSPI,#2589-3,ENERSH-108:[TC] Verificar duplicidade na edição do tipo de problema,
+SSPI,#2589-3,ENERSH-112:[TC] Verificar presença do botão Cancelar,
+SSPI,#2589-3,ENERSH-99:[TC] Editar Tipo do Problema com sucesso,
+SSPI,#2589-3,ENERSH-111:[TC] Cancelar edição de Tipo de Problema com sucesso,
+SSPI,#2589-4,ENERSH-124:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,
+SSPI,#2589-4,ENERSH-123:[TC] Deletar tipo de problema com sucesso,
+SSPI,#2589-4,ENERSH-122:[TC] Cancelar a remoção de um tipo de problema,
+SSPI,#2598-3,ENERSH-212:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,
+SSPI,#2598-3,ENERSH-213:[TC] Verificar duplicidade na edição do tipo de problema,
+SSPI,#2598-3,ENERSH-215:[TC] Verificar presença do botão Cancelar,
+SSPI,#2598-3,ENERSH-216:[TC] Editar Tipo do Operação com sucesso,
+SSPI,#2598-3,ENERSH-217:[TC] Cancelar cadastro de Tipo de Operação com sucesso,
+SSPI,#2598-1,ENERSH-113:[Spec] Validar acesso a lista de tipos de operações por perfis,
+SSPI,#2598-1,ENERSH-114:[TC] Paginar listagem de tipos de operações ao atingir número máximo de linhas,
+SSPI,#2598-1,ENERSH-115:[TC] Verificar a presença do botão para criação de um novo tipo de operação,
+SSPI,#2598-1,ENERSH-116:[TC] Verificar a presença de botões de edição para cada tipo de operação listado,
+SSPI,#2598-1,ENERSH-117:[TC] Verificar a presença de botões de exclusão para cada tipo de operação listado,
+SSPI,#2598-1,ENERSH-118:[TC] Tentar listar Tipos de operações utilizando um usuário inativo,
+SSPI,#2598-1,ENERSH-119:[TC] Validar nomenclatura das colunas listadas,
+SSPI,#2598-1,ENERSH-120:[TC] Listar todos tipos de operações com sucesso,
+SSPI,#2598-2,"ENERSH-125:[TC] Verificar presença do botão ""Cancelar""",
+SSPI,#2598-2,ENERSH-127:[SPEC] Validar controle de acesso para criação de novos tipos de operações,
+SSPI,#2598-2,ENERSH-128:[TC] Cadastrar Tipos de operações com sucesso,
+SSPI,#2598-2,ENERSH-129:[TC] Verificar duplicidade no cadastro de um tipo de operação já registrado,
+SSPI,#2598-2,ENERSH-130:[TC] Cadastrar tipo de operação sem informar nenhum campo obrigatório,
+SSPI,#2598-2,ENERSH-131:[TC] Cancelar cadastro de Tipo de Operação com sucesso,
+SSPI,#2598-4,ENERSH-218:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,
+SSPI,#2598-4,ENERSH-219:[TC] Deletar Tipo de Operação com sucesso,
+SSPI,#2598-4,ENERSH-220:[TC] Cancelar a remoção de um Tipo de Operação,
+VRE,#1804,Edit project with previously registered name,
+VRE,#1804,Edit project with previously registered name,
+VRE,#1804,Login with known credentials,
+VRE,#1804,Create user with input validation,
+VRE,#1804,Associate organization with user,
+VRE,#1804,Edit user,
+VRE,#1804,Edit project with previously registered name,
+VRE,#1804,Ações do botão Voltar na tela de Histórico de Check-in (Administrador),
+VRE,#1804,Ações do botão Voltar na tela de Histórico de Check-in (Administrador),
+VRE,#1804,Ações do botão Voltar na tela de Histórico de Check-in (Administrador),
+VRE,#1804,Teste estático de arquivo de tradução (plataforma Android),
+VRE,#1804,Teste estático de arquivo de tradução Android,
+VRE,#1804,Teste estático de arquivo de tradução Android,
+VRE,#1804,Teste estático de arquivo de tradução (plataforma Android),
+VRE,#1806,Cancel deleting project,
+VRE,#1806,Filter project,
+VRE,#1806,Create organization with input validation,
+VRE,#1806,Cancel project variable creation,
+VRE,#1806,Cancel project variable creation,
+VRE,#1806,Cancel editing project variable,
+VRE,#1806,Cancel editing project variable,
+VRE,#1806,Ocultar e exibir colunas do formulário de Configuração de Rotas,
+VRE,#1806,Ocultar e exibir colunas do formulário de Configuração de Rotas,
+VRE,#1806,Ocultar e exibir colunas do formulário de Configuração de Rotas,
+VRE,#1806,Ocultar e exibir colunas do formulário de Configuração de Rotas,
+VRE,#1806,Retirada do cartão SD durante execução do programa,
+VRE,#1806,Retirada do cartão SD durante execução do programa,
+VRE,#1806,Validar ações do Administrador com GaMMa inoperante,
+VRE,#1806,Validar ações do Convidado com GaMMa inoperante,
+VRE,#1806,Cancel deleting organization,
+VRE,#1809,Edit user password with input validation,
+VRE,#1809,Edit user password with input validation,
+VRE,#1809,Cancel deleting project,
+VRE,#1809,Filter user with input validation,
+VRE,#1809,Filter user with input validation,
+VRE,#1809,Edit organization with previously registered name,
+VRE,#1809,Edit organization with previously registered name,
+VRE,#1809,Filter organization,
+VRE,#1809,Filter organization,
+VRE,#1809,Exploratory Test: Functional for Events,
+VRE,#1809,Exploratory Test: Functional for Events,
+VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,
+VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,
+VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,
+VRE,#1809,Exploratory Test: Functional for Events,
+VRE,#1809,Exploratory Test: Functional for Events,
+VRE,#1809,Exploratory Test: Fault Tolerance for Video Call (Remote),
+VRE,#1809,Exploratory Test: Fault Tolerance for Video Call (Remote),
+VRE,#1815,Filter project,
+VRE,#1815,Cancel disassociating organization from user through list actions,
+VRE,#1815,Create project with previously registered name,
+VRE,#1817,Clear all filters (filter project),
+VRE,#1817,Search organization with input validation,
+VRE,#1818,Filter project,
+VRE,#1818,Clear all filters (filter organization),
+VRE,#1818,Clear all filters (filter organization),
+VRE,#1818,Exploratory Test: Fault Tolerance for Diagnostics,
+VRE,#1818,Exploratory Test: Fault Tolerance for Diagnostics,
+VRE,#1818,Exploratory Test: Functional for Settings,
+VRE,#1818,Exploratory Test: Functional for Settings,

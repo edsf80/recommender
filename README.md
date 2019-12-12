@@ -1,4 +1,4 @@
-# recommender
+# Recommender
 Recommender for test cases. Steps do make it work.
 
 Requires python 3.

@@ -21,12 +21,12 @@ class NewUSsDataHandler(DataHandler):
 
     def load_filtered_us_data(self, newUS):
         # Arquivo que contém as user stories
-        uss = pd.read_csv('newUSs.csv')
-        tcs = pd.read_csv('USsTCs.csv')
+        uss = pd.read_csv('data/newUSs.csv')
+        tcs = pd.read_csv('data/USsTCs.csv')
         # Filtra apenas as User Stories que possuem casos de teste
         uss = uss.loc[uss['ID_US'].isin(tcs['ID_US']), ['ID_US', 'DESC_US', 'Módulo', 'Operação', 'Plataforma']]
         # Arquivo que contém os critérios de aceitação
-        acs = pd.read_csv('USsCAs.csv')
+        acs = pd.read_csv('data/USsCAs.csv')
         # Merge entre os dois dataframes com base no id da User Story
         ussacs = pd.merge(uss, acs, how='inner', on='ID_US')
         # Criação de um aggregator padrão para juntar os ids dos casos de teste padrão em uma só coluna.
@@ -67,7 +67,7 @@ class NewUSsDataHandler(DataHandler):
         return filtered_uss
 
     def load_test_data(self, user_stories):
-        data = pd.read_csv('USsTCs.csv')
+        data = pd.read_csv('data/USsTCs.csv')
 
         new = pd.DataFrame(user_stories)
 

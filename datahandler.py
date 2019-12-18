@@ -75,11 +75,11 @@ class NewUSsDataHandler(DataHandler):
         return data.loc[data['ID_US'].isin(new[0]) & data['ID_STD_TC'].notnull(), ['ID_US', 'ID_STD_TC']]
 
     def load_test_cases(self, id_test_cases):
-        cts = pd.read_csv('tcs.csv')
+        cts = pd.read_csv('data/tcs.csv')
 
         new = pd.DataFrame(id_test_cases)
 
-        return cts.loc[cts['ID'].isin(new[0])]
+        return cts.loc[cts['ID'].isin(new[0]), ['ID', 'Descrição']]
 
 
 class USsDataHandler(DataHandler):

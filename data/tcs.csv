@@ -1,0 +1,43 @@
+ID,Descrição,Tipo
+11,Verificar acessibilidade às páginas,Acessibilidade
+6,Editar informações da <entidade> com sucesso,Alteração
+7,Editar entidade alterando o ID para um existente,Alteração
+8,Editar entidade deixando os campos obrigatórios do formulário em branco,Alteração
+9,Verificar presença de campos e dados na tela de edição,Alteração
+10,Cancelar edição da <entidade> com sucesso,Alteração
+22,Verificar se todos os dados da <entidade> estão sendo exibidos,Alteração
+23,Verificar inserção de link de <entidade> inexistente,Alteração
+30,Verificar comportamento <comportamento> do campo <campo>,Alteração
+13,Acessar tela sem estar autenticado na aplicação,Autenticação
+14,Acessar tela com usuário não cadastrado,Autenticação
+18,Tentar acessar tela após time out,Autenticação
+24,Acessar tela com usuário inativo,Autenticação
+25,O campo senha deve seguir regra <regra>,Autenticação
+31,Tentar autenticar sem preencher username,Autenticação
+32,Tentar autenticar com usuário não cadastrado,Autenticação
+33,Tentar autenticar com usuário inativo,Autenticação
+34,Verificar comportamento <comportamento> do campo <campo>,Autenticação
+35,Validar logout da aplicação,Autenticação
+36,Fechar browser e abrir aplicação novamente,Autenticação
+38,Verificar cadastro de mais de um administrador,Autenticação
+39,Verificar campos senha e confirmação,Autenticação
+40,Fazer login com usuário e senha válidos,Autenticação
+20,Verificar acesso por papéis,Autorização
+37,Validar ação sem conexão com servidor,Conexão
+12,Excluir <entidade> com sucesso,Exclusão
+26,Fechar a tela antes de excluir dados,Exclusão
+27,Cancelar exclusão da entidade,Exclusão
+28,Verificar presença de campos na exclusão,Exclusão
+1,Cadastrar <entidade> com sucesso,Inserção
+2,Cancelar cadastro de <entidade> com sucesso,Inserção
+3,Cadastrar <entidade> com ID existente,Inserção
+4,Cadastrar <entidade> sem campos obrigatórios preenchidos,Inserção
+5,Cadastrar usuários com diferentes papéis,Inserção
+27,Verificar presença de campos na tela de inserção,Inserção
+29,Verificar comportamento <comportamento> do campo <campo>,Inserção
+41,Verificar internacionalização,Internacionalização
+15,Listar todas as <entidades> com sucesso,Listagem
+16,Validar campos e dados retornados,Listagem
+17,Validar resultado da consulta de <entidade> sem dados,Listagem
+19,Verificar paginação,Listagem
+21,Validar resultado da consulta de <entidade>,Listagem

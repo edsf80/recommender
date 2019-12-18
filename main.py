@@ -20,7 +20,7 @@ from recommender import get_recommendations
 
 
 if __name__ == '__main__':
-    newUS = {'Módulo': 'Cadastro', 'Operação': 'Recuperação de dados', 'Plataforma': 'Web', 'CAs': '43,44,11,12',
+    newUS = {'Módulo': 'Cadastro', 'Operação': 'Inserir_dados', 'Plataforma': 'Web', 'CAs': '1,2,3,4,5,6,47',
              'RNFs': '1,2'}
     recommendations = get_recommendations(newUS, 2)
     print(recommendations)

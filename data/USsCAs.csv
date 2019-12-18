@@ -141,3 +141,49 @@ VRE,#1809,3,"O conteúdo precisa ser visualizado em navegador Web (ambos PC e Mo
 VRE,#1815,5,"O usuário deve fornecer código e senha. Além disso, deve haver uma informação sobre o código esperado. Em caso de troca de senha por parte do médico assistido, a sessão é encerrada, e o usuário é conduzido à tela de login.","1,2",25
 VRE,#1817,7,"O usuário deve fornecer código e senha. Além disso, deve haver uma informação sobre o código esperado. Em caso de troca de senha por parte do médico assistido, a sessão é encerrada, e o usuário é conduzido à tela de login.","1,2",25
 VRE,#1818,8,"O usuário deve fornecer código e senha. Além disso, deve haver uma informação sobre o código esperado. Em caso de troca de senha por parte do médico assistido, a sessão é encerrada, e o usuário é conduzido à tela de login.","1,2",25
+Event Driven System for Business Services Integration,#242-1,1,Ao acessar tela de listagem de categoria de lojas os dados cadastrados devem ser exibidos,"1,2",15
+Event Driven System for Business Services Integration,#242-1,2,Ao acessar tela de listagem de categorias e não houver dados cadastrados uma mensagem deverá ser exibida,"1,2",16
+Event Driven System for Business Services Integration,#242-1,3,Ao acessar a tela de listagem deverá aparecer no máximo 10 linhas por página,"1,2",17
+Event Driven System for Business Services Integration,#242-1,4,A tela deve permitir a listagem ao digitar um valor.,"1,2",18
+Event Driven System for Business Services Integration,#242-1,5,"Ao informar um valor inexistente, nenhum valor deverá ser exibido.","1,2",19
+Event Driven System for Business Services Integration,#242-1,6,Ao acessar a tela de listagem sem estar autenticado o sistema deverá redirecionar para tela de login.,"1,2",20
+Event Driven System for Business Services Integration,#242-1,7,Ao acessar a tela de listagem sem estar autorização o sistema deverá redirecionar para tela 404.,"1,2",21
+Event Driven System for Business Services Integration,#242-1,8,"Ao clicar no botão editar, tela de edição deve ser exibida e preenchida com os dados da categoria de loja","1,2",49
+Event Driven System for Business Services Integration,#242-1,9,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, o tipo de loja deve ser excluído","1,2",50
+Event Driven System for Business Services Integration,#242-1,10,"Ao clicar no botão adicionar, a tela de inserção do tipo de loja deve ser exibida sem dados preenchidos","1,2",51
+Event Driven System for Business Services Integration,#242-1,11,Os ícones excluir e alterar deve ser exibido apenas para usuários ativos,"1,2",52
+Event Driven System for Business Services Integration,#242-2,12,Ao inserir dados e clicar em salvar os dados devem ser armazenados no banco de dados.,"1,2",1
+Event Driven System for Business Services Integration,#242-2,13,Ao não fornecer um dos campos o sistema deve exibir mensagem de campo obrigatório não preenchido.,"1,2",2
+Event Driven System for Business Services Integration,#242-2,14,Ao acessar a tela sem autenticação o sistema deverá redirecionar para a tela de login.,"1,2",4
+Event Driven System for Business Services Integration,#242-2,15,Ao tentar acesar a tela de inserção sem login o sistema deverá redirecionar o usuário para a tela 404.,"1,2",5
+Event Driven System for Business Services Integration,#242-3,16,Ao alterar algum campo ou não e clicar em salvar o usuário deve ser cadastrado com os novos dados registrados.,"1,2",8
+Event Driven System for Business Services Integration,#242-3,17,Ao acessar o tipo de loja os dados da mesma devem estar preenchidos.,"1,2",43
+Event Driven System for Business Services Integration,#242-3,18,Ao inserir um link de um tipo de de loja inexistente um erro 404 deve ser exibido.,"1,2",44
+Event Driven System for Business Services Integration,#242-4,19,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, o tipo de loja deve ser excluído","1,2",50
+Event Driven System for Business Services Integration,#242-3,20,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no tipo de loja","1,2",47
+Event Driven System for Business Services Integration,#243,21,Ao clicar no botão desativar uma loja deverá ser desativada.,"1,2",58
+Event Driven System for Business Services Integration,#253-1,22,Ao acessar tela de listagem de filiais os dados cadastrados devem ser exibidos,"1,2",15
+Event Driven System for Business Services Integration,#253-1,23,Ao acessar tela de listagem de filiais e não houver dados cadastrados uma mensagem deverá ser exibida,"1,2",16
+Event Driven System for Business Services Integration,#253-1,24,Ao acessar a tela de listagem deverá aparecer no máximo 10 linhas por página,"1,2",17
+Event Driven System for Business Services Integration,#253-1,25,A tela deve permitir a listagem ao digitar um valor.,"1,2",18
+Event Driven System for Business Services Integration,#253-1,26,"Ao informar um valor inexistente, nenhum valor deverá ser exibido.","1,2",19
+Event Driven System for Business Services Integration,#253-1,27,Ao acessar a tela de listagem sem estar autenticado o sistema deverá redirecionar para tela de login.,"1,2",20
+Event Driven System for Business Services Integration,#253-1,28,Ao acessar a tela de listagem sem estar autorização o sistema deverá redirecionar para tela 404.,"1,2",21
+Event Driven System for Business Services Integration,#253-1,29,"Ao clicar no botão editar, tela de edição deve ser exibida e preenchida com os dados da filial","1,2",49
+Event Driven System for Business Services Integration,#253-1,30,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a filial deve ser excluída","1,2",50
+Event Driven System for Business Services Integration,#253-1,31,"Ao clicar no botão adicionar, a tela de inserção de filial deve ser exibida sem dados preenchidos","1,2",51
+Event Driven System for Business Services Integration,#253-1,32,Os ícones excluir e alterar deve ser exibido apenas para usuários ativos,"1,2",52
+Event Driven System for Business Services Integration,#253-2,33,Ao inserir dados e clicar em salvar os dados devem ser armazenados no banco de dados.,"1,2",1
+Event Driven System for Business Services Integration,#253-2,34,Ao não fornecer um dos campos o sistema deve exibir mensagem de campo obrigatório não preenchido.,"1,2",2
+Event Driven System for Business Services Integration,#253-2,35,Ao acessar a tela sem autenticação o sistema deverá redirecionar para a tela de login.,"1,2",4
+Event Driven System for Business Services Integration,#253-2,36,Ao tentar acesar a tela de inserção sem login o sistema deverá redirecionar o usuário para a tela 404.,"1,2",5
+Event Driven System for Business Services Integration,#253-3,37,Ao alterar algum campo ou não e clicar em salvar a filial deve ser cadastrada com os novos dados registrados.,"1,2",8
+Event Driven System for Business Services Integration,#253-3,38,Ao acessar a filial os dados da mesma devem estar preenchidos.,"1,2",43
+Event Driven System for Business Services Integration,#253-3,39,Ao inserir um link de uma filial inexistente um erro 404 deve ser exibido.,"1,2",44
+Event Driven System for Business Services Integration,#253-4,40,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a filial deve ser excluída","1,2",50
+Event Driven System for Business Services Integration,#253-3,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na filial","1,2",47
+Event Driven System for Business Services Integration,#253-3,42,"Ao alterar a filial como nome existente, mensagem deve ser exibida","1,2",13
+Event Driven System for Business Services Integration,#273,43,"Listar no Dynaforms, os produtos que foram criados no BCA.","1,2",15
+Event Driven System for Business Services Integration,#292,44,Ao clicar no ícone desativar o produto ativa deverá ser desativada.,"1,2",57
+Event Driven System for Business Services Integration,#274,45,Ao clicar no ícone ativar o produto inativo deverá ser ativada.,"1,2",58
+Event Driven System for Business Services Integration,#282,17,"Habilitar a opção de criar um objeto na entidade a partir de uma planilha. Testar o carregamento de um produto do BCA, convertendo os campos para os nomes que estão no TestLink. Atualmente todo Produto importado do BCA gera um ProdutoFilho e um ProdutoPai Inicialmente, um produto é criado como inativo.","1,2",59

@@ -22,3 +22,7 @@ $ pip3 install scikit-learn
 The file main.py has the main function which calls the recommendation method. The method getRecommendations requires two parameters, the first one is the dictionary representing a new User Story to be registered that must have the following attributes:
 
 - Módulo: The classfication User Story module. The possible values are: Cadastro, Autenticação, and Management.
+
+```
+$ python3 main.py
+```

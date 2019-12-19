@@ -2,18 +2,21 @@ from datahandler import NewUSsDataHandler
 from sklearn.neighbors import NearestNeighbors
 
 
-def get_recommendations(newUS, k):
+def get_recommendations(new_us, base_uss, k):
     data_handler = NewUSsDataHandler()
 
-    df = data_handler.load_filtered_us_data(newUS)
+    df = data_handler.load_filtered_us_data(new_us, base_uss)
     knn = NearestNeighbors(metric='euclidean', algorithm='ball_tree', n_neighbors=k).fit(df)
+
+    # df = data_handler.load_filtered_us_data(newUS, baseUSs)
+    # knn = NearestNeighbors(metric='euclidean', algorithm='ball_tree', n_neighbors=k).fit(base_uss)
 
     # Pega a quantidade de colunas para gerar uma lista de 1.
     l = [1 for i in range(len(df.columns))]
 
     distances, indices = knn.kneighbors([l])
     candidate_uss = df.iloc[indices[0]]
-    candidate_uss['similaridade'] = 1 / (1 + distances[0])
+    candidate_uss.loc[:, 'similaridade'] = 1 / (1 + distances[0])
 
     test_data = data_handler.load_test_data(candidate_uss.index.values)
     test_data = test_data.merge(candidate_uss, left_on='ID_US', right_on='ID_US')

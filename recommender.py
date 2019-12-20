@@ -8,9 +8,6 @@ def get_recommendations(new_us, base_uss, k):
     df = data_handler.load_filtered_us_data(new_us, base_uss)
     knn = NearestNeighbors(metric='euclidean', algorithm='ball_tree', n_neighbors=k).fit(df)
 
-    # df = data_handler.load_filtered_us_data(newUS, baseUSs)
-    # knn = NearestNeighbors(metric='euclidean', algorithm='ball_tree', n_neighbors=k).fit(base_uss)
-
     # Pega a quantidade de colunas para gerar uma lista de 1.
     l = [1 for i in range(len(df.columns))]
 

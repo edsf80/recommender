@@ -7,7 +7,7 @@ RCP,#2376,HWLL-29:[SPEC] Criar usuários utilizando diferentes perfis,5
 RCP,#2376,HWLL-30:[SPEC] Validar comportamento do campo Confirmar Senha,6
 RCP,#2376,HWLL-31:[SPEC] Validar comportamento do campo Matrícula,7
 RCP,#2376,HWLL-32:[SPEC] Validar comportamento do campo Nome,8
-RCP,#2376,HWLL-33:[SPEC] Validar comportamento do campo Função,9
+RCP,#2376,HWLL-33:[SPEC] Validar comportamento do campo Função,34
 RCP,#2376,HWLL-34:[SPEC] Validar comportamento do campo Senha,10
 RCP,#2376,HWLL-35:[SPEC] Validar comportamento do campo Perfil,11
 RCP,#2392,HWLL-36:[SPEC] Validar comportamento do campo Função,12
@@ -16,7 +16,7 @@ RCP,#2392,HWLL-38:[SPEC] Validar comportamento do campo Matrícula,1
 RCP,#2392,HWLL-39:[SPEC] Editar informações do usuário com sucesso,12
 RCP,#2392,HWLL-40:[SPEC] Verificar duplicidade na edição de usuário,11
 RCP,#2392,HWLL-41:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,20
-RCP,#2392,HWLL-42:[TC] Verificar presença do botão "Cancelar",13
+RCP,#2392,"HWLL-42:[TC] Verificar presença do botão ""Cancelar""",13
 RCP,#2392,HWLL-43:[TC] Cancelar edição de usuário com sucesso,14
 RCP,#2399,HWLL-14:[SPEC] Validações de dados,15
 RCP,#2399,HWLL-13:[TC] Verificar acessibilidade às páginas,16
@@ -30,7 +30,7 @@ RCP,#2377,HWLL-22:[SPEC] Verificar acesso por Perfis,14
 RCP,#2377,HWLL-49:[TC] Acessar tela de consulta de OPS sem estar logado a aplicação,15
 RCP,#2377,HWLL-50:[TC] Validar acesso de usuário inativado,16
 RCP,#2377,HWLL-51:[TC] Listar todas as OPs com sucesso,17
-RCP,#2377,HWLL-52:[TC] Validar nomenclatura das colunas listadas,18
+RCP,#2377,HWLL-52:[TC] Validar nomenclatura das colunas listadas,16
 RCP,#2377,HWLL-53:[TC] Validar resultado de consulta por OP's vazia,20
 RCP,#2377,HWLL-54:[TC] Verificar redirecionamento a tela de login após time out,14
 RCP,#2377,HWLL-55:[TC] Validar paginação,18
@@ -39,7 +39,7 @@ RCP,#2383,HWLL-57:[SPEC] Verificar acesso por Perfis,13
 RCP,#2383,HWLL-58:[TC] Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,15
 RCP,#2383,HWLL-59:[TC] Validar acesso de usuário inativado,16
 RCP,#2383,HWLL-60:[TC] Listar todas as Matérias-Primas com sucesso,21
-RCP,#2383,HWLL-61:[TC] Validar nomenclatura das colunas listadas,20
+RCP,#2383,HWLL-61:[TC] Validar nomenclatura das colunas listadas,16
 RCP,#2383,HWLL-62:[TC] Validar resultado de consulta de Matéria-Prima vazia,13
 RCP,#2383,HWLL-63:[TC] Verificar redirecionamento a tela de login após time out,14
 RCP,#2383,HWLL-65:[SPEC] Verificar acesso por Perfis,22
@@ -48,7 +48,7 @@ RCP,#2383,HWLL-71:[TC] Verificar redirecionamento a tela de login após time out
 RCP,#2490,HWLL-64:[TC] Validar paginação,20
 RCP,#2490,HWLL-66:[TC] Acessar tela Consultar produtos finais sem estar logado a aplicação,13
 RCP,#2490,HWLL-68:[TC] Listar todas os produtos finais com sucesso,14
-RCP,#2490,HWLL-69:[TC] Validar nomenclatura das colunas listadas,15
+RCP,#2490,HWLL-69:[TC] Validar nomenclatura das colunas listadas,16
 RCP,#2490,HWLL-70:[TC] Validar resultado de consulta de produtos finais,17
 RCP,#2598-1,HWLL-72:[SPEC] Validar ações no campo Search em Ordens de Produção,18
 RCP,#2383,HWLL-73:[SPEC] Validar ações no campo Search em BOM (matéria-prima),19
@@ -83,7 +83,7 @@ RCP,#2379,HWLL-5:[SPEC] Validar campo Senha,25
 SSPI,#2570,ENERSH-224:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,8
 SSPI,#2570,ENERSH-225:[TC] Verificar duplicidade na edição de Máquinas,7
 SSPI,#2570,ENERSH-226:[SPEC] Validar comportamento do campo Descrição,
-SSPI,#2570,ENERSH-227:[TC] Verificar presença do botão Cancelar,9
+SSPI,#2570,ENERSH-227:[TC] Verificar presença do botão Cancelar,16
 SSPI,#2570,ENERSH-228:[TC] Editar Máquina com sucesso,6
 SSPI,#2570,ENERSH-229:[TC] Cancelar cadastro de Máquinas com sucesso,10
 SSPI,#2570,ENERSH-230:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,26
@@ -91,14 +91,14 @@ SSPI,#2570,ENERSH-231:[TC] Deletar Máquina com sucesso,12
 SSPI,#2570,ENERSH-232:[TC] Cancelar a remoção de uma Máquina,27
 SSPI,#2570,ENERSH-233:[Spec] Validar acesso a lista de Máquinas por perfis,20
 SSPI,#2570,ENERSH-234:[TC] Paginar listagem de Máquinas ao atingir número máximo de linhas,19
-SSPI,#2570,ENERSH-235:[TC] Verificar a presença do botão para criação de uma nova Máquina,27
+SSPI,#2570,ENERSH-235:[TC] Verificar a presença do botão para criação de uma nova Máquina,16
 SSPI,#2570,ENERSH-236:[TC] Verificar a presença de botões de edição para cada Máquina listada,9
-SSPI,#2570,ENERSH-237:[TC] Verificar a presença de botões de exclusão para cada Máquina listada,28
+SSPI,#2570,ENERSH-237:[TC] Verificar a presença de botões de exclusão para cada Máquina listada,16
 SSPI,#2570,ENERSH-238:[TC] Tentar listar Máquina utilizando um usuário inativo,24
 SSPI,#2570,ENERSH-239:[TC] Validar nomenclatura das colunas listadas,16
 SSPI,#2570,ENERSH-240:[TC] Listar todas as Máquina com sucesso,15
-SSPI,#2570,ENERSH-241:[TC] Verificar presença do botão Cancelar,9
-SSPI,#2570,ENERSH-242:[SPEC] Validar comportamento do campo Descrição,29
+SSPI,#2570,"ENERSH-241:[TC] Verificar presença do botão ""Cancelar""",16
+SSPI,#2570,ENERSH-242:[SPEC] Validar comportamento do campo Descrição,34
 SSPI,#2570,ENERSH-243:[SPEC] Validar controle de acesso para criação de nova Máquina,20
 SSPI,#2570,ENERSH-244:[TC] Cadastrar Máquina com sucesso,1
 SSPI,#2570,ENERSH-245:[TC] Verificar duplicidade no cadastro de um tipo de operação já registrado,3
@@ -110,10 +110,10 @@ SSPI,#2278,ENERSH-3:[TC] Validar usuário sem preencher campo $Matricula,31
 SSPI,#2278,ENERSH-4:[SPEC] Validar acesso de usuário Ativo e Inativo,33
 SSPI,#2278,ENERSH-5:[SPEC] Validar campo $Matrícula,34
 SSPI,#2278,ENERSH-6:[SPEC] Validar campo $Senha,34
-SSPI,#2279,ENERSH-82:[TC] Validar presença do botão Sair,17
+SSPI,#2279,"ENERSH-82:[TC] Validar presença do botão ""Sair""",17
 SSPI,#2279,ENERSH-7:[TC] Validar redirecionamento a página de login ao clicar no botão <Sair>,35
 SSPI,#2279,ENERSH-8:[TC] Validar se sistema ainda ficará logado caso feche a sessão e abra novamente,36
-SSPI,#2279,ENERSH-9:[TC] Validar ação do clique no botão Sair na ausência de conexão com o servidor,37
+SSPI,#2279,"ENERSH-9:[TC] Validar ação do clique no botão ""Sair"" na ausência de conexão com o servidor",37
 SSPI,#2276,ENERSH-48:[TC] Cadastrar usuário com sucesso,1
 SSPI,#2276,ENERSH-50:[TC] Cadastrar mais de um Administrador no sistema,38
 SSPI,#2276,ENERSH-51:[TC] Cadastrar usuário informando senhas diferentes nos campos senha e confirmação,39
@@ -139,7 +139,7 @@ SSPI,#2277,ENERSH-69:[SPEC] Editar informações do usuário com sucesso,6
 SSPI,#2277,ENERSH-70:[TC] Verificar duplicidade de nome na edição de usuário,7
 SSPI,#2277,ENERSH-71:[TC] Verificar duplicidade de matricula na edição de usuário,7
 SSPI,#2277,ENERSH-72:[TC] Verificar duplicidade de perfil administrador na edição de usuário,38
-SSPI,#2277,ENERSH-73:[TC] Verificar presença do botão Cancelar,27
+SSPI,#2277,"ENERSH-73:[TC] Verificar presença do botão ""Cancelar""",16
 SSPI,#2252,ENERSH-68:[TC] Validar acesso de usuário inativo,24
 SSPI,#2252,ENERSH-66:[TC] Selecionar dois ou mais filtros para visualização das OPs,21
 SSPI,#2252,ENERSH-65:[SPEC] Verificar filtro de visualização,21
@@ -155,7 +155,7 @@ SSPI,#2589-2,ENERSH-86:[TC] Verificar a presença de botões de exclusão para c
 SSPI,#2589-2,ENERSH-85:[TC] Tentar listar Tipos de Problemas utilizando um usuário inativo,24
 SSPI,#2589-2,ENERSH-83:[TC] Listar todos tipos de problemas com sucesso,15
 SSPI,#2589-2,ENERSH-84:[TC] Validar nomenclatura das colunas listadas,16
-SSPI,#2589-1,ENERSH-98:[TC] Verificar presença do botão Cancelar,27
+SSPI,#2589-1,"ENERSH-98:[TC] Verificar presença do botão ""Cancelar""",16
 SSPI,#2589-1,ENERSH-95:[SPEC] Validar controle de acesso para criação de novos tipos de problemas,20
 SSPI,#2589-1,ENERSH-91:[TC] Cadastrar Tipos de Problemas com sucesso,1
 SSPI,#2589-1,ENERSH-92:[TC] Verificar duplicidade no cadastro de um tipo de problema já registrado,3
@@ -163,7 +163,7 @@ SSPI,#2589-1,ENERSH-93:[TC] Cadastrar tipo de problema sem informar nenhum campo
 SSPI,#2589-1,ENERSH-97:[TC] Cancelar cadastro de Tipo de Problema com sucesso,2
 SSPI,#2589-3,ENERSH-103:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,8
 SSPI,#2589-3,ENERSH-108:[TC] Verificar duplicidade na edição do tipo de problema,7
-SSPI,#2589-3,ENERSH-112:[TC] Verificar presença do botão Cancelar,9
+SSPI,#2589-3,ENERSH-112:[TC] Verificar presença do botão Cancelar,16
 SSPI,#2589-3,ENERSH-99:[TC] Editar Tipo do Problema com sucesso,6
 SSPI,#2589-3,ENERSH-111:[TC] Cancelar edição de Tipo de Problema com sucesso,10
 SSPI,#2589-4,ENERSH-124:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,26
@@ -182,7 +182,7 @@ SSPI,#2598-1,ENERSH-117:[TC] Verificar a presença de botões de exclusão para 
 SSPI,#2598-1,ENERSH-118:[TC] Tentar listar Tipos de operações utilizando um usuário inativo,33
 SSPI,#2598-1,ENERSH-119:[TC] Validar nomenclatura das colunas listadas,16
 SSPI,#2598-1,ENERSH-120:[TC] Listar todos tipos de operações com sucesso,15
-SSPI,#2598-2,ENERSH-125:[TC] Verificar presença do botão Cancelar,27
+SSPI,#2598-2,"ENERSH-125:[TC] Verificar presença do botão ""Cancelar""",16
 SSPI,#2598-2,ENERSH-127:[SPEC] Validar controle de acesso para criação de novos tipos de operações,20
 SSPI,#2598-2,ENERSH-128:[TC] Cadastrar Tipos de operações com sucesso,1
 SSPI,#2598-2,ENERSH-129:[TC] Verificar duplicidade no cadastro de um tipo de operação já registrado,3
@@ -197,7 +197,7 @@ VRE,#1804,Create user with input validation,1
 VRE,#1804,Associate organization with user,6
 VRE,#1804,Edit user,6
 VRE,#1804,Edit project with previously registered name,6
-VRE,#1804,Ações do botão Voltar na tela de Histórico de Check-in (Administrador),27
+VRE,#1804,Ações do botão Voltar na tela de Histórico de Check-in (Administrador),34
 VRE,#1804,Teste estático de arquivo de tradução (plataforma Android),41
 VRE,#1806,Cancel deleting project,27
 VRE,#1806,Filter project,21
@@ -233,8 +233,8 @@ VRE,#1818,Exploratory Test: Fault Tolerance for Diagnostics,
 VRE,#1818,Exploratory Test: Fault Tolerance for Diagnostics,
 VRE,#1818,Exploratory Test: Functional for Settings,
 VRE,#1818,Exploratory Test: Functional for Settings,
-Event Driven System for Business Services Integration,#242,Editar usuário com campo E-mail vazio.,8
-Event Driven System for Business Services Integration,#243,Marcar convidados listados na pesquisa como convite enviado Event Driven System for Business Services Integration,21
+Event Driven System for Business Services Integration,#242-3,"Editar usuário com campo ""E-mail"" vazio.",8
+Event Driven System for Business Services Integration,#243,"Marcar convidados listados na pesquisa como ""convite enviado"" ""Event Driven System for Business Services Integration",21
 Event Driven System for Business Services Integration,#282,Fechamento do programa antes da execução ser finalizada.,36
 Event Driven System for Business Services Integration,#282,Limite de caracteres para o filtro Route_Desc,16
 Event Driven System for Business Services Integration,#282,Exibição de filtros aplicados no arquivo exportado,16
@@ -249,54 +249,322 @@ Event Driven System for Business Services Integration,#275,Cancel date picking f
 Event Driven System for Business Services Integration,#275,Ocultar e exibir todas as colunas do formulário,16
 Event Driven System for Business Services Integration,#292,US11516 - Verificar o tamanho máximo da foto,
 Event Driven System for Business Services Integration,#291,US11516 - Verificar o tamanho máximo da foto,
-Event Driven System for Business Services Integration,#253,Deselecionar convidados filtrados por status,6
-Event Driven System for Business Services Integration,#253,Criar Outros Links com nome já adicionado em outro link no mesmo evento específico.,7
-Event Driven System for Business Services Integration,#253,Validar apresentação de detalhes no card de um app tipo Aplicativo sem versão.,9
-Event Driven System for Business Services Integration,#253,Pesquisar administrador por nome.,17
-Event Driven System for Business Services Integration,#253,Validar apresentação de detalhes no card de um app tipo Game sem versão,
-Event Driven System for Business Services Integration,#253,Validações de campos durante a criação de Outros Links evento específico,
-Event Driven System for Business Services Integration,#253,Remover categoria adicionada na criação de evento,
-Event Driven System for Business Services Integration,#253,Filtrar convidados por dados profissionais,
-Event Driven System for Business Services Integration,#257,Cadastrar um plano de teste,
-Event Driven System for Business Services Integration,#257,Associar suítes ao plano de teste com alguns casos de testes iguais,
-Event Driven System for Business Services Integration,#264,Remover Configuração de Insumo com sucesso,
+Event Driven System for Business Services Integration,#253-1,Deselecionar convidados filtrados por status,16
+Event Driven System for Business Services Integration,#253-2,"Criar ""Outros Links"" com nome já adicionado em outro link no mesmo evento específico.",3
+Event Driven System for Business Services Integration,#253-3,Validar apresentação de detalhes no card de um app tipo Aplicativo sem versão.,16
+Event Driven System for Business Services Integration,#253-1,Pesquisar administrador por nome.,17
+Event Driven System for Business Services Integration,#253-3,Validar apresentação de detalhes no card de um app tipo Game sem versão,16
+Event Driven System for Business Services Integration,#253-2,"Validações de campos durante a criação de ""Outros Links"" evento específico",34
+Event Driven System for Business Services Integration,#253-4,Remover categoria adicionada na criação de evento,12
+Event Driven System for Business Services Integration,#253-1,Filtrar convidados por dados profissionais,21
+Event Driven System for Business Services Integration,#257,Cadastrar um plano de teste,1
+Event Driven System for Business Services Integration,#257,Associar suítes ao plano de teste com alguns casos de testes iguais,6
+Event Driven System for Business Services Integration,#264,Remover Configuração de Insumo com sucesso,12
 Event Driven System for Business Services Integration,#264,Gráfico de Pessoas,
-Event Driven System for Business Services Integration,#267,Action the of Close button in all screens to Device SetUp,
-Event Driven System for Business Services Integration,#268,Exibir Clientes Ativos,
+Event Driven System for Business Services Integration,#267,"Action the of ""Close"" button in all screens to Device SetUp",
+Event Driven System for Business Services Integration,#268,Exibir Clientes Ativos,15
 Event Driven System for Business Services Integration,#268,Gráfico de detalhe de Região,
-Event Driven System for Business Services Integration,#263,Limite de caracteres para peso da Cola,
+Event Driven System for Business Services Integration,#263,Limite de caracteres para peso da Cola,34
 Event Driven System for Business Services Integration,#263,Finalizar uso de Cola na Máquina de Cola com peso inválido,
-Event Driven System for Business Services Integration,#263,Validação da seção Participação em Eventos Event Driven System for Business Services Integration,
+Event Driven System for Business Services Integration,#263,"Validação da seção ""Participação em Eventos"" ""Event Driven System for Business Services Integration",
 Event Driven System for Business Services Integration,#328,Reprodução e compartilhamento de áudio sem conexão com Internet,
 Event Driven System for Business Services Integration,#328,Ações do menu quando sistema administrativo está indisponível durante transmissão de streaming,
 Event Driven System for Business Services Integration,#328,Realizar Descarte de Pasta de Solda com sucesso através de QR Code do Engenheiro,
 Event Driven System for Business Services Integration,#328,Verificar alteração do cliente ao realizar novo check-in,
 Event Driven System for Business Services Integration,#328,Remover microfone do receptor durante transmissão [Desktop],
-Event Driven System for Business Services Integration,#328,Explorar exibição de toasts de erro e modificações,
+Event Driven System for Business Services Integration,#328,Explorar exibição de toasts de erro e modificações,42
 Event Driven System for Business Services Integration,#328,Finalizar uso de Pasta de Solda na Máquina de Pasta de Solda com peso inválido,
 Event Driven System for Business Services Integration,#328,Exportar tabela de Pasta de Solda,
 Event Driven System for Business Services Integration,#328,Validar Log de Cola descartada,
 Event Driven System for Business Services Integration,#328,Tempo de áudio após remoção de microfone,
 Event Driven System for Business Services Integration,#253,Save and Continue for Critical Task - no critical files uploaded,
-Event Driven System for Business Services Integration,#242,Action of the top of page button on the Cover timeline screen,
-Event Driven System for Business Services Integration,#242,Scrolling action on the timeline on the Cover Timeline screen,
-Event Driven System for Business Services Integration,#243,Filtrar auditoria por (Usuário) como Administrador de dispositivo no MDM Web,
+Event Driven System for Business Services Integration,#242,"Action of the ""top of page"" button on the ""Cover timeline"" screen",
+Event Driven System for Business Services Integration,#242,"Scrolling action on the timeline on the ""Cover Timeline"" screen",
+Event Driven System for Business Services Integration,#243,Filtrar auditoria por (Usuário) como Administrador de dispositivo no MDM Web,21
 Event Driven System for Business Services Integration,#243,Verificar que ações realizadas por Super Usuário não são exibidas para Administrador de dispositivo no MDM Web,
 Event Driven System for Business Services Integration,#243,Access a Skype meeting successfully.,
-Event Driven System for Business Services Integration,#242,Validate reset function in the field Reset All Counters in device Transponder Event Driven System for Business Services Integration,
-Event Driven System for Business Services Integration,#3908,Limite de caracteres para os filtros,
+Event Driven System for Business Services Integration,#242-3,"Validate reset function in the field""Reset All Counters"" in device ""Transponder"" ""Event Driven System for Business Services Integration",6
+Event Driven System for Business Services Integration,#3908,Limite de caracteres para os filtros,34
 Event Driven System for Business Services Integration,#3908,Persistência das colunas ocultas de Rotas na sessão do navegador,
 Event Driven System for Business Services Integration,#3908,Fechamento do programa antes da execução ser finalizada.,
 Event Driven System for Business Services Integration,#3908,Reconfigurar Rede Ethernet após erros,
-Event Driven System for Business Services Integration,#3908,Limite de caracteres para o filtro Route_Desc,
-Event Driven System for Business Services Integration,#3908,Exibição de filtros aplicados no arquivo exportado,
-Event Driven System for Business Services Integration,#260,Limite de caracteres para peso da Cola,
+Event Driven System for Business Services Integration,#3908,Limite de caracteres para o filtro Route_Desc,34
+Event Driven System for Business Services Integration,#3908,Exibição de filtros aplicados no arquivo exportado,21
+Event Driven System for Business Services Integration,#260,Limite de caracteres para peso da Cola,34
 Event Driven System for Business Services Integration,#260,Finalizar uso de Cola na Máquina de Cola com peso inválido,
-Event Driven System for Business Services Integration,#260,Validação da seção Participação em Eventos Event Driven System for Business Services Integration,
-Event Driven System for Business Services Integration,#265,Action the of Close button in all screens to Device SetUp,
-Event Driven System for Business Services Integration,#266,Exibir Clientes Ativos,
+Event Driven System for Business Services Integration,#260,"Validação da seção ""Participação em Eventos"" ""Event Driven System for Business Services Integration",
+Event Driven System for Business Services Integration,#265,"Action the of ""Close"" button in all screens to Device SetUp",
+Event Driven System for Business Services Integration,#266,Exibir Clientes Ativos,15
 Event Driven System for Business Services Integration,#266,Gráfico de detalhe de Região,
 Event Driven System for Business Services Integration,#282,Persistência das colunas ocultas de Rotas na sessão do navegador,
 Event Driven System for Business Services Integration,#263,Imprimir intervalo completo de etiquetas com sucesso,
 Event Driven System for Business Services Integration,#255,Exportar tabela de Pasta de Solda,
 Event Driven System for Business Services Integration,#260,Imprimir intervalo completo de etiquetas com sucesso,
+Game Marketing Manager,#997,Menu dashboard da aplicação (Garantir que as opções do menu dashboard estão sendo exibidas e que é possível clicar em cada opção e acessar sua página específica.),20
+Game Marketing Manager,#997,Apresentação do menu principal,20
+Game Marketing Manager,#997,Dashboard - Inspeção de compatibilidade,20
+Game Marketing Manager,#997-1,"Validações do campo ""Name"" no form Edit Group",34
+Game Marketing Manager,#997-2,Inspeção de usabilidade das ações do botão Fab nas telas de listagem de Configurações,16
+Game Marketing Manager,#997-3,Inspeção de usabilidade das ações do botão Fab nas telas de listagem de Evento,16
+Game Marketing Manager,#997-4,Permissões de usuários para Apps,20
+Game Marketing Manager,#997-5,Permissões de usuários para Itens de Publicidade,20
+Game Marketing Manager,#997-6,Permissões de usuários para Campanhas,20
+Game Marketing Manager,#997-7,Permissões de usuários para Listagem de participantes,20
+Game Marketing Manager,#997-8,Permissões de usuários para Jogadores,20
+Game Marketing Manager,#997-9,Permissões de usuários para Push,20
+Game Marketing Manager,#997-10,Permissões de usuários para Regiões,20
+Game Marketing Manager,#997-11,Permissões de usuários para Grupos,20
+Game Marketing Manager,#997-12,Permissões de usuários para Configurações,20
+Game Marketing Manager,#997-13,Permissões de usuário para Usuários,20
+Game Marketing Manager,#1006,"Add Server's datetime and API version to services' header (Validações do campo ""Name"" no form Edit Group)",34
+Game Marketing Manager,#1028,Cadastrar eventos com sucesso,1
+Game Marketing Manager,#1028,Cancelar cadastro de eventos com sucesso,2
+Game Marketing Manager,#1028,Cadastrar eventos sem campos obrigatórios preenchidos,4
+Game Marketing Manager,#1028,Verificar presença de campos na tela de inserção,16
+Game Marketing Manager,#1028,Verificar comportamento máximo de 50 caracteres do campo nome,34
+Projeto AR Tools Web,#11971-1,Cadastro com dados inválidos - dados pessoais,43
+Projeto AR Tools Web,#11971-2,Paginação de perfis - única página,19
+Projeto AR Tools Web,#11971-2,Validar se os perfis estão sendo listados corretamente,16
+Projeto AR Tools Web,#11971-3,Validar se as permissões estão sendo listadas corretamente,16
+Projeto AR Tools Web,#11971-3,Validar paginação das permissões,19
+Projeto AR Tools Web,#11971-1,Cadastro de perfil com dados válidos,1
+TVD II,#1611,TVD-18:[TC] Cadastrar usuário com sucesso,1
+TVD II,#1611,TVD-44:[SPEC] Validar comportamento do campo Confirmar Senha,34
+TVD II,#1611,TVD-42:[SPEC] Validar comportamento do campo Telefone,34
+TVD II,#1611,TVD-20:[TC] Cancelar cadastro de usuário com sucesso,2
+TVD II,#1611,TVD-24:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,4
+TVD II,#1611,TVD-29:[SPEC] Verificar duplicidade no cadastro de usuário,3
+TVD II,#1611,TVD-32:[SPEC] Criar usuários utilizando diferentes perfis,5
+TVD II,#1611,TVD-35:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1611,TVD-37:[SPEC] Validar comportamento do campo Email,34
+TVD II,#1611,TVD-38:[SPEC] Validar comportamento do campo Senha,25
+TVD II,#1611,TVD-40:[SPEC] Validar comportamento do campo Perfil,34
+TVD II,#1610,TVD-57:[TC] Fechar tela de inativação antes de efetuar a ação de desabilitar,26
+TVD II,#1610,TVD-56:[TC] Cancelar a inativação de um usuário,10
+TVD II,#1610,TVD-55:[TC] Inativar usuário com sucesso,9
+TVD II,#1610-2,TVD-15:[TC] Verificar a presença do botão para criação de um novo usuário,16
+TVD II,#1610-2,TVD-14:[TC] Verificar a presença de botões de inativação para cada usuário listado,16
+TVD II,#1610-2,TVD-2:[TC] Validar nomenclatura das colunas listadas,16
+TVD II,#1610-2,TVD-7:[TC] Listar todos os usuários com sucesso,15
+TVD II,#1610-2,TVD-12:[TC] Tentar listar usuários utilizando um usuário inativo,24
+TVD II,#1610-2,TVD-8:[SPEC] Validar acesso a lista de usuários por perfis,20
+TVD II,#1610-2,TVD-13:[TC] Verificar a presença de botões de edição para cada usuário listado,16
+TVD II,#1610-2,TVD-16:[TC] Paginar listagem de usuários ao atingir número máximo de linhas,19
+TVD II,#1610-3,TVD-52:[SPEC] Validar comportamento do campo Telefone,34
+TVD II,#1610-3,TVD-51:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1610-3,TVD-50:[SPEC] Validar comportamento do campo Email,34
+TVD II,#1610-3,TVD-46:[SPEC] Editar informações do usuário com sucesso,6
+TVD II,#1610-3,TVD-47:[SPEC] Verificar duplicidade na edição de usuário,7
+TVD II,#1610-3,TVD-49:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,8
+TVD II,#1610-3,TVD-53:[TC] Cancelar edição de usuário com sucesso,10
+TVD II,#1610-3,"TVD-54:[TC] Verificar presença do botão ""Cancelar""",16
+TVD II,#1612,TVD-58:[Spec] Buscar usuários,21
+TVD II,#1612,TVD-59:[Spec] Validar acesso ao Search de usuários por perfis,20
+TVD II,#1612,TVD-60:[TC] Tentar pesquisar usuários utilizando um usuário inativo,24
+TVD II,#1612,TVD-61:[TC] Realizar pesquisa informando caracteres especiais,34
+TVD II,#1612,TVD-62:[TC] Realizar pesquisa informando espaços em branco,34
+TVD II,#1612,TVD-63:[TC] Pesquisar Usuários informando campo de pesquisa vazio,15
+TVD II,#1612,TVD-64:[TC] Pesquisar por Usuário inexistente,17
+TVD II,#1612,TVD-65:[TC] Pesquisar por Usuário inativados do sistema,21
+TVD II,#1594,TVD-106:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,13
+TVD II,#1594,TVD-111:[SPEC] Validar se página é redirecionada ao colar link em outra aba do navegador,13
+TVD II,#1594,TVD-201:[TC] Validar usuário informando um nome sem domínio de e-mail,34
+TVD II,#1594,TVD-206:[SPEC] Validar usuário informando um e-mail,34
+TVD II,#1594,TVD-219:[SPEC] Validar campo Login,34
+TVD II,#1594,TVD-235:[SPEC] Validar campo Senha,34
+TVD II,#1594,"TVD-238:[TC] Validar redirecionamento à página de login quando o usuário clicar no botão ""Sair""",35
+TVD II,#1594,TVD-239:[TC] Validar se sistema ainda ficará logado caso feche a sessão e abra novamente,36
+TVD II,#1594,"TVD-240:[TC] Validar ação do clique no botão ""Sair"" na ausência de conexão com o servidor",37
+TVD II,#1604,TVD-3:[TC] Incluir dispositivo já existente no banco de dados,3
+TVD II,#1604,TVD-4:[TC] Incluir dispositivo com sucesso,1
+TVD II,#1604,TVD-5:[TC] Cadastrar dispositivos deixando todos os campos em branco,4
+TVD II,#1604,"TVD-9:[TC] Verificar se existe ""TimeOut"" da sessão",18
+TVD II,#1604,TVD-10:[TC] Validar adição de novo dispositivo junto ao Banco de Dados,1
+TVD II,#1604,TVD-11:[SPEC] Verificar layout na tela para Cadastro de Dispositivo,16
+TVD II,#1604,"TVD-17:[SPEC] Validar campo ""Nome""",34
+TVD II,#1604,"TVD-48:[SPEC] Validar campo ""Descrição""",34
+TVD II,#1602,TVD-45:[TC] Verificar se perfil de usuário não Administrador consegue Listar algum dispositivo,20
+TVD II,#1602,TVD-78:[TC] Verificar se perfil de usuário Administrador consegue Listar algum dispositivo,20
+TVD II,#1602,TVD-79:[SPEC] Validar cabeçalhos da tabela,16
+TVD II,#1602,TVD-80:[TC] Validar comportamento dos botão Exclusão,34
+TVD II,#1602,TVD-81:[TC] Validar comportamento dos botão Edição,34
+TVD II,#1602,TVD-85:[TC] Validar paginação da tabela: 10 linhas,19
+TVD II,#1602-2,TVD-27:[TC] Verificar layout da tela de confirmação da Exclusão,16
+TVD II,#1602-2,TVD-28:[TC] Deletar dispositivo com sucesso,12
+TVD II,#1602-2,TVD-30:[TC] Cancelar a remoção de um dispositivo,27
+TVD II,#1602-2,TVD-31:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,26
+TVD II,#1602-2,TVD-33:[TC] Verificar se perfil de usuário não Administrador consegue Excluir algum dispositivo,20
+TVD II,#1602-3,TVD-41:[TC] Verificar se perfil de usuário não Administrador consegue Editar algum dispositivo,20
+TVD II,#1602-3,TVD-34:[TC] Cancelar a edição de um dispositivo,10
+TVD II,#1602-3,TVD-36:[TC] Verificar clique fora do modal de edição,34
+TVD II,#1602-3,TVD-43:[TC] Editar dispositivo deixando todos os campos de texto do formulário em branco,8
+TVD II,#1602-3,TVD-67:[SPEC] Validar layout de campos do formulário modal Edição,16
+TVD II,#1602-3,TVD-71:[SPEC] Validar campo Nome,34
+TVD II,#1602-3,TVD-76:[SPEC] Validar campo Descrição,34
+TVD II,#1603,TVD-88:[TC] Verificar nomenclatura do campo Pesquisa,16
+TVD II,#1603,"TVD-89:[TC] Verificar se campo é ""case sensitive""",34
+TVD II,#1603,TVD-90:[TC] Verificar quantidade máxima de caracteres campo Pesquisa,34
+TVD II,#1603,TVD-91:[TC] Validar ação do botão da Lupa,34
+TVD II,#1603,TVD-92:[TC] Validar ação ao digitar caracteres no campo Pesquisa com iniciais de dispositivo cadastrado,34
+TVD II,#1603,TVD-94:[TC] Validar ação ao digitar caracteres no campo Pesquisa com iniciais de disp. NÃO cadastrados,34
+TVD II,#1603,TVD-103:[TC] Validar se usuário Não Administrador consegue realizar pesquisa no campo Pesquisa,20
+TVD II,#1613-1,TVD-86:[SPEC] Validar comportamento do campo Descrição,34
+TVD II,#1613-1,TVD-84:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1613-1,TVD-82:[SPEC] Validar acesso a criação de itens de avaliação por perfis,20
+TVD II,#1613-1,TVD-70:[TC] Criar item de avaliação sem informar campos obrigatórios,4
+TVD II,#1613-1,TVD-69:[TC] Criar item de avaliação com a mesma nomenclatura,3
+TVD II,#1613-1,TVD-68:[TC] Criar item de avaliação com sucesso,1
+TVD II,#1613-1,TVD-72:[TC] Cancelar criação de item de avaliação com sucesso,2
+TVD II,#1613-1,TVD-73:[TC] Verificar clique fora da janela de criação,34
+TVD II,#1613-1,TVD-75:[TC] Criar item de avaliação com o nome de um que tenha sido recentemente excluído,29
+TVD II,#1613-1,TVD-83:[TC] Tentar criar item de avaliação utilizando um usuário inativo,24
+TVD II,#1613-2,TVD-115:[TC] Cancelar a remoção de um Item de Avaliação,27
+TVD II,#1613-2,TVD-77:[TC] Deletar Itens de Avaliação com sucesso,12
+TVD II,#1614,TVD-107:[TC] Paginar listagem de métricas ao atingir número máximo de linhas,19
+TVD II,#1614,TVD-105:[TC] Verificar a presença do botão para edição de uma nova métrica,16
+TVD II,#1614,TVD-104:[TC] Verificar a presença do botão para criação de uma nova métrica,16
+TVD II,#1614,TVD-102:[TC] Verificar a presença de botões de exclusão para cada métrica listada,16
+TVD II,#1614,TVD-101:[TC] Verificar a presença do botão para criação de um novo item,16
+TVD II,#1614,TVD-100:[TC] Verificar a presença de botões de exclusão para cada item listado,16
+TVD II,#1614,TVD-98:[TC] Tentar listar itens utilizando um usuário inativo,24
+TVD II,#1614,TVD-97:[SPEC] Validar acesso a lista de Itens por perfis,20
+TVD II,#1614,TVD-96:[TC] Listar todas as métricas de um item com sucesso,15
+TVD II,#1614,TVD-93:[TC] Listar todos os Itens em tabs com sucesso,15
+TVD II,#1614,TVD-95:[TC] Validar nomenclatura das tabs listadas,16
+TVD II,#1614,TVD-87:[TC] Paginar listagem de itens ao atingir número máximo de tabs,19
+TVD II,#1615,TVD-114:[TC] Tentar criar métricas de avaliação utilizando um usuário inativo,24
+TVD II,#1615,TVD-113:[SPEC] Validar acesso a criação de métricas de avaliação por perfis,20
+TVD II,#1615,TVD-112:[SPEC] Validar comportamento do campo Descrição Métricas,34
+TVD II,#1615,TVD-110:[TC] Criar métrica de avaliação sem informar campos obrigatórios,4
+TVD II,#1615,TVD-109:[TC] Criar métrica de avaliação sem possuir um item de avaliação,4
+TVD II,#1615,TVD-108:[TC] Criar métricas de avaliação com sucesso,1
+TVD II,#1617,TVD-276:[TC] Realizar busca de relatório com sucesso,15
+TVD II,#1617,TVD-277:[TC] Tentar pesquisar dispositivos utilizando um usuário inativo,24
+TVD II,#1617,TVD-278:[TC] Validar resultado ao buscar relatório pelo nome do usuário,21
+TVD II,#1617,TVD-279:[TC] Validar resultado ao buscar relatório pela data,21
+TVD II,#1617,TVD-280:[TC] Validar comportamento do sistema para uma busca sem resultados,17
+TVD II,#1617,TVD-281:[TC] Validar ação do botão da Lupa,34
+TVD II,#1617,TVD-283:[TC] Validar ação ao digitar caracteres no campo Pesquisa com iniciais de dispositivo cadastrado,34
+TVD II,#1617,TVD-284:[TC] Validar ação ao digitar caracteres no campo Pesquisa com iniciais de disp. NÃO cadastrados,34
+TVD II,#1617,TVD-286:[Spec] Validar acesso a pesquisa de dispositivos por perfis,20
+TVD II,#1617,TVD-289:[SPEC] Validações de campo Search,34
+TVD II,#1619,"TVD-292:[SPEC] Validações de ação do botão ""Visualizar""",34
+TVD II,#1619,TVD-293:[SPEC] Validar dados gerais da tela de visualização,16
+TVD II,#1619,TVD-294:[SPEC] Validar tela de Sumário,16
+TVD II,#1619,TVD-295:[SPEC] Validar informações detalhadas,16
+TVD II,#1618,TVD-275:[SPEC] Filtrar Relatórios informando filtros de datas que não possuam relatórios associados,17
+TVD II,#1618,TVD-274:[SPEC] Filtrar Relatórios informando filtros de datas que possuam relatórios associados,17
+TVD II,#1618,TVD-282:[TC] Tentar realizar uma pesquisa de relatórios utilizando Data Inicial em formato inválido,44
+TVD II,#1618,TVD-285:[TC] Tentar realizar uma pesquisa de relatórios utilizando Data Final em formato inválido,44
+TVD II,#1618,TVD-288:[TC] Tentar realizar uma pesquisa de relatórios utilizando a primeira Data disponibilizada,44
+TVD II,#1618,TVD-287:[TC] Tentar realizar uma pesquisa de relatórios utilizando a última Data disponibilizada,44
+TVD II,#1618,TVD-290:[SPEC] Validar comportamento do campo Data Inicial,34
+TVD II,#1618,TVD-291:[SPEC] Validar comportamento do campo Data Final,34
+TVD II,#1620,TVD-267: [SPEC] Validar acesso para realizar Download de relatório,20
+TVD II,#1620,TVD-266:[SPEC] Realizar download de um relatório de Avaliação,45
+TVD II,#1620,TVD-269:[TC] Gerar PDF de relatório com sucesso,46
+TVD II,#1620,TVD-270:[TC] Tentar gerar arquivo de Relatório em um formato diferente de PDF,47
+TVD II,#1620,TVD-271:[TC] Validar nomenclatura do arquivo PDF gerado,48
+TVD II,#1620,TVD-273:[TC] Validar consistência da estrutura do arquivo PDF gerada,16
+TVD II,#1627,TVD-334:[SPEC] Editar informações do usuário com sucesso,6
+TVD II,#1627,TVD-335:[SPEC] Verificar duplicidade na edição de usuário,7
+TVD II,#1627,TVD-336:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,8
+TVD II,#1627,TVD-350:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1627,TVD-333:[SPEC] Validar comportamento do campo Email,34
+TVD II,#1627,TVD-351:[SPEC] Validar comportamento do campo Perfil,34
+TVD II,#1627,TVD-337:[TC] Cancelar edição de usuário com sucesso,10
+TVD II,#1627,"TVD-338:[TC] Verificar presença do botão ""Cancelar""",16
+TVD II,#1627,TVD-352:[TC] Editar Usuário no App Mobile e verificar sua modificação na Plataforma Web,6
+TVD II,#1626,TVD-339:[Spec] Buscar usuários,15
+TVD II,#1626,TVD-340:[Spec] Validar acesso ao Search de usuários por perfis,20
+TVD II,#1626,TVD-341:[TC] Tentar pesquisar usuários utilizando um usuário inativo,24
+TVD II,#1626,TVD-342:[TC] Realizar pesquisa informando caracteres especiais,34
+TVD II,#1626,TVD-343:[TC] Realizar pesquisa informando espaços em branco,34
+TVD II,#1626,TVD-344:[TC] Pesquisar Usuários informando campo de pesquisa vazio,15
+TVD II,#1626,TVD-345:[TC] Pesquisar por Usuário inexistente,17
+TVD II,#1626,TVD-346:[TC] Pesquisar por Usuário inativados do sistema,21
+TVD II,#1629,TVD-311:[TC] Cadastrar usuário com sucesso,1
+TVD II,#1629,TVD-313:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,4
+TVD II,#1629,TVD-347:[TC] Cadastrar usuário informando email inválido,43
+TVD II,#1629,TVD-314:[SPEC] Verificar duplicidade no cadastro de usuário,3
+TVD II,#1629,TVD-315:[SPEC] Criar usuários utilizando diferentes perfis,5
+TVD II,#1629,TVD-316:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1629,TVD-317:[SPEC] Validar comportamento do campo Email,34
+TVD II,#1629,TVD-319:[SPEC] Validar comportamento do campo Perfil,34
+TVD II,#1629,TVD-312:[TC] Cancelar cadastro de usuário com sucesso,1
+TVD II,#1629,TVD-348:[TC] Cadastrar Usuário no App Mobile e verificar sua existência na Plataforma Web,6
+TVD II,#1629,"TVD-349:[TC] Verificar presença do botão ""Cancelar""",16
+TVD II,#1628,TVD-354:[TC] Verificar clique fora da janela de exclusão,34
+TVD II,#1628,TVD-353:[TC] Excluir Usuário no App Mobile e verificar sua exclusão na Plataforma Web,34
+TVD II,#1628,TVD-320:[TC] Fechar tela de inativação antes de efetuar a ação de desabilitar,26
+TVD II,#1628,TVD-321:[TC] Cancelar a inativação de um usuário,10
+TVD II,#1628,TVD-322:[TC] Inativar usuário com sucesso,9
+TVD II,#1626-2,TVD-326:[TC] Listar todos os usuários com sucesso,15
+TVD II,#1626-2,TVD-325:[TC] Validar nomenclatura das colunas listadas,16
+TVD II,#1626-2,TVD-328:[SPEC] Validar acesso a lista de usuários por perfis,20
+TVD II,#1626-2,TVD-327:[TC] Tentar listar usuários utilizando um usuário inativo,24
+TVD II,#1626-2,TVD-323:[TC] Verificar a presença do botão para criação de um novo usuário,16
+TVD II,#1626-2,TVD-324:[TC] Verificar a presença de botões de inativação para cada usuário listado,16
+TVD II,#1626-2,TVD-329:[TC] Verificar a presença de botões de edição para cada usuário listado,16
+TVD II,#1626-2,TVD-330:[TC] Validar que o App Mobile exibe a mesma quantidade de usuários presentes na Plataforma Web,15
+TVD II,#1532-1,TVD-411:[TC] Cadastrar tipos de testes,1
+TVD II,#1532-1,TVD-413:[TC] Verificar duplicidade no cadastro de um teste já registrado,3
+TVD II,#1532-1,TVD-416:[TC] Cadastrar teste sem informar nenhum campo,4
+TVD II,#1532-1,TVD-417:[SPEC] Validar controle de acesso para criação de novos testes,20
+TVD II,#1532-1,TVD-420:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1532-1,TVD-426:[SPEC] Validar comportamento do campo Descrição,34
+TVD II,#1532-1,TVD-427:[SPEC] Validar comportamento do campo Data Inicial,34
+TVD II,#1532-1,TVD-428:[SPEC] Validar comportamento do campo Data Final,34
+TVD II,#1532-1,"TVD-429:[TC] Validar comportamento do Selectbox ""Nivel de Pesquisa""",34
+TVD II,#1532-1,"TVD-434:[TC] Validar comportamento do Selectbox ""Equipamento Usado""",34
+TVD II,#1532-1,TVD-435:[TC] Verificar presença do botão Cancelar,16
+TVD II,#1532-1,TVD-436:[TC] Cancelar cadastro de teste com sucesso,2
+TVD II,#1532-2,TVD-473:[TC] Pesquisar teste com sucesso,15
+TVD II,#1532-2,TVD-479:[TC] Pesquisar por teste inexistente,17
+TVD II,#1532-2,TVD-474:[Spec] Validar acesso a pesquisa de testes por perfis,20
+TVD II,#1532-2,TVD-475:[TC] Tentar pesquisar testes utilizando um usuário inativo,24
+TVD II,#1532-2,TVD-476:[TC] Realizar pesquisa informando caracteres especiais,34
+TVD II,#1532-2,TVD-477:[TC] Realizar pesquisa informando espaços em branco,34
+TVD II,#1532-2,TVD-478:[TC] Pesquisar testes informando campo de pesquisa vazio,34
+TVD II,#1532-2,TVD-480:[TC] Pesquisar por testes inativados do sistema,21
+TVD II,#1532-3,TVD-441:[TC] Editar tipos de testes,6
+TVD II,#1532-3,TVD-442:[TC] Verificar duplicidade na edição do teste,7
+TVD II,#1532-3,TVD-443:[TC] Editar teste sem informar nenhum campo,8
+TVD II,#1532-3,TVD-444:[SPEC] Validar controle de acesso para edição de testes,20
+TVD II,#1532-3,TVD-445:[SPEC] Validar comportamento do campo Nome,34
+TVD II,#1532-3,TVD-446:[SPEC] Validar comportamento do campo Descrição,34
+TVD II,#1532-3,TVD-447:[SPEC] Validar comportamento do campo Data Inicial,34
+TVD II,#1532-3,TVD-448:[SPEC] Validar comportamento do campo Data Final,34
+TVD II,#1532-3,"TVD-449:[TC] Validar comportamento do Selectbox ""Nivel de Pesquisa""",34
+TVD II,#1532-3,"TVD-458:[TC] Validar comportamento do Selectbox ""Equipamento Usado""",34
+TVD II,#1532-3,TVD-451:[TC] Verificar presença do botão Cancelar,16
+TVD II,#1532-3,TVD-452:[TC] Cancelar cadastro de teste com sucesso,2
+TVD II,#1532-4,TVD-459:[TC] Inativar teste com sucesso,9
+TVD II,#1532-4,TVD-460:[TC] Cancelar a inativação de um teste,10
+TVD II,#1532-4,TVD-461:[TC] Verificar comportamento ao inativar item,
+TVD II,#1532-5,TVD-464:[TC] Listar todas as baterias de testes com sucesso,15
+TVD II,#1532-5,TVD-465:[TC] Validar nomenclatura das colunas listadas,16
+TVD II,#1532-5,TVD-466:[SPEC] Validar acesso a lista de usuários por perfis,20
+TVD II,#1532-5,TVD-467:[TC] Tentar listar testes utilizando um usuário inativo,24
+TVD II,#1532-5,TVD-468:[TC] Verificar a presença do botão para criação de um novo teste,16
+TVD II,#1532-5,TVD-469:[TC] Verificar a presença de botões de inativação para cada teste listado,16
+TVD II,#1532-5,TVD-470:[TC] Verificar a presença de botões de edição para cada teste listado,16
+TVD II,#1532-5,TVD-471:[TC] Validar que o App Mobile exibe a mesma quantidade de testes presentes na Plataforma Web,15
+TVD II,#1532-5,TVD-472:[TC] Paginar listagem de baterias de testes ao atingir número máximo de linhas,19
+TVD II,#1577,TVD-355:[SPEC] Validar acesso de usuário,20
+TVD II,#1577,TVD-356:[SPEC] Realizar Login sem informar campos obrigatórios,31
+TVD II,#1577,TVD-359:[SPEC] Validar campo Login,34
+TVD II,#1577,TVD-360:[SPEC] Validar campo Senha,34
+TVD II,#1578,"TVD-366:[TC] Validar presença do botão ""Sair""",16
+TVD II,#1578,"TVD-361:[TC] Validar redirecionamento à página de login quando o usuário clicar no botão ""Sair""",35
+TVD II,#1578,TVD-362:[TC] Validar se sistema ainda ficará logado caso feche a sessão e abra novamente,36
+TVD II,#1578,"TVD-363:[TC] Validar ação do clique no botão ""Sair"" na ausência de conexão com o servidor",37
+TVD II,#1564,TVD-485:[TC] Validar presença do scroll na listagem de dispositivos,16
+TVD II,#1564,TVD-487:[TC] Validar presença do botão <Realizar Teste> ao selecionar um dispositivo,16
+TVD II,#1564,TVD-486:[TC] Validar presença do botão Voltar,16
+TVD II,#1564,TVD-488:[TC] Validar seleção de um dispositivo,
+TVD II,#1564,TVD-489:[TC] Testar ação do scroll em tela com quantidade de dispositivos inferior a 10,19
+TVD II,#1564,TVD-490:[TC] Testar ação do scroll em tela com quantidade de dispositivos superior a 10,19
+TVD II,#1564,TVD-491:[TC] Validar comportamento ao listar dispositivos em caso de perda de conexão,37
+TVD II,#1564,TVD-492:[TC] Excluir um dispositivo na plataforma Web e testar sincronização da exclusão em Mobile,
+TVD II,#1564,TVD-493:[TC] Validar acesso de Perfil não Adm à listagem de Dispositivos,20

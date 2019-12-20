@@ -1,23 +1,24 @@
 import pandas as pd
 from abc import ABC, abstractmethod
+import numpy as np
 
 
-#class DataHandler(ABC):
+# class DataHandler(ABC):
 
-    # @abstractmethod
-    # def load_filtered_us_data(self, newUS):
-    #     pass
-    #
-    # @abstractmethod
-    # def load_test_data(self, user_stories):
-    #     pass
-    #
-    # @abstractmethod
-    # def load_test_cases(self, id_test_cases):
-    #     pass
+# @abstractmethod
+# def load_filtered_us_data(self, newUS):
+#     pass
+#
+# @abstractmethod
+# def load_test_data(self, user_stories):
+#     pass
+#
+# @abstractmethod
+# def load_test_cases(self, id_test_cases):
+#     pass
 
 
-class NewUSsDataHandler: #(DataHandler):
+class NewUSsDataHandler:  # (DataHandler):
 
     def load_filtered_us_data(self, newUS, baseUSs):
         # Arquivo que contém as user stories
@@ -83,12 +84,28 @@ class NewUSsDataHandler: #(DataHandler):
 
     def load_us_data(self):
         # Arquivo que contém as user stories
-        uss = pd.read_csv('data/newUSs.csv')
-        tcs = pd.read_csv('data/USsTCs.csv')
+        uss = pd.read_csv('data/newUSs.csv', na_values='')
+        tcs = pd.read_csv('data/USsTCs.csv', na_values='')
+        acs = pd.read_csv('data/USsCAs.csv', na_values='')
 
-        # Filtra apenas as User Stories que possuem casos de teste
-        return uss.loc[uss['ID_US'].isin(tcs['ID_US']), ['ID_US', 'DESC_US', 'Módulo', 'Operação', 'Plataforma']]
+        # Nessa linha eu tiro as linhas de teste que não foram classificadas.
+        tcs = tcs.loc[tcs['ID_STD_TC'].notna(), :]
+        usstcs = pd.merge(uss, tcs, how='right', on='ID_US')
+        usstcs['ID_STD_TC'] = usstcs['ID_STD_TC'].astype(str)
 
+        foo = lambda a: ",".join(a)
+
+        usstcs = usstcs.groupby(by=['ID_US', 'Módulo', 'Operação', 'Plataforma']).agg(
+            TCs=('ID_STD_TC', foo)).reset_index()
+
+        ussacs = pd.merge(usstcs, acs, how='left', on='ID_US')
+        # Transformando a coluna de id do critério de aceitação padrão em string para poder ser agregado.
+        ussacs['ID_STD_AC'] = ussacs['ID_STD_AC'].astype(str)
+
+        ussacs = ussacs.groupby(by=['ID_US', 'Módulo', 'Operação', 'Plataforma', 'RNFs', 'TCs']).agg(
+            CAs=('ID_STD_AC', foo)).reset_index()
+
+        return ussacs
 
     def load_us_test_data(self, id_us):
         # Arquivo que contém os test cases
@@ -97,7 +114,7 @@ class NewUSsDataHandler: #(DataHandler):
         return tcs.loc[tcs['ID_US'] == id_us, ['ID_STD_TC']]
 
 
-class USsDataHandler: #(DataHandler):
+class USsDataHandler:  # (DataHandler):
 
     def load_filtered_us_data(self, newUS):
         uss = pd.read_csv('https://raw.githubusercontent.com/edsf80/recommender/master/uss.csv')
@@ -134,7 +151,7 @@ class USsDataHandler: #(DataHandler):
         return cts.loc[cts['ID'].isin(new[0])]
 
 
-class MovieLensDataHandler: #(DataHandler):
+class MovieLensDataHandler:  # (DataHandler):
 
     def load_filtered_us_data(self, newUS):
         uss = pd.read_csv('https://raw.githubusercontent.com/khanhnamle1994/movielens/master/users.csv', sep='\t')

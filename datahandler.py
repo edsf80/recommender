@@ -102,8 +102,11 @@ class NewUSsDataHandler:  # (DataHandler):
         # Transformando a coluna de id do critério de aceitação padrão em string para poder ser agregado.
         ussacs['ID_STD_AC'] = ussacs['ID_STD_AC'].astype(str)
 
-        ussacs = ussacs.groupby(by=['ID_US', 'Módulo', 'Operação', 'Plataforma', 'RNFs', 'TCs']).agg(
+        ussacs = ussacs.fillna('0').groupby(by=['ID_US', 'Módulo', 'Operação', 'Plataforma', 'RNFs', 'TCs']).agg(
             CAs=('ID_STD_AC', foo)).reset_index()
+        print(ussacs)
+        # workaround para setar o valor de autenticação e autorização para todas as estórias.
+        ussacs['RNFs'] = '1,2'
 
         return ussacs
 

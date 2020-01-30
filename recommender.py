@@ -1,11 +1,20 @@
 from datahandler import NewUSsDataHandler
 from sklearn.neighbors import NearestNeighbors
+import pandas as pd
 
 
 def get_recommendations(new_us, base_uss, k):
     data_handler = NewUSsDataHandler()
 
-    df = data_handler.load_filtered_us_data(new_us, base_uss)
+    #Adicionando um filtro para trazer apenas uss com mesmo módulo e operação da nova US.
+    base_uss_filtrada = base_uss.loc[(base_uss['Módulo'] == new_us['Módulo']) & (base_uss['Operação'] == new_us['Operação']), :]
+    print(new_us['Módulo'], new_us['Operação'])
+    print(base_uss_filtrada.head())
+
+    if base_uss_filtrada.empty:
+        return pd.DataFrame()
+
+    df = data_handler.load_filtered_us_data(new_us, base_uss_filtrada)
     knn = NearestNeighbors(metric='euclidean', algorithm='ball_tree', n_neighbors=k).fit(df)
 
     # Pega a quantidade de colunas para gerar uma lista de 1.

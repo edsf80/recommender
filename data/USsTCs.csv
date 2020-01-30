@@ -322,12 +322,6 @@ Game Marketing Manager,#1028,Cancelar cadastro de eventos com sucesso,2
 Game Marketing Manager,#1028,Cadastrar eventos sem campos obrigatórios preenchidos,4
 Game Marketing Manager,#1028,Verificar presença de campos na tela de inserção,16
 Game Marketing Manager,#1028,Verificar comportamento máximo de 50 caracteres do campo nome,34
-Projeto AR Tools Web,#11971-1,Cadastro com dados inválidos - dados pessoais,43
-Projeto AR Tools Web,#11971-2,Paginação de perfis - única página,19
-Projeto AR Tools Web,#11971-2,Validar se os perfis estão sendo listados corretamente,16
-Projeto AR Tools Web,#11971-3,Validar se as permissões estão sendo listadas corretamente,16
-Projeto AR Tools Web,#11971-3,Validar paginação das permissões,19
-Projeto AR Tools Web,#11971-1,Cadastro de perfil com dados válidos,1
 TVD II,#1611,TVD-18:[TC] Cadastrar usuário com sucesso,1
 TVD II,#1611,TVD-44:[SPEC] Validar comportamento do campo Confirmar Senha,34
 TVD II,#1611,TVD-42:[SPEC] Validar comportamento do campo Telefone,34
@@ -568,3 +562,121 @@ TVD II,#1564,TVD-490:[TC] Testar ação do scroll em tela com quantidade de disp
 TVD II,#1564,TVD-491:[TC] Validar comportamento ao listar dispositivos em caso de perda de conexão,37
 TVD II,#1564,TVD-492:[TC] Excluir um dispositivo na plataforma Web e testar sincronização da exclusão em Mobile,
 TVD II,#1564,TVD-493:[TC] Validar acesso de Perfil não Adm à listagem de Dispositivos,20
+AR Tools Web,#11971,Cadastrar com dados inválidos,43
+AR Tools Web,#11971,Cadastrar com dados válidos,1
+AR Tools Web,#11971,Cadastrar sem estar logado,13
+AR Tools Web,#11971,Cadastrar sem permissão,20
+AR Tools Web,#11971,Cadastrar sem campos obrigatórios,4
+AR Tools Web,#11971,Cadastrar com username existente,3
+AR Tools Web,#11971,Cadastrar usuários com papeis diferentes,5
+AR Tools Web,#11971,Verificar campo senha e confirmação,39
+AR Tools Web,#11971-2,Editar com dados válidos,6
+AR Tools Web,#11971-2,Editar com dados inválidos,7
+AR Tools Web,#11971-2,Editar sem permissão,20
+AR Tools Web,#11971-2,Editar sem estar logado,13
+AR Tools Web,#11971-2,Editar sem campos obrigatórios,8
+AR Tools Web,#11971-2,Editar com username existente,7
+AR Tools Web,#11971-2,Verificar campo senha e confirmação,39
+AR Tools Web,#11971-3,Verificar paginação,19
+AR Tools Web,#11971-3,Listagem com sucesso,15
+AR Tools Web,#11971-3,Verificar presença de campos retornados,16
+AR Tools Web,#11971-3,Validar resltado da consulta de usuários,21
+AR Tools Web,#11971-3,Validar resltado da consulta de usuários sem dados,17
+Gestão da Capacitação,US01,gestao-capacita-5: Primeiro Login do Administrador,28
+Gestão da Capacitação,US02,gestao-capacita-6: Alteração de Senha do Administrador,6
+Gestão da Capacitação,US03,gestao-capacita-7: Recuperação de senha de administrador,30
+Gestão da Capacitação,US04,gestao-capacita-8: Criação de Contrato,1
+Gestão da Capacitação,US04,gestao-capacita-9:Criaçao de Contrato apenas com Campos Obrigatorios,1
+Gestão da Capacitação,US04,Criação de Contrato campos inválidos,43
+Gestão da Capacitação,US04,Criação de contrato sem autenticação,13
+Gestão da Capacitação,US04,Criação de contrato sem autorização,20
+Gestão da Capacitação,US05,gestao-capacita-10: Criação de Gestor,1
+Gestão da Capacitação,US05,Criação de gestor campos obrigatórios não preenchidos,4
+Gestão da Capacitação,US05,Criação de gestor campos inválidos,43
+Gestão da Capacitação,US05,Criação de gestor sem autenticação,13
+Gestão da Capacitação,US05,Criação de gestor sem autorização,20
+Gestão da Capacitação,US06,gestao-capacita-11: Exclusão de Conta de Gestor,12
+Gestão da Capacitação,US06,Exclusão de conta de gestor sem autenticação,13
+Gestão da Capacitação,US06,Exclusão de conta de gestor sem autorização,20
+Gestão da Capacitação,US07,Expandir informações de um gestro cadastrado,22
+Gestão da Capacitação,US07,Expandir informações de um gestro cadastrado sem autorização,13
+Gestão da Capacitação,US07,Expandir informações de um gestro cadastrado sem autenticação,20
+Gestão da Capacitação,US08,gestao-capacita-13: Ordenação de Gestores,21
+Gestão da Capacitação,US08,gestao-capacita-13: Ordenação de Gestores - Sem autenticação,13
+Gestão da Capacitação,US08,gestao-capacita-13: Ordenação de Gestores - Sem autorização,20
+Gestão da Capacitação,US09,gestao-capacita-14: Fazer logout,35
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach,1
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Campos Obrigatórios,4
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Campos Inválidos,43
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Sem Autenticação,13
+Gestão da Capacitação,US10,gestao-capacita-15: Criação de Conta de Coach - Sem Autorização,20
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados,21
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados - Sem dados,17
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados - Sem autenticação,13
+Gestão da Capacitação,US13,gestao-capacita-17: Ordenar lista de coaches cadastrados - Sem autorização,20
+Gestão da Capacitação,US14,gestao-capacita-18: Criação de Conta de Aluno,1
+Gestão da Capacitação,US15,gestao-capacita-19: Exclusão de Conta de Aluno,12
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno,22
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno - Sem dados,17
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno - Sem autenticação,13
+Gestão da Capacitação,US16,gestao-capacita-20: Expansão das Informações de Aluno - Sem autorização,20
+Gestão da Capacitação,US17,Ordenar lista de alunos cadastrados,21
+Gestão da Capacitação,US17,Ordenar lista de alunos cadastrados - Sem autenticação,13
+Gestão da Capacitação,US17,Ordenar lista de alunos cadastrados - Sem autorização,20
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe,1
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Campos obrigatórios,4
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Campos inválidos,43
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Sem autenticação,13
+Gestão da Capacitação,US18,gestao-capacita-22: Criação de Equipe - Sem autorização,20
+Gestão da Capacitação,US19,"gestao-capacita-23: Atualização de Dados,",6
+Gestão da Capacitação,US20,gestao-capacita-24: Cadastro de Horarios,1
+Gestão da Capacitação,US20,gestao-capacita-24: Cadastro de Horarios - Sem campos obrigatórios,4
+Gestão da Capacitação,US20,"gestao-capacita-37: Cadastrar horários, com menos de duas horas diárias, na agenda.",49
+Gestão da Capacitação,US20,"gestao-capacita-38: Cadastrar horários, com mais de quatro horas diárias, na agenda.",49
+Gestão da Capacitação,US20,"gestao-capacita-39: Cadastrar horários, com menos de vintes horas semanais, na agenda.",49
+Gestão da Capacitação,US20,"gestao-capacita-40: Cadastrar horários, com mais de vintes horas semanais, na agenda.",49
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe,15
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe - Sem dados,17
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autenticação,13
+Gestão da Capacitação,US21,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autorização,20
+Gestão da Capacitação,US22,gestao-capacita-26: Registro de Atividade de Teste,1
+Gestão da Capacitação,US22,gestao-capacita-27: Registro de Atividade de Desenvolvimento,1
+Gestão da Capacitação,US23,gestao-capacita-28: Revisar atividade de Teste,6
+Gestão da Capacitação,US24,gestao-capacita-28: Revisar atividade de Teste,6
+Gestão da Capacitação,US25,gestao-capacita-29: Desalocar Alunos da Equipe - Sem autenticação,13
+Gestão da Capacitação,US25,gestao-capacita-29: Desalocar Alunos da Equipe - Sem autorização,20
+Gestão da Capacitação,US25,gestao-capacita-29: Desalocar Alunos da Equipe,6
+Gestão da Capacitação,US26,gestao-capacita-30: Buscas por Usuários,15
+Gestão da Capacitação,US27,gestao-capacita-30: Buscas por Usuários,15
+Gestão da Capacitação,US28,gestao-capacita-30: Buscas por Usuários,15
+Gestão da Capacitação,US28,gestao-capacita-30: Buscas por Usuários - Sem autenticação,13
+Gestão da Capacitação,US28,gestao-capacita-30: Buscas por Usuários - Sem autorização,20
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe,15
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe - Sem dados,17
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autenticação,13
+Gestão da Capacitação,US29,gestao-capacita-25: Visualização de Horarios da Equipe - Sem autorização,20
+Gestão da Capacitação,US30,gestao-capacita-30: Buscas por Usuários,15
+Gestão da Capacitação,US35,gestao-capacita-24:Cadastro de Horarios,1
+Gestão da Capacitação,US35,"gestao-capacita-37:Cadastrar horários, com menos de duas horas diárias, na agenda.",49
+Gestão da Capacitação,US35,"gestao-capacita-38:Cadastrar horários, com mais de quatro horas diárias, na agenda.",49
+Gestão da Capacitação,US35,"gestao-capacita-39:Cadastrar horários, com menos de vintes horas semanais, na agenda.",49
+Gestão da Capacitação,US35,"gestao-capacita-40:Cadastrar horários, com mais de vintes horas semanais, na agenda.",49
+Gestão da Capacitação,US35,"gestao-capacita-68:Cadastrar horários irregulares, com permissão do coach",1
+Gestão da Capacitação,US36,gestao-capacita-22: Criação de Equipe,1
+Gestão da Capacitação,US36,gestao-capacita-69: Listagem de Equipes,15
+Gestão da Capacitação,US39,gestao-capacita-41: Atualizar nome de usuários contendo números.,34
+Gestão da Capacitação,US39,gestao-capacita-42: Atualizar nome de usuários contendo caracteres especiais.,34
+Gestão da Capacitação,US39,gestao-capacita-43: Atualizar cpf de usuários menos de onze números.,34
+Gestão da Capacitação,US39,gestao-capacita-44: Atualizar cpf de usuários contendo letras.,34
+Gestão da Capacitação,US39,gestao-capacita-45: Atualizar cpf de usuários contendo caracteres especiais.,34
+Gestão da Capacitação,US39,gestao-capacita-57: Atualizar RG com menos de sete números.,34
+Gestão da Capacitação,US39,gestao-capacita-58: Atualizar data de nascimento de usuários para menos de 16 anos.,34
+Gestão da Capacitação,US39,gestao-capacita-59: Salvar sem selecionar perído.,4
+Gestão da Capacitação,US39,gestao-capacita-60: Salvar sem selecionar um curso.,4
+Gestão da Capacitação,US39,gestao-capacita-61: Atualizar CRA para um valor maior que dez,34
+Gestão da Capacitação,US39,gestao-capacita-62: Atualizar CRA para um valor menor que zero.,34
+Gestão da Capacitação,US39,gestao-capacita-63: Atualizar dados de conclusão contendo letras.,34
+Gestão da Capacitação,US39,gestao-capacita-64: Atualizar dados de conclusão contendo caracteres especiais.,34
+Gestão da Capacitação,US39,gestao-capacita-65: Atualizar dados do histórico acadêmico com arquivos em outros formatos.,34
+Gestão da Capacitação,US39,gestao-capacita-66: Atualizar CRA com mais de duas casas após a vírgula,34
+Gestão da Capacitação,US39,gestao-capacita-67: Atualizar CRA com símbolo de menos,34

@@ -25,15 +25,18 @@ import numpy as np
 
 
 if __name__ == '__main__':
-    newUS = {'Módulo': 'Cadastro', 'Operação': 'Inserir_dados', 'Plataforma': 'Web', 'CAs': '1,2,3,4,5,6,47',
+    newUS = {'Módulo': 'Cadastro', 'Operação': 'Inserir_dados', 'Plataforma': 'Web', 'CAs': '1,2,3,4,5,6,47,51,56',
              'RNFs': '1,2'}
     data_handler = NewUSsDataHandler()
 
     uss = data_handler.load_us_data()
-    print(uss)
+    # print(uss.head())
+    # recomendations = get_recommendations(newUS, uss, 1)
+    # print(recomendations)
     kf = KFold(n_splits=10)
     precisions = []
     recalls = []
+    fmeasures = []
     uss_x = uss.drop(columns=['TCs'])
     uss_y = uss.loc[:, ['ID_US', 'TCs']]
 
@@ -42,8 +45,16 @@ if __name__ == '__main__':
         test_set = uss_x.iloc[test_index, :]
         precisions_fold = []
         recalls_fold = []
+        fmeasures_fold = []
         for us_test in test_set.iterrows():
-            recommendations = get_recommendations(us_test[1], train_set, 2)
+            recommendations = get_recommendations(us_test[1], train_set, 1)
+
+            if recommendations.empty:
+                fmeasures_fold.append(0)
+                precisions_fold.append(0)
+                recalls_fold.append(0)
+                continue
+
             real = uss_y.loc[uss_y['ID_US'] == us_test[1]['ID_US'], 'TCs'].str.split(',')
             real = pd.Series(real.iloc[0])
             real = real.iloc[:].astype(float)
@@ -55,9 +66,15 @@ if __name__ == '__main__':
 
             recall = len(intersect_ds.index)/len(real.index)
             precision = len(intersect_ds.index)/len(recommendations.index)
+            fmeasure = 0
+            if precision+recall > 0:
+                fmeasure = 2 * ((precision*recall)/(precision+recall))
+            fmeasures_fold.append(fmeasure)
             precisions_fold.append(precision)
             recalls_fold.append(recall)
         precisions.append(precisions_fold)
         recalls.append(recalls_fold)
+        fmeasures.append(fmeasures_fold)
     print(precisions)
     print(recalls)
+    print(fmeasures)

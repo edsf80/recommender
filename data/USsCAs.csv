@@ -2,13 +2,37 @@ Projeto,ID_US,ID_TC,CA,RNFs,ID_STD_AC
 ARTools, #11971,#4139 - Cadastro de usuário com dados válidos,Verificar cadastro de usuários quando os dados forem inseridos corretamente.,"1,2",1
 ARTools, #11971,#4106 - Cadastro com dados inválidos - dados pessoais,Verificar que usuário não é cadastrado quando dados inválidos forem inseridos nos campos de cadastro de usuário.,"1,2",3
 ARTools, #11971,#4403 - Cadastro com dados inválidos - autenticação,Verificar que usuário não é cadastrado quando dados inválidos forem inseridos nos campos de: usuário e senha durante cadastro de usuário.,"1,2",3
+ARTools, #11971,Cadastro de usuários sem autenticação,,"1,2",4
+ARTools, #11971,Cadastro de usuários sem autorização,,"1,2",5
+ARTools, #11971,Cadastrar usuário com nome de usuário existente,,"1,2",6
+ARTools, #11971,Cadastro de senha diferente da confirmação,,"1,2",7
+ARTools, #11971,"Ao clicar no botão adicionar, a tela de inserção da <entidade> deve ser exibida sem dados preenchidos",,"1,2",51
 ARTools,#11971-2,#4211 - Editar Usuário com dados válidos,Verificar a edição de usuários quando os dados forem alterados corretamente.,"1,2",8
 ARTools,#11971-2,#4189 - Editar Usuário com dados inválidos - dados pessoais,Verificar a proibição de edição de usuários quando os dados não forem editados corretamente.,"1,2",10
 ARTools,#11971-2,#4405 - Editar Usuário com dados inválidos - autenticação,Verificar a proibição de edição de usuários quando os dados dos campos: usuário e senha não forem editados corretamente.,"1,2",10
 ARTools,#11971-2,#4179 - Listagem de Usuários - botões ativar/desativar,Validar ação de ativar e desativar usuários.,"1,2",8
+ARTools,#11971-2,Alteração com campos obrigatórios não preenchidos,,"1,2",9
+ARTools,#11971-2,Alteração sem autenticação,,"1,2",11
+ARTools,#11971-2,Alteração sem autorização,,"1,2",12
+ARTools,#11971-2,"Ao alterar usuário com identificador existente, mensagem deve ser exibida",,"1,2",13
+ARTools,#11971-2,Atualizar dados com cartateres especiais,,"1,2",39
+ARTools,#11971-2,Ao inserir um link de um usuário inexistente um erro 404 deve ser exibido,,"1,2",44
+ARTools,#11971-2,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no usuário",,"1,2",47
+ARTools,#11971-2,"Ao clicar no botão editar, tela de edição deve ser exibida e preenchida com os dados do usuário",,"1,2",49
 ARTools,#11971-3,#4435 - Paginação de Usuários - avançar páginas,Validar a lista e paginação de usuários,"1,2",17
 ARTools,#11971-3,#4437 - Paginação de Usuários - voltar páginas,Validar a lista e paginação de usuários,"1,2",17
 ARTools,#11971-3,#4439 - Paginação de Usuários - única página,Validar a paginação de usuários quando tiver até 20 usuários,"1,2",17
+ARTools,#11971-3,Listagem de dados,,"1,2",15
+ARTools,#11971-3,Listagem sem dados cadastrados,,"1,2",16
+ARTools,#11971-3,Listagem com valor do filtro cadastrado,,"1,2",18
+ARTools,#11971-3,Listagem com valor do filtro não cadastrado,,"1,2",19
+ARTools,#11971-3,Listagem sem autenticação,,"1,2",20
+ARTools,#11971-3,Listagem sem autorização,,"1,2",21
+ARTools,#11971-3,Listagem ordenar dados,,"1,2",22
+ARTools,#11971-3,Buscar dados de um item,,"1,2",34
+ARTools,#11971-3,Buscar dados de um item inexistente,,"1,2",35
+ARTools,#11971-3,Buscar dados de um item sem autenticação,,"1,2",36
+ARTools,#11971-3,Buscar dados de um item sem autorização,,"1,2",37
 RCP,#2379,#2523, Ao informar login e senha cadastrados usuário deve acessar o sistema,"1,2",24
 RCP,#2379,#2524,Ao informar login cadastro e senha incorreta o sistema deve exibir mensagem de senha incorreta.,"1,2",40
 RCP,#2379,#2525,Ao informar login e senha não cadastrada o sistema deverá exibir mensagem de login incorreto.,"1,2",41
@@ -23,19 +47,19 @@ RCP,#2392,#2540,Ao alterar algum campo ou não e clicar em salvar o usuário dev
 RCP,#2392,#2541,Ao apagar um dos campos o sistema deve exibir mensagem de campo obrigatório não preenchido.,"1,2",9
 RCP,#2392,#2542,Ao alterar matrícula do usuário para a de outro usuário já cadastrado o sistema deve informar o usuário e não permitir a alteração.,"1,2",13
 RCP,#2392,#2543,Ao alterar o e-mail para um inválido o sistema deverá exibir mensagem de e-mail inválido para o usuário.,"1,2",10
-RCP,#2384,#3170,Ao informar os campos obrigatórios da tela e clicar em salvar a linha deve ser cadastrada.,"1,2",
-RCP,#2384,#3171,Ao não informar algum dos campos obrigatórios da tela e clicar no botão salvar o sistema deverá exibir mensagem de campo obrigatório não preenchido.,"1,2",
-RCP,#2384,#3173,"Ao tentar entrar na tela de inserção de linhas de produção sem estar logado, o sistema deverá exibir tela de login.","1,2",
-RCP,#2384,#3174,"Ao tentar acessar tela de inserção de linha de produção com papel que não possui acesso, uma tela de acesso negado deverá ser exibida.","1,2",
-RCP,#2385,#3176,Ao acessar tela de consulta de linhas de produção as linhas de produção cadastradas devem ser exibidas.,"1,2",
-RCP,#2385,#3177," Ao acessar a tela de consulta de linhas de produção, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",
-RCP,#2385,#3178,"Caso a quantidade de linhas de produção cadastradas seja maior que 10, a paginação deve ser exibida.","1,2",
-RCP,#2385,#3180,"Ao tentar acessar tela de listagem de linhas de produção sem estar autenticado, a tela de login deve ser exibida.","1,2",
-RCP,#2385,#3181,"Ao tentar acessar a tela de listagem cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",
-RCP,#2450,#3184,"Ao clicar em um elemento da lista de linhas de produção, uma tela com os dados do item deve ser exibida.","1,2",
-RCP,#2450,#3185,"Ao alterar um valor do item a ser editado, se os campos obrigatórios estiverem preenchidos e o botão salvar for clicado, o item deve ter seus valores alterados.","1,2",
-RCP,#2450,#3186, Ao tentar acessar a tela de alteração de linhas de produção e o usuário não estiver logado a tela de login deve ser exibida.,"1,2",
-RCP,#2450,#3187,"Ao tentar acessar a tela de alteração de linhas de produção e o usuário não tenha acesso, uma tela de acesso negado deve ser exibida.","1,2",
+RCP,#2384,#3170,Ao informar os campos obrigatórios da tela e clicar em salvar a linha deve ser cadastrada.,"1,2",1
+RCP,#2384,#3171,Ao não informar algum dos campos obrigatórios da tela e clicar no botão salvar o sistema deverá exibir mensagem de campo obrigatório não preenchido.,"1,2",2
+RCP,#2384,#3173,"Ao tentar entrar na tela de inserção de linhas de produção sem estar logado, o sistema deverá exibir tela de login.","1,2",4
+RCP,#2384,#3174,"Ao tentar acessar tela de inserção de linha de produção com papel que não possui acesso, uma tela de acesso negado deverá ser exibida.","1,2",5
+RCP,#2385,#3176,Ao acessar tela de consulta de linhas de produção as linhas de produção cadastradas devem ser exibidas.,"1,2",15
+RCP,#2385,#3177," Ao acessar a tela de consulta de linhas de produção, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",16
+RCP,#2385,#3178,"Caso a quantidade de linhas de produção cadastradas seja maior que 10, a paginação deve ser exibida.","1,2",17
+RCP,#2385,#3180,"Ao tentar acessar tela de listagem de linhas de produção sem estar autenticado, a tela de login deve ser exibida.","1,2",20
+RCP,#2385,#3181,"Ao tentar acessar a tela de listagem cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",21
+RCP,#2450,#3184,"Ao clicar em um elemento da lista de linhas de produção, uma tela com os dados do item deve ser exibida.","1,2",34
+RCP,#2450,#3185,"Ao alterar um valor do item a ser editado, se os campos obrigatórios estiverem preenchidos e o botão salvar for clicado, o item deve ter seus valores alterados.","1,2",8
+RCP,#2450,#3186, Ao tentar acessar a tela de alteração de linhas de produção e o usuário não estiver logado a tela de login deve ser exibida.,"1,2",11
+RCP,#2450,#3187,"Ao tentar acessar a tela de alteração de linhas de produção e o usuário não tenha acesso, uma tela de acesso negado deve ser exibida.","1,2",12
 RCP,#2490,#3876,Ao acessar tela de produtos finais produtos finais cadastrados devem ser exibidos.,"1,2",15
 RCP,#2490,#3877,"Ao acessar a tela de consulta de produtos finais, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",57
 RCP,#2490,#3878,"Caso a quantidade de produtos finais cadastrados seja maior que 10, a paginação deve ser exibida.","1,2",17
@@ -72,10 +96,12 @@ SSPI,#2277,#2297,Não poderá haver dois usuários com a mesma matrícula,"1,2",
 SSPI,#2277,#2284,Ao clicar no ícone de editar deve abrir o formulário para edição,"1,2",49
 SSPI,#2570,#3305,"A tela para inclusão de máquinas deve possuir os seguintes campos: Número de Identificação, Descrição (Nome) e Limite de Inatividade","1,2",51
 SSPI,#2570,#3305,"Ao Clicar o Botão Adicionar, deve-se incluir no banco de dados a Máquina com os dados devidamente preenchidos","1,2",1
-SSPI,#2570,#3307-1,"O formulário de edição de máquinas deve possuir os seguintes campos: Número de Identificação, Descrição (Nome) e Limite de Inatividade","1,2",49
-SSPI,#2570,#3307-2,"Ao Apertar o botão ""Atualizar"" deve-se alterar os dados no banco de dados","1,2",8
-SSPI,#2570,#3307-3,O Id interno não pode ser editado,"1,2",54
+SSPI,#2570-2,#3307-1,"O formulário de edição de máquinas deve possuir os seguintes campos: Número de Identificação, Descrição (Nome) e Limite de Inatividade","1,2",49
+SSPI,#2570-2,#3307-2,"Ao Apertar o botão ""Atualizar"" deve-se alterar os dados no banco de dados","1,2",8
+SSPI,#2570-2,#3307-3,O Id interno não pode ser editado,"1,2",54
 SSPI,#2570,#3308-1,"Ao apertar o botão ""Cancelar"", deve-se abortar a ação, voltando para a tela de listagem","1,2",47
+SSPI,#2570-2,#3308-1,"Ao apertar o botão ""Cancelar"", deve-se abortar a ação, voltando para a tela de listagem","1,2",47
+SSPI,#2570-2,#3308-2,Não poderá haver duas maquinas com o mesmo número de identificação,"1,2",13
 SSPI,#2570,#3308-2,Não poderá haver duas maquinas com o mesmo número de identificação,"1,2",6
 SSPI,#2589-1,#3313-1,A tela para inclusão de Tipos de Problemas deve possuir o campo de Descrição,"1,2",51
 SSPI,#2589-1,#3313-2,"Ao Clicar o Botão Adicionar, deve-se incluir no banco de dados O Tipo de Problema com os dados devidamente preenchidos","1,2",1
@@ -95,24 +121,24 @@ SSPI,#2598-2,#3320-2,"Ao Clicar o Botão Adicionar, deve-se incluir no banco de 
 SSPI,#2598-3,#3321-1,O formulário de edição dos Tipos de Operação deve possuir o Campo de Descrição e os Botões de Atualizar e Cancelar,"1,2",49
 SSPI,#2598-3,#3321-2,"Ao Apertar o botão ""Atualizar"" deve-se alterar os dados no banco de dados","1,2",8
 SSPI,#2598-3,#3321-3,O Id interno não pode ser editado,"1,2",54
-RCP,#2831,#4372,Ao informar os campos obrigatórios da tela e clicar em salvar a familia deve ser cadastrada.,"1,2",
-RCP,#2831,#4373,Ao não informar algum dos campos obrigatórios da tela e clicar no botão salvar o sistema deverá exibir mensagem de campo obrigatório não preenchido.,"1,2",
-RCP,#2831,#4374,"Ao tentar entrar na tela de inserção de famílias de produto sem estar logado, o sistema deverá exibir tela de login.","1,2",
-RCP,#2831,#4375,"Ao tentar acessar tela de inserção de famílias de produto com papel que não possui acesso, uma tela de acesso negado deverá ser exibida.","1,2",
-RCP,#2485,#4378,"Ao clicar em um elemento da lista de famílias de produto, uma tela com os dados do item deve ser exibida.","1,2",
-RCP,#2485,#4379,"Ao alterar um valor do item a ser editado, se os campos obrigatórios estiverem preenchidos e o botão salvar for clicado, o item deve ter seus valores alterados.","1,2",
-RCP,#2485,#4380,Ao tentar acessar a tela de alteração de famílias de produto e o usuário não estiver logado a tela de login deve ser exibida.,"1,2",
-RCP,#2485,#4381,"Ao tentar acessar a tela de alteração de famílias de produto e o usuário não tenha acesso, uma tela de acesso negado deve ser exibida.","1,2",
-RCP,#2486,#4363,Ao acessar tela de famílias de produtos cadastradas devem ser exibidas.,"1,2",
-RCP,#2486,#4364,"Ao acessar a tela de família de produtos, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",
-RCP,#2486,#4365,"Caso a quantidade de famílias de produto cadastradas seja maior que 10, a paginação deve ser exibida.","1,2",
-RCP,#2486,#4366,"Ao tentar acessar tela de listagem de famílias de produtos sem estar autenticado, a tela de login deve ser exibida.","1,2",
-RCP,#2486,#4367,"Ao tentar acessar a tela de listagem cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",
-RCP,#4464,#4793,Ao registrar uma separação para uma ordem informando todos os BOM's do produto a separação deve ser marcada como concluída.,"1,2",
-RCP,#4464,#4794,Ao registrar uma separação para uma ordem informando parte dos BOM's a separação deve ser marcada como em andamento.,"1,2",
+RCP,#2831,#4372,Ao informar os campos obrigatórios da tela e clicar em salvar a familia deve ser cadastrada.,"1,2",1
+RCP,#2831,#4373,Ao não informar algum dos campos obrigatórios da tela e clicar no botão salvar o sistema deverá exibir mensagem de campo obrigatório não preenchido.,"1,2",2
+RCP,#2831,#4374,"Ao tentar entrar na tela de inserção de famílias de produto sem estar logado, o sistema deverá exibir tela de login.","1,2",4
+RCP,#2831,#4375,"Ao tentar acessar tela de inserção de famílias de produto com papel que não possui acesso, uma tela de acesso negado deverá ser exibida.","1,2",5
+RCP,#2485,#4378,"Ao clicar em um elemento da lista de famílias de produto, uma tela com os dados do item deve ser exibida.","1,2",43
+RCP,#2485,#4379,"Ao alterar um valor do item a ser editado, se os campos obrigatórios estiverem preenchidos e o botão salvar for clicado, o item deve ter seus valores alterados.","1,2",8
+RCP,#2485,#4380,Ao tentar acessar a tela de alteração de famílias de produto e o usuário não estiver logado a tela de login deve ser exibida.,"1,2",11
+RCP,#2485,#4381,"Ao tentar acessar a tela de alteração de famílias de produto e o usuário não tenha acesso, uma tela de acesso negado deve ser exibida.","1,2",12
+RCP,#2486,#4363,Ao acessar tela de famílias de produtos cadastradas devem ser exibidas.,"1,2",15
+RCP,#2486,#4364,"Ao acessar a tela de família de produtos, caso não haja dado cadastrado, mensagem deve ser exibida.","1,2",16
+RCP,#2486,#4365,"Caso a quantidade de famílias de produto cadastradas seja maior que 10, a paginação deve ser exibida.","1,2",17
+RCP,#2486,#4366,"Ao tentar acessar tela de listagem de famílias de produtos sem estar autenticado, a tela de login deve ser exibida.","1,2",20
+RCP,#2486,#4367,"Ao tentar acessar a tela de listagem cujo usuário não possui acesso, o sistema deverá exibir tela de acesso negado.","1,2",21
+RCP,#4464,#4793,Ao registrar uma separação para uma ordem informando todos os BOM's do produto a separação deve ser marcada como concluída.,"1,2",1
+RCP,#4464,#4794,Ao registrar uma separação para uma ordem informando parte dos BOM's a separação deve ser marcada como em andamento.,"1,2",1
 RCP,#4464,#4795,"Ao tentar adicionar o serial number de um BOM's em uma separação que não constam no produto da ordem, exibir mensagem informando que o BOM não existe para a separação.","1,2",
 RCP,#4464,#4796,Ao registrar a separação de todos os BOM's de uma determinada ordem o sistema não deve permitir a separação de mais BOM's.,"1,2",
-RCP,#4464,#4797,"Ao tentar registrar separação de um BOM sem informar o serial number do mesmo, o sistema deve desabilitar o botão de registro.","1,2",
+RCP,#4464,#4797,"Ao tentar registrar separação de um BOM sem informar o serial number do mesmo, o sistema deve desabilitar o botão de registro.","1,2",2
 RCP,#4670,#4799,"Ao selecionar a ordem de produção com separação concluída e informar o usuário que está fazendo a entrega e clicar salvar, a entrega deve ser feita baseada na linha de produção da ordem.","1,2",
 RCP,#4670,#4801,Caso o usuário não selecione a ordem de produção o sistema não deve permitir a entrega.,"1,2",
 RCP,#4670,#4802,Caso o usuário não informe a matrícula do abastecedor que está fazendo a entrega o sistema não deve permitir a mesma.,"1,2",
@@ -182,8 +208,13 @@ Event Driven System for Business Services Integration,#253-3,38,Ao acessar a fil
 Event Driven System for Business Services Integration,#253-3,39,Ao inserir um link de uma filial inexistente um erro 404 deve ser exibido.,"1,2",44
 Event Driven System for Business Services Integration,#253-4,40,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a filial deve ser excluída","1,2",50
 Event Driven System for Business Services Integration,#253-3,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na filial","1,2",47
-Event Driven System for Business Services Integration,#253-3,42,"Ao alterar a filial como nome existente, mensagem deve ser exibida","1,2",13
+Event Driven System for Business Services Integration,#253-3,42,31 jan. 2020,"1,2",13
 Event Driven System for Business Services Integration,#273,43,"Listar no Dynaforms, os produtos que foram criados no BCA.","1,2",15
 Event Driven System for Business Services Integration,#292,44,Ao clicar no ícone desativar o produto ativa deverá ser desativada.,"1,2",57
 Event Driven System for Business Services Integration,#274,45,Ao clicar no ícone ativar o produto inativo deverá ser ativada.,"1,2",58
 Event Driven System for Business Services Integration,#282,17,"Habilitar a opção de criar um objeto na entidade a partir de uma planilha. Testar o carregamento de um produto do BCA, convertendo os campos para os nomes que estão no TestLink. Atualmente todo Produto importado do BCA gera um ProdutoFilho e um ProdutoPai Inicialmente, um produto é criado como inativo.","1,2",59
+SGCond,SGC-US01,1,Cadastrar,"1,2",1
+SGCond,SGC-US01,2,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US01,3,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US01,4,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US01,5,Cadastrar sem autorização,"1,2",5

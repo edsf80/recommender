@@ -6,10 +6,8 @@ import pandas as pd
 def get_recommendations(new_us, base_uss, k):
     data_handler = NewUSsDataHandler()
 
-    #Adicionando um filtro para trazer apenas uss com mesmo módulo e operação da nova US.
-    base_uss_filtrada = base_uss.loc[(base_uss['Módulo'] == new_us['Módulo']) & (base_uss['Operação'] == new_us['Operação']), :]
-    print(new_us['Módulo'], new_us['Operação'])
-    print(base_uss_filtrada.head())
+    # Adicionando um filtro para trazer apenas uss com mesmo módulo e operação da nova US.
+    base_uss_filtrada = base_uss.loc[(base_uss['Módulo'] == new_us['Módulo']) & (base_uss['Operação'] == new_us['Operação']), :] # base_uss.copy()
 
     if base_uss_filtrada.empty:
         return pd.DataFrame()
@@ -23,6 +21,7 @@ def get_recommendations(new_us, base_uss, k):
     distances, indices = knn.kneighbors([l])
     candidate_uss = df.iloc[indices[0]]
     candidate_uss.loc[:, 'similaridade'] = 1 / (1 + distances[0])
+    print(candidate_uss)
 
     test_data = data_handler.load_test_data(candidate_uss.index.values)
     test_data = test_data.merge(candidate_uss, left_on='ID_US', right_on='ID_US')

@@ -4,67 +4,67 @@ RCP,#2376,HWLL-20:[TC] Cancelar cadastro de usuário com sucesso,2
 RCP,#2376,HWLL-21:[SPEC] Verificar duplicidade no cadastro de usuário,3
 RCP,#2376,HWLL-28:[TC] Cadastrar usuário sem informar nenhum campo obrigatório,4
 RCP,#2376,HWLL-29:[SPEC] Criar usuários utilizando diferentes perfis,5
-RCP,#2376,HWLL-30:[SPEC] Validar comportamento do campo Confirmar Senha,6
-RCP,#2376,HWLL-31:[SPEC] Validar comportamento do campo Matrícula,7
-RCP,#2376,HWLL-32:[SPEC] Validar comportamento do campo Nome,8
+RCP,#2376,HWLL-30:[SPEC] Validar comportamento do campo Confirmar Senha,34
+RCP,#2376,HWLL-31:[SPEC] Validar comportamento do campo Matrícula,34
+RCP,#2376,HWLL-32:[SPEC] Validar comportamento do campo Nome,34
 RCP,#2376,HWLL-33:[SPEC] Validar comportamento do campo Função,34
-RCP,#2376,HWLL-34:[SPEC] Validar comportamento do campo Senha,10
-RCP,#2376,HWLL-35:[SPEC] Validar comportamento do campo Perfil,11
-RCP,#2392,HWLL-36:[SPEC] Validar comportamento do campo Função,12
-RCP,#2392,HWLL-37:[SPEC] Validar comportamento do campo Nome,1
-RCP,#2392,HWLL-38:[SPEC] Validar comportamento do campo Matrícula,1
-RCP,#2392,HWLL-39:[SPEC] Editar informações do usuário com sucesso,12
-RCP,#2392,HWLL-40:[SPEC] Verificar duplicidade na edição de usuário,11
-RCP,#2392,HWLL-41:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,20
-RCP,#2392,"HWLL-42:[TC] Verificar presença do botão ""Cancelar""",13
-RCP,#2392,HWLL-43:[TC] Cancelar edição de usuário com sucesso,14
-RCP,#2399,HWLL-14:[SPEC] Validações de dados,15
-RCP,#2399,HWLL-13:[TC] Verificar acessibilidade às páginas,16
-RCP,#2399,HWLL-12:[TC] Excluir papel User,17
-RCP,#2399,HWLL-11:[TC] Incluir papel User,18
-RCP,#2399,HWLL-6:[TC] Incluir papel Admin,19
-RCP,#2399,HWLL-7:[TC] Excluir papel Admin,19
-RCP,#2399,HWLL-8:[TC] Verificar acessibilidade às páginas,20
-RCP,#2399,HWLL-9:[SPEC] Validações de dados,13
-RCP,#2377,HWLL-22:[SPEC] Verificar acesso por Perfis,14
-RCP,#2377,HWLL-49:[TC] Acessar tela de consulta de OPS sem estar logado a aplicação,15
-RCP,#2377,HWLL-50:[TC] Validar acesso de usuário inativado,16
-RCP,#2377,HWLL-51:[TC] Listar todas as OPs com sucesso,17
+RCP,#2376,HWLL-34:[SPEC] Validar comportamento do campo Senha,34
+RCP,#2376,HWLL-35:[SPEC] Validar comportamento do campo Perfil,34
+RCP,#2392,HWLL-36:[SPEC] Validar comportamento do campo Função,34
+RCP,#2392,HWLL-37:[SPEC] Validar comportamento do campo Nome,34
+RCP,#2392,HWLL-38:[SPEC] Validar comportamento do campo Matrícula,34
+RCP,#2392,HWLL-39:[SPEC] Editar informações do usuário com sucesso,6
+RCP,#2392,HWLL-40:[SPEC] Verificar duplicidade na edição de usuário,7
+RCP,#2392,HWLL-41:[TC] Editar usuário deixando todos os campos de texto do formulário em branco,8
+RCP,#2392,"HWLL-42:[TC] Verificar presença do botão ""Cancelar""",16
+RCP,#2392,HWLL-43:[TC] Cancelar edição de usuário com sucesso,10
+RCP,#2399,HWLL-14:[SPEC] Validações de dados,
+RCP,#2399,HWLL-13:[TC] Verificar acessibilidade às páginas,11
+RCP,#2399,HWLL-12:[TC] Excluir papel User,53
+RCP,#2399,HWLL-11:[TC] Incluir papel User,52
+RCP,#2399,HWLL-6:[TC] Incluir papel Admin,52
+RCP,#2399,HWLL-7:[TC] Excluir papel Admin,53
+RCP,#2399,HWLL-8:[TC] Verificar acessibilidade às páginas,11
+RCP,#2399,HWLL-9:[SPEC] Validações de dados,
+RCP,#2377,HWLL-22:[SPEC] Verificar acesso por Perfis,20
+RCP,#2377,HWLL-49:[TC] Acessar tela de consulta de OPS sem estar logado a aplicação,13
+RCP,#2377,HWLL-50:[TC] Validar acesso de usuário inativado,24
+RCP,#2377,HWLL-51:[TC] Listar todas as OPs com sucesso,15
 RCP,#2377,HWLL-52:[TC] Validar nomenclatura das colunas listadas,16
-RCP,#2377,HWLL-53:[TC] Validar resultado de consulta por OP's vazia,20
-RCP,#2377,HWLL-54:[TC] Verificar redirecionamento a tela de login após time out,14
-RCP,#2377,HWLL-55:[TC] Validar paginação,18
+RCP,#2377,HWLL-53:[TC] Validar resultado de consulta por OP's vazia,17
+RCP,#2377,HWLL-54:[TC] Verificar redirecionamento a tela de login após time out,35
+RCP,#2377,HWLL-55:[TC] Validar paginação,19
 RCP,#2383,HWLL-56:[TC] Validar paginação,19
-RCP,#2383,HWLL-57:[SPEC] Verificar acesso por Perfis,13
-RCP,#2383,HWLL-58:[TC] Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,15
-RCP,#2383,HWLL-59:[TC] Validar acesso de usuário inativado,16
-RCP,#2383,HWLL-60:[TC] Listar todas as Matérias-Primas com sucesso,21
+RCP,#2383,HWLL-57:[SPEC] Verificar acesso por Perfis,20
+RCP,#2383,HWLL-58:[TC] Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,13
+RCP,#2383,HWLL-59:[TC] Validar acesso de usuário inativado,24
+RCP,#2383,HWLL-60:[TC] Listar todas as Matérias-Primas com sucesso,15
 RCP,#2383,HWLL-61:[TC] Validar nomenclatura das colunas listadas,16
-RCP,#2383,HWLL-62:[TC] Validar resultado de consulta de Matéria-Prima vazia,13
-RCP,#2383,HWLL-63:[TC] Verificar redirecionamento a tela de login após time out,14
-RCP,#2383,HWLL-65:[SPEC] Verificar acesso por Perfis,22
-RCP,#2383,HWLL-67:[TC] Validar acesso de usuário inativado,23
-RCP,#2383,HWLL-71:[TC] Verificar redirecionamento a tela de login após time out,18
-RCP,#2490,HWLL-64:[TC] Validar paginação,20
+RCP,#2383,HWLL-62:[TC] Validar resultado de consulta de Matéria-Prima vazia,17
+RCP,#2383,HWLL-63:[TC] Verificar redirecionamento a tela de login após time out,35
+RCP,#2383,HWLL-65:[SPEC] Verificar acesso por Perfis,20
+RCP,#2383,HWLL-67:[TC] Validar acesso de usuário inativado,24
+RCP,#2383,HWLL-71:[TC] Verificar redirecionamento a tela de login após time out,35
+RCP,#2490,HWLL-64:[TC] Validar paginação,19
 RCP,#2490,HWLL-66:[TC] Acessar tela Consultar produtos finais sem estar logado a aplicação,13
-RCP,#2490,HWLL-68:[TC] Listar todas os produtos finais com sucesso,14
+RCP,#2490,HWLL-68:[TC] Listar todas os produtos finais com sucesso,15
 RCP,#2490,HWLL-69:[TC] Validar nomenclatura das colunas listadas,16
-RCP,#2490,HWLL-70:[TC] Validar resultado de consulta de produtos finais,17
-RCP,#2598-1,HWLL-72:[SPEC] Validar ações no campo Search em Ordens de Produção,18
-RCP,#2383,HWLL-73:[SPEC] Validar ações no campo Search em BOM (matéria-prima),19
-RCP,#2490,HWLL-74:[SPEC] Validar ações no campo Search em Produtos Finais,16
+RCP,#2490,HWLL-70:[TC] Validar resultado de consulta de produtos finais,15
+RCP,#2598-1,HWLL-72:[SPEC] Validar ações no campo Search em Ordens de Produção,34
+RCP,#2383,HWLL-73:[SPEC] Validar ações no campo Search em BOM (matéria-prima),34
+RCP,#2490,HWLL-74:[SPEC] Validar ações no campo Search em Produtos Finais,34
 RCP,#3381,HWLL-75:[SPEC] Verificar acesso por Perfis,20
 RCP,#3381,HWLL-76:[TC] Acessar tela de Detalhamento de OP's sem estar logado a aplicação,13
-RCP,#3381,HWLL-77:[TC] Validar acesso de usuário inativado,14
-RCP,#3381,HWLL-78:[TC] Verificar se todos os dados da OP estão sendo exibidos,15
-RCP,#3381,HWLL-79:[TC] Verificar inserção de link em ordem de produção inexistente,17
-RCP,#3381,HWLL-80:[TC] Verificar redirecionamento a tela de login após time out,18
-RCP,#3390,HWLL-81:[SPEC] Verificar acesso por Perfis,19
-RCP,#3390,HWLL-82:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,16
-RCP,#3390,HWLL-83:[TC] Validar acesso de usuário inativado,13
-RCP,#3390,HWLL-84:[TC] Listar todas as Matérias-Primas com sucesso,14
+RCP,#3381,HWLL-77:[TC] Validar acesso de usuário inativado,24
+RCP,#3381,HWLL-78:[TC] Verificar se todos os dados da OP estão sendo exibidos,22
+RCP,#3381,HWLL-79:[TC] Verificar inserção de link em ordem de produção inexistente,23
+RCP,#3381,HWLL-80:[TC] Verificar redirecionamento a tela de login após time out,35
+RCP,#3390,HWLL-81:[SPEC] Verificar acesso por Perfis,20
+RCP,#3390,HWLL-82:[TC] Acessar tela de consulta de matérias-primas sem estar logado a aplicação,13
+RCP,#3390,HWLL-83:[TC] Validar acesso de usuário inativado,24
+RCP,#3390,HWLL-84:[TC] Listar todas as Matérias-Primas com sucesso,15
 RCP,#3390,HWLL-85:[TC] Validar resultado de consulta por matérias-primas vazia,17
-RCP,#3390,HWLL-86:[TC] Verificar redirecionamento a tela de login após time out,14
+RCP,#3390,HWLL-86:[TC] Verificar redirecionamento a tela de login após time out,35
 RCP,#3390,HWLL-87:[TC] Validar paginação,19
 RCP,#3390,HWLL-88:[TC] Validar nomenclatura das colunas listadas,16
 RCP,#3392,HWLL-89:[SPEC] Verificar acesso por Perfis,20
@@ -72,33 +72,33 @@ RCP,#3392,HWLL-90:[TC] Acessar tela de consulta de matérias-primas sem estar lo
 RCP,#3392,HWLL-91:[TC] Validar acesso de usuário inativado,24
 RCP,#3392,HWLL-92:[TC] Listar todos os Produtos Finais com sucesso,15
 RCP,#3392,HWLL-93:[TC] Validar resultado de consulta por produtos finais vazia,17
-RCP,#3392,HWLL-94:[TC] Verificar redirecionamento a tela de login após time out,18
+RCP,#3392,HWLL-94:[TC] Verificar redirecionamento a tela de login após time out,35
 RCP,#3392,HWLL-95:[TC] Validar paginação,19
 RCP,#3392,HWLL-96:[TC] Validar nomenclatura das colunas listadas,16
 RCP,#2379,HWLL-1:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,13
 RCP,#2379,HWLL-2:[SPEC] Validar se página é redirecionada ao colar link em outra aba do navegador,13
 RCP,#2379,HWLL-3:[SPEC] Validar acesso de usuário Ativo e Inativo,24
-RCP,#2379,HWLL-4:[SPEC] Validar campo Nome,
+RCP,#2379,HWLL-4:[SPEC] Validar campo Nome,25
 RCP,#2379,HWLL-5:[SPEC] Validar campo Senha,25
-SSPI,#2570,ENERSH-224:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,8
-SSPI,#2570,ENERSH-225:[TC] Verificar duplicidade na edição de Máquinas,7
-SSPI,#2570,ENERSH-226:[SPEC] Validar comportamento do campo Descrição,
+SSPI,#2570-2,ENERSH-224:[TC] Editar tipo de problema deixando todos os campos de texto do formulário em branco,8
+SSPI,#2570-2,ENERSH-225:[TC] Verificar duplicidade na edição de Máquinas,7
+SSPI,#2570,ENERSH-226:[SPEC] Validar comportamento do campo Descrição,34
 SSPI,#2570,ENERSH-227:[TC] Verificar presença do botão Cancelar,16
-SSPI,#2570,ENERSH-228:[TC] Editar Máquina com sucesso,6
+SSPI,#2570-2,ENERSH-228:[TC] Editar Máquina com sucesso,6
 SSPI,#2570,ENERSH-229:[TC] Cancelar cadastro de Máquinas com sucesso,10
-SSPI,#2570,ENERSH-230:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,26
-SSPI,#2570,ENERSH-231:[TC] Deletar Máquina com sucesso,12
-SSPI,#2570,ENERSH-232:[TC] Cancelar a remoção de uma Máquina,27
-SSPI,#2570,ENERSH-233:[Spec] Validar acesso a lista de Máquinas por perfis,20
-SSPI,#2570,ENERSH-234:[TC] Paginar listagem de Máquinas ao atingir número máximo de linhas,19
+SSPI,#2570-4,ENERSH-230:[TC] Fechar tela de remoção antes de efetuar a ação de deletar,26
+SSPI,#2570-4,ENERSH-231:[TC] Deletar Máquina com sucesso,12
+SSPI,#2570-4,ENERSH-232:[TC] Cancelar a remoção de uma Máquina,27
+SSPI,#2570-3,ENERSH-233:[Spec] Validar acesso a lista de Máquinas por perfis,20
+SSPI,#2570-3,ENERSH-234:[TC] Paginar listagem de Máquinas ao atingir número máximo de linhas,19
 SSPI,#2570,ENERSH-235:[TC] Verificar a presença do botão para criação de uma nova Máquina,16
-SSPI,#2570,ENERSH-236:[TC] Verificar a presença de botões de edição para cada Máquina listada,9
-SSPI,#2570,ENERSH-237:[TC] Verificar a presença de botões de exclusão para cada Máquina listada,16
-SSPI,#2570,ENERSH-238:[TC] Tentar listar Máquina utilizando um usuário inativo,24
-SSPI,#2570,ENERSH-239:[TC] Validar nomenclatura das colunas listadas,16
-SSPI,#2570,ENERSH-240:[TC] Listar todas as Máquina com sucesso,15
-SSPI,#2570,"ENERSH-241:[TC] Verificar presença do botão ""Cancelar""",16
-SSPI,#2570,ENERSH-242:[SPEC] Validar comportamento do campo Descrição,34
+SSPI,#2570-3,ENERSH-236:[TC] Verificar a presença de botões de edição para cada Máquina listada,16
+SSPI,#2570-3,ENERSH-237:[TC] Verificar a presença de botões de exclusão para cada Máquina listada,16
+SSPI,#2570-3,ENERSH-238:[TC] Tentar listar Máquina utilizando um usuário inativo,24
+SSPI,#2570-3,ENERSH-239:[TC] Validar nomenclatura das colunas listadas,16
+SSPI,#2570-3,ENERSH-240:[TC] Listar todas as Máquina com sucesso,15
+SSPI,#2570-2,"ENERSH-241:[TC] Verificar presença do botão ""Cancelar""",16
+SSPI,#2570-2,ENERSH-242:[SPEC] Validar comportamento do campo Descrição,34
 SSPI,#2570,ENERSH-243:[SPEC] Validar controle de acesso para criação de nova Máquina,20
 SSPI,#2570,ENERSH-244:[TC] Cadastrar Máquina com sucesso,1
 SSPI,#2570,ENERSH-245:[TC] Verificar duplicidade no cadastro de um tipo de operação já registrado,3
@@ -680,3 +680,134 @@ Gestão da Capacitação,US39,gestao-capacita-64: Atualizar dados de conclusão 
 Gestão da Capacitação,US39,gestao-capacita-65: Atualizar dados do histórico acadêmico com arquivos em outros formatos.,34
 Gestão da Capacitação,US39,gestao-capacita-66: Atualizar CRA com mais de duas casas após a vírgula,34
 Gestão da Capacitação,US39,gestao-capacita-67: Atualizar CRA com símbolo de menos,34
+Kaizen,#9,kaizen-59:Cadastrar usuário com permissão Básica,1
+Kaizen,#9,kaizen-2:Cadastro de usuário válido,1
+Kaizen,#9,kaizen-66:Cadastro de Usuário válido,1
+Kaizen,#9,kaizen-60:Cadastrar usuário com permissão Administrador,1
+Kaizen,#9,kaizen-61:Cadastrar usuário sem permissão,1
+Kaizen,#12,kaizen-20:Criar um Projeto válido,1
+Kaizen,#12,kaizen-78:Adicionar foto ao projeto,6
+Kaizen,#12,kaizen-79:Adicionar descrição ao projeto,6
+Kaizen,#14,kaizen-30:Editar um Projeto corretamente,6
+Kaizen,#14,kaizen-97:Alterar foto do projeto,6
+Kaizen,#14,kaizen-98:Editar descrição do projeto,6
+Kaizen,#16,kaizen-34:Criar uma Sprint válida,1
+Kaizen,#22,kaizen-42: Cadastrar um Ponto Positivo válido,1
+Kaizen,#22,kaizen-43: Cadastrar um Ponto Negativo válido,1
+Kaizen,#22,kaizen-46: Criar uma Sugestão válida,1
+Kaizen,#22,kaizen-48: Editar um Ponto Positivo,6
+Kaizen,#22,kaizen-101: Editar um Ponto Negativo,6
+Kaizen,#22,kaizen-102: Editar uma Sugestão,6
+Kaizen,#22,kaizen-112: Deletar uma Sugestão,12
+Kaizen,#22,kaizen-110: Deletar um Ponto Positivo,12
+Kaizen,#22,kaizen-111: Deletar um Ponto Negativo,12
+Kaizen,#24,kaizen-49: Adicionar impedimento,6
+Kaizen,#24,kaizen-51: Excluir impedimento (ScrumMaster),12
+Kaizen,#24,kaizen-52: Excluir impedimento (Criador),12
+Kaizen,#24,kaizen-54: Alocar impedimento,6
+Kaizen,#24,kaizen-56: Desalocar impedimento,6
+Kaizen,#24,kaizen-76: Excluir impedimento (desenvolvedor),12
+Kaizen,#24,kaizen-100: Mover impedimentos entre os quadros,6
+NewPCS,#14941,Inserir Product com sucesso,1
+NewPCS,#14941,Inserir Product com valores inválidos,43
+NewPCS,#14941-3,Remover Product através do Protheus,12
+NewPCS,#14941-2,Modificar um Product com sucesso,6
+NewPCS,#14941-2,Modificar um Product com valores inválidos,44
+NewPCS,#14329,Inserir registro com sucesso,1
+NewPCS,#14329,Cancelar inserção,2
+NewPCS,#14329,Inserir registro com um valor já existente,3
+NewPCS,#14329,Campos Obrigatórios Vazios,4
+NewPCS,#14329,Limite de caracteres para a inserção,34
+NewPCS,#14329-3,Modificar um registro com sucesso,6
+NewPCS,#14329,Cancelar a modificação,10
+NewPCS,#14329-3,Campos obrigatórios vazios,8
+NewPCS,#14329-3,Limite de caracteres para a modificação,34
+NewPCS,#14329-2,Remover registro com sucesso,12
+NewPCS,#14329,Cancelar registro com sucesso,2
+NewPCS,#14329,Atualizar Formulário,6
+NewPCS,#14315-2,Remover registro com sucesso,12
+NewPCS,#14315,Cancelar registro com sucesso,2
+NewPCS,#14315-3,Modificar um registro com sucesso,6
+NewPCS,#14315,Cancelar a modificação,10
+NewPCS,#14315-3,Limite de caracteres,34
+NewPCS,#14315-3,Campos obrigatórios vazios,8
+NewPCS,#14315,Inserir registro com sucesso,1
+NewPCS,#14315,Cancelar inserção,2
+NewPCS,#14315,Inserir registro com um valor já existente,3
+NewPCS,#14315,Campos Obrigatórios Vazios,4
+NewPCS,#14315,Limite de caracteres para a inserção,34
+ARTools,#11972,#4112 - Cadastro de perfil com dados inválidos,43
+ARTools,#11972,Cadastro de perfil com sucesso,1
+ARTools,#11972,Cadastro de perfil com identificador existente,3
+ARTools,#11972,Cadatro de perfil com campos obrigatórios não preenchidos,4
+ARTools,#11972,Cancelar cadastro de peril com sucesso,2
+ARTools,#11972-2,#4205 - Editar perfil com dados inválidos,44
+ARTools,#11972-2,#4210 - Editar perfil com dados válidos,6
+ARTools,#11972-2,Editar perfil modificando para um valor existente,7
+ARTools,#11972-2,Editar perfil sem campos obrigatórios,8
+ARTools,#11972-2,Cancelar edição do perfil,10
+ARTools,#11972-2,Verificar se todos os dados do perfil estão sendo exibidos,22
+ARTools,#11972-2,Verificar inserção de link para perfil inexistente,23
+ARTools,#11972-2,#4443 - Listagem de Perfis - botões ativar/desativar,15
+ARTools,#11972-3,#4438 - Paginação de perfis - avançar páginas,19
+ARTools,#11972-3,#4440 - Paginação de perfis - voltar páginas,19
+ARTools,#11972-3,#4448 - Listagem de Perfis - Layout,16
+ARTools,#11972-3,#4129 - Paginação de perfis - única página,19
+ARTools,#11973,#4742 - Permissões,20
+ARTools,#11973-3,#4430 - Paginação de Permissões - avançar páginas,19
+ARTools,#11973-3,#4431 - Paginação de Permissões - voltar páginas,19
+ARTools,#11973-3,#4132 - Paginação de Permissões - única página,19
+ARTools,#11983-2,#5131 - Listagem de Planos SLA - layout,16
+ARTools,#11983-4,#5133 - Listagem de Planos SLA - botões ativar/desativar,34
+ARTools,#11983,#5134 - Cadastro de planos SLA com dados válidos,1
+ARTools,#11983,#5142 - Cadastro de planos SLA com dados inválidos,43
+ARTools,#11983,#5144 - Cadastro de planos SLA com dados inválidos - Regra de Negócio,49
+ARTools,#11983,Cancelar cadastro de SLA com sucesso,2
+ARTools,#11983,Cadastrar SLA sem campos obrigatórios preenchidos,4
+ARTools,#11983-3,#5148 - Editar plano SLA com dados válidos,6
+ARTools,#11983-3,#5149 - Editar plano SLA com dados inválidos,44
+ARTools,#11983-3,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+ARTools,#11983-3,Cancelar edição da SLA com sucesso,10
+ARTools,#11983-3,Verificar se todos os dados da SLA estão sendo exibidos,22
+ARTools,#11983-3,Verificar inserção de link de SLAinexistente,23
+ARTools,#11983-2,#5359 - Visualizar Planos SLA,15
+ARTools,#11983-3,#18240 - Restrições no cadastro de um plano de SLA,49
+ARTools,#11983-3,#18241 - Restrições na edição de um plano SLA,50
+ARTools,#11984,#4981 - Cadastro de filas de atendimento com dados válidos,1
+ARTools,#11984,#5003 - Cadastro de filas de atendimento com dados inválidos,43
+ARTools,#11984,#5009 - Formulário de cadastro de filas,4
+ARTools,#11984-3,#5024 - Edição de filas com dados válidos,6
+ARTools,#11984-3,#5032 - Editar filas de atendimento com dados inválidos,44
+ARTools,#11984-3,#5039 - Formulário de edição de filas,8
+ARTools,#11984-3,Cancelar edição da fila com sucesso,10
+ARTools,#11984-3,Verificar se todos os dados da fila estão sendo exibidos,22
+ARTools,#11984-3,Verificar inserção de link de fila inexistente,23
+ARTools,#11984-2,#5053 - Listagem de filas de atendimento,15
+ARTools,#11984-4,#5058 - Ativar/Desativar fila de atendimento,6
+ARTools,#11984-2,#5061 - Paginação de filas - avançar páginas,19
+ARTools,#11984-2,#5067 - Paginação de filas - voltar páginas,19
+ARTools,#11984-2,#5074 - Paginação de filas - única página,19
+ARTools,#11984-2,#5356 - Visualizar fila de atendimento,51
+ARTools,#11984-2,Validar resultado da consulta da fila sem dados,17
+ARTools,#12216-2,#4968 - Listagem de Produtos - botões,15
+ARTools,#12216-2,#4970 - Paginação de Produtos - avançar páginas,19
+ARTools,#12216-2,#4971 - Paginação de Produtos - voltar páginas,19
+ARTools,#12216-2,#4972 - Paginação de Produtos - única página,19
+ARTools,#12216-2,#4973 - Listagem de Produtos - layout,16
+ARTools,#12216-2,Validar resultado da consulta de produtos sem dados,17
+ARTools,#12216,#5035 - Cadastro de produtos com dados válidos,1
+ARTools,#12216,#5051 - Cadastro de produtos com dados inválidos,43
+ARTools,#12216,Cancelar cadastro de produto com sucesso,2
+ARTools,#12216,Cadastrar produto sem campos obrigatórios preenchidos,4
+ARTools,#12216-2,#5064 - Listagem de Produtos - botões ativar/desativar,15
+ARTools,#12216-3,#5093 - Editar produto com dados válidos,6
+ARTools,#12216-3,#5102 - Editar produto com dados inválidos,44
+ARTools,#12216-2,#5363 - Visualizar Produtos,51
+ARTools,#12216-3,#18187 - Restrições na edição de produto,50
+ARTools,#12216-2,#18206 - Filtrar produtos,21
+ARTools,#12216-2,Validar resultado da consulta de produtos sem dados,17
+ARTools,#12216-2,Verificar paginação,19
+ARTools,#12216-3,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+ARTools,#12216-3,Cancelar edição do produto com sucesso,10
+ARTools,#12216-3,Verificar se todos os dados do produto estão sendo exibidos,22
+ARTools,#12216-3,Verificar inserção de link do produto inexistente,23

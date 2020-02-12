@@ -110,7 +110,7 @@ SSPI,#2278,ENERSH-3:[TC] Validar usuário sem preencher campo $Matricula,31
 SSPI,#2278,ENERSH-4:[SPEC] Validar acesso de usuário Ativo e Inativo,33
 SSPI,#2278,ENERSH-5:[SPEC] Validar campo $Matrícula,34
 SSPI,#2278,ENERSH-6:[SPEC] Validar campo $Senha,34
-SSPI,#2279,"ENERSH-82:[TC] Validar presença do botão ""Sair""",17
+SSPI,#2279,"ENERSH-82:[TC] Validar presença do botão ""Sair""",16
 SSPI,#2279,ENERSH-7:[TC] Validar redirecionamento a página de login ao clicar no botão <Sair>,35
 SSPI,#2279,ENERSH-8:[TC] Validar se sistema ainda ficará logado caso feche a sessão e abra novamente,36
 SSPI,#2279,"ENERSH-9:[TC] Validar ação do clique no botão ""Sair"" na ausência de conexão com o servidor",37
@@ -144,7 +144,7 @@ SSPI,#2252,ENERSH-68:[TC] Validar acesso de usuário inativo,24
 SSPI,#2252,ENERSH-66:[TC] Selecionar dois ou mais filtros para visualização das OPs,21
 SSPI,#2252,ENERSH-65:[SPEC] Verificar filtro de visualização,21
 SSPI,#2252,ENERSH-67:[SPEC] Verificar acesso por Perfis,20
-SSPI,#2252,ENERSH-64:[TC] Fechar visualização da Ordens de Produção,
+SSPI,#2252,ENERSH-64:[TC] Fechar visualização da Ordens de Produção,26
 SSPI,#2252,ENERSH-63:[TC] Validar se todas as OPs disponíveis para planejamento são listadas,21
 SSPI,#2252,ENERSH-62:[TC] Verificar presença do botão para expandir o sidebar de exibição das OPs,16
 SSPI,#2589-2,ENERSH-90:[SPEC] Validar acesso a lista de tipos de problemas por perfis,20
@@ -205,7 +205,6 @@ VRE,#1806,Create organization with input validation,1
 VRE,#1806,Cancel project variable creation,2
 VRE,#1806,Cancel editing project variable,10
 VRE,#1806,Ocultar e exibir colunas do formulário de Configuração de Rotas,16
-VRE,#1806,Retirada do cartão SD durante execução do programa,
 VRE,#1806,Validar ações do Administrador com GaMMa inoperante,20
 VRE,#1806,Validar ações do Convidado com GaMMa inoperante,20
 VRE,#1806,Cancel deleting organization,27
@@ -214,25 +213,14 @@ VRE,#1809,Cancel deleting project,27
 VRE,#1809,Filter user with input validation,21
 VRE,#1809,Edit organization with previously registered name,7
 VRE,#1809,Filter organization,21
-VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,
-VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,
-VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,
-VRE,#1809,Exploratory Test: Functional for Events,
-VRE,#1809,Exploratory Test: Functional for Events,
-VRE,#1809,Exploratory Test: Fault Tolerance for Video Call (Remote),
-VRE,#1809,Exploratory Test: Fault Tolerance for Video Call (Remote),
+VRE,#1809,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,6
 VRE,#1815,Filter project,21
 VRE,#1815,Cancel disassociating organization from user through list actions,10
 VRE,#1815,Create project with previously registered name,1
 VRE,#1817,Clear all filters (filter project),21
 VRE,#1817,Search organization with input validation,21
 VRE,#1818,Filter project,21
-VRE,#1818,Clear all filters (filter organization),
-VRE,#1818,Clear all filters (filter organization),
-VRE,#1818,Exploratory Test: Fault Tolerance for Diagnostics,
-VRE,#1818,Exploratory Test: Fault Tolerance for Diagnostics,
-VRE,#1818,Exploratory Test: Functional for Settings,
-VRE,#1818,Exploratory Test: Functional for Settings,
+VRE,#1818,Clear all filters (filter organization),21
 Event Driven System for Business Services Integration,#242-3,"Editar usuário com campo ""E-mail"" vazio.",8
 Event Driven System for Business Services Integration,#243,"Marcar convidados listados na pesquisa como ""convite enviado"" ""Event Driven System for Business Services Integration",21
 Event Driven System for Business Services Integration,#282,Fechamento do programa antes da execução ser finalizada.,36
@@ -247,8 +235,8 @@ Event Driven System for Business Services Integration,#274,US11589 - Verificar a
 Event Driven System for Business Services Integration,#282,Limite de caracteres para os filtros,16
 Event Driven System for Business Services Integration,#275,Cancel date picking for monthly and annual charts,10
 Event Driven System for Business Services Integration,#275,Ocultar e exibir todas as colunas do formulário,16
-Event Driven System for Business Services Integration,#292,US11516 - Verificar o tamanho máximo da foto,
-Event Driven System for Business Services Integration,#291,US11516 - Verificar o tamanho máximo da foto,
+Event Driven System for Business Services Integration,#292,US11516 - Verificar o tamanho máximo da foto,34
+Event Driven System for Business Services Integration,#291,US11516 - Verificar o tamanho máximo da foto,34
 Event Driven System for Business Services Integration,#253-1,Deselecionar convidados filtrados por status,16
 Event Driven System for Business Services Integration,#253-2,"Criar ""Outros Links"" com nome já adicionado em outro link no mesmo evento específico.",3
 Event Driven System for Business Services Integration,#253-3,Validar apresentação de detalhes no card de um app tipo Aplicativo sem versão.,16
@@ -260,46 +248,29 @@ Event Driven System for Business Services Integration,#253-1,Filtrar convidados 
 Event Driven System for Business Services Integration,#257,Cadastrar um plano de teste,1
 Event Driven System for Business Services Integration,#257,Associar suítes ao plano de teste com alguns casos de testes iguais,6
 Event Driven System for Business Services Integration,#264,Remover Configuração de Insumo com sucesso,12
-Event Driven System for Business Services Integration,#264,Gráfico de Pessoas,
-Event Driven System for Business Services Integration,#267,"Action the of ""Close"" button in all screens to Device SetUp",
+Event Driven System for Business Services Integration,#264,Gráfico de Pessoas,54
+Event Driven System for Business Services Integration,#267,"Action the of ""Close"" button in all screens to Device SetUp",34
 Event Driven System for Business Services Integration,#268,Exibir Clientes Ativos,15
-Event Driven System for Business Services Integration,#268,Gráfico de detalhe de Região,
+Event Driven System for Business Services Integration,#268,Gráfico de detalhe de Região,54
 Event Driven System for Business Services Integration,#263,Limite de caracteres para peso da Cola,34
-Event Driven System for Business Services Integration,#263,Finalizar uso de Cola na Máquina de Cola com peso inválido,
-Event Driven System for Business Services Integration,#263,"Validação da seção ""Participação em Eventos"" ""Event Driven System for Business Services Integration",
-Event Driven System for Business Services Integration,#328,Reprodução e compartilhamento de áudio sem conexão com Internet,
-Event Driven System for Business Services Integration,#328,Ações do menu quando sistema administrativo está indisponível durante transmissão de streaming,
-Event Driven System for Business Services Integration,#328,Realizar Descarte de Pasta de Solda com sucesso através de QR Code do Engenheiro,
-Event Driven System for Business Services Integration,#328,Verificar alteração do cliente ao realizar novo check-in,
-Event Driven System for Business Services Integration,#328,Remover microfone do receptor durante transmissão [Desktop],
+Event Driven System for Business Services Integration,#263,Finalizar uso de Cola na Máquina de Cola com peso inválido,44
+Event Driven System for Business Services Integration,#263,"Validação da seção ""Participação em Eventos"" ""Event Driven System for Business Services Integration",34
 Event Driven System for Business Services Integration,#328,Explorar exibição de toasts de erro e modificações,42
-Event Driven System for Business Services Integration,#328,Finalizar uso de Pasta de Solda na Máquina de Pasta de Solda com peso inválido,
-Event Driven System for Business Services Integration,#328,Exportar tabela de Pasta de Solda,
-Event Driven System for Business Services Integration,#328,Validar Log de Cola descartada,
-Event Driven System for Business Services Integration,#328,Tempo de áudio após remoção de microfone,
+Event Driven System for Business Services Integration,#328,Exportar tabela de Pasta de Solda,60
 Event Driven System for Business Services Integration,#253,Save and Continue for Critical Task - no critical files uploaded,
-Event Driven System for Business Services Integration,#242,"Action of the ""top of page"" button on the ""Cover timeline"" screen",
-Event Driven System for Business Services Integration,#242,"Scrolling action on the timeline on the ""Cover Timeline"" screen",
+Event Driven System for Business Services Integration,#242,"Action of the ""top of page"" button on the ""Cover timeline"" screen",34
+Event Driven System for Business Services Integration,#242,"Scrolling action on the timeline on the ""Cover Timeline"" screen",34
 Event Driven System for Business Services Integration,#243,Filtrar auditoria por (Usuário) como Administrador de dispositivo no MDM Web,21
-Event Driven System for Business Services Integration,#243,Verificar que ações realizadas por Super Usuário não são exibidas para Administrador de dispositivo no MDM Web,
-Event Driven System for Business Services Integration,#243,Access a Skype meeting successfully.,
+Event Driven System for Business Services Integration,#243,Verificar que ações realizadas por Super Usuário não são exibidas para Administrador de dispositivo no MDM Web,20
 Event Driven System for Business Services Integration,#242-3,"Validate reset function in the field""Reset All Counters"" in device ""Transponder"" ""Event Driven System for Business Services Integration",6
 Event Driven System for Business Services Integration,#3908,Limite de caracteres para os filtros,34
-Event Driven System for Business Services Integration,#3908,Persistência das colunas ocultas de Rotas na sessão do navegador,
-Event Driven System for Business Services Integration,#3908,Fechamento do programa antes da execução ser finalizada.,
-Event Driven System for Business Services Integration,#3908,Reconfigurar Rede Ethernet após erros,
+Event Driven System for Business Services Integration,#3908,Fechamento do programa antes da execução ser finalizada.,26
 Event Driven System for Business Services Integration,#3908,Limite de caracteres para o filtro Route_Desc,34
 Event Driven System for Business Services Integration,#3908,Exibição de filtros aplicados no arquivo exportado,21
 Event Driven System for Business Services Integration,#260,Limite de caracteres para peso da Cola,34
-Event Driven System for Business Services Integration,#260,Finalizar uso de Cola na Máquina de Cola com peso inválido,
-Event Driven System for Business Services Integration,#260,"Validação da seção ""Participação em Eventos"" ""Event Driven System for Business Services Integration",
-Event Driven System for Business Services Integration,#265,"Action the of ""Close"" button in all screens to Device SetUp",
+Event Driven System for Business Services Integration,#265,"Action the of ""Close"" button in all screens to Device SetUp",34
 Event Driven System for Business Services Integration,#266,Exibir Clientes Ativos,15
-Event Driven System for Business Services Integration,#266,Gráfico de detalhe de Região,
-Event Driven System for Business Services Integration,#282,Persistência das colunas ocultas de Rotas na sessão do navegador,
-Event Driven System for Business Services Integration,#263,Imprimir intervalo completo de etiquetas com sucesso,
-Event Driven System for Business Services Integration,#255,Exportar tabela de Pasta de Solda,
-Event Driven System for Business Services Integration,#260,Imprimir intervalo completo de etiquetas com sucesso,
+Event Driven System for Business Services Integration,#266,Gráfico de detalhe de Região,54
 Game Marketing Manager,#997,Menu dashboard da aplicação (Garantir que as opções do menu dashboard estão sendo exibidas e que é possível clicar em cada opção e acessar sua página específica.),20
 Game Marketing Manager,#997,Apresentação do menu principal,20
 Game Marketing Manager,#997,Dashboard - Inspeção de compatibilidade,20
@@ -556,7 +527,6 @@ TVD II,#1578,"TVD-363:[TC] Validar ação do clique no botão ""Sair"" na ausên
 TVD II,#1564,TVD-485:[TC] Validar presença do scroll na listagem de dispositivos,16
 TVD II,#1564,TVD-487:[TC] Validar presença do botão <Realizar Teste> ao selecionar um dispositivo,16
 TVD II,#1564,TVD-486:[TC] Validar presença do botão Voltar,16
-TVD II,#1564,TVD-488:[TC] Validar seleção de um dispositivo,
 TVD II,#1564,TVD-489:[TC] Testar ação do scroll em tela com quantidade de dispositivos inferior a 10,19
 TVD II,#1564,TVD-490:[TC] Testar ação do scroll em tela com quantidade de dispositivos superior a 10,19
 TVD II,#1564,TVD-491:[TC] Validar comportamento ao listar dispositivos em caso de perda de conexão,37
@@ -811,3 +781,41 @@ ARTools,#12216-3,Editar entidade deixando os campos obrigatórios do formulário
 ARTools,#12216-3,Cancelar edição do produto com sucesso,10
 ARTools,#12216-3,Verificar se todos os dados do produto estão sendo exibidos,22
 ARTools,#12216-3,Verificar inserção de link do produto inexistente,23
+SGCond,SGC-US01,Verificar acesso por papel não autorizado,20
+SGCond,SGC-US01,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US01,Fechar a tela antes de inserir área comum,26
+SGCond,SGC-US01,Cadastar área comum com sucesso,1
+SGCond,SGC-US01,Cancelar cadastro de área comum com sucesso,2
+SGCond,SGC-US01,Cadastrar área comum com nome já existente,3
+SGCond,SGC-US01,Cadastrar área comum com campos obrigatórios não preenchidos,4
+SGCond,SGC-US01,Cadastrar área comum com título previamente excluído,29
+SGCond,SGC-US01,Cadastrar área comum com campos inválidos,43
+SGCond,SGC-US02,Editar informações da área comum com sucesso,6
+SGCond,SGC-US02,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US02,Cancelar edição da área comum com sucesso,10
+SGCond,SGC-US02,Verificar se todos os dados da área comum estão sendo exibidos,22
+SGCond,SGC-US02,Verificar inserção de link da área comum inexistente,23
+SGCond,SGC-US02,Verificar presença de campos retornados,16
+SGCond,SGC-US02,Fechar a tela antes de excutar ação,26
+SGCond,SGC-US02,Editar entidade alterando o nome para um existente,7
+SGCond,SGC-US04,Excluir área comum com sucesso,12
+SGCond,SGC-US04,"Cancelar exclusão da entidade
+",27
+SGCond,SGC-US04,Fechar a tela antes de executar exclusão,26
+SGCond,SGC-US05,Verificar acesso por papel não autorizado,20
+SGCond,SGC-US05,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US05,Fechar a tela antes de inserir área comum,26
+SGCond,SGC-US05,Cadastar área comum com sucesso,1
+SGCond,SGC-US05,Cancelar cadastro de área comum com sucesso,2
+SGCond,SGC-US05,Cadastrar área comum com nome já existente,3
+SGCond,SGC-US05,Cadastrar área comum com campos obrigatórios não preenchidos,4
+SGCond,SGC-US05,Cadastrar área comum com título previamente excluído,29
+SGCond,SGC-US05,Cadastrar área comum com campos inválidos,43
+SGCond,SGC-US06,Editar informações da área comum com sucesso,6
+SGCond,SGC-US06,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US06,Cancelar edição da área comum com sucesso,10
+SGCond,SGC-US06,Verificar se todos os dados da área comum estão sendo exibidos,22
+SGCond,SGC-US06,Verificar inserção de link da área comum inexistente,23
+SGCond,SGC-US06,Verificar presença de campos retornados,16
+SGCond,SGC-US06,Fechar a tela antes de excutar ação,26
+SGCond,SGC-US06,Editar entidade alterando o nome para um existente,7

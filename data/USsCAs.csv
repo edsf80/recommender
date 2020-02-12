@@ -218,3 +218,49 @@ SGCond,SGC-US01,2,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
 SGCond,SGC-US01,3,Cadastrar com campos inválidos,"1,2",3
 SGCond,SGC-US01,4,Cadastrar sem autenticação,"1,2",4
 SGCond,SGC-US01,5,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US01,6,Ao tentar inserir uma área comum cujo nome já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US01,7,"Ao clicar no botão adicionar, a tela de inserção da área comum deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US01,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US02,,Ao alterar campos da área comum e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US02,,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US02,,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US02,,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US02,,Alteração sem autorização,"1,2",12
+SGCond,SGC-US02,,"Ao alterar área comum com identificador existente, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US02,,Ao acessar área comum os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US02,,Ao inserir um link de uma área comum inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US02,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US02,,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
+SGCond,SGC-US03,,Listar dados,"1,2",15
+SGCond,SGC-US03,,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US03,,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US03,,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US03,,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US03,,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US03,,Listagem sem autorização,"1,2",21
+SGCond,SGC-US03,,Ordenar dados,"1,2",22
+SGCond,SGC-US03,,Buscar dados de um item,"1,2",34
+SGCond,SGC-US03,,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US04,,Exclusão de dados,"1,2",31
+SGCond,SGC-US04,,Exclusão de dados sem autenticação,"1,2",32
+SGCond,SGC-US04,,Exclusão de dados sem autorização,"1,2",33
+SGCond,SGC-US04,,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a área comum deve ser excluída","1,2",50
+SGCond,SGC-US04,,"Ao clicar no botão cancelar, a área comum não deve ser excluída.","1,2",61
+SGCond,SGC-US05,,Cadastrar,"1,2",1
+SGCond,SGC-US05,,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US05,,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US05,,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US05,,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US05,,Ao tentar inserir uma área comum cujo nome já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US05,,"Ao clicar no botão adicionar, a tela de inserção da área comum deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US05,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US06,,Ao alterar campos da área comum e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US06,,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US06,,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US06,,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US06,,Alteração sem autorização,"1,2",12
+SGCond,SGC-US06,,"Ao alterar área comum com identificador existente, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US06,,Ao acessar área comum os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US06,,Ao inserir um link de uma área comum inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US06,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US06,,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54

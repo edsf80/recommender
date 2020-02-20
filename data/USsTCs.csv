@@ -798,6 +798,13 @@ SGCond,SGC-US02,Verificar inserção de link da área comum inexistente,23
 SGCond,SGC-US02,Verificar presença de campos retornados,16
 SGCond,SGC-US02,Fechar a tela antes de excutar ação,26
 SGCond,SGC-US02,Editar entidade alterando o nome para um existente,7
+SGCond,SGC-US03,Listar todas as áreas comuns com sucesso,15
+SGCond,SGC-US03,Validar resultado da listagem sem dados,17
+SGCond,SGC-US03,Verificar paginação,19
+SGCond,SGC-US03,Validar resultado da consulta de áreas comuns,21
+SGCond,SGC-US03,Visualizar dados da entidade,51
+SGCond,SGC-US03,Verificar permissão de acesso à página,20
+SGCond,SGC-US03,Verificar dados retornados,16
 SGCond,SGC-US04,Excluir área comum com sucesso,12
 SGCond,SGC-US04,"Cancelar exclusão da entidade
 ",27
@@ -819,3 +826,229 @@ SGCond,SGC-US06,Verificar inserção de link da área comum inexistente,23
 SGCond,SGC-US06,Verificar presença de campos retornados,16
 SGCond,SGC-US06,Fechar a tela antes de excutar ação,26
 SGCond,SGC-US06,Editar entidade alterando o nome para um existente,7
+SGCond,SGC-US07,Listar todas as áreas comuns com sucesso,15
+SGCond,SGC-US07,Validar resultado da listagem sem dados,17
+SGCond,SGC-US07,Verificar paginação,19
+SGCond,SGC-US07,Validar resultado da consulta de áreas comuns,21
+SGCond,SGC-US07,Visualizar dados da entidade,51
+SGCond,SGC-US07,Verificar permissão de acesso à página,20
+SGCond,SGC-US07,Verificar dados retornados,16
+SGCond,SGC-US08,Verificar acesso por papel não autorizado,20
+SGCond,SGC-US08,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US08,Fechar a tela antes de inserir condomínio,26
+SGCond,SGC-US08,Cadastar condomínio com sucesso,1
+SGCond,SGC-US08,Cancelar cadastro de condomínio com sucesso,2
+SGCond,SGC-US08,Cadastrar condomínio com CNPJ já existente,3
+SGCond,SGC-US08,Cadastrar condomínio com campos obrigatórios não preenchidos,4
+SGCond,SGC-US08,Cadastrar condomínio com CNPJ previamente excluído,29
+SGCond,SGC-US08,Cadastrar condomínio com campos inválidos,43
+SGCond,SGC-US09,Editar informações do condomínio com sucesso,6
+SGCond,SGC-US09,Editar condomínio deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US09,Cancelar edição do condomínio com sucesso,10
+SGCond,SGC-US09,Verificar se todos os dados do condomínio estão sendo exibidos,22
+SGCond,SGC-US09,Verificar inserção de link do condomínio inexistente,23
+SGCond,SGC-US09,Verificar presença de campos retornados,16
+SGCond,SGC-US09,Fechar a tela antes de excutar ação,26
+SGCond,SGC-US09,Editar informando um CNPJ já existente,7
+SGCond,SGC-US09,Editar informando um CNPJ inválido,10
+SGCond,SGC-US10,Listar todas as áreas comuns com sucesso,15
+SGCond,SGC-US10,Validar resultado da listagem sem dados,17
+SGCond,SGC-US10,Verificar paginação,19
+SGCond,SGC-US10,Validar resultado da consulta de áreas comuns,21
+SGCond,SGC-US10,Visualizar dados da entidade,51
+SGCond,SGC-US10,Verificar permissão de acesso à página,20
+SGCond,SGC-US10,Verificar dados retornados,16
+SGCond,SGC-US10,Acessar página sem fazer login,55
+SGCond,SGC-US11,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US11,Fechar a tela antes de inserir condomínio,26
+SGCond,SGC-US11,Cadastar moradia com sucesso,1
+SGCond,SGC-US11,Cancelar cadastro de moradia com sucesso,2
+SGCond,SGC-US11,Cadastrar moradia com identificador já existente,3
+SGCond,SGC-US11,Cadastrar moradia com campos obrigatórios não preenchidos,4
+SGCond,SGC-US11,Cadastrar moraia com número previamente excluído,29
+SGCond,SGC-US11,Cadastrar moradia com campos inválidos,43
+SGCond,SGC-US12,Listar todas as áreas comuns com sucesso,15
+SGCond,SGC-US12,Validar resultado da listagem sem dados,17
+SGCond,SGC-US12,Verificar paginação,19
+SGCond,SGC-US12,Validar resultado da consulta de áreas comuns,21
+SGCond,SGC-US12,Visualizar dados da entidade,51
+SGCond,SGC-US12,Verificar permissão de acesso à página,20
+SGCond,SGC-US12,Verificar dados retornados,16
+SGCond,SGC-US12,Acessar página sem fazer login,55
+SGCond,SGC-US13,Editar condomínio deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US13,Cancelar edição da moradia com sucesso,10
+SGCond,SGC-US13,Verificar se todos os dados da moradia estão sendo exibidos,22
+SGCond,SGC-US13,Verificar inserção de link da moradia inexistente,23
+SGCond,SGC-US13,Verificar presença de campos retornados,16
+SGCond,SGC-US13,Fechar a tela antes de excutar ação,26
+SGCond,SGC-US13,Editar informando um identificador já existente,7
+SGCond,SGC-US14,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US14,Fechar a tela antes de inserir chamado,26
+SGCond,SGC-US14,Cadastar chamado com sucesso,1
+SGCond,SGC-US14,Cancelar chamado de moradia com sucesso,2
+SGCond,SGC-US14,Cadastrar chamado com campos obrigatórios não preenchidos,4
+SGCond,SGC-US15,Editar chamado deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US15,Cancelar edição do chamado com sucesso,10
+SGCond,SGC-US15,Verificar se todos os dados do chamado estão sendo exibidos,22
+SGCond,SGC-US15,Verificar inserção de link de chamado inexistente,23
+SGCond,SGC-US15,Verificar presença de campos retornados,16
+SGCond,SGC-US15,Fechar a tela antes de excutar ação,26
+SGCond,SGC-US15,Verificar se estados possíveis do chamado estão de acordo,56
+SGCond,SGC-US16,Listar todas o chamados com sucesso,15
+SGCond,SGC-US16,Validar resultado da listagem sem dados,17
+SGCond,SGC-US16,Verificar paginação,19
+SGCond,SGC-US16,Validar resultado da consulta de chamados,21
+SGCond,SGC-US16,Visualizar dados da entidade,51
+SGCond,SGC-US16,Verificar permissão de acesso à página,20
+SGCond,SGC-US16,Verificar dados retornados,16
+SGCond,SGC-US16,Acessar página sem fazer login,55
+SGCond,SGC-US17,Excluir chamado comum com sucesso,12
+SGCond,SGC-US17,"Cancelar exclusão da entidade
+",27
+SGCond,SGC-US17,Fechar a tela antes de executar exclusão,26
+SGCond,SGC-US17,Tentar excluir sem ter feito login,55
+SGCond,SGC-US17,Tentar excluir sem ter permissão,20
+SGCond,SGC-US18,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US18,Fechar a tela antes de reservar área comum,26
+SGCond,SGC-US18,Reservar área comum com sucesso,1
+SGCond,SGC-US18,Cancelar reserva de área comum com sucesso,2
+SGCond,SGC-US18,"Reservar área em data já reservada
+",3
+SGCond,SGC-US18,Reservar área comum com campos obrigatórios não preenchidos,4
+SGCond,SGC-US18,Reservar área comum com data previamente excluída,29
+SGCond,SGC-US18,Reservar área comum com campos inválidos,43
+SGCond,SGC-US18,Tentar reservar sem ter permissão,20
+SGCond,SGC-US18,Tentar reservar sem ter feito login,55
+SGCond,SGC-US19,Editar informações da reserva com sucesso,6
+SGCond,SGC-US19,Editar reserva deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US19,Cancelar edição da reserva com sucesso,10
+SGCond,SGC-US19,Verificar se todos os dados da reserva estão sendo exibidos,22
+SGCond,SGC-US19,Verificar inserção de link da reserva inexistente,23
+SGCond,SGC-US19,Verificar presença de campos retornados,16
+SGCond,SGC-US19,Tentar alterar sem permissão,20
+SGCond,SGC-US19,Tentar alterar sem ter feito login,55
+SGCond,SGC-US20,Excluir reserva com sucesso,12
+SGCond,SGC-US20,"Cancelar exclusão da entidade
+",27
+SGCond,SGC-US20,Fechar a tela antes de executar exclusão,26
+SGCond,SGC-US20,Tentar excluir sem ter feito login,55
+SGCond,SGC-US20,Tentar excluir sem ter permissão,20
+SGCond,SGC-US21,Listar todas as reservas com sucesso,15
+SGCond,SGC-US21,Validar resultado da listagem sem dados,17
+SGCond,SGC-US21,Verificar paginação,19
+SGCond,SGC-US21,Validar resultado da consulta de reservas,21
+SGCond,SGC-US21,Visualizar dados da entidade,51
+SGCond,SGC-US21,Verificar permissão de acesso à página,20
+SGCond,SGC-US21,Verificar dados retornados,16
+SGCond,SGC-US21,Acessar página sem fazer login,55
+SGCond,SGC-US22,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US22,Fechar a tela antes de cadastrar usuário,26
+SGCond,SGC-US22,Cadastrar usuário comum com sucesso,1
+SGCond,SGC-US22,Cancelar cadastro de usuário com sucesso,2
+SGCond,SGC-US22,"Cadastrar usuário com e-mail já cadastrado
+",3
+SGCond,SGC-US22,Cadasrar usuário com campos obrigatórios não preenchidos,4
+SGCond,SGC-US22,Cadastrar usuário com data previamente excluída,29
+SGCond,SGC-US22,Cadastrar usuário com campos inválidos,43
+SGCond,SGC-US22,Tentar cadastrar sem ter permissão,20
+SGCond,SGC-US22,Tentar cadastrar sem ter feito login,55
+SGCond,SGC-US23,HWLL-1:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,13
+SGCond,SGC-US23,HWLL-2:[SPEC] Validar se página é redirecionada ao colar link em outra aba do navegador,13
+SGCond,SGC-US23,HWLL-3:[SPEC] Validar acesso de usuário Ativo e Inativo,24
+SGCond,SGC-US23,HWLL-4:[SPEC] Validar campo Nome,25
+SGCond,SGC-US23,HWLL-5:[SPEC] Validar campo Senha,25
+SGCond,SGC-US24,Recuperar senha com sucesso,30
+SGCond,SGC-US24,"Recuperar senha com e-mail inválido
+",57
+SGCond,SGC-US24,Recuperar senha com e-mail não cadastrado,58
+SGCond,SGC-US25,Verificar acesso por papel não autorizado,20
+SGCond,SGC-US25,Tentar inserir sem conexão com o servidor,37
+SGCond,SGC-US25,Fechar a tela antes de inserir enquete,26
+SGCond,SGC-US25,Cadastar enquete com sucesso,1
+SGCond,SGC-US25,Cancelar cadastro de enquete com sucesso,2
+SGCond,SGC-US25,Cadastrar condomínio com campos obrigatórios não preenchidos,4
+SGCond,SGC-US25,Cadastrar condomínio com campos inválidos,43
+SGCond,SGC-US26,Editar informações da enquete com sucesso,6
+SGCond,SGC-US26,Editar enquete deixando os campos obrigatórios do formulário em branco,8
+SGCond,SGC-US26,Cancelar edição da enquete com sucesso,10
+SGCond,SGC-US26,Verificar se todos os dados da enquete estão sendo exibidos,22
+SGCond,SGC-US26,Verificar inserção de link da enquete inexistente,23
+SGCond,SGC-US26,Verificar presença de campos retornados,16
+SGCond,SGC-US26,Tentar alterar sem permissão,20
+SGCond,SGC-US26,Tentar alterar sem ter feito login,55
+SGCond,SGC-US27,Listar todas as enquetes com sucesso,15
+SGCond,SGC-US27,Validar resultado da listagem sem dados,17
+SGCond,SGC-US27,Verificar paginação,19
+SGCond,SGC-US27,Validar resultado da consulta de chamados,21
+SGCond,SGC-US27,Visualizar dados da entidade,51
+SGCond,SGC-US27,Verificar permissão de acesso à página,20
+SGCond,SGC-US27,Verificar dados retornados,16
+SGCond,SGC-US27,Acessar página sem fazer login,55
+SGCond,SGC-US28,Excluir chamado comum com sucesso,12
+SGCond,SGC-US28,"Cancelar exclusão da entidade
+",27
+SGCond,SGC-US28,Fechar a tela antes de executar exclusão,26
+SGCond,SGC-US28,Tentar excluir sem ter feito login,55
+SGCond,SGC-US28,Tentar excluir sem ter permissão,20
+SGCond,SGC-US29,Registrar voto com sucesso,1
+SGCond,SGC-US29,Cancelar voto com sucesso,2
+SGCond,SGC-US29,Cadastrar voto sem selecionar item,4
+SGCond,SGC-US29,Verificar acesso por papel não autorizado,20
+SGCond,SGC-US29,Tentar votar sem ter feito login,55
+SGCond,SGC-US30,Tentar acessar enquetes em aberto não votadas no dashboard,15
+SGCond,SGC-US30,Listar sem ter feito login,55
+MyPocket,MPT-US01,HWLL-1:[TC] Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,13
+MyPocket,MPT-US01,HWLL-2:[SPEC] Validar se página é redirecionada ao colar link em outra aba do navegador,13
+MyPocket,MPT-US01,HWLL-3:[SPEC] Validar acesso de usuário Ativo e Inativo,24
+MyPocket,MPT-US01,HWLL-4:[SPEC] Validar campo Nome,25
+MyPocket,MPT-US01,HWLL-5:[SPEC] Validar campo Senha,25
+MyPocket,MPT-US02,Fazer logout na aplicação,35
+MyPocket,MPT-US03,Tentar inserir sem conexão com o servidor,37
+MyPocket,MPT-US03,Fechar a tela antes de inserir enquete,26
+MyPocket,MPT-US03,Cadastar transação com sucesso,1
+MyPocket,MPT-US03,Cancelar cadastro de transacação com sucesso,2
+MyPocket,MPT-US03,Cadastrar transação com campos obrigatórios não preenchidos,4
+MyPocket,MPT-US03,Cadastrar transação com campos inválidos,43
+MyPocket,MPT-US04,Editar informações da transação com sucesso,6
+MyPocket,MPT-US04,Editar transação deixando os campos obrigatórios do formulário em branco,8
+MyPocket,MPT-US04,Cancelar edição da transação com sucesso,10
+MyPocket,MPT-US04,Verificar se todos os dados da transação estão sendo exibidos,22
+MyPocket,MPT-US04,Verificar inserção de link da transação inexistente,23
+MyPocket,MPT-US04,Verificar presença de campos retornados,16
+MyPocket,MPT-US04,Tentar alterar sem ter feito login,55
+MyPocket,MPT-US05,Listar todas as transações com sucesso,15
+MyPocket,MPT-US05,Validar resultado da listagem sem dados,17
+MyPocket,MPT-US05,Validar resultado da consulta de chamados,21
+MyPocket,MPT-US05,Visualizar dados da entidade,51
+MyPocket,MPT-US05,Verificar dados retornados,16
+MyPocket,MPT-US05,Acessar página sem fazer login,55
+MyPocket,MPT-US06,Excluir chamado comum com sucesso,12
+MyPocket,MPT-US06,"Cancelar exclusão da entidade
+",27
+MyPocket,MPT-US06,Fechar a tela antes de executar exclusão,26
+MyPocket,MPT-US06,Tentar excluir sem ter feito login,55
+MyPocket,MPT-US06,Tentar excluir sem ter permissão,20
+MyPocket,MPT-US07,Listar todas as categorias com sucesso,15
+MyPocket,MPT-US07,Validar resultado da listagem sem dados,17
+MyPocket,MPT-US07,Verificar paginação,19
+MyPocket,MPT-US07,Validar resultado da consulta de chamados,21
+MyPocket,MPT-US07,Visualizar dados da entidade,51
+MyPocket,MPT-US07,Verificar dados retornados,16
+MyPocket,MPT-US07,Acessar página sem fazer login,55
+MyPocket,MPT-US08,Tentar inserir sem conexão com o servidor,37
+MyPocket,MPT-US08,Fechar a tela antes de inserir enquete,26
+MyPocket,MPT-US08,Cadastar categoria com sucesso,1
+MyPocket,MPT-US08,Cancelar cadastro de categoria com sucesso,2
+MyPocket,MPT-US08,Cadastrar categoria com campos obrigatórios não preenchidos,4
+MyPocket,MPT-US08,Cadastrar categoria com campos inválidos,43
+MyPocket,MPT-US09,Editar informações da categoria com sucesso,6
+MyPocket,MPT-US09,Editar categoria deixando os campos obrigatórios do formulário em branco,8
+MyPocket,MPT-US09,Cancelar edição da categoria com sucesso,10
+MyPocket,MPT-US09,Verificar se todos os dados da categoria estão sendo exibidos,22
+MyPocket,MPT-US09,Verificar inserção de link da categoria inexistente,23
+MyPocket,MPT-US09,Verificar presença de campos retornados,16
+MyPocket,MPT-US09,Tentar alterar sem ter feito login,55
+MyPocket,MPT-US10,Recuperar senha com sucesso,30
+MyPocket,MPT-US10,"Recuperar senha com e-mail inválido
+",57
+MyPocket,MPT-US10,Recuperar senha com e-mail não cadastrado,58

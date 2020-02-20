@@ -220,47 +220,281 @@ SGCond,SGC-US01,4,Cadastrar sem autenticação,"1,2",4
 SGCond,SGC-US01,5,Cadastrar sem autorização,"1,2",5
 SGCond,SGC-US01,6,Ao tentar inserir uma área comum cujo nome já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
 SGCond,SGC-US01,7,"Ao clicar no botão adicionar, a tela de inserção da área comum deve ser exibida sem dados preenchidos","1,2",51
-SGCond,SGC-US01,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
-SGCond,SGC-US02,,Ao alterar campos da área comum e clicar em salvar a área comum deve ser atualizada,"1,2",8
-SGCond,SGC-US02,,Alteração com campos obrigatórios não preenchidos,"1,2",9
-SGCond,SGC-US02,,Alteração com campos inválidos,"1,2",10
-SGCond,SGC-US02,,Alteração sem autenticação,"1,2",11
-SGCond,SGC-US02,,Alteração sem autorização,"1,2",12
-SGCond,SGC-US02,,"Ao alterar área comum com identificador existente, mensagem deve ser exibida","1,2",13
-SGCond,SGC-US02,,Ao acessar área comum os dados da mesma devem estar preenchidos,"1,2",43
-SGCond,SGC-US02,,Ao inserir um link de uma área comum inexistente um erro 404 deve ser exibido,"1,2",44
-SGCond,SGC-US02,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
-SGCond,SGC-US02,,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
-SGCond,SGC-US03,,Listar dados,"1,2",15
-SGCond,SGC-US03,,LIstar sem dados cadatrados,"1,2",16
-SGCond,SGC-US03,,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
-SGCond,SGC-US03,,Listagem com valor do filtro cadastrado,"1,2",18
-SGCond,SGC-US03,,Listagem com valor do filtro não cadastrado,"1,2",19
-SGCond,SGC-US03,,Listagem sem autenticação,"1,2",20
-SGCond,SGC-US03,,Listagem sem autorização,"1,2",21
-SGCond,SGC-US03,,Ordenar dados,"1,2",22
-SGCond,SGC-US03,,Buscar dados de um item,"1,2",34
-SGCond,SGC-US03,,Buscar dados de um item inexistente,"1,2",35
-SGCond,SGC-US04,,Exclusão de dados,"1,2",31
-SGCond,SGC-US04,,Exclusão de dados sem autenticação,"1,2",32
-SGCond,SGC-US04,,Exclusão de dados sem autorização,"1,2",33
-SGCond,SGC-US04,,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a área comum deve ser excluída","1,2",50
-SGCond,SGC-US04,,"Ao clicar no botão cancelar, a área comum não deve ser excluída.","1,2",61
-SGCond,SGC-US05,,Cadastrar,"1,2",1
-SGCond,SGC-US05,,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
-SGCond,SGC-US05,,Cadastrar com campos inválidos,"1,2",3
-SGCond,SGC-US05,,Cadastrar sem autenticação,"1,2",4
-SGCond,SGC-US05,,Cadastrar sem autorização,"1,2",5
-SGCond,SGC-US05,,Ao tentar inserir uma área comum cujo nome já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
-SGCond,SGC-US05,,"Ao clicar no botão adicionar, a tela de inserção da área comum deve ser exibida sem dados preenchidos","1,2",51
-SGCond,SGC-US05,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
-SGCond,SGC-US06,,Ao alterar campos da área comum e clicar em salvar a área comum deve ser atualizada,"1,2",8
-SGCond,SGC-US06,,Alteração com campos obrigatórios não preenchidos,"1,2",9
-SGCond,SGC-US06,,Alteração com campos inválidos,"1,2",10
-SGCond,SGC-US06,,Alteração sem autenticação,"1,2",11
-SGCond,SGC-US06,,Alteração sem autorização,"1,2",12
-SGCond,SGC-US06,,"Ao alterar área comum com identificador existente, mensagem deve ser exibida","1,2",13
-SGCond,SGC-US06,,Ao acessar área comum os dados da mesma devem estar preenchidos,"1,2",43
-SGCond,SGC-US06,,Ao inserir um link de uma área comum inexistente um erro 404 deve ser exibido,"1,2",44
-SGCond,SGC-US06,,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
-SGCond,SGC-US06,,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
+SGCond,SGC-US01,8,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US02,9,Ao alterar campos da área comum e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US02,10,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US02,11,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US02,12,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US02,13,Alteração sem autorização,"1,2",12
+SGCond,SGC-US02,14,"Ao alterar área comum com identificador existente, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US02,15,Ao acessar área comum os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US02,16,Ao inserir um link de uma área comum inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US02,17,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US02,18,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
+SGCond,SGC-US03,19,Listar dados,"1,2",15
+SGCond,SGC-US03,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US03,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US03,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US03,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US03,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US03,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US03,26,Ordenar dados,"1,2",22
+SGCond,SGC-US03,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US03,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US04,29,Exclusão de dados,"1,2",31
+SGCond,SGC-US04,30,Exclusão de dados sem autenticação,"1,2",32
+SGCond,SGC-US04,31,Exclusão de dados sem autorização,"1,2",33
+SGCond,SGC-US04,32,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a área comum deve ser excluída","1,2",50
+SGCond,SGC-US04,33,"Ao clicar no botão cancelar, a área comum não deve ser excluída.","1,2",61
+SGCond,SGC-US05,34,Cadastrar,"1,2",1
+SGCond,SGC-US05,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US05,36,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US05,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US05,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US05,39,Ao tentar inserir uma área comum cujo nome já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US05,40,"Ao clicar no botão adicionar, a tela de inserção da área comum deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US05,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US06,42,Ao alterar campos da área comum e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US06,43,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US06,44,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US06,45,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US06,46,Alteração sem autorização,"1,2",12
+SGCond,SGC-US06,47,"Ao alterar área comum com identificador existente, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US06,48,Ao acessar área comum os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US06,49,Ao inserir um link de uma área comum inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US06,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US06,51,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
+SGCond,SGC-US07,19,Listar dados,"1,2",15
+SGCond,SGC-US07,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US07,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US07,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US07,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US07,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US07,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US07,26,Ordenar dados,"1,2",22
+SGCond,SGC-US07,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US07,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US08,34,Cadastrar,"1,2",1
+SGCond,SGC-US08,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US08,36,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US08,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US08,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US08,39,Ao tentar inserir um condomínio cujo CNPJ já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US08,40,"Ao clicar no botão adicionar, a tela de inserção do condomínio deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US08,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na área comum","1,2",47
+SGCond,SGC-US08,42,"Ao informar o CNPJ, o sistema deve verificar se trata de um CNPJ válido","1,2",3
+SGCond,SGC-US09,42,Ao alterar campos do condomínio e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US09,43,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US09,44,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US09,45,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US09,46,Alteração sem autorização,"1,2",12
+SGCond,SGC-US09,47,"Ao alterar condomínio com identificador existente, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US09,48,Ao acessar condomínio os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US09,49,Ao inserir um link de um condomínio inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US09,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no condomínio","1,2",47
+SGCond,SGC-US09,51,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
+SGCond,SGC-US09,42,"Ao informar o CNPJ, o sistema deve verificar se trata de um CNPJ válido","1,2",3
+SGCond,SGC-US10,19,Listar dados,"1,2",15
+SGCond,SGC-US10,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US10,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US10,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US10,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US10,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US10,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US10,26,Ordenar dados,"1,2",22
+SGCond,SGC-US10,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US10,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US11,34,Cadastrar,"1,2",1
+SGCond,SGC-US11,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US11,36,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US11,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US11,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US11,39,Ao tentar inserir uma moradia cujo identificador já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US11,40,"Ao clicar no botão adicionar, a tela de inserção da moradia deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US11,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na moradia","1,2",47
+SGCond,SGC-US12,19,Listar dados,"1,2",15
+SGCond,SGC-US12,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US12,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US12,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US12,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US12,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US12,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US12,26,Ordenar dados,"1,2",22
+SGCond,SGC-US12,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US12,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US13,42,Ao alterar campos do condomínio e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US13,43,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US13,44,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US13,45,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US13,46,Alteração sem autorização,"1,2",12
+SGCond,SGC-US13,47,"Ao alterar moradia com identificador existente, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US13,48,Ao acessar moradia os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US13,49,Ao inserir um link de uma moradia inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US13,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na moradia","1,2",47
+SGCond,SGC-US13,51,"Ao exibir tela de edição, identificador não deve poder ser alterado","1,2",54
+SGCond,SGC-US14,34,Cadastrar chamado,"1,2",1
+SGCond,SGC-US14,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US14,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US14,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US14,40,"Ao clicar no botão adicionar, a tela de inserção da moradia deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US14,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na moradia","1,2",47
+SGCond,SGC-US14,41,"Ao salvar um chamado seu estado deve ser ""Novo""","1,2",62
+SGCond,SGC-US15,42,Ao alterar campos do chamado e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US15,43,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US15,45,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US15,46,Alteração sem autorização,"1,2",12
+SGCond,SGC-US15,48,Ao acessar o chamado os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US15,49,Ao inserir um link de um chamado inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US15,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no chamado","1,2",47
+SGCond,SGC-US15,50,"Ao alterar um chamado que se encontra no estado novo, os estados possíveis são: em andamento, duplicado ou resolvido","1,2",63
+SGCond,SGC-US15,50,"Ao alterar um chamado que se encontra no estado em andamento, os estados possíveis são: resolvido","1,2",63
+SGCond,SGC-US16,19,Listar dados,"1,2",15
+SGCond,SGC-US16,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US16,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US16,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US16,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US16,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US16,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US16,26,Ordenar dados,"1,2",22
+SGCond,SGC-US16,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US16,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US17,29,Exclusão de dados,"1,2",31
+SGCond,SGC-US17,30,Exclusão de dados sem autenticação,"1,2",32
+SGCond,SGC-US17,31,Exclusão de dados sem autorização,"1,2",33
+SGCond,SGC-US17,32,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a área comum deve ser excluída","1,2",50
+SGCond,SGC-US17,33,"Ao clicar no botão cancelar, a área comum não deve ser excluída.","1,2",61
+SGCond,SGC-US18,34,Cadastrar,"1,2",1
+SGCond,SGC-US18,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US18,36,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US18,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US18,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US18,39,Ao tentar reservar uma área comum que já esteja reservada no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US18,40,"Ao clicar no botão adicionar, a tela de reserva da área comum deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US18,41,"Ao clicar no botão cancelar, o calendário deve ser exibido e nenhuma alteração deve ser feita na reserva","1,2",47
+SGCond,SGC-US19,42,Ao alterar campos do condomínio e clicar em salvar a área comum deve ser atualizada,"1,2",8
+SGCond,SGC-US19,43,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US19,44,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US19,45,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US19,46,Alteração sem autorização,"1,2",12
+SGCond,SGC-US19,47,"Ao alterar reserva com horário já reservado, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US19,48,Ao acessar reserva os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US19,49,Ao inserir uma link de uma resreva inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US19,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na reserva","1,2",47
+SGCond,SGC-US20,29,Exclusão de dados,"1,2",31
+SGCond,SGC-US20,30,Exclusão de dados sem autenticação,"1,2",32
+SGCond,SGC-US20,31,Exclusão de dados sem autorização,"1,2",33
+SGCond,SGC-US20,32,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a reserva deve ser excluída","1,2",50
+SGCond,SGC-US20,33,"Ao clicar no botão cancelar, a reserva não deve ser excluída.","1,2",61
+SGCond,SGC-US21,19,Listar dados,"1,2",15
+SGCond,SGC-US21,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US21,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US21,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US21,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US21,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US21,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US21,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US22,34,Cadastrar,"1,2",1
+SGCond,SGC-US22,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US22,36,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US22,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US22,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US22,39,Ao tentar cadastrar um usuário cujo e-mail já esteja cadastrado no sistema o mesmo deverá uma mensagem,"1,2",6
+SGCond,SGC-US22,40,"Ao clicar no botão adicionar, a tela de inserção de usuário  deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US22,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no usuário","1,2",47
+SGCond,SGC-US23,55,Ao fazer login com nome de usuário e senha válida a página principal deve ser exibida.,"1,2",24
+SGCond,SGC-US23,56,Ao fazer login com nome de usuário cadastrado ou senha inválida o sistema deverá apresentar uma mensagem,"1,2",40
+SGCond,SGC-US23,57,Ao fazer login sem preencher nome de usuário ou senha o sistema deverá exibir uma mensagem,"1,2",41
+SGCond,SGC-US23,58,Ao fazer login com nome de usuário não cadastrado e qualquer senha o sistema deverá apresentar uma mensagem,"1,2",42
+SGCond,SGC-US24,59,"Ao informar e-mail cadastrado, um e-mail deve ser enviado com uma senha provisória pro e-mail do usuário.","1,2",28
+SGCond,SGC-US24,60,Ao informar um e-mail não cadastrado o sistem deverá exibir uma mensagem,"1,2",29
+SGCond,SGC-US24,61,Ao informar um e-mail inválido o sistema deverá exibir uma mensagem,"1,2",30
+SGCond,SGC-US25,34,Cadastrar,"1,2",1
+SGCond,SGC-US25,35,Cadastrar com campos obrigatórios não preenchidos,"1,2",2
+SGCond,SGC-US25,36,Cadastrar com campos inválidos,"1,2",3
+SGCond,SGC-US25,37,Cadastrar sem autenticação,"1,2",4
+SGCond,SGC-US25,38,Cadastrar sem autorização,"1,2",5
+SGCond,SGC-US25,40,"Ao clicar no botão adicionar, a tela de inserção da enquete deve ser exibida sem dados preenchidos","1,2",51
+SGCond,SGC-US25,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na enquete","1,2",47
+SGCond,SGC-US26,42,Ao alterar campos da enquete e clicar em salvar a enquete deve ser atualizada,"1,2",8
+SGCond,SGC-US26,43,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SGCond,SGC-US26,44,Alteração com campos inválidos,"1,2",10
+SGCond,SGC-US26,45,Alteração sem autenticação,"1,2",11
+SGCond,SGC-US26,46,Alteração sem autorização,"1,2",12
+SGCond,SGC-US26,47,"Ao alterar a enquete com horário já reservado, mensagem deve ser exibida","1,2",13
+SGCond,SGC-US26,48,Ao acessar enquete os dados da mesma devem estar preenchidos,"1,2",43
+SGCond,SGC-US26,49,Ao inserir uma link de uma enquete inexistente um erro 404 deve ser exibido,"1,2",44
+SGCond,SGC-US26,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na enquete","1,2",47
+SGCond,SGC-US27,20,LIstar sem dados cadatrados,"1,2",16
+SGCond,SGC-US27,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+SGCond,SGC-US27,22,Listagem com valor do filtro cadastrado,"1,2",18
+SGCond,SGC-US27,23,Listagem com valor do filtro não cadastrado,"1,2",19
+SGCond,SGC-US27,24,Listagem sem autenticação,"1,2",20
+SGCond,SGC-US27,25,Listagem sem autorização,"1,2",21
+SGCond,SGC-US27,26,Ordenar dados,"1,2",22
+SGCond,SGC-US27,27,Buscar dados de um item,"1,2",34
+SGCond,SGC-US27,28,Buscar dados de um item inexistente,"1,2",35
+SGCond,SGC-US28,29,Exclusão de dados,"1,2",31
+SGCond,SGC-US28,30,Exclusão de dados sem autenticação,"1,2",32
+SGCond,SGC-US28,31,Exclusão de dados sem autorização,"1,2",33
+SGCond,SGC-US28,32,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a enquete deve ser excluída","1,2",50
+SGCond,SGC-US28,33,"Ao clicar no botão cancelar, a enquete comum não deve ser excluída.","1,2",61
+SGCond,SGC-US29,61,Ao selecionar uma opção e clicar em votar o voto deve ser registrado na base de dados,"1,2",1
+SGCond,SGC-US29,62,Ao clicar em votar sem selecionar uma opção o sistema deverá exibir uma mensagem de campo obrigatório não preenchido.,"1,2",2
+SGCond,SGC-US29,63,Ao votar com suceso o resultado parcial da enquete deve ser exibido,"1,2",
+SGCond,SGC-US29,64,Ao cancelar o voto o mesmo não deve ser registrado na base de dados,"1,2",47
+SGCond,SGC-US29,65,Ao registrar o voto o mesmo não deve ser mais exibido para o usuário,"1,2",
+SGCond,SGC-US29,65,Tentar registrar voto sem autenticação,"1,2",4
+SGCond,SGC-US29,65,Tentar registrar voto sem autorização,"1,2",5
+SGCond,SGC-US30,65,"Ao acessar dashboard as enquetes em andamento devem ser exibidas, caso o usuário não tenha votado","1,2",15
+SGCond,SGC-US30,65,Acessar dashboard sem ter feito autenticação,"1,2",20
+MyPocket,MPT-US01,55,Ao fazer login com nome de usuário e senha válida a página principal deve ser exibida.,1,24
+MyPocket,MPT-US01,56,Ao fazer login com nome de usuário cadastrado ou senha inválida o sistema deverá apresentar uma mensagem,1,40
+MyPocket,MPT-US01,57,Ao fazer login sem preencher nome de usuário ou senha o sistema deverá exibir uma mensagem,1,41
+MyPocket,MPT-US01,58,Ao fazer login com nome de usuário não cadastrado e qualquer senha o sistema deverá apresentar uma mensagem,1,42
+MyPocket,MPT-US02,60,Ao fazer logout no sistema o mesmo deve ser redirecionado para tela de login,1,38
+MyPocket,MPT-US03,34,Cadastrar,1,1
+MyPocket,MPT-US03,35,Cadastrar com campos obrigatórios não preenchidos,1,2
+MyPocket,MPT-US03,36,Cadastrar com campos inválidos,1,3
+MyPocket,MPT-US03,37,Cadastrar sem autenticação,1,4
+MyPocket,MPT-US03,40,"Ao clicar no botão adicionar, a tela de inserção da transação deve ser exibida sem dados preenchidos",1,51
+MyPocket,MPT-US03,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na transação",1,47
+MyPocket,MPT-US04,42,Ao alterar campos da transação e clicar em salvar a enquete deve ser atualizada,1,8
+MyPocket,MPT-US04,43,Alteração com campos obrigatórios não preenchidos,1,9
+MyPocket,MPT-US04,44,Alteração com campos inválidos,1,10
+MyPocket,MPT-US04,45,Alteração sem autenticação,1,11
+MyPocket,MPT-US04,48,Ao acessar transação os dados da mesma devem estar preenchidos,1,43
+MyPocket,MPT-US04,49,Ao inserir uma link de uma transação inexistente um erro 404 deve ser exibido,1,44
+MyPocket,MPT-US04,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na transação",1,47
+MyPocket,MPT-US05,20,LIstar sem dados cadatrados,1,16
+MyPocket,MPT-US05,22,Listagem com valor do filtro cadastrado,1,18
+MyPocket,MPT-US05,23,Listagem com valor do filtro não cadastrado,1,19
+MyPocket,MPT-US05,24,Listagem sem autenticação,1,20
+MyPocket,MPT-US05,26,Ordenar dados,1,22
+MyPocket,MPT-US05,27,Buscar dados de um item,1,34
+MyPocket,MPT-US06,29,Exclusão de dados,"1,2",31
+MyPocket,MPT-US06,30,Exclusão de dados sem autenticação,"1,2",32
+MyPocket,MPT-US06,32,"Ao clicar no botão excluir, um botão de confirmarção deve ser exibido e caso confirmado, a transação deve ser excluída","1,2",50
+MyPocket,MPT-US06,33,"Ao clicar no botão cancelar, a transação não deve ser excluída.","1,2",61
+MyPocket,MPT-US07,20,LIstar sem dados cadatrados,1,16
+MyPocket,MPT-US07,22,Listagem com valor do filtro cadastrado,1,18
+MyPocket,MPT-US07,23,Listagem com valor do filtro não cadastrado,1,19
+MyPocket,MPT-US07,24,Listagem sem autenticação,1,20
+MyPocket,MPT-US07,26,Ordenar dados,1,22
+MyPocket,MPT-US07,27,Buscar dados de um item,1,34
+MyPocket,MPT-US07,21,"No resultado da busca, a página deve exibir no máximo 10 valores","1,2",17
+MyPocket,MPT-US08,34,Cadastrar,1,1
+MyPocket,MPT-US08,35,Cadastrar com campos obrigatórios não preenchidos,1,2
+MyPocket,MPT-US08,36,Cadastrar com campos inválidos,1,3
+MyPocket,MPT-US08,37,Cadastrar sem autenticação,1,4
+MyPocket,MPT-US08,40,"Ao clicar no botão adicionar, a tela de inserção da categoria deve ser exibida sem dados preenchidos",1,51
+MyPocket,MPT-US08,41,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na categoria",1,47
+MyPocket,MPT-US09,42,Ao alterar campos da categoria e clicar em salvar a enquete deve ser atualizada,1,8
+MyPocket,MPT-US09,43,Alteração com campos obrigatórios não preenchidos,1,9
+MyPocket,MPT-US09,44,Alteração com campos inválidos,1,10
+MyPocket,MPT-US09,45,Alteração sem autenticação,1,11
+MyPocket,MPT-US09,48,Ao acessar categoria os dados da mesma devem estar preenchidos,1,43
+MyPocket,MPT-US09,49,Ao inserir uma link de uma categoria inexistente um erro 404 deve ser exibido,1,44
+MyPocket,MPT-US09,50,"Ao clicar no botão cancelar, a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na categoria",1,47
+MyPocket,MPT-US10,59,"Ao informar e-mail cadastrado, um e-mail deve ser enviado com uma senha provisória pro e-mail do usuário.","1,2",28
+MyPocket,MPT-US10,60,Ao informar um e-mail não cadastrado o sistem deverá exibir uma mensagem,"1,2",29
+MyPocket,MPT-US10,61,Ao informar um e-mail inválido o sistema deverá exibir uma mensagem,"1,2",30

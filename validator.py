@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 
-def cross_validate(fold_length, k):
+def cross_validate(fold_length, k, metric='euclidean'):
     data_handler = NewUSsDataHandler()
 
     uss = data_handler.load_us_data()
@@ -21,7 +21,7 @@ def cross_validate(fold_length, k):
         test_set = uss_x.iloc[test_index, :]
 
         for us_test in test_set.iterrows():
-            recommendations = get_recommendations(us_test[1], train_set, k)
+            recommendations = get_recommendations(us_test[1], train_set, k, distance_metric=metric)
 
             if recommendations.empty:
                 f_measures.append(0)

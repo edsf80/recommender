@@ -1,50 +1,59 @@
-ID,Descrição,Tipo
-1,Cadastrar <entidade> com sucesso,Inserção
-2,Cancelar cadastro de <entidade> com sucesso,Inserção
-3,Cadastrar <entidade> com ID existente,Inserção
-4,Cadastrar <entidade> sem campos obrigatórios preenchidos,Inserção
-5,Cadastrar usuários com diferentes papéis,Inserção
-6,Editar informações da <entidade> com sucesso,Alteração
-7,Editar entidade alterando o ID para um existente,Alteração
-8,Editar entidade deixando os campos obrigatórios do formulário em branco,Alteração
-9,Inativar usuários com sucesso,Autenticação
-10,Cancelar edição da <entidade> com sucesso,Alteração
-11,Verificar acessibilidade às páginas,Acessibilidade
-12,Excluir <entidade> com sucesso,Exclusão
-13,Acessar tela sem estar autenticado na aplicação,Autenticação
-14,Acessar tela com usuário não cadastrado,Autenticação
-15,Listar todas as <entidades> com sucesso,Listagem
-16,Verificar presença de campos retornados,Cross
-17,Validar resultado da consulta de <entidade> sem dados,Listagem
-18,Tentar acessar tela após time out,Autenticação
-19,Verificar paginação,Listagem
-20,Verificar acesso por papéis,Autorização
-21,Validar resultado da consulta (filtro) de <entidade>,Listagem
-22,Verificar se todos os dados da <entidade> estão sendo exibidos,Alteração
-23,Verificar inserção de link de <entidade> inexistente,Alteração
-24,Realizar <ação> com usuário inativo,Autenticação
-25,O campo senha deve seguir regra <regra>,Autenticação
-26,Fechar a tela antes de excutar ação,Cross
-27,Cancelar exclusão da entidade,Exclusão
-28,Fazer primeiro login do usuário,Autenticação
-29,Cadastrar <entidade> com o ID de um previamente excluído,Inserção
-30,Recuprar senha com sucesso.,Autenticação
-31,Tentar autenticar sem preencher username,Autenticação
-32,Tentar autenticar com usuário não cadastrado,Autenticação
-33,Tentar autenticar com usuário inativo,Autenticação
-34,Verificar comportamento <comportamento> do campo <campo>,Cross
-35,Validar logout da aplicação,Autenticação
-36,Fechar browser e abrir aplicação novamente,Autenticação
-37,Validar ação sem conexão com servidor,Conexão
-38,Verificar cadastro de mais de um administrador,Autenticação
-39,Verificar campos senha e confirmação,Autenticação
-40,Fazer login com usuário e senha válidos,Autenticação
-41,Verificar internacionalização,Internacionalização
-42,Verificar exibição de notificações nas telas,Usabilidade
-43,Cadastrar <entidade> com campos inválidos,Inserção
-44,Realizar <ação> com campo <campo> inválido,Cross
-45,Realizar download do relatório <relatório>,Relatório
-46,Gerar PDF de relatório com sucesso,Relatório
-47,Tentar gerar relatório em um formato diferente do PDF,Relatório
-48,Validar nomenclatura do arquivo PDF gerado,Relatório
-49,Cadastrar <entidade> com restrição de negócio <restrição>,Inserção
+ID,Descrição
+1,Cadastrar <entidade> com sucesso
+2,Cancelar cadastro de <entidade> com sucesso
+3,Cadastrar <entidade> com ID existente
+4,Cadastrar <entidade> sem campos obrigatórios preenchidos
+5,Cadastrar usuários com diferentes papéis
+6,Editar informações da <entidade> com sucesso
+7,Editar entidade alterando o ID para um existente
+8,Editar entidade deixando os campos obrigatórios do formulário em branco
+9,Inativar usuários com sucesso
+10,Cancelar edição da <entidade> com sucesso
+11,Verificar acessibilidade às páginas
+12,Excluir <entidade> com sucesso
+13,Acessar tela sem estar autenticado na aplicação
+14,Acessar tela com usuário não cadastrado
+15,Listar todas as <entidades> com sucesso
+16,Verificar presença de campos retornados
+17,Validar resultado da consulta de <entidade> sem dados
+18,Tentar acessar tela após time out
+19,Verificar paginação
+20,Verificar acesso por papéis
+21,Validar resultado da consulta (filtro) de <entidade>
+22,Verificar se todos os dados da <entidade> estão sendo exibidos
+23,Verificar inserção de link de <entidade> inexistente
+24,Realizar <ação> com usuário inativo
+25,O campo senha deve seguir regra <regra>
+26,Fechar a tela antes de excutar ação
+27,Cancelar exclusão da entidade
+28,Fazer primeiro login do usuário
+29,Cadastrar <entidade> com o ID de um previamente excluído
+30,Recuprar senha com sucesso.
+31,Tentar autenticar sem preencher username
+32,Tentar autenticar com usuário não cadastrado
+33,Tentar autenticar com usuário inativo
+34,Verificar comportamento <comportamento> do campo <campo>
+35,Validar logout da aplicação
+36,Fechar browser e abrir aplicação novamente
+37,Validar ação sem conexão com servidor
+38,Verificar cadastro de mais de um administrador
+39,Verificar campos senha e confirmação
+40,Fazer login com usuário e senha válidos
+41,Verificar internacionalização
+42,Verificar exibição de notificações nas telas
+43,Cadastrar <entidade> com campos inválidos
+44,Realizar <ação> com campo <campo> inválido
+45,Realizar download do relatório <relatório>
+46,Gerar PDF de relatório com sucesso
+47,Tentar gerar relatório em um formato diferente do PDF
+48,Validar nomenclatura do arquivo PDF gerado
+49,Cadastrar <entidade> com restrição de negócio <restrição>
+50,Alterar <entidade> com restrição de negócio <restrição>
+51,Visualizar dados da <entidade>
+52,Incluir papel do usuário
+53,Excluir papel do usuário
+54,Verificar gráfico <Entidade>
+55,Executar ação sem ter feito login
+56,Verificar se estados da <entidade> estão de acordo
+57,Recuperar senha com nome de usuário inválido
+58,Recuperar senha com nome de usuário não cadastrado

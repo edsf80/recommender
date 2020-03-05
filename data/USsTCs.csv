@@ -1052,3 +1052,41 @@ MyPocket,MPT-US10,Recuperar senha com sucesso,30
 MyPocket,MPT-US10,"Recuperar senha com e-mail inválido
 ",57
 MyPocket,MPT-US10,Recuperar senha com e-mail não cadastrado,58
+MyPocket,MPT-US12,Tentar inserir sem conexão com o servidor,37
+MyPocket,MPT-US12,Fechar a tela antes de inserir enquete,26
+MyPocket,MPT-US12,Cadastar categoria com sucesso,1
+MyPocket,MPT-US12,Cancelar cadastro de categoria com sucesso,2
+MyPocket,MPT-US12,Cadastrar categoria com campos obrigatórios não preenchidos,4
+MyPocket,MPT-US12,Cadastrar categoria com campos inválidos,43
+MyPocket,MPT-US13,Listar todas as contas com sucesso,15
+MyPocket,MPT-US13,Validar resultado da listagem sem dados,17
+MyPocket,MPT-US13,Verificar paginação,19
+MyPocket,MPT-US13,Validar resultado da consulta de contas,21
+MyPocket,MPT-US13,Visualizar dados da entidade,51
+MyPocket,MPT-US13,Verificar dados retornados,16
+MyPocket,MPT-US13,Acessar página sem fazer login,55
+MyPocket,MPT-US14,Tentar inserir sem conexão com o servidor,37
+MyPocket,MPT-US14,Fechar a tela antes de inserir enquete,26
+MyPocket,MPT-US14,Cadastar conta com sucesso,1
+MyPocket,MPT-US14,Cancelar cadastro de conta com sucesso,2
+MyPocket,MPT-US14,Cadastrar conta com campos obrigatórios não preenchidos,4
+MyPocket,MPT-US14,Cadastrar conta com campos inválidos,43
+MyPocket,MPT-US15,Editar informações da conta com sucesso,6
+MyPocket,MPT-US15,Editar conta deixando os campos obrigatórios do formulário em branco,8
+MyPocket,MPT-US15,Cancelar edição da conta com sucesso,10
+MyPocket,MPT-US15,Verificar se todos os dados da conta estão sendo exibidos,22
+MyPocket,MPT-US15,Verificar inserção de link da conta inexistente,23
+MyPocket,MPT-US15,Verificar presença de campos retornados,16
+MyPocket,MPT-US15,Tentar alterar sem ter feito login,55
+MyPocket,MPT-US16,Tentar inserir sem conexão com o servidor,37
+MyPocket,MPT-US16,Fechar a tela antes de inserir enquete,26
+MyPocket,MPT-US16,Cadastar transação com sucesso,1
+MyPocket,MPT-US16,Cancelar cadastro de transação com sucesso,2
+MyPocket,MPT-US16,Cadastrar transação com campos obrigatórios não preenchidos,4
+MyPocket,MPT-US16,Cadastrar transação com campos inválidos,43
+MyPocket,MPT-US17,Validar resultado da listagem sem dados,17
+MyPocket,MPT-US17,Verificar paginação,19
+MyPocket,MPT-US17,Validar resultado da consulta de contas,21
+MyPocket,MPT-US17,Visualizar dados da entidade,51
+MyPocket,MPT-US17,Verificar dados retornados,16
+MyPocket,MPT-US17,Acessar página sem fazer login,55

@@ -1,7 +1,5 @@
 #!/usr/bin/python
 from validator import cross_validate
-from datahandler import NewUSsDataHandler
-from recommender import get_recommendations
 import numpy as np
 import warnings
 import matplotlib.pyplot as plt
@@ -66,5 +64,6 @@ if __name__ == '__main__':
                          textcoords="offset points",  # how to position the text
                          xytext=(0, 10),  # distance from text to points (x,y)
                          ha='center')  # horizontal alignment can be left, right or center
+        plt.xticks(k)
         plt.title(algorithm)
         plt.show()

@@ -3,6 +3,7 @@ from sklearn.model_selection import KFold
 from recommender import get_recommendations
 import pandas as pd
 import numpy as np
+from sklearn.neighbors import DistanceMetric
 
 
 def cross_validate(fold_length, k, metric='euclidean'):
@@ -47,3 +48,16 @@ def cross_validate(fold_length, k, metric='euclidean'):
             precisions.append(precision)
             recalls.append(recall)
     return precisions, recalls, f_measures
+
+
+if __name__ == '__main__':
+    data_handler = NewUSsDataHandler()
+
+    uss = data_handler.load_us_data().drop(columns=['TCs'])
+
+    newUS = {'ID_US': '#263', 'Módulo': 'Cadastro', 'Operação': 'Atualizar_dados', 'Plataforma': 'Web', 'RNFs': '1,2',
+             'CAs': '5,6,7,8'}
+
+    recommendations = get_recommendations(newUS, uss, 3, distance_metric='jaccard')
+
+    print(recommendations.to_string())

@@ -7,6 +7,8 @@ import seaborn as sns
 from matplotlib.font_manager import FontProperties
 import recommender as rec
 from scipy.stats import shapiro
+from scipy.stats import normaltest
+import pandas as pd
 
 font = FontProperties()
 font.set_family('serif')
@@ -20,6 +22,7 @@ if __name__ == '__main__':
     # algorithms = ['canberra', 'jaccard', 'cosine', 'euclidean', 'chebyshev' ]
     algorithms = [rec.METRIC_COSINE, rec.METRIC_CANBERRA, rec.METRIC_EUCLIDEAN, rec.METRIC_JACCARD]
     k = np.arange(1, 13, step=1)
+    result_dataset = pd.DataFrame(columns=['Precision', 'Recall', 'F-Measure', 'K', 'Algoritmo'])
 
     for algorithm in algorithms:
         precision_list = []
@@ -33,17 +36,34 @@ if __name__ == '__main__':
             print('Precision: ', np.mean(precisions))
             precision_list.append(np.mean(precisions))
             stat, p = shapiro(precisions)
-            print('Statistics=%.3f, p=%.3f' % (stat, p))
+            print('Statistics shapiro=%.3f, p=%.3f' % (stat, p))
+            stat, p = normaltest(precisions)
+            print('Statistics Agostino=%.3f, p=%.3f' % (stat, p))
 
             print('Recall: ', np.mean(recalls))
             recall_list.append(np.mean(recalls))
             stat, p = shapiro(recalls)
             print('Statistics=%.3f, p=%.3f' % (stat, p))
+            stat, p = normaltest(recalls)
+            print('Statistics Agostino=%.3f, p=%.3f' % (stat, p))
 
             print('F-measure: ', np.mean(f_measures))
             f_measures_list.append(np.mean(f_measures))
             stat, p = shapiro(f_measures)
             print('Statistics=%.3f, p=%.3f' % (stat, p))
+            stat, p = normaltest(f_measures)
+            print('Statistics Agostino=%.3f, p=%.3f' % (stat, p))
+
+            results = {
+                'Precision': precisions,
+                'Recall': recalls,
+                'F-Measure': f_measures
+            }
+
+            df = pd.DataFrame(results, columns=['Precision', 'Recall', 'F-Measure'])
+            df['K'] = i
+            df['Algoritmo'] = algorithm
+            result_dataset = result_dataset.append(df, ignore_index=True)
 
         fig, ax = plt.subplots()
         ax.plot(k, precision_list, label='Precision', marker='*')
@@ -82,3 +102,4 @@ if __name__ == '__main__':
         plt.xticks(k)
         plt.title(algorithm)
         plt.show()
+        result_dataset.to_csv(r'/home/edsf/tmp/results.csv', index=False, header=True)

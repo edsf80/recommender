@@ -1,12 +1,12 @@
 from datahandler import NewUSsDataHandler
 from sklearn.model_selection import KFold
-from recommender import get_recommendations
+from recommender import get_recommendations, get_recommendations_heuristcs
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import DistanceMetric
 
 
-def cross_validate(fold_length, k, metric='euclidean'):
+def cross_validate(fold_length, k, metric='euclidean', heuristic=False):
     data_handler = NewUSsDataHandler()
 
     uss = data_handler.load_us_data()
@@ -22,7 +22,11 @@ def cross_validate(fold_length, k, metric='euclidean'):
         test_set = uss_x.iloc[test_index, :]
 
         for us_test in test_set.iterrows():
-            recommendations = get_recommendations(us_test[1], train_set, k, distance_metric=metric)
+            recommendations = pd.DataFrame();
+            if heuristic:
+                recommendations = get_recommendations_heuristcs(us_test[1], train_set, k, distance_metric=metric)
+            else:
+                recommendations = get_recommendations(us_test[1], train_set, k, distance_metric=metric)
 
             if recommendations.empty:
                 f_measures.append(0)

@@ -8,6 +8,14 @@ METRIC_EUCLIDEAN = 'euclidean'
 METRIC_COSINE = 'cosine'
 METRIC_CANBERRA = 'canberra'
 METRIC_JACCARD = 'jaccard'
+METRIC_MANHATTAN = 'manhattan'
+METRIC_CHEBYSHEV = 'chebyshev'
+METRIC_MINKOWSKI = 'minkowski'
+METRIC_WMINKOWSKI = 'wminkowski'
+METRIC_SEUCLIDEAN = 'seuclidean'
+METRIC_MAHALANOBIS = 'mahalanobis'
+METRIC_BRAYCURTIS = 'braycurtis'
+METRIC_HAMMING = 'hamming'
 
 
 def get_recommendations(new_us, base_uss, k, distance_metric='euclidean'):
@@ -146,6 +154,14 @@ def calculate_distance(X, Y, metric='euclidean'):
     if metric == METRIC_EUCLIDEAN: return distance.euclidean(X, Y)
     elif metric == METRIC_JACCARD: return distance.jaccard(X, Y)
     elif metric == METRIC_CANBERRA: return distance.canberra(X, Y)
+    elif metric == METRIC_CHEBYSHEV: return distance.chebyshev(X, Y)
+    elif metric == METRIC_MINKOWSKI: return distance.minkowski(X, Y)
+    elif metric == METRIC_WMINKOWSKI: return distance.wminkowski(X, Y)
+    elif metric == METRIC_BRAYCURTIS: return distance.braycurtis(X, Y)
+    elif metric == METRIC_HAMMING: return distance.hamming(X, Y)
+    elif metric == METRIC_MAHALANOBIS: return distance.mahalanobis(X, Y)
+    elif metric == METRIC_MANHATTAN:
+        return sum(abs(a - b) for a, b in zip(X, Y))
     elif metric == METRIC_COSINE:
         dot_product = np.dot(X,Y)
         norm_a = np.linalg.norm(X)

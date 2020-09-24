@@ -4,31 +4,28 @@ import numpy as np
 import warnings
 import matplotlib.pyplot as plt
 import seaborn as sns
-from matplotlib.font_manager import FontProperties
 import recommender as rec
-from scipy.stats import shapiro
-from scipy.stats import normaltest
-from scipy.stats import stats
 import statsmodels.formula.api as smf
+import statsmodels.stats.anova as an
+import statsmodels.stats.multicomp as multi
 import pandas as pd
+import matplotlib as mpl
+from scipy.stats import friedmanchisquare
 
-font = FontProperties()
-font.set_family('serif')
-font.set_name('Times New Roman')
-font.set_style('italic')
+
+mpl.rc('font', family='Times New Roman', size=12)
 
 warnings.filterwarnings("ignore")
 
-if __name__ == '__main__':
 
-    # algorithms = ['canberra', 'jaccard', 'cosine', 'euclidean', 'chebyshev' ]
-    withHeuristcs = [False, True]
-    algorithms = [rec.METRIC_COSINE, rec.METRIC_CANBERRA, rec.METRIC_EUCLIDEAN, rec.METRIC_JACCARD]
+def generate_results():
+    with_heuristcs = [False, True]
+    algorithms = [rec.METRIC_COSINE, rec.METRIC_EUCLIDEAN, rec.METRIC_CHEBYSHEV]
 
-    k = np.arange(1, 13, step=1)
-    result_dataset = pd.DataFrame(columns=['Precision', 'Recall', 'F-Measure', 'K', 'Algoritmo', 'Heuristic'])
+    k = np.arange(1, 11, step=1)
+    result_dataset = pd.DataFrame(columns=['Precision', 'Recall', 'FMeasure', 'Configuracao', 'K', 'Algoritmo', 'Heuristica'])
 
-    for withHeuristc in withHeuristcs:
+    for withHeuristc in with_heuristcs:
         for algorithm in algorithms:
             precision_list = []
             recall_list = []
@@ -37,367 +34,253 @@ if __name__ == '__main__':
             for i in k:
                 precisions, recalls, f_measures = cross_validate(10, i, metric=algorithm, heuristic=withHeuristc)
 
-                print('K = ', i)
-                print('Precision: ', np.mean(precisions))
+                print('Calculando K = ', i, ' para o algoritmo ', algorithm, ' Heurística: ', withHeuristc)
                 precision_list.append(np.mean(precisions))
-                stat, p = shapiro(precisions)
-                print('Statistics shapiro=%.3f, p=%.3f' % (stat, p))
-                stat, p = normaltest(precisions)
-                print('Statistics Agostino=%.3f, p=%.3f' % (stat, p))
-
-                print('Recall: ', np.mean(recalls))
                 recall_list.append(np.mean(recalls))
-                stat, p = shapiro(recalls)
-                print('Statistics=%.3f, p=%.3f' % (stat, p))
-                stat, p = normaltest(recalls)
-                print('Statistics Agostino=%.3f, p=%.3f' % (stat, p))
-
-                print('F-measure: ', np.mean(f_measures))
                 f_measures_list.append(np.mean(f_measures))
-                stat, p = shapiro(f_measures)
-                print('Statistics=%.3f, p=%.3f' % (stat, p))
-                stat, p = normaltest(f_measures)
-                print('Statistics Agostino=%.3f, p=%.3f' % (stat, p))
 
                 results = {
                     'Precision': precisions,
                     'Recall': recalls,
-                    'F-Measure': f_measures
+                    'FMeasure': f_measures
                 }
 
-                df = pd.DataFrame(results, columns=['Precision', 'Recall', 'F-Measure'])
+                df = pd.DataFrame(results, columns=['Precision', 'Recall', 'FMeasure'])
+                df['Configuracao'] = algorithm + '_' + str(withHeuristc) + '_' + str(i)
                 df['K'] = i
                 df['Algoritmo'] = algorithm
-                df['Heuristic'] = withHeuristc
+                df['Heuristica'] = 'sim' if withHeuristc else 'nao'
                 result_dataset = result_dataset.append(df, ignore_index=True)
 
-            fig, ax = plt.subplots()
-            ax.plot(k, precision_list, label='Precision', marker='*')
-            ax.plot(k, recall_list, label='Recall', marker='o')
-            ax.plot(k, f_measures_list, label='F-Measure', marker='d')
-            ax.legend(loc='lower left', frameon=False)
-            ax.set_ylabel('Valor', fontproperties=font)
-            ax.set_xlabel('K', fontproperties=font)
-            ax.plot()
-            for x, y in zip(k, precision_list):
-                label = "{:.3f}".format(y)
+            # fig, ax = plt.subplots()
+            # ax.plot(k, precision_list, label='Precision', marker='*')
+            # ax.plot(k, recall_list, label='Recall', marker='o')
+            # ax.plot(k, f_measures_list, label='F-Measure', marker='d')
+            # ax.legend(loc='lower left', frameon=False)
+            # ax.set_ylabel('Valor', fontproperties=font)
+            # ax.set_xlabel('K', fontproperties=font)
+            # ax.plot()
+            # for x, y in zip(k, precision_list):
+            #     label = "{:.3f}".format(y)
+            #
+            #     plt.annotate(label,  # this is the text
+            #                  (x, y),  # this is the point to label
+            #                  textcoords="offset points",  # how to position the text
+            #                  xytext=(0, 10),  # distance from text to points (x,y)
+            #                  ha='center')  # horizontal alignment can be left, right or center
+            #
+            # for x, y in zip(k, recall_list):
+            #     label = "{:.3f}".format(y)
+            #
+            #     plt.annotate(label,  # this is the text
+            #                  (x, y),  # this is the point to label
+            #                  textcoords="offset points",  # how to position the text
+            #                  xytext=(0, 10),  # distance from text to points (x,y)
+            #                  ha='center')  # horizontal alignment can be left, right or center
+            #
+            # for x, y in zip(k, f_measures_list):
+            #     label = "{:.3f}".format(y)
+            #
+            #     plt.annotate(label,  # this is the text
+            #                  (x, y),  # this is the point to label
+            #                  textcoords="offset points",  # how to position the text
+            #                  xytext=(0, 10),  # distance from text to points (x,y)
+            #                  ha='center')  # horizontal alignment can be left, right or center
+            # plt.xticks(k)
+            # plt.title(algorithm)
+            # plt.show()
 
-                plt.annotate(label,  # this is the text
-                             (x, y),  # this is the point to label
-                             textcoords="offset points",  # how to position the text
-                             xytext=(0, 10),  # distance from text to points (x,y)
-                             ha='center')  # horizontal alignment can be left, right or center
+    result_dataset.to_csv(r'./data/results.csv', index=False, header=True)
+    # test = smf.ols('FMeasure ~ Configuracao', data=result_dataset).fit()
+    # print(test.summary())
+    # aov_table = an.anova_lm(test, typ=2)
+    # print(aov_table)
+    # mc1 = multi.MultiComparison(result_dataset['FMeasure'], result_dataset['Configuracao'])
+    # mc_results = mc1.tukeyhsd()
+    # print(mc_results)
 
-            for x, y in zip(k, recall_list):
-                label = "{:.3f}".format(y)
 
-                plt.annotate(label,  # this is the text
-                             (x, y),  # this is the point to label
-                             textcoords="offset points",  # how to position the text
-                             xytext=(0, 10),  # distance from text to points (x,y)
-                             ha='center')  # horizontal alignment can be left, right or center
+def analyze_data():
+    data = pd.read_csv(r'./data/results_fmeasure_2-10Ks.csv')
 
-            for x, y in zip(k, f_measures_list):
-                label = "{:.3f}".format(y)
+    stat, p = friedmanchisquare(data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 1) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 2) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 3) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 4) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 5) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 6) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 7) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 8) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 9) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 10) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 1) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 2) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 3) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 4) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 5) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 6) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 7) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 8) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 9) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 10) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 1) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 2) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 3) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 4) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 5) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 6) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 7) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 8) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 9) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 10) & (data['Heuristica'] == 'nao')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 1) & (data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 2) & (data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 3) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 4) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 5) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 6) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 7) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 8) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 9) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'chebyshev') & (data['K'] == 10) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 1) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 2) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 3) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 4) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 5) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 6) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 7) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 8) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 9) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[(data['Algoritmo'] == 'euclidean') & (data['K'] == 10) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 1) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 2) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 3) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 4) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 5) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 6) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 7) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 8) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[
+                                    (data['Algoritmo'] == 'cosine') & (data['K'] == 9) & (data['Heuristica'] == 'sim')][
+                                    'FMeasure'],
+                                data[(data['Algoritmo'] == 'cosine') & (data['K'] == 10) & (
+                                            data['Heuristica'] == 'sim')]['FMeasure']
+                                )
+    print(stat)
+    print(p)
 
-                plt.annotate(label,  # this is the text
-                             (x, y),  # this is the point to label
-                             textcoords="offset points",  # how to position the text
-                             xytext=(0, 10),  # distance from text to points (x,y)
-                             ha='center')  # horizontal alignment can be left, right or center
-            plt.xticks(k)
-            plt.title(algorithm)
-            plt.show()
 
-    test = smf.ols('Recall ~ K + Algoritmo + Heuristic', data=result_dataset).fit()
-    print(test.summary())
-    print(stats.f_oneway(result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                         result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == False)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_COSINE) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_CANBERRA) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_EUCLIDEAN) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 1) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 2) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 3) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 4) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 5) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 6) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 7) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 8) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 9) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 10) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 11) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)],
-                         result_dataset['Recall'][
-                             (result_dataset['K'] == 12) & (result_dataset['Algoritmo'] == rec.METRIC_JACCARD) & (
-                                     result_dataset['Heuristic'] == True)]
+def plot_graphs():
+    data = pd.read_csv(r'./data/results.csv')
+    csfont = {'fontname': 'Times New Roman', 'fontsize': 14}
 
-                         ))
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.plot(data[(data['Algoritmo'] == 'chebyshev') & (data['Heuristica'] == 'nao')].groupby('K').mean()[
+                'Recall'].to_frame(), label='Chebyshev', marker='*')
+    ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'nao')].groupby('K').mean()[
+                'Recall'].to_frame(), label='Euclidean', marker='o')
+    ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'nao')].groupby('K').mean()[
+                'Recall'].to_frame(), label='Cosine', marker='d')
+    ax.plot(data[(data['Algoritmo'] == 'chebyshev') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
+                'Recall'].to_frame(), label='Chebyshev Heuristica',
+            marker='*')
+    ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
+                'Recall'].to_frame(), label='Euclidean Heuristica',
+            marker='o')
+    ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
+                'Recall'].to_frame(), label='Cosine Heuristica', marker='d')
+    ax.legend(loc='up right', frameon=False)
+    ax.set_ylabel('Value', fontsize=12)
+    ax.set_xlabel('K', fontsize=12)
+    ax.yaxis.grid()
+    ax.plot()
+    plt.xticks(np.arange(1, 11, step=1))
+    plt.title('Recalls by algorithm')
+    plt.tight_layout()
+    plt.savefig('recalls.pdf')
+    plt.show()
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.plot(data[(data['Algoritmo'] == 'chebyshev') & (data['Heuristica'] == 'nao')].groupby('K').mean()[
+                'Precision'].to_frame(), label='Chebyshev', marker='*')
+    ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'nao')].groupby('K').mean()[
+                'Precision'].to_frame(), label='Euclidean', marker='o')
+    ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'nao')].groupby('K').mean()[
+                'Precision'].to_frame(), label='Cosine', marker='d')
+    ax.plot(data[(data['Algoritmo'] == 'chebyshev') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
+                'Precision'].to_frame(), label='Chebyshev Heuristic',
+            marker='*')
+    ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
+                'Precision'].to_frame(), label='Euclidean Heuristic',
+            marker='o')
+    ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
+                'Precision'].to_frame(), label='Cosine Heuristic', marker='d')
+    ax.legend(loc='up right', frameon=False)
+    ax.set_ylabel('Value')
+    ax.set_xlabel('K')
+    ax.yaxis.grid()
+    ax.plot()
+    plt.xticks(np.arange(1, 11, step=1))
+    plt.title('Precisions by algorithm')
+    plt.tight_layout()
+    plt.savefig('precisoes.pdf')
+    plt.show()
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.plot(data[(data['Algoritmo'] == 'chebyshev') & (data['Heuristica'] == 'nao')].groupby('K').mean()['FMeasure'].to_frame(), label='Chebyshev', marker='*')
+    ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'nao')].groupby('K').mean()['FMeasure'].to_frame(), label='Euclidean', marker='o')
+    ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'nao')].groupby('K').mean()['FMeasure'].to_frame(), label='Cosine', marker='d')
+    ax.plot(data[(data['Algoritmo'] == 'chebyshev') & (data['Heuristica'] == 'sim')].groupby('K').mean()['FMeasure'].to_frame(), label='Chebyshev Heuristic',
+            marker='*')
+    ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'sim')].groupby('K').mean()['FMeasure'].to_frame(), label='Euclidean Heuristic',
+            marker='o')
+    ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'sim')].groupby('K').mean()['FMeasure'].to_frame(), label='Cosine Heuristic', marker='d')
+    ax.legend(loc='up right', frameon=False)
+    ax.set_ylabel('Value')
+    ax.set_xlabel('K')
+    ax.yaxis.grid()
+    ax.plot()
+    plt.xticks(np.arange(1, 11, step=1))
+    plt.title('F-Measures by algorithm')
+    plt.tight_layout()
+    plt.savefig('f-measures.pdf')
+    plt.show()
+
+
+if __name__ == '__main__':
+    plot_graphs()

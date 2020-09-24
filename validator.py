@@ -47,11 +47,15 @@ def cross_validate(fold_length, k, metric='euclidean', heuristic=False):
             precision = len(intersect_ds.index) / len(recommendations.index)
             f_measure = 0
             if precision + recall > 0:
-                f_measure = 2 * ((precision * recall) / (precision + recall))
+                f_measure = calculate_fbeta(precision, recall, 2)
             f_measures.append(f_measure)
             precisions.append(precision)
             recalls.append(recall)
     return precisions, recalls, f_measures
+
+
+def calculate_fbeta(precision, recall, beta):
+    return 2 * (((beta**2) * precision * recall) / (((beta**2) * precision) + recall))
 
 
 if __name__ == '__main__':

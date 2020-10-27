@@ -22,7 +22,7 @@ def cross_validate(fold_length, k, metric='euclidean', heuristic=False):
         test_set = uss_x.iloc[test_index, :]
 
         for us_test in test_set.iterrows():
-            recommendations = pd.DataFrame();
+            recommendations = pd.DataFrame()
             if heuristic:
                 recommendations = get_recommendations_heuristcs(us_test[1], train_set, k, distance_metric=metric)
             else:

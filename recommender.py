@@ -3,6 +3,7 @@ from sklearn.neighbors import NearestNeighbors
 import pandas as pd
 import numpy as np
 from scipy.spatial import distance
+from datatransformer import transform_one_hot_encoding
 
 METRIC_EUCLIDEAN = 'euclidean'
 METRIC_COSINE = 'cosine'
@@ -47,12 +48,14 @@ def get_recommendations(new_us, base_uss, k, distance_metric='euclidean'):
     data_handler = NewUSsDataHandler()
 
     # Adicionando um filtro para trazer apenas uss com mesmo módulo e operação da nova US.
-    base_uss_filtrada = base_uss.loc[(base_uss['Módulo'] == new_us['Módulo']) & (base_uss['Operação'] == new_us['Operação']), :]
+    base_uss_filtrada = base_uss.loc[
+                        (base_uss['Módulo'] == new_us['Módulo']) & (base_uss['Operação'] == new_us['Operação']), :]
 
     if base_uss_filtrada.empty:
         return pd.DataFrame()
 
-    df = data_handler.load_filtered_us_data(new_us, base_uss_filtrada)
+    # Transforma as estórias na codificação one hot.
+    df = transform_one_hot_encoding(new_us, base_uss_filtrada)
 
     # Nesse ponto verifico que a base filtrada é menor que o K, pois não é possível calcular a distância com K maior
     # que quantidade de itens.
@@ -151,19 +154,29 @@ def get_recommendations_heuristcs(us_alvo, base_uss, k, distance_metric='euclide
 
 
 def calculate_distance(X, Y, metric='euclidean'):
-    if metric == METRIC_EUCLIDEAN: return distance.euclidean(X, Y)
-    elif metric == METRIC_JACCARD: return distance.jaccard(X, Y)
-    elif metric == METRIC_CANBERRA: return distance.canberra(X, Y)
-    elif metric == METRIC_CHEBYSHEV: return distance.chebyshev(X, Y)
-    elif metric == METRIC_MINKOWSKI: return distance.minkowski(X, Y)
-    elif metric == METRIC_WMINKOWSKI: return distance.wminkowski(X, Y)
-    elif metric == METRIC_BRAYCURTIS: return distance.braycurtis(X, Y)
-    elif metric == METRIC_HAMMING: return distance.hamming(X, Y)
-    elif metric == METRIC_MAHALANOBIS: return distance.mahalanobis(X, Y)
+    if metric == METRIC_EUCLIDEAN:
+        return distance.euclidean(X, Y)
+    elif metric == METRIC_JACCARD:
+        return distance.jaccard(X, Y)
+    elif metric == METRIC_CANBERRA:
+        return distance.canberra(X, Y)
+    elif metric == METRIC_CHEBYSHEV:
+        return distance.chebyshev(X, Y)
+    elif metric == METRIC_MINKOWSKI:
+        return distance.minkowski(X, Y)
+    elif metric == METRIC_WMINKOWSKI:
+        return distance.wminkowski(X, Y)
+    elif metric == METRIC_BRAYCURTIS:
+        return distance.braycurtis(X, Y)
+    elif metric == METRIC_HAMMING:
+        return distance.hamming(X, Y)
+    elif metric == METRIC_MAHALANOBIS:
+        return distance.mahalanobis(X, Y)
     elif metric == METRIC_MANHATTAN:
         return sum(abs(a - b) for a, b in zip(X, Y))
+    
     elif metric == METRIC_COSINE:
-        dot_product = np.dot(X,Y)
+        dot_product = np.dot(X, Y)
         norm_a = np.linalg.norm(X)
         norm_b = np.linalg.norm(Y)
         return dot_product / (norm_a * norm_b)

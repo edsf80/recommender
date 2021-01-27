@@ -1,0 +1,2693 @@
+bug_id,severity,spec_id,name
+9131,MEDIUM,3790,Adicionar nova peça de referência
+9146,MEDIUM,52,Comparação de modelos
+9127,LOW,52,Comparação de modelos
+9119,LOW,6588,Ordenação de colunas
+9264,LOW,4323,Internationalization Session Test
+9177,LOW,4649,Conformance Test Session
+9275,MEDIUM,3732,Create and View User
+9267,LOW,4649,Conformance Test Session
+9192,LOW,5065,Get project information
+9193,LOW,5065,Get project information
+9266,LOW,6881,Edit SEND SMS parameters with input validation
+9268,LOW,4323,Internationalization Session Test
+9239,HIGH,3020,Habilitar e Desabilitar Convidado
+9239,HIGH,3118,Habilitar/ Desabilitar recepcionista
+9204,LOW,7012,Internacionalização do arquivo de exportação de convidados do evento
+9279,MEDIUM,6613,Test email server
+9196,MEDIUM,3273,Listagem de convidados filtrados por template de e-mail
+9196,MEDIUM,2908,Listagem de templates de e-mail de um evento global
+9277,MEDIUM,6613,Test email server
+9274,LOW,6613,Test email server
+9272,LOW,6613,Test email server
+9171,MEDIUM,6916,Edit CALLBACK parameters
+9270,MEDIUM,6613,Test email server
+9201,HIGH,6944,Acessar a loja do app invitation app via url
+9170,LOW,6872,Edit SWITCH parameters
+9172,LOW,6910,Edit VOICEMAIL parameters
+9176,LOW,6937,Edit GET DIGITS parameters with input validation
+9174,LOW,6896,Edit TEXT-TO-SPEECH parameters
+9175,LOW,6923,Edit RECORD parameters
+9173,MEDIUM,6857,Edit SAY PHONETIC parameters
+9183,LOW,4323,Internationalization Session Test
+8140,MEDIUM,3421,Login de convidado quando ocorrer erro na leitura da digital
+9202,HIGH,6944,Acessar a loja do app invitation app via url
+9300,HIGH,6303,Insert GOTO
+9300,HIGH,6304,Edit GOTO parameters
+9136,MEDIUM,6737,Alterar uma MO com o Status Closed
+9102,MEDIUM,6664,Alterar BOM via Protheus
+9271,LOW,6613,Test email server
+9276,LOW,4323,Internationalization Session Test
+9276,LOW,6613,Test email server
+9280,LOW,6613,Test email server
+9311,LOW,6304,Edit GOTO parameters
+9352,MEDIUM,7085,Realizar configuração do hypervisor já existente
+9459,HIGH,7185,Logout de multiplos usuários
+9459,HIGH,7137,Logout do JFL
+9402,MEDIUM,7081,Realizar configuração inválida Hypervisor
+9400,MEDIUM,7081,Realizar configuração inválida Hypervisor
+9439,MEDIUM,6588,Ordenação de colunas
+9479,HIGH,7272,Opção para mostrar os projetos fechados
+9482,HIGH,7336,Exibição de links de commits feitos no gitlab relacionado a task
+9477,HIGH,7270,Opção para mostrar os contratos fechados
+9104,LOW,4526,Editar Objeto 3D com dados inválidos
+8526,LOW,5790,Item de publicidade por idiomas
+9424,MEDIUM,7161,Criar uma nova Conta com sucesso
+9424,MEDIUM,7112,Preenchimento do Campo Senha
+9422,MEDIUM,7161,Criar uma nova Conta com sucesso
+9422,MEDIUM,7112,Preenchimento do Campo Senha
+9431,LOW,7161,Criar uma nova Conta com sucesso
+9431,LOW,7112,Preenchimento do Campo Senha
+9427,MEDIUM,7162,Editar uma Senha com sucesso
+9427,MEDIUM,7144,Editar Campo Senha do Usuário
+9430,LOW,7139,Recuperar senha sucesso
+9430,LOW,7141,Tentar recuperar senha com Código de validação invalido
+9460,LOW,7144,Editar Campo Senha do Usuário
+9199,LOW,4935,Inspeção de usabilidade para o card do evento específico do convidado
+9304,MEDIUM,2112,Listagem vazia de convidados
+9304,MEDIUM,2111,Validar listagem sem recepcionistas registrados
+9489,HIGH,7345,"Preenchimento do campo ""Google Analytics Tracking ID"" durante o cadastro do ""App"" 9491,MEDIUM,7147,""Exclusão de Eventos Globais"
+9500,HIGH,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+9501,HIGH,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+9369,LOW,4323,Internationalization Session Test
+9368,LOW,4323,Internationalization Session Test
+9178,LOW,4649,Conformance Test Session
+9359,LOW,6603,Edit SAY DIGITS parameters
+9359,LOW,6607,Edit SAY NUMBER parameters
+9358,LOW,6305,Edit GOTO parameters with input validation
+9184,MEDIUM,4311,Insert ANSWER
+9184,MEDIUM,4315,Insert QUEUE
+9184,MEDIUM,4319,Insert MENU
+9184,MEDIUM,4643,Insert HANGUP
+9184,MEDIUM,6292,Insert GOTOIFTIME
+9184,MEDIUM,6298,Insert DATABASES
+9184,MEDIUM,6302,Insert API
+9184,MEDIUM,6303,Insert GOTO
+9184,MEDIUM,6307,Insert SYSTEM
+9184,MEDIUM,6312,Insert AGI
+9184,MEDIUM,6317,Insert GOTOIF
+9184,MEDIUM,6568,Insert FINALLY
+9184,MEDIUM,6572,Insert INTERNAL DIAL
+9184,MEDIUM,6586,Insert EXTERNAL DIAL
+9184,MEDIUM,6593,Insert SET
+9184,MEDIUM,6598,Insert PLAYBACK
+9184,MEDIUM,6606,Insert SAY NUMBER
+9184,MEDIUM,6602,Insert SAY DIGITS
+9184,MEDIUM,6866,Insert NOOP
+9184,MEDIUM,6853,Insert SAY PHONETIC
+9184,MEDIUM,6875,Insert SEND MAIL
+9184,MEDIUM,6871,Insert SWITCH
+9184,MEDIUM,6879,Insert SEND SMS
+9184,MEDIUM,6886,Insert GOAL
+9184,MEDIUM,6891,Insert MATH
+9184,MEDIUM,6895,Insert TEXT-TO-SPEECH
+9184,MEDIUM,6906,Insert VOICEMAIL
+9184,MEDIUM,6899,Insert CUSTOM APP
+9184,MEDIUM,6922,Insert RECORD
+9184,MEDIUM,6914,Insert CALLBACK
+9184,MEDIUM,6931,Insert GET DIGITS
+9184,MEDIUM,3728,Login form validation
+9326,LOW,6613,Test email server
+9327,LOW,6613,Test email server
+9254,MEDIUM,7057,Inserir SKU Inválido
+9248,MEDIUM,6919,Ordenamento dos dados das colunas do formulário de Supplier
+9345,LOW,6916,Edit CALLBACK parameters
+9568,LOW,4291,Test Connection with API server
+9229,HIGH,6846,Inserir SKU com sucesso
+9229,HIGH,6848,Modificar SKU com sucesso
+8363,MEDIUM,7047,Desmarcar um usuário
+9238,MEDIUM,7023,Modificar um Part com sucesso
+9198,LOW,6828,Limite de caracteres para os filtros
+9197,LOW,6865,Aplicar Filtro com sucesso
+9197,LOW,6949,Aplicar Filtro com todos os campos preenchidos
+9197,LOW,6929,Com filtro aplicado
+9217,MEDIUM,6974,Exportação do formulário com serviço indisponível
+9217,MEDIUM,6946,Exportação do formulário com serviço indisponível
+9217,MEDIUM,6990,Exportação do formulário com serviço indisponível
+9435,LOW,6166,Controle da criação de logs de dados
+9265,MEDIUM,6877,Edit SEND MAIL parameters with input validation
+9265,MEDIUM,6881,Edit SEND SMS parameters with input validation
+9484,MEDIUM,41,Desinstalar aplicativo Software Quality Check
+9589,LOW,3728,Login form validation
+9505,MEDIUM,7398,Ações do botão back - Mobile
+9605,MEDIUM,3790,Adicionar nova peça de referência
+9446,MEDIUM,7139,Recuperar senha sucesso
+9461,LOW,7111,Preenchimento do Campo Nome
+9461,LOW,7161,Criar uma nova Conta com sucesso
+9619,HIGH,3801,Listar peças de referência
+9416,MEDIUM,7161,Criar uma nova Conta com sucesso
+9416,MEDIUM,7162,Editar uma Senha com sucesso
+9416,MEDIUM,7139,Recuperar senha sucesso
+9366,MEDIUM,41,Desinstalar aplicativo Software Quality Check
+9413,LOW,7139,Recuperar senha sucesso
+9413,LOW,7141,Tentar recuperar senha com Código de validação invalido
+9650,LOW,7646,"Validações no campo ""filtro"" 9657,MEDIUM,52,""Comparação de modelos"
+9617,CRITICAL,3790,Adicionar nova peça de referência
+9522,MEDIUM,7393,"Preenchimento do campo ""Google Analytics Tracking ID"" durante a edição do ""App"" 9713,HIGH,40,""Instalar aplicativo Software Quality Check"
+9640,LOW,7111,Preenchimento do Campo Nome
+9640,LOW,7112,Preenchimento do Campo Senha
+9640,LOW,7113,Preenchimento do Campo E-mail
+9129,LOW,52,Comparação de modelos
+9548,LOW,7133,Login com dados válidos
+9548,LOW,7161,Criar uma nova Conta com sucesso
+9554,LOW,7350,Exibição das respostas da enquete no card do convidado
+9555,HIGH,7233,Inspeção de usabilidade do botão Fab nas telas de listagem com possibilidade de fechar o sub-menu
+9557,LOW,7350,Exibição das respostas da enquete no card do convidado
+9559,LOW,7350,Exibição das respostas da enquete no card do convidado
+9564,MEDIUM,7374,Filtrar push por campanha
+9594,HIGH,7233,Inspeção de usabilidade do botão Fab nas telas de listagem com possibilidade de fechar o sub-menu
+9547,LOW,7147,Exclusão de Eventos Globais
+9549,CRITICAL,7433,Cadastrar Push com sucesso para um App Application
+9549,CRITICAL,7471,Exibição da lista de Pushs e destinatários do envio
+9545,MEDIUM,7463,Exclusão de evento global com usuário sem permissão
+9663,MEDIUM,4599,[Chapter] Validate execution of the test specification
+9662,MEDIUM,4599,[Chapter] Validate execution of the test specification
+9656,LOW,7646,"Validações no campo ""filtro"" 9661,MEDIUM,7629,""Exibição dos dados de criação e atualização dos tests specifications"
+9649,LOW,7629,Exibição dos dados de criação e atualização dos tests specifications
+9646,LOW,7629,Exibição dos dados de criação e atualização dos tests specifications
+9647,MEDIUM,4592,Creation of a test cycle
+9645,MEDIUM,7630,Alterar modo de configuração do projeto
+9498,HIGH,7198,Permissões de usuários associado a administrador para Convidados(Eventos)
+9510,MEDIUM,4246,Cadastro com dados inválidos - autenticação
+9510,MEDIUM,4005,Cadastro de usuário com dados válidos
+9099,MEDIUM,4555,Editar plano SLA com dados inválidos
+9449,LOW,6575,Breadcrumb no sistema
+9440,MEDIUM,6588,Ordenação de colunas
+9139,HIGH,6346,Excluir papéis do laboratório
+9351,HIGH,6741,Formulário de contratação - dinâmico
+9579,LOW,7375,Remoção de itens
+9579,LOW,7377,Modificar um registro
+9579,LOW,7355,PPB License válida
+9582,LOW,6196,Exibir opções de filtro
+9651,LOW,6955,Exibir opções de filtro
+9616,LOW,7354,Exibir opções de filtro
+9608,LOW,7361,"Inserir item ""PPB License"" já existente"
+9608,LOW,7379,Modificar registro com as mesmas informações que um valor já existente
+9581,LOW,6188,Colunas existentes no formulário Custormers
+9675,LOW,7006,Limite de caracteres para os filtros
+9638,LOW,7381,Limite de caracteres para a modificação
+9638,LOW,7368,Limite de caracteres para Cadastro
+9344,HIGH,6742,Tipo de contrato - obrigatório
+9203,MEDIUM,6930,Exportar lista de convidados do evento com enquete
+9702,MEDIUM,7120,Editar convidado com sucesso
+9740,HIGH,7572,Permissões de usuário associado a Administrador
+9624,LOW,6260,Limite de caracteres para os filtros
+9610,LOW,7354,Exibir opções de filtro
+9610,LOW,7362,Colunas existentes no formulário
+9606,CRITICAL,3790,Adicionar nova peça de referência
+9683,MEDIUM,7222,Remover registro de Customer
+9621,MEDIUM,6954,Aplicar Filtro com sucesso
+9621,MEDIUM,6960,Aplicar Filtro com todos os campos preenchidos
+9621,MEDIUM,6961,Aplicar Filtro com dados inválidos
+9621,MEDIUM,6967,Exportação com filtro aplicado
+9672,LOW,7057,Inserir SKU Inválido
+9642,LOW,6980,Colunas existentes no formulário SKU
+9678,MEDIUM,7193,Inserir registro de Customer
+9678,MEDIUM,7224,Inserir Customer excedendo limite de caracteres
+9678,MEDIUM,7225,Modificar Customer excedendo limite de caracteres
+9678,MEDIUM,7200,Modificar registro de Customer
+9540,LOW,7189,Limite de caracteres para os campos dos filtros
+9535,MEDIUM,7307,Filtrar com dados válidos
+9535,MEDIUM,7309,Filtrar com todos os campos preenchidos
+9535,MEDIUM,7320,Exportar com filtro aplicado
+9633,MEDIUM,6952,Atualizar Formulário
+9633,MEDIUM,6966,Acurácia do formulário exportado
+9633,MEDIUM,6975,Exportação com dados ordenados por coluna
+9633,MEDIUM,6950,Número de itens exibido na tabela
+9631,MEDIUM,7375,Remoção de itens
+9659,MEDIUM,7025,Inserir um Part com sucesso
+9659,MEDIUM,7036,Modificar um Part com Limite inválido de caracteres
+9673,MEDIUM,7035,Inserir um Part com Limite inválido de caracteres
+9673,MEDIUM,7036,Modificar um Part com Limite inválido de caracteres
+9872,LOW,7877,Listagem de riscos
+9756,LOW,3761,Delete user
+9760,LOW,6613,Test email server
+9759,LOW,3728,Login form validation
+9750,LOW,3727,Login with unknown credentials
+9871,LOW,4649,Conformance Test Session
+9870,LOW,4649,Conformance Test Session
+9864,LOW,7880,Remover regra
+9852,MEDIUM,7876,Edição de Risco
+9809,HIGH,7739,Ações para convidado participante de evento global removido no Gamma
+9809,HIGH,7750,Inspeção de usabilidade para tratamento de exclusão de evento global (convidado)
+9116,LOW,3205,Card de histórico de envios de e-mail do convidado
+9848,LOW,7877,Listagem de riscos
+9784,LOW,6939,Name arrow coming from GET DIGITS with input validation
+9502,HIGH,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+9776,LOW,6871,Insert SWITCH
+9563,LOW,5900,Criar Campanha
+9721,MEDIUM,7149,Ações de criação de dados após exclusão de eventos globais
+9728,LOW,7433,Cadastrar Push com sucesso para um App Application
+9769,MEDIUM,6607,Edit SAY NUMBER parameters
+9768,MEDIUM,6603,Edit SAY DIGITS parameters
+9761,LOW,6613,Test email server
+9761,LOW,3732,Create and View User
+9743,LOW,7149,Ações de criação de dados após exclusão de eventos globais
+9904,CRITICAL,53,Exibição de modelo escaneado
+9169,LOW,6900,Edit CUSTOM APP parameters
+9868,LOW,4323,Internationalization Session Test
+9737,MEDIUM,7201,Permissões de usuários associado a administrador para Administrador(Eventos)
+9890,CRITICAL,7120,Editar convidado com sucesso
+9818,MEDIUM,2897,Validações do campo E-mail durante a criação de convidados
+9553,CRITICAL,6121,Login com dados válidos
+8889,HIGH,6202,Opções de streaming para usuário receptor
+8889,HIGH,6247,Acessar e sair de sala de streaming com perfis distintos
+8889,HIGH,7127,Visualizar objeto 3D
+8889,HIGH,7125,Ações de visualizar objeto 3D para técnico de suporte
+8889,HIGH,7130,Enviar objeto 3D
+8889,HIGH,7145,Cards de envio de objeto 3D
+9919,LOW,4033,Create and View API server
+9915,LOW,5064,Get active projects
+9566,MEDIUM,3775,Create organization with previously registered name
+9947,HIGH,7399,Criação automática de SHIPPING SSN
+9506,MEDIUM,6122,Envio de e-mail ao esquecer senha
+8883,HIGH,6201,Criar sala [Suporte]
+8883,HIGH,6265,Notificação quando não existirem mais participantes
+8883,HIGH,6266,Opções de finalização de streaming
+8883,HIGH,6197,Opções de streaming para usuário transmissor
+8883,HIGH,7127,Visualizar objeto 3D
+8883,HIGH,7125,Ações de visualizar objeto 3D para técnico de suporte
+8883,HIGH,7130,Enviar objeto 3D
+8883,HIGH,7145,Cards de envio de objeto 3D
+8883,HIGH,6202,Opções de streaming para usuário receptor
+9827,HIGH,7143,Realizar Decrease em todos os itens
+9873,LOW,7160,Decrease com a MO fechada ou finalizada
+9910,MEDIUM,8072,Limite de caracteres para os campos dos filtros
+9837,HIGH,7223,Realizar decrease e fechar a MO automaticamente
+9948,HIGH,7407,MO On Line com campo obrigatório vazio ou inválido (C16 - SMT)
+9955,HIGH,7346,Verificações obrigatórias ao colocar a MO On Line
+9953,HIGH,7409,MO On Line com campo obrigatório vazio ou inválido (A31 - SMT)
+9953,HIGH,7424,MO On Line com campo obrigatório vazio ou inválido (ABO - SMT)
+9953,HIGH,7418,Mo On Line com campo obrigatório vazio ou inválido (ABO - AP)
+9751,LOW,3732,Create and View User
+9751,LOW,6613,Test email server
+9747,LOW,3731,Associate user with organization
+9747,LOW,3739,Associate organization with user
+9803,MEDIUM,7742,Ações para admin/host participante de evento global removido no Gamma
+9803,MEDIUM,7746,Inspeção de usabilidade para tratamento de exclusão de evento global
+9807,LOW,7739,Ações para convidado participante de evento global removido no Gamma
+9883,LOW,7739,Ações para convidado participante de evento global removido no Gamma
+9883,LOW,7750,Inspeção de usabilidade para tratamento de exclusão de evento global (convidado)
+9902,HIGH,35,Excluir peça de referência
+9805,MEDIUM,7742,Ações para admin/host participante de evento global removido no Gamma
+9805,MEDIUM,7746,Inspeção de usabilidade para tratamento de exclusão de evento global
+9928,LOW,4455,Name arrow coming from MENU
+9775,LOW,6320,Edit GOTOIF parameters with input validation
+9749,LOW,3732,Create and View User
+9349,MEDIUM,6937,Edit GET DIGITS parameters with input validation
+9690,HIGH,53,Exibição de modelo escaneado
+9981,HIGH,7407,MO On Line com campo obrigatório vazio ou inválido (C16 - SMT)
+9998,HIGH,7424,MO On Line com campo obrigatório vazio ou inválido (ABO - SMT)
+9538,MEDIUM,7289,Acurácia do formulário exportado
+9912,MEDIUM,8114,Remover key part inexistente
+9912,MEDIUM,8115,Remover Parts Map inexistente via Protheus
+9543,MEDIUM,5028,Acurácia do formulário exportado
+10006,HIGH,8147,Verificar se é possível colocar MO de On Line para On Line sem informar um dos campos obrigatórios para o cliente C16.
+9997,MEDIUM,8168,Modificar uma MO deixando uma rota inválida antes de tentar colocar on line para on line
+9988,HIGH,8171,Manter o valor do status (close flag) da MO
+9985,HIGH,7554,MO Online faltando um Check Custom Info YES na lista de BOM's
+9938,MEDIUM,7398,Ações do botão back - Mobile
+9995,HIGH,7409,MO On Line com campo obrigatório vazio ou inválido (A31 - SMT)
+9995,HIGH,7546,MO On Line com lista de BOM vazia/não vazia para todos os clientes e áreas
+9995,HIGH,8153,Verificar se é possível colocar MO de On Line para On Line sem informar um dos campos obrigatórios para o cliente A31
+10009,MEDIUM,7424,MO On Line com campo obrigatório vazio ou inválido (ABO - SMT)
+10009,MEDIUM,7418,Mo On Line com campo obrigatório vazio ou inválido (ABO - AP)
+10026,LOW,7424,MO On Line com campo obrigatório vazio ou inválido (ABO - SMT)
+10068,LOW,4323,Internationalization Session Test
+9604,LOW,6877,Edit SEND MAIL parameters with input validation
+9604,LOW,4653,Publish diagram
+9357,LOW,6294,Edit GOTOIFTIME parameters with input validation
+10069,CRITICAL,7473,Adicionar novo scan
+9860,CRITICAL,7574,Application installer
+10065,LOW,4649,Conformance Test Session
+9940,LOW,6164,Detecção de dispositivos
+10067,LOW,4649,Conformance Test Session
+9847,MEDIUM,6808,Preencher formulários em branco
+9951,MEDIUM,6194,Interrupção na detecção de dispositivos [Desktop]
+10102,LOW,6121,Login com dados válidos
+9835,HIGH,7636,Cadastrar Item na despesa
+10072,MEDIUM,6938,Name arrow coming from GET DIGITS
+9612,MEDIUM,53,Exibição de modelo escaneado
+9821,MEDIUM,7607,Layout - formulário
+10091,MEDIUM,6197,Opções de streaming para usuário transmissor
+10129,MEDIUM,4503,Tolerância a falhas e recuperabilidade - Histórico de check-in-
+10090,HIGH,6229,Acessar e sair de sala de streaming com sucesso
+10090,HIGH,6198,Criar sala [Treinamento]
+10090,HIGH,6201,Criar sala [Suporte]
+10113,MEDIUM,6202,Opções de streaming para usuário receptor
+10082,HIGH,6201,Criar sala [Suporte]
+10100,MEDIUM,6229,Acessar e sair de sala de streaming com sucesso
+10109,MEDIUM,6252,Finalização de sala de streaming após uma hora
+10112,LOW,3984,Edit media
+10111,LOW,3982,Create media with previously registered name
+10075,LOW,3827,Filter project
+9130,HIGH,52,Comparação de modelos
+10094,MEDIUM,7130,Enviar objeto 3D
+8831,LOW,5154,Ordenação inicial do componente de sumarização
+9483,LOW,5150,Serviço inicia automaticamente
+10066,LOW,3731,Associate user with organization
+10066,LOW,3739,Associate organization with user
+9811,LOW,6954,Aplicar Filtro com sucesso
+9787,MEDIUM,7381,Limite de caracteres para a modificação
+9787,MEDIUM,7368,Limite de caracteres para Cadastro
+9820,LOW,7359,Ocultar opções de filtro
+9820,LOW,7005,Ocultar opções de filtro
+9820,LOW,6958,Ocultar opções de filtro
+9820,LOW,6264,Ocultar opções de filtro
+9820,LOW,5184,Ocultar barra lateral de filtro
+9820,LOW,5182,Ocultar opções de filtro
+9838,MEDIUM,6254,Log para a ação de Adição
+9838,MEDIUM,6273,Log para a ação de Modificação
+9838,MEDIUM,6291,Visualização do Log Description - Adição
+10163,MEDIUM,52,Comparação de modelos
+10184,CRITICAL,6229,Acessar e sair de sala de streaming com sucesso
+9986,CRITICAL,7739,Ações para convidado participante de evento global removido no Gamma
+10097,MEDIUM,6121,Login com dados válidos
+9842,MEDIUM,7023,Modificar um Part com sucesso
+9842,MEDIUM,7025,Inserir um Part com sucesso
+9813,MEDIUM,6961,Aplicar Filtro com dados inválidos
+9839,MEDIUM,6848,Modificar SKU com sucesso
+9907,HIGH,7464,List monitors
+10239,HIGH,8351,Controle de acesso por permissões no sistema
+9921,LOW,8109,Modificar Parts Maps com limite inválido de caracteres
+9921,LOW,8101,Inserir Parts Maps com limite inválido de caracteres
+9979,HIGH,8183,Criação de mais de 2 MACs para cada Serial Number
+10118,HIGH,8152,Diminuir quantidade de MACS de uma MO
+10029,HIGH,8149,Aumentar a quantidade de MACS de uma MO
+9983,HIGH,8146,Verificar cor da linha destacada ao alterar os campos
+10246,HIGH,3790,Adicionar nova peça de referência
+10186,CRITICAL,4494,Autenticação com dados válidos
+10205,LOW,6202,Opções de streaming para usuário receptor
+10206,MEDIUM,6121,Login com dados válidos
+10168,CRITICAL,7561,Monitor's region selection
+9163,CRITICAL,3790,Adicionar nova peça de referência
+10275,HIGH,7104,Acessar sala de streaming com sucesso
+10233,LOW,4494,Autenticação com dados válidos
+10228,MEDIUM,4494,Autenticação com dados válidos
+10209,LOW,6120,Login com dados inválidos
+10220,LOW,7125,Ações de visualizar objeto 3D para técnico de suporte
+10232,MEDIUM,6122,Envio de e-mail ao esquecer senha
+9801,MEDIUM,7750,Inspeção de usabilidade para tratamento de exclusão de evento global (convidado)
+9537,LOW,7446,Ordenação de push mediante aplicação de filtros
+9679,MEDIUM,7193,Inserir registro de Customer
+9679,MEDIUM,7225,Modificar Customer excedendo limite de caracteres
+9679,MEDIUM,7200,Modificar registro de Customer
+9679,MEDIUM,7224,Inserir Customer excedendo limite de caracteres
+9679,MEDIUM,7114,Inserir registro de Brand Name
+9679,MEDIUM,7117,Inserir Brand Name excedendo limite de caracteres
+9679,MEDIUM,5264,Atualizar formulário de Brand Name
+9558,MEDIUM,7152,Ações de edição de dados após exclusão de eventos globais
+9406,HIGH,52,Comparação de modelos
+9560,MEDIUM,7149,Ações de criação de dados após exclusão de eventos globais
+10302,HIGH,2029,Exportar convidados importados
+10277,MEDIUM,7432,Validações dos campos de agendamento do push
+10274,MEDIUM,7433,Cadastrar Push com sucesso para um App Application
+9727,MEDIUM,7197,Permissões de usuários associado a administrador para Template de E-mail
+10256,HIGH,7221,Enviar push para jogadores aplicando filtros
+10213,HIGH,7193,Inserir registro de Customer
+10213,HIGH,7225,Modificar Customer excedendo limite de caracteres
+10213,HIGH,7200,Modificar registro de Customer
+10213,HIGH,7224,Inserir Customer excedendo limite de caracteres
+10213,HIGH,7114,Inserir registro de Brand Name
+10187,HIGH,6254,Log para a ação de Adição
+10187,HIGH,6273,Log para a ação de Modificação
+10216,MEDIUM,6848,Modificar SKU com sucesso
+10180,MEDIUM,4278,Criação de um administrador com e-mail já registrado em um recepcionista
+8634,LOW,6259,Exibir opções de filtro
+9905,LOW,4323,Internationalization Session Test
+10195,MEDIUM,6293,Edit GOTOIFTIME parameters
+8662,LOW,8436,Inserir registro com valores inválidos
+9819,MEDIUM,8437,Inserir registro com valores inválidos
+10073,HIGH,7724,Permissões de usuários para Jogadores
+10377,LOW,3790,Adicionar nova peça de referência
+10200,LOW,6857,Edit SAY PHONETIC parameters
+10212,MEDIUM,5065,Get project information
+10070,CRITICAL,5133,Configuração de versão mínima de android/IOS
+9530,MEDIUM,7347,"Ações de selecionar a imagem durante o cadastro do ""App"" 9722,MEDIUM,7374,""Filtrar push por campanha"
+9735,HIGH,7149,Ações de criação de dados após exclusão de eventos globais
+10045,MEDIUM,7196,Permissões de usuários associado a administrador para eventos
+9886,MEDIUM,7198,Permissões de usuários associado a administrador para Convidados(Eventos)
+9887,LOW,7410,Criar Campanha campos obrigatórios
+9909,MEDIUM,7120,Editar convidado com sucesso
+10042,MEDIUM,2322,Botão de publicação para convidados e recepcionistas de um evento global
+10215,MEDIUM,7023,Modificar um Part com sucesso
+10371,MEDIUM,7098,Interromper transmissão de streaming
+9862,LOW,7177,Decrease em itens repetidos
+10117,CRITICAL,7464,List monitors
+10191,MEDIUM,7745,Login no InvitationApp  (Rede bloqueada)
+10363,MEDIUM,7102,Sair de uma sala de streaming
+10114,MEDIUM,5190,Gerenciamento de eventos (tolerância a falhas e recuperabilidade)
+9816,MEDIUM,7745,Login no InvitationApp  (Rede bloqueada)
+10059,MEDIUM,7149,Ações de criação de dados após exclusão de eventos globais
+10346,MEDIUM,7098,Interromper transmissão de streaming
+10304,HIGH,8182,Criação de 2 MACs para cada Serial Number
+10322,CRITICAL,52,Comparação de modelos
+10336,LOW,7119,Verificações de Zoom e Luminosidade
+10331,LOW,7103,Opções de finalização de streaming [transmissor]
+10282,LOW,7107,Acessar e sair de sala de streaming com perfis diferentes
+10230,LOW,4494,Autenticação com dados válidos
+10278,MEDIUM,7105,Acessar sala de streaming com dados inválidos
+10378,MEDIUM,3790,Adicionar nova peça de referência
+10379,MEDIUM,3790,Adicionar nova peça de referência
+10351,LOW,5431,Verificar padrões de UI e UX
+10339,LOW,7098,Interromper transmissão de streaming
+10152,CRITICAL,7542,Select a monitor from the list of monitors
+10455,MEDIUM,7561,Monitor's region selection
+10122,LOW,7653,Application uninstaller
+9542,MEDIUM,7452,Ação dos botões no menu de filtros
+10490,MEDIUM,8625,Ordenação da lista de Regiões
+10175,MEDIUM,6525,Log de ações da funcionalidade de confirmação de presença
+10181,HIGH,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10194,HIGH,5143,Confirmar dados (tolerância a falhas e recuperabilidade)
+10280,CRITICAL,8325,Deletar um papel
+9569,HIGH,7372,Inspeção de usabilidade para o formulário de criação de evento global
+10221,MEDIUM,8294,"Menu dropdown ""Minha conta"" 9796,MEDIUM,7730,""Permissões de usuário para Usuários"
+9796,MEDIUM,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+10171,HIGH,7390,"Preenchimento do campo ""App Type"" durante a edição do ""App"" 10172,HIGH,7393,""Preenchimento do campo ""Google Analytics Tracking ID"" durante a edição do ""App"" 10264,HIGH,7491,""Pesquisar por push na lista de Push"
+10269,HIGH,8319,Adicionar usuário  duplicado
+10267,HIGH,8319,Adicionar usuário  duplicado
+10313,MEDIUM,8344,Cadastrar usuário
+10299,LOW,8355,Tooltips das permissões
+10223,HIGH,8329,Alterar papel do usuário no sistema
+10505,LOW,7561,Monitor's region selection
+10390,CRITICAL,5383,"Cadastro de ""App"" com configuração de push com template site e app"
+10390,CRITICAL,5385,"Cadastro de ""App"" com Configuração de push com template personalizado"
+10385,MEDIUM,7196,Permissões de usuários associado a administrador para eventos
+10382,MEDIUM,7393,"Preenchimento do campo ""Google Analytics Tracking ID"" durante a edição do ""App"" 10375,CRITICAL,7199,""Permissões de usuários associado a administrador para Recepcionista(Eventos)"
+10369,HIGH,4278,Criação de um administrador com e-mail já registrado em um recepcionista
+10270,HIGH,7431,Push filtrando pela seção Event
+10291,HIGH,7017,Push para convidados com filtro de dados pessoais
+10292,HIGH,6930,Exportar lista de convidados do evento com enquete
+10537,HIGH,8110,Remoção do key part com sucesso
+10542,MEDIUM,7555,Enable/disable capturated grid
+10248,MEDIUM,8404,Inserir MO com mesmo nome
+10431,HIGH,8457,Permissão para colocar MO On Line
+10532,HIGH,7755,Inserir no forno um item exposto
+10534,HIGH,7598,Congelamento de PCB
+10535,HIGH,7755,Inserir no forno um item exposto
+10533,HIGH,7755,Inserir no forno um item exposto
+10353,MEDIUM,7738,Descongelamento com servidor parado
+10402,MEDIUM,6702,Modificação válida para os campos
+10538,MEDIUM,7775,Consulta manual por Part Number válido
+10141,LOW,7773,Consultar por Part Number inválido
+9354,MEDIUM,6799,Editar Configuração de Material com dados inválidos
+9350,MEDIUM,6746,Criar Configuração de Material inválida
+9312,MEDIUM,6710,Editar Inventário sem Sucesso
+9292,MEDIUM,6730,Remover Inventário
+9285,MEDIUM,6699,Criar Inventário sem Sucesso
+10546,MEDIUM,6568,Insert FINALLY
+9356,LOW,7043,Limites de caracteres aceitos
+9392,LOW,7088,Importar Configuração de Material sem sucesso
+9520,LOW,6797,Exportar Formulário de Itens
+9429,LOW,6863,Internacionalização
+9455,LOW,6830,Layout
+9456,LOW,6830,Layout
+10499,MEDIUM,7912,Caracteres aceitos ao montar bandeja
+9195,LOW,6697,Editar Configuração de Espessura com dados inválidos
+10139,LOW,7775,Consulta manual por Part Number válido
+10021,MEDIUM,7625,Congelamento de PCB em dry box para dry pack
+9897,LOW,7860,Repor rolo com códigos inválidos
+10250,MEDIUM,8405,Aumentar a quantidade de MACs de uma MO para o C16
+9802,MEDIUM,7742,Ações para admin/host participante de evento global removido no Gamma
+9802,MEDIUM,7746,Inspeção de usabilidade para tratamento de exclusão de evento global
+9885,MEDIUM,7739,Ações para convidado participante de evento global removido no Gamma
+9885,MEDIUM,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10647,MEDIUM,4331,Integration session test
+10647,MEDIUM,4332,Integration session test
+10041,MEDIUM,4924,"Ação ""Voltar"" na tela de enquete do convidado associado a mais de uma enquete"
+10055,MEDIUM,4845,Check-in de convidados
+10056,HIGH,3429,Alteração de senha de um usuário associado a vários eventos globais
+10056,HIGH,3434,Cancelar alteração de senha de usuário associado a vários eventos globais
+10056,HIGH,3407,Cancelar alteração de senha na tela de confirmação de dados
+10056,HIGH,3414,Confirmação de dados com mudança de senha para usuário associado a vários eventos globais
+9861,MEDIUM,7574,Application installer
+10085,MEDIUM,6525,Log de ações da funcionalidade de confirmação de presença
+10450,MEDIUM,6841,Inserir registro de Part Type através do Protheus
+10465,MEDIUM,5239,Inserir Role existente
+10465,MEDIUM,5242,Alterar um Role com um Role Name já existente no sistema
+10473,MEDIUM,8627,Inserir campos iguais (Case Sensitive)
+9524,HIGH,5335,Ordenação da lista de Apps
+10047,HIGH,2111,Validar listagem sem recepcionistas registrados
+10376,CRITICAL,7199,Permissões de usuários associado a administrador para Recepcionista(Eventos)
+10510,CRITICAL,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+10459,MEDIUM,8585,Inserir registro de Brand Name já existente
+10095,MEDIUM,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10673,HIGH,7545,MO Online faltando um Check Essential Part obrigatório na lista de BOM's
+10115,HIGH,5205,Atualização da tela de gerenciamento de eventos (tolerância a falhas e recuperabilidade)
+10110,HIGH,5143,Confirmar dados (tolerância a falhas e recuperabilidade)
+10110,HIGH,5144,Alterar dados (tolerância a falhas e recuperabilidade)
+10126,HIGH,4912,Enquete para convidado (tolerância a falhas e recuperabilidade)
+10501,CRITICAL,5150,Serviço inicia automaticamente
+10691,LOW,6525,Log de ações da funcionalidade de confirmação de presença
+10691,LOW,6527,Log de ações da funcionalidade de confirmação de dados
+10151,HIGH,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+9798,MEDIUM,7739,Ações para convidado participante de evento global removido no Gamma
+10132,MEDIUM,6525,Log de ações da funcionalidade de confirmação de presença
+10197,HIGH,4694,Inspeção de Compatibilidade de Convidado
+10173,HIGH,6061,"Ação ""Voltar"" após confirmar alteração dos dados do convidado"
+10403,MEDIUM,8259,Retirar componente do forno após completar o tempo mínimo
+10612,HIGH,53,Exibição de modelo escaneado
+10624,HIGH,8671,Logar com um usuário normal { conceder permissões}
+10337,HIGH,52,Comparação de modelos
+10689,MEDIUM,6521,Log de ações da funcionalidade de login
+10689,MEDIUM,4697,Log de ações da funcionalidade de resetar senha (Esqueci minha senha)
+10686,MEDIUM,6522,Log de ações da funcionalidade de check-in
+10686,MEDIUM,6523,Log de ações da funcionalidade de entrega de brindes
+10717,CRITICAL,4797,Confirmação de presença no evento
+10717,CRITICAL,4792,Formulário de confirmação de dados
+10718,HIGH,4919,Exibição da enquete para um convidado
+10715,HIGH,8713,Exibição da tela de confirmação de dados
+10716,MEDIUM,8770,Colocar MO On Line com a Rota da MO diferente da Rota do Part Desc associado
+10544,LOW,7194,Ocultar opções de filtro
+10544,LOW,7314,Ocultar opções de filtro
+10544,LOW,8046,Ocultar opções de filtro
+10544,LOW,7251,Ocultar opções de filtro
+10544,LOW,7284,Ocultar opções de filtro
+10544,LOW,8076,Ocultar opções de filtro
+10544,LOW,4049,Ocultar barra lateral dos Filtros de Rotas
+10668,MEDIUM,8748,Disponibilidade do botão de Editar uma Rota
+10567,MEDIUM,7301,Colunas existentes
+10619,LOW,6700,Limite de caracteres para os campos Input do Protheus
+10690,CRITICAL,8718,Ação dos links de Política de Privacidade e Termos de Uso
+10721,MEDIUM,4813,Alteração de dados com presença já confirmada
+10721,MEDIUM,3428,Alteração de senha após confirmar presença com usuários em apenas um evento global
+10656,MEDIUM,8744,Inserir BOM valores inválidos no campo Feedback
+10656,MEDIUM,6640,Inserir BOM com valores válidos no campo Feedback
+10652,MEDIUM,8743,Inserir BOM com Part Mode Inválido
+10652,MEDIUM,6677,"Alterar o Part Mode para ""D"" via Protheus"
+10652,MEDIUM,6693,Alterar BOM via Protheus com dados inválidos
+10558,HIGH,8112,Remover Parts Map via Protheus com sucesso
+10565,MEDIUM,6691,Criar Inventário com Sucesso
+10563,MEDIUM,6710,Editar Inventário sem Sucesso
+10536,MEDIUM,7977,Associar um rolo que já esteja em uso
+10536,MEDIUM,8004,Associar um lote de bandeja a um MSD Code que já esteja em uso
+10420,HIGH,8467,Criação de MACs para cada Serial Number do Cleinte C16
+10527,MEDIUM,8539,Caracteres aceitos no campo MO ao Montar Feeder Car
+10524,MEDIUM,8629,Limite mínimo de caracteres aceitos na MO ao Montar Feeder Car
+10033,MEDIUM,7921,Montar bandeja usando bandeja com status diferente de exposto
+10614,LOW,7332,Ordenamento dos dados das colunas
+10036,LOW,7734,Descongelar usando uma tag de outra máquina
+9432,MEDIUM,6868,Resolução de Tela
+10543,LOW,7774,Consulta de componente com MO inválida
+9901,LOW,7732,Descongelar em máquina não cadastrada
+9843,MEDIUM,7428,Login manual com Usuário AD
+10479,MEDIUM,8538,Performance / Carga / Stress para o MO Form
+10488,MEDIUM,8569,Performance / Carga / Stress para o BOM Form
+10492,LOW,8570,Performance / Carga / Stress para o Key Parts Form
+10491,LOW,8572,Performance / Carga / Stress para o Part Desc Form
+10693,HIGH,8183,Criação de mais de 2 MACs para cada Serial Number
+10693,HIGH,8467,Criação de MACs para cada Serial Number do Cleinte C16
+10693,HIGH,7399,Criação automática de SHIPPING SSN
+10693,HIGH,8405,Aumentar a quantidade de MACs de uma MO para o C16
+10486,MEDIUM,8437,Inserir registro com valores inválidos
+10803,MEDIUM,8833,Cadastrar várias BOM's no sistema com o mesmo kp relation e feedback YES
+10799,HIGH,8719,Realizar Decrease em MO com Close Flag 4
+10603,HIGH,8719,Realizar Decrease em MO com Close Flag 4
+10805,HIGH,7307,Filtrar com dados válidos
+10423,HIGH,6080,Permissão de leitura dos formulários
+10424,HIGH,6080,Permissão de leitura dos formulários
+10620,MEDIUM,8742,Decrease de Serial com o group_name = 0 e que esteja na tabela sfism4.r_wip_keyparts_t
+10428,HIGH,8149,Aumentar a quantidade de MACS de uma MO
+10842,HIGH,52,Comparação de modelos
+10430,MEDIUM,8152,Diminuir quantidade de MACS de uma MO
+10807,LOW,6659,Criar Configuração de Espessura inválida
+9308,LOW,7080,Filtrar inventário com caracteres inválidos
+10810,MEDIUM,6699,Criar Inventário sem Sucesso
+10810,MEDIUM,6710,Editar Inventário sem Sucesso
+10015,MEDIUM,7647,Caracteres aceitos no congelamento de PCB
+10796,MEDIUM,7598,Congelamento de PCB
+9869,MEDIUM,7733,Baking com quantidade ultrapassando o limite
+10325,MEDIUM,7537,Autenticação ao fazer Baking
+10025,LOW,7575,Descartar um objeto que já esteja descartado
+10548,MEDIUM,8560,Finalização forçada de PCB lavado
+10814,MEDIUM,7064,Editar Inventário do tipo Máquina da bandeja com sucesso
+10813,MEDIUM,7062,Editar Inventário do tipo Forno com sucesso
+10332,LOW,6120,Login com dados inválidos
+10867,MEDIUM,6650,Inserir uma MO Inválida
+10335,MEDIUM,6122,Envio de e-mail ao esquecer senha
+10868,LOW,4976,Filtrar MO com dados válidos
+10800,LOW,7717,Descongelar lote de PCB
+10800,LOW,7719,Descongelar lote de bandejas
+10800,LOW,7723,Descongelar Rolo
+10808,LOW,6697,Editar Configuração de Espessura com dados inválidos
+10688,LOW,5105,Desfazer alteração de Rota através do componente de sumarização
+10688,LOW,5108,Desfazer a remoção de um item da Rota pelo componente de sumarização
+10683,MEDIUM,5092,Sumarização de itens atualizados
+10683,MEDIUM,5093,Sumarização de itens removidos
+10683,MEDIUM,5107,[Alterados] Alterar campos de uma rota utilizando o componente de sumarização de dados
+10334,LOW,7125,Ações de visualizar objeto 3D para técnico de suporte
+10744,HIGH,6121,Login com dados válidos
+10388,LOW,7127,Visualizar objeto 3D
+10368,LOW,6254,Log para a ação de Adição
+10666,MEDIUM,8627,Inserir campos iguais (Case Sensitive)
+10436,MEDIUM,7025,Inserir um Part com sucesso
+9785,HIGH,7368,Limite de caracteres para Cadastro
+10724,MEDIUM,5183,Ações no menu lateral [Mobile]
+10727,MEDIUM,5183,Ações no menu lateral [Mobile]
+9814,HIGH,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+10665,HIGH,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+9817,MEDIUM,7220,Permissões de usuários associado a administrador para Super Administrador(Eventos)
+10873,HIGH,8889,Modificação válida para a rota
+10875,HIGH,6696,Modificação válida
+10875,HIGH,6633,Inserção Válida
+9753,MEDIUM,7198,Permissões de usuários associado a administrador para Convidados(Eventos)
+9745,MEDIUM,7199,Permissões de usuários associado a administrador para Recepcionista(Eventos)
+9932,HIGH,7560,Colocar MO Online com a lista de BOM's contendo todos os Essential Parts cadastrados
+9932,HIGH,7403,Colocar MO On Line com a lista de BOM's contendo apenas itens não opcionais do Essential Parts
+9932,HIGH,7545,MO Online faltando um Check Essential Part obrigatório na lista de BOM's
+9932,HIGH,7554,MO Online faltando um Check Custom Info YES na lista de BOM's
+10281,HIGH,7448,Push de confirmação de presença para quem confirmou presença depois da criação do push
+10737,HIGH,8636,Filtrar atendimentos por proprietário
+10759,HIGH,8707,Agendamento de relatórios
+10759,HIGH,8709,Download de relatórios mediante aplicação de filtros
+10759,HIGH,8633,Ações na listagem de atendimentos
+10759,HIGH,8634,Visualizar atendimentos
+10373,MEDIUM,6202,Opções de streaming para usuário receptor
+10315,MEDIUM,6198,Criar sala [Treinamento]
+10730,MEDIUM,8635,Filtrar atendimentos por tipo
+10706,MEDIUM,3413,Confirmação de dados com mudança de senha considerando usuário associado a um evento global
+10732,MEDIUM,8636,Filtrar atendimentos por proprietário
+10451,MEDIUM,7127,Visualizar objeto 3D
+10736,HIGH,8637,Filtrar atendimentos por data
+10743,MEDIUM,8637,Filtrar atendimentos por data
+10760,MEDIUM,8707,Agendamento de relatórios
+10760,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+10763,HIGH,8707,Agendamento de relatórios
+10763,HIGH,8709,Download de relatórios mediante aplicação de filtros
+10134,CRITICAL,4798,Campos obrigatórios no formulário de confirmação de dados
+10389,MEDIUM,7127,Visualizar objeto 3D
+9307,HIGH,4010,Erro de leitura no momento da substituição da digital
+10089,HIGH,4393,Visualização do histórico de check-in de convidados
+9992,HIGH,4694,Inspeção de Compatibilidade de Convidado
+10701,HIGH,4667,Permanência do filtro aplicado na tela Home
+10680,MEDIUM,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10675,HIGH,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10711,MEDIUM,4813,Alteração de dados com presença já confirmada
+10711,MEDIUM,3428,Alteração de senha após confirmar presença com usuários em apenas um evento global
+10664,CRITICAL,4993,Login no Invitation App com um convidado
+10664,CRITICAL,4996,Login no Invitation App com um recepcionista
+10664,CRITICAL,4991,Login no Invitation App com um administrador
+10713,HIGH,4265,Ações com o controle do Moverio no aplicativo Demo 360
+10595,MEDIUM,8697,Verificar informações do template default
+10911,MEDIUM,6719,Alterar uma MO inválida
+10623,LOW,4411,Botões indisponíveis ao habilitar edição de rota
+9888,MEDIUM,7201,Permissões de usuários associado a administrador para Administrador(Eventos)
+10367,HIGH,7221,Enviar push para jogadores aplicando filtros
+10367,HIGH,7427,Push filtrando pela seção Período de atividade
+10243,MEDIUM,8351,Controle de acesso por permissões no sistema
+10245,HIGH,8351,Controle de acesso por permissões no sistema
+9556,MEDIUM,7149,Ações de criação de dados após exclusão de eventos globais
+10938,CRITICAL,8821,Exibição e Comportamento dos Menus na tela Home para convidados
+10942,HIGH,8828,Validação dos links de privacidade exibidos no popup Sobre
+10947,HIGH,8829,Alteração dos dados de um convidado na tela Home
+10948,HIGH,8829,Alteração dos dados de um convidado na tela Home
+10955,CRITICAL,8844,Exibição e Comportamento dos Menus na tela Home para Host e Admin
+10956,CRITICAL,8844,Exibição e Comportamento dos Menus na tela Home para Host e Admin
+10672,HIGH,8687,Confirmação de dados
+11000,MEDIUM,4355,Inspeção de usabilidade para convidados
+11001,MEDIUM,4355,Inspeção de usabilidade para convidados
+11003,MEDIUM,8818,Visualização de Webview após realizar check-in (Tolerância à falha e recuperabilidade)
+10694,HIGH,4355,Inspeção de usabilidade para convidados
+10965,MEDIUM,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+10936,HIGH,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+10951,MEDIUM,8846,Exibição e comportamento dos Menus nas telas de Confirmar presença e responder enquete
+10952,MEDIUM,8846,Exibição e comportamento dos Menus nas telas de Confirmar presença e responder enquete
+10958,MEDIUM,8829,Alteração dos dados de um convidado na tela Home
+10975,HIGH,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+11023,HIGH,8825,Inspeção de usabilidade para a tela de Configurações
+9754,HIGH,7572,Permissões de usuário associado a Administrador
+11010,HIGH,8788,"Adicionar mais de um idioma na sessão ""Site do evento"" 11013,MEDIUM,8783,""Campos da seção ""Site do evento"" do formulário de criação de eventos globais"
+11016,HIGH,8792,Alteração dos dados para todos os eventos do convidado
+9561,MEDIUM,2337,Estrutura do formulário de edição de evento global
+9710,MEDIUM,7157,"Campo ""Dominio"" no formulário de criação de eventos globais"
+10901,MEDIUM,2050,Ações de limpar e fechar no menu de filtros de administrador
+9742,MEDIUM,7199,Permissões de usuários associado a administrador para Recepcionista(Eventos)
+9793,MEDIUM,7730,Permissões de usuário para Usuários
+10963,HIGH,8846,Exibição e comportamento dos Menus nas telas de Confirmar presença e responder enquete
+10998,LOW,6702,Modificação válida para os campos
+10991,HIGH,8183,Criação de mais de 2 MACs para cada Serial Number
+11004,MEDIUM,8832,Acessar tela de configurações (Tolerância a falhas e recuperabilidade)
+10772,HIGH,8713,Exibição da tela de confirmação de dados
+11002,HIGH,8828,Validação dos links de privacidade exibidos no popup Sobre
+11017,HIGH,4698,Acesso de um convidado à rotas
+11005,HIGH,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+10888,MEDIUM,8637,Filtrar atendimentos por data
+10890,LOW,8633,Ações na listagem de atendimentos
+9899,LOW,7732,Descongelar em máquina não cadastrada
+11034,LOW,6863,Internacionalização
+11027,LOW,6863,Internacionalização
+11009,LOW,7734,Descongelar usando uma tag de outra máquina
+10889,MEDIUM,7717,Descongelar lote de PCB
+10989,LOW,7863,"Repor rolo com novo QR Code ""Em uso"" 10909,LOW,7625,""Congelamento de PCB em dry box para dry pack"
+10869,MEDIUM,7717,Descongelar lote de PCB
+10869,MEDIUM,7719,Descongelar lote de bandejas
+10869,MEDIUM,7723,Descongelar Rolo
+10032,LOW,7734,Descongelar usando uma tag de outra máquina
+10826,LOW,7806,Inserir no forno um item com status congelado
+10925,LOW,7668,Congelamento de objeto já congelado
+10467,MEDIUM,8408,Baking de componente quando baking concluir em dia não útil
+10986,MEDIUM,7719,Descongelar lote de bandejas
+10986,MEDIUM,7723,Descongelar Rolo
+11030,LOW,8278,"Notificação de ""Exposto (Tempo Crítico)"" com tela do smartphone desligada."
+11030,LOW,8288,"Notificação de ""Exposto Excedente"" com tela do smartphone desligada"
+11030,LOW,8291,"Notificação de ""Baking (Tolerância)"" com tela do smartphone desligada"
+11030,LOW,8302,"Notificação de ""Baking Excedente"" com tela do smartphone desligada"
+11094,LOW,7735,Descongelar objeto que já está descongelado
+11065,HIGH,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+11060,CRITICAL,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+11033,LOW,6863,Internacionalização
+11082,CRITICAL,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+10027,LOW,7732,Descongelar em máquina não cadastrada
+10754,CRITICAL,6198,Criar sala [Treinamento]
+10754,CRITICAL,6202,Opções de streaming para usuário receptor
+10754,CRITICAL,6164,Detecção de dispositivos
+10754,CRITICAL,6197,Opções de streaming para usuário transmissor
+10754,CRITICAL,6194,Interrupção na detecção de dispositivos [Desktop]
+10754,CRITICAL,6201,Criar sala [Suporte]
+10754,CRITICAL,6252,Finalização de sala de streaming após uma hora
+10754,CRITICAL,6265,Notificação quando não existirem mais participantes
+10754,CRITICAL,6266,Opções de finalização de streaming
+10932,LOW,8583,Desbloquear Configuração de Material já desbloqueada
+10932,LOW,8584,Desbloquear Configuração de Material já removida
+10930,LOW,8557,Bloquear Configuração de Material já bloqueada
+10930,LOW,8558,Bloquear Configuração de Material já removida
+10039,LOW,7735,Descongelar objeto que já está descongelado
+10884,HIGH,6198,Criar sala [Treinamento]
+11092,MEDIUM,8407,Autorizar manualmente quando o baking concluir em dia não útil
+11092,MEDIUM,8409,Autorizar manualmente quando o baking concluir em dia não útil com usuário sem permissão
+11092,MEDIUM,8410,Autorizar manualmente quando o baking concluir em dia não útil com usuário inválido
+11092,MEDIUM,8411,Autorizar via barcode quando o baking concluir em dia não útil com usuário sem permissão
+11092,MEDIUM,8412,Autorizar via barcode quando o baking concluir em dia não útil com usuário inválido
+10961,MEDIUM,8846,Exibição e comportamento dos Menus nas telas de Confirmar presença e responder enquete
+10997,HIGH,8817,Exibição da webview automaticamente ao realizar checkin do convidado
+10227,LOW,8173,Ações do botão back e forward - Web
+10207,LOW,6194,Interrupção na detecção de dispositivos [Desktop]
+11018,HIGH,8713,Exibição da tela de confirmação de dados
+11072,CRITICAL,8820,Exibição e comportamento dos Menus nas telas de Confirmar dados
+11073,HIGH,8829,Alteração dos dados de um convidado na tela Home
+11084,HIGH,8821,Exibição e Comportamento dos Menus na tela Home para convidados
+11006,LOW,8821,Exibição e Comportamento dos Menus na tela Home para convidados
+11100,HIGH,8822,"Validação da seção ""Download your information"" da tela ""Configurações"" 11101,CRITICAL,8822,""Validação da seção ""Download your information"" da tela ""Configurações"" 11103,HIGH,8823,""Validação da seção ""Delete your information"" da tela ""Configurações"" 11014,MEDIUM,8825,""Inspeção de usabilidade para a tela de Configurações"
+11081,MEDIUM,8713,Exibição da tela de confirmação de dados
+11107,MEDIUM,8830,Baixar dados do usuário (Tolerância à falhas e recuperabilidade)
+11020,HIGH,8821,Exibição e Comportamento dos Menus na tela Home para convidados
+11108,HIGH,8823,"Validação da seção ""Delete your information"" da tela ""Configurações"" 11140,HIGH,4055,""Editar Usuário com dados válidos"
+11140,HIGH,4005,Cadastro de usuário com dados válidos
+11144,CRITICAL,4005,Cadastro de usuário com dados válidos
+10885,HIGH,8636,Filtrar atendimentos por proprietário
+10236,MEDIUM,2117,Validar lista de Recepcionistas
+10658,MEDIUM,7199,Permissões de usuários associado a administrador para Recepcionista(Eventos)
+10769,MEDIUM,7120,Editar convidado com sucesso
+11064,MEDIUM,7372,Inspeção de usabilidade para o formulário de criação de evento global
+11025,MEDIUM,8713,Exibição da tela de confirmação de dados
+11057,MEDIUM,4355,Inspeção de usabilidade para convidados
+10898,MEDIUM,6198,Criar sala [Treinamento]
+10898,MEDIUM,6201,Criar sala [Suporte]
+10881,HIGH,7127,Visualizar objeto 3D
+10877,LOW,6265,Notificação quando não existirem mais participantes
+10870,LOW,8633,Ações na listagem de atendimentos
+10319,LOW,8151,Acessar sala com dados inválidos
+10210,MEDIUM,6198,Criar sala [Treinamento]
+10728,LOW,8633,Ações na listagem de atendimentos
+11090,HIGH,8989,Cadastrar dayoffs do projeto para zerar o budget
+10914,HIGH,5183,Ações no menu lateral [Mobile]
+10897,MEDIUM,8637,Filtrar atendimentos por data
+10755,HIGH,6229,Acessar e sair de sala de streaming com sucesso
+10739,MEDIUM,8636,Filtrar atendimentos por proprietário
+10735,HIGH,8636,Filtrar atendimentos por proprietário
+10735,HIGH,8634,Visualizar atendimentos
+11157,HIGH,9048,Exibição do botão da webview quando houver erro no checkin
+10143,HIGH,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+11086,MEDIUM,3790,Adicionar nova peça de referência
+11158,HIGH,9048,Exibição do botão da webview quando houver erro no checkin
+11155,CRITICAL,9049,Idioma da webview após checkin do convidado
+11165,CRITICAL,9089,Idioma da webview com Login realizado antes da configuração do site interativo
+11142,HIGH,8817,Exibição da webview automaticamente ao realizar checkin do convidado
+11134,MEDIUM,4993,Login no Invitation App com um convidado
+11150,MEDIUM,8830,Baixar dados do usuário (Tolerância à falhas e recuperabilidade)
+11151,MEDIUM,8831,Deletar dados do usuário (Tolerância à falhas e recuperabilidade)
+11148,HIGH,8831,Deletar dados do usuário (Tolerância à falhas e recuperabilidade)
+11021,MEDIUM,4355,Inspeção de usabilidade para convidados
+11146,HIGH,8830,Baixar dados do usuário (Tolerância à falhas e recuperabilidade)
+10846,MEDIUM,7470,Editar peça de referência
+11260,CRITICAL,3790,Adicionar nova peça de referência
+9425,LOW,6863,Internacionalização
+11276,HIGH,3801,Listar peças de referência
+11159,HIGH,9034,E-mail de usuário criado com sucesso
+11162,CRITICAL,4995,Troca de senhas - dados válidos
+11188,MEDIUM,8891,Receber áudio [Desktop]
+11195,MEDIUM,8890,Modal de gravação de áudio
+11193,CRITICAL,8891,Receber áudio [Desktop]
+11194,HIGH,6201,Criar sala [Suporte]
+11177,MEDIUM,6194,Interrupção na detecção de dispositivos [Desktop]
+11174,CRITICAL,6194,Interrupção na detecção de dispositivos [Desktop]
+11176,HIGH,8918,Restrições de right now
+11173,LOW,8636,Filtrar atendimentos por proprietário
+11203,MEDIUM,8636,Filtrar atendimentos por proprietário
+11170,HIGH,8709,Download de relatórios mediante aplicação de filtros
+10905,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+10895,MEDIUM,8707,Agendamento de relatórios
+11201,MEDIUM,4055,Editar Usuário com dados válidos
+11342,MEDIUM,6194,Interrupção na detecção de dispositivos [Desktop]
+11339,CRITICAL,7473,Adicionar novo scan
+11373,HIGH,9107,Verificar permissão concedida ao perfil
+10408,MEDIUM,7105,Acessar sala de streaming com dados inválidos
+10449,MEDIUM,7092,Opções de streaming para usuário transmissor
+10453,MEDIUM,7093,Opções de streaming para usuário receptor
+10753,HIGH,7092,Opções de streaming para usuário transmissor
+10395,MEDIUM,7104,Acessar sala de streaming com sucesso
+10397,MEDIUM,7096,Criar sala [Treinamento]
+10447,LOW,7104,Acessar sala de streaming com sucesso
+10752,MEDIUM,7104,Acessar sala de streaming com sucesso
+11208,CRITICAL,7104,Acessar sala de streaming com sucesso
+11360,MEDIUM,9174,Explorar mobile
+11318,MEDIUM,9173,Explorar dispositivos
+11346,MEDIUM,7541,Extrair lote PCB congelado no dry box lendo código de barras
+11309,MEDIUM,8886,Criar salas através de right now
+11273,CRITICAL,9153,Arrastar ticket por todos os status do kanban
+11301,MEDIUM,7470,Editar peça de referência
+11394,MEDIUM,9174,Explorar mobile
+11292,MEDIUM,9171,Tentar inserir letras no campo Length no cadastro dos campos do tipo Text e Long Text
+11130,LOW,8410,Autorizar manualmente quando o baking concluir em dia não útil com usuário inválido
+11352,LOW,9173,Explorar dispositivos
+11304,LOW,8886,Criar salas através de right now
+11396,HIGH,9174,Explorar mobile
+11397,HIGH,9174,Explorar mobile
+11303,CRITICAL,9107,Verificar permissão concedida ao perfil
+11369,MEDIUM,7096,Criar sala [Treinamento]
+11376,MEDIUM,7096,Criar sala [Treinamento]
+11380,MEDIUM,7096,Criar sala [Treinamento]
+11358,MEDIUM,7096,Criar sala [Treinamento]
+11358,MEDIUM,7097,Criar sala [Suporte]
+11214,HIGH,7096,Criar sala [Treinamento]
+11214,HIGH,7097,Criar sala [Suporte]
+11431,CRITICAL,7092,Opções de streaming para usuário transmissor
+10446,MEDIUM,7093,Opções de streaming para usuário receptor
+10446,MEDIUM,7107,Acessar e sair de sala de streaming com perfis diferentes
+10452,HIGH,7107,Acessar e sair de sala de streaming com perfis diferentes
+11129,LOW,9094,Alterar os campos Input Quantity e Output Quantity
+11440,HIGH,7097,Criar sala [Suporte]
+11447,HIGH,9268,Cadastrar horas do budget em dias de dayoff de sistema ou projeto
+11466,CRITICAL,40,Instalar aplicativo Software Quality Check
+11409,MEDIUM,9224,Remoção válida de BOMs com/sem itens logados na linha
+11407,LOW,9225,Remoção (lógica) inválida de BOMs
+11449,CRITICAL,7425,Receber notificação de boas vindas
+11279,CRITICAL,9160,Manter ticket em um status no kanban
+11272,LOW,9153,Arrastar ticket por todos os status do kanban
+9457,LOW,6813,Imprimir códigos sem sucesso
+11133,HIGH,9090,MO Form - On Line
+11274,MEDIUM,9154,Filtrar ticket no kanban
+11171,HIGH,6197,Opções de streaming para usuário transmissor
+11171,HIGH,6202,Opções de streaming para usuário receptor
+11453,MEDIUM,8894,Receber áudio numa sala de streaming
+11463,LOW,8896,Funções do player de áudio para instrutor
+11463,LOW,9024,Funções do player de áudio para aluno
+11464,MEDIUM,8896,Funções do player de áudio para instrutor
+11457,MEDIUM,8895,Modal de gravação de áudio
+11456,MEDIUM,9021,Receber áudio compartilhado numa sala de streaming
+11454,MEDIUM,7107,Acessar e sair de sala de streaming com perfis diferentes
+11439,LOW,7096,Criar sala [Treinamento]
+11441,MEDIUM,7096,Criar sala [Treinamento]
+11504,MEDIUM,7092,Opções de streaming para usuário transmissor
+11467,HIGH,9031,Tempo de gravação de áudio
+11493,CRITICAL,3790,Adicionar nova peça de referência
+11493,CRITICAL,7470,Editar peça de referência
+11534,HIGH,7470,Editar peça de referência
+11543,HIGH,52,Comparação de modelos
+11322,LOW,4988,Envio de e-mail ao esquecer senha
+11247,HIGH,35,Excluir peça de referência
+11465,MEDIUM,7025,Inserir um Part com sucesso
+11316,HIGH,8635,Filtrar atendimentos por tipo
+11327,MEDIUM,8637,Filtrar atendimentos por data
+11330,MEDIUM,8637,Filtrar atendimentos por data
+11335,HIGH,8707,Agendamento de relatórios
+10904,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+11341,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+11541,HIGH,9031,Tempo de gravação de áudio
+11472,MEDIUM,9031,Tempo de gravação de áudio
+11186,MEDIUM,8890,Modal de gravação de áudio
+11325,MEDIUM,8892,Funções do player de áudio para instrutor
+11315,MEDIUM,9030,Tempo de gravação de áudio
+11311,MEDIUM,8633,Ações na listagem de atendimentos
+11314,MEDIUM,8633,Ações na listagem de atendimentos
+11609,HIGH,9299,Verificar o padrão de estilo em todas as abas da tela de Reports.
+11627,MEDIUM,9350,"Verificar se coluna ""Coverage"" foi renomeada para ""Test Specification Coverage"" na listagem e no relatório de requirements."
+11632,LOW,9325,Resetar filtros preenchidos
+11481,LOW,3801,Listar peças de referência
+11631,HIGH,7555,Enable/disable capturated grid
+11621,CRITICAL,7559,Set up blocks
+10287,HIGH,8341,Criar projeto com coordenador
+10287,HIGH,8342,Editar projeto com coordenador
+11649,HIGH,7555,Enable/disable capturated grid
+11256,LOW,41,Desinstalar aplicativo Software Quality Check
+11626,LOW,9350,"Verificar se coluna ""Coverage"" foi renomeada para ""Test Specification Coverage"" na listagem e no relatório de requirements."
+11630,MEDIUM,9331,Gerar relatório após utilizar filtros
+11671,LOW,9320,Teste exploratório do Menu Quality
+11452,CRITICAL,40,Instalar aplicativo Software Quality Check
+11678,MEDIUM,9308,Filtrar bugs para geração de relatórios
+11674,HIGH,9302,Gerar relatório de Bug
+11542,CRITICAL,9210,Conteúdo da tela Sobre
+11536,LOW,9265,Autenticar na aplicação com espaços em branco
+11535,LOW,9265,Autenticar na aplicação com espaços em branco
+11527,MEDIUM,9235,Validar botão Back
+11525,LOW,9237,Criar conta com espaços em branco
+11523,LOW,9237,Criar conta com espaços em branco
+11519,LOW,9226,Criar conta com campos vazios
+11516,HIGH,9230,Criar conta sem acesso a Internet
+11513,LOW,9216,Criar conta com dados inválidos
+11511,CRITICAL,9214,Criar Conta
+11619,LOW,9325,Resetar filtros preenchidos
+11628,LOW,9353,"Filtrar issues pelos filtros ""Created"
+11628,LOW,9325,Resetar filtros preenchidos
+10720,MEDIUM,5143,Confirmar dados (tolerância a falhas e recuperabilidade)
+11495,HIGH,9214,Criar Conta
+11496,CRITICAL,9216,Criar conta com dados inválidos
+11497,HIGH,9227,Criar conta com dados cadastrados
+11498,HIGH,9227,Criar conta com dados cadastrados
+11499,HIGH,9227,Criar conta com dados cadastrados
+11501,MEDIUM,9230,Criar conta sem acesso a Internet
+11502,CRITICAL,9230,Criar conta sem acesso a Internet
+11506,LOW,9262,Autenticar na aplicação com dados inválidos
+11507,LOW,9262,Autenticar na aplicação com dados inválidos
+11509,HIGH,9262,Autenticar na aplicação com dados inválidos
+11510,LOW,9262,Autenticar na aplicação com dados inválidos
+11512,LOW,9265,Autenticar na aplicação com espaços em branco
+11514,HIGH,9265,Autenticar na aplicação com espaços em branco
+11515,LOW,9265,Autenticar na aplicação com espaços em branco
+11521,CRITICAL,9257,Troca na rede de conexão
+11524,CRITICAL,9273,Cancelar vínculo com o GatewayGo
+11529,CRITICAL,9235,Validar botão Back
+11532,LOW,9262,Autenticar na aplicação com dados inválidos
+11551,MEDIUM,8538,Performance / Carga / Stress para o MO Form
+11470,MEDIUM,9224,Remoção válida de BOMs com/sem itens logados na linha
+10922,CRITICAL,7559,Set up blocks
+11651,LOW,9092,MO Form - On Line para On Line
+11646,LOW,9092,MO Form - On Line para On Line
+11596,LOW,8569,Performance / Carga / Stress para o BOM Form
+11579,MEDIUM,8538,Performance / Carga / Stress para o MO Form
+11586,MEDIUM,8538,Performance / Carga / Stress para o MO Form
+11590,MEDIUM,8538,Performance / Carga / Stress para o MO Form
+11563,LOW,8572,Performance / Carga / Stress para o Part Desc Form
+11745,HIGH,8181,Criação de 1 MAC para cada Serial Number
+11731,MEDIUM,9510,Adicionar uma nova BOM e alterar o valor do target da bom antiga para um valor menor do que já foi logado na linha
+11728,MEDIUM,9503,Inserção de BOM com o valor do target diferente ao do available
+11739,MEDIUM,9512,Adicionar uma nova BOM e alterar o valor do target da bom antiga para um valor igual do que já foi logado na linha
+11739,MEDIUM,9513,Adicionar uma nova BOM e alterar o valor do target da bom antiga para um valor maior do que já foi logado na linha
+11739,MEDIUM,9518,Verificar valor do campo available da bom quando se tem itens logados na linha para a BOM
+11739,MEDIUM,9522,Valor do campo available da BOM com todos os itens logados na linha
+11582,MEDIUM,9090,MO Form - On Line
+11724,MEDIUM,9194,Modificação inválida para o campo Relation (KP Relation) através do SMOM
+11724,MEDIUM,9193,Modificação inválida para o campo Quantity através do SMOM
+11724,MEDIUM,9178,Modificação válida para o campo Available através do SMOM
+11724,MEDIUM,9186,Modificação válida para o campo Relation (KP Relation) através do SMOM
+11724,MEDIUM,9181,Modificação válida para o campo Quantity através do SMOM
+11724,MEDIUM,9190,Modificação inválida para o campo Available através do SMOM
+11709,LOW,6275,Aplicar Filtro com sucesso
+11719,LOW,6998,Aplicar Filtro com sucesso
+11715,LOW,6954,Aplicar Filtro com sucesso
+11718,LOW,6865,Aplicar Filtro com sucesso
+11727,LOW,6998,Aplicar Filtro com sucesso
+11751,LOW,9532,"Campos EAN CODE, UPC CODE, PRODUCT SPEC e PRODUCT DESC"
+11786,LOW,8953,Zerar horas de trabalho por linha
+11794,LOW,9557,Campos obrigatórios de uma BOM via Protheus
+11794,LOW,9558,Inserir BOM com o campo Quantity (KP_COUNT) via Protheus com o valor 0
+11788,LOW,9553,O campo quantity na edição da BOM virtual tem que ser maior que 0
+11791,MEDIUM,9556,Inserir BOMs com Key Part Number repetido
+11740,MEDIUM,6648,Alterar o Part Mode via SMOM
+11781,MEDIUM,9194,Modificação inválida para o campo Relation (KP Relation) através do SMOM
+11781,MEDIUM,9193,Modificação inválida para o campo Quantity através do SMOM
+11781,MEDIUM,9190,Modificação inválida para o campo Available através do SMOM
+11789,MEDIUM,9552,Validações da modificação de BOMs Virtuais com KP Relation único
+11708,LOW,6275,Aplicar Filtro com sucesso
+11744,HIGH,9385,Problema em conectar uma rede wifi na reconfiguração
+11753,HIGH,9466,"Reconfigurar uma rede, através do menu Sanduiche"
+11716,HIGH,9484,Problema ao configurar uma rede
+11716,HIGH,9425,Realizar teste de conexão
+11805,MEDIUM,8171,Manter o valor do status (close flag) da MO
+11808,HIGH,9536,Modificar BOM com a MO no status On Line (2) ou In Production (4)
+11790,LOW,9554,Letras em campos numéricos na modificação de boms virtuais
+11809,MEDIUM,3801,Listar peças de referência
+11842,LOW,9602,Modificar uma BOM deixando um campo obrigatório vazio
+11503,LOW,52,Comparação de modelos
+11854,LOW,9610,Criar task através do Quick Task
+11847,LOW,9610,Criar task através do Quick Task
+11851,MEDIUM,6683,Deletar Essential Parts
+11850,MEDIUM,6641,Realizar a Remoção com Sucesso
+11792,LOW,9555,Campos obrigatórios para edição de uma BOM Virtual
+10841,MEDIUM,53,Exibição de modelo escaneado
+10841,MEDIUM,3801,Listar peças de referência
+9158,MEDIUM,52,Comparação de modelos
+10456,LOW,6166,Controle da criação de logs de dados
+11920,LOW,5431,Verificar padrões de UI e UX
+11714,HIGH,9421,Conectar uma rede Offline
+11714,HIGH,9451,Reconfigurar rede com sucesso
+11714,HIGH,9454,Reconfigurar uma rede offline
+11714,HIGH,9459,Configurar rede Ethernet sem acesso a Internet
+11714,HIGH,9474,Problema ao Reconfigurar uma rede Ethernet
+11714,HIGH,9439,Desconectar e logo após conectar a mesma rede
+11712,MEDIUM,9368,Botão Back da tela de listagem de redes wifi
+11713,CRITICAL,9380,Botão Reconfigurar com rede sem acesso a internet na Reconfiguração
+11713,CRITICAL,9466,"Reconfigurar uma rede, através do menu Sanduiche"
+11711,MEDIUM,9380,Botão Reconfigurar com rede sem acesso a internet na Reconfiguração
+11917,LOW,8106,Modificar e deixar campos obrigatórios vazios
+11909,LOW,9616,Modificar BOM sem alterações
+11869,MEDIUM,7548,List sound devices
+11877,LOW,9647,Colocar MO on line com revision no último dia de validade
+11903,MEDIUM,9672,Remover key part vinculado a uma BOM
+11889,LOW,6700,Limite de caracteres para os campos Input do Protheus
+11852,LOW,9616,Modificar BOM sem alterações
+11857,CRITICAL,7555,Enable/disable capturated grid
+11212,MEDIUM,8890,Modal de gravação de áudio
+11205,HIGH,8635,Filtrar atendimentos por tipo
+11204,MEDIUM,8635,Filtrar atendimentos por tipo
+11202,MEDIUM,8634,Visualizar atendimentos
+11187,HIGH,6202,Opções de streaming para usuário receptor
+11855,CRITICAL,7555,Enable/disable capturated grid
+10981,LOW,7464,List monitors
+11552,LOW,4988,Envio de e-mail ao esquecer senha
+11601,LOW,3973,Cadastro com dados inválidos - dados pessoais
+11737,CRITICAL,9341,Alterar senha utilizando valor fora dos padrões permitido
+11736,CRITICAL,9341,Alterar senha utilizando valor fora dos padrões permitido
+11720,LOW,9431,Configurar rede com campos em branco
+11967,LOW,42,Internacionalização da aplicação
+11986,CRITICAL,9594,Reconfigurar sensor de imagem com sucesso
+11591,HIGH,8890,Modal de gravação de áudio
+11568,CRITICAL,8886,Criar salas através de right now
+11310,MEDIUM,9030,Tempo de gravação de áudio
+11985,CRITICAL,9588,Problema ao salvar a configuração do sensor de imagem
+11965,CRITICAL,9617,Problema em acessar sensor de Contagem na Reconfiguração
+11963,CRITICAL,9617,Problema em acessar sensor de Contagem na Reconfiguração
+10224,MEDIUM,7145,Cards de envio de objeto 3D
+11961,CRITICAL,9615,"Reconfigurar sensor de contagem com campos vazios, espaços em branco, caracteres especiais e quantidade de caracteres"
+11956,HIGH,9589,Configurar sensor de contagem com Nomes e faixas iguais
+11956,HIGH,9615,"Reconfigurar sensor de contagem com campos vazios, espaços em branco, caracteres especiais e quantidade de caracteres"
+11922,MEDIUM,9534,Permissão de campos para o BOM Form
+11758,HIGH,9336,Alterar a senha com espaços em branco e campo vazio
+11757,HIGH,9336,Alterar a senha com espaços em branco e campo vazio
+11746,CRITICAL,9459,Configurar rede Ethernet sem acesso a Internet
+11746,CRITICAL,9472,Reconfigurar rede Ethernet sem acesso a Internet
+11742,MEDIUM,9379,Testar rede wifi na reconfiguração
+11738,MEDIUM,9379,Testar rede wifi na reconfiguração
+11733,HIGH,9358,Problema em conectar uma rede wifi
+11735,CRITICAL,9378,Reconfigurar rede wifi sem acesso a internet
+11734,HIGH,9370,Botão Back após teste de conexão
+11734,HIGH,9391,Botão Back após teste de conexão na reconfiguração
+11734,HIGH,9480,Botão Back da tela de teste de conexão Ethernet
+11848,LOW,7653,Application uninstaller
+11952,LOW,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11952,LOW,9615,"Reconfigurar sensor de contagem com campos vazios, espaços em branco, caracteres especiais e quantidade de caracteres"
+11928,LOW,6700,Limite de caracteres para os campos Input do Protheus
+11945,CRITICAL,9632,Disconnect da Rede do GW na reconfiguração
+11947,MEDIUM,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11947,MEDIUM,9615,"Reconfigurar sensor de contagem com campos vazios, espaços em branco, caracteres especiais e quantidade de caracteres"
+11949,HIGH,9603,"Na reconfiguração, problema ao acessar a tela de Configuração de sensor de imagem"
+11943,HIGH,9603,"Na reconfiguração, problema ao acessar a tela de Configuração de sensor de imagem"
+11520,CRITICAL,9203,Vincular conta a um gatewayGo
+11950,LOW,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11950,LOW,9615,"Reconfigurar sensor de contagem com campos vazios, espaços em branco, caracteres especiais e quantidade de caracteres"
+11969,MEDIUM,9631,"Ações do filtro ""Pesquisar"" 11962,LOW,9631,""Ações do filtro ""Pesquisar"" 11971,CRITICAL,7145,""Cards de envio de objeto 3D"
+11971,CRITICAL,7130,Enviar objeto 3D
+11954,LOW,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11976,HIGH,7130,Enviar objeto 3D
+11976,HIGH,7145,Cards de envio de objeto 3D
+11978,MEDIUM,7145,Cards de envio de objeto 3D
+11978,MEDIUM,7130,Enviar objeto 3D
+12013,LOW,7559,Set up blocks
+11215,CRITICAL,8892,Funções do player de áudio para instrutor
+11215,CRITICAL,8891,Receber áudio [Desktop]
+11213,MEDIUM,8890,Modal de gravação de áudio
+11940,CRITICAL,9594,Reconfigurar sensor de imagem com sucesso
+11938,CRITICAL,9570,Configurar sensor de imagem com sucesso
+11885,LOW,8882,PPB Rules com valores inválidos
+11884,LOW,9642,Duplicar PPB Rules com valores inválidos
+12037,HIGH,9341,Alterar senha utilizando valor fora dos padrões permitido
+12036,HIGH,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+12035,MEDIUM,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+12034,HIGH,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+12032,CRITICAL,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+12031,HIGH,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+12027,HIGH,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11948,HIGH,9603,"Na reconfiguração, problema ao acessar a tela de Configuração de sensor de imagem"
+11944,CRITICAL,9609,"Na reconfiguração, Problema ao salvar a configuração do sensor de imagem"
+11942,LOW,9578,Configurar sensor de imagem utilizando valores fora dos padrões permitidos
+11942,LOW,9596,Reconfigurar sensor de imagem com nome em branco
+11946,LOW,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11946,LOW,9615,"Reconfigurar sensor de contagem com campos vazios, espaços em branco, caracteres especiais e quantidade de caracteres"
+11531,LOW,9262,Autenticar na aplicação com dados inválidos
+11748,CRITICAL,9421,Conectar uma rede Offline
+11748,CRITICAL,9454,Reconfigurar uma rede offline
+11748,CRITICAL,9458,"Na reconfiguração, erro ao conectar a uma rede"
+11750,CRITICAL,9484,Problema ao configurar uma rede
+11750,CRITICAL,9439,Desconectar e logo após conectar a mesma rede
+11756,CRITICAL,9341,Alterar senha utilizando valor fora dos padrões permitido
+11955,HIGH,9580,Botão Back da tela de sensores de contagem
+11970,HIGH,9578,Configurar sensor de imagem utilizando valores fora dos padrões permitidos
+11972,LOW,9578,Configurar sensor de imagem utilizando valores fora dos padrões permitidos
+11975,MEDIUM,9578,Configurar sensor de imagem utilizando valores fora dos padrões permitidos
+11977,HIGH,9579,Problema ao acessar a tela de Configuração de sensor de imagem
+11980,HIGH,9579,Problema ao acessar a tela de Configuração de sensor de imagem
+11981,HIGH,9579,Problema ao acessar a tela de Configuração de sensor de imagem
+11983,HIGH,9579,Problema ao acessar a tela de Configuração de sensor de imagem
+11941,HIGH,9572,"Configurar sensor de imagem com sucesso, onde a câmera é desconectada durante a configuração"
+11941,HIGH,9579,Problema ao acessar a tela de Configuração de sensor de imagem
+11941,HIGH,9588,Problema ao salvar a configuração do sensor de imagem
+11951,HIGH,9603,"Na reconfiguração, problema ao acessar a tela de Configuração de sensor de imagem"
+11951,HIGH,9595,"Reconfigurar sensor de imagem com sucesso, onde a câmera é desconectada durante a configuração"
+12087,MEDIUM,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+12086,MEDIUM,9569,"Configurar sensor de contagem com Campos Vazios, Espaços em Branco, Caracteres Especiais e quantidade de caracteres"
+11996,MEDIUM,9466,"Reconfigurar uma rede, através do menu Sanduiche"
+12007,CRITICAL,7574,Application installer
+11846,HIGH,7561,Monitor's region selection
+11806,HIGH,52,Comparação de modelos
+12108,CRITICAL,9609,"Na reconfiguração, Problema ao salvar a configuração do sensor de imagem"
+11184,MEDIUM,8633,Ações na listagem de atendimentos
+10912,MEDIUM,8707,Agendamento de relatórios
+10912,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+11964,LOW,9631,"Ações do filtro ""Pesquisar"" 12022,LOW,7561,""Monitor's region selection"
+11924,MEDIUM,7473,Adicionar novo scan
+11958,HIGH,7145,Cards de envio de objeto 3D
+11953,CRITICAL,7145,Cards de envio de objeto 3D
+10740,CRITICAL,8646,Visualização de Objetos Tridimensionais
+11580,HIGH,9031,Tempo de gravação de áudio
+11580,HIGH,8895,Modal de gravação de áudio
+11647,HIGH,7464,List monitors
+11561,MEDIUM,7107,Acessar e sair de sala de streaming com perfis diferentes
+11559,MEDIUM,7105,Acessar sala de streaming com dados inválidos
+11553,HIGH,7097,Criar sala [Suporte]
+11553,HIGH,7096,Criar sala [Treinamento]
+11992,HIGH,8886,Criar salas através de right now
+11209,HIGH,8918,Restrições de right now
+11991,MEDIUM,5183,Ações no menu lateral [Mobile]
+12171,MEDIUM,9620,"Função ""Esqueceu a senha"" na autenticação"
+12181,LOW,9583,Notificações de alertas durante streaming [Suporte]
+12181,LOW,9584,Notificações de alertas durante streaming [Treinamento]
+12180,MEDIUM,9583,Notificações de alertas durante streaming [Suporte]
+12180,MEDIUM,9584,Notificações de alertas durante streaming [Treinamento]
+12228,MEDIUM,9497,Acessar sala de streaming através de diferentes plataformas
+12231,HIGH,7561,Monitor's region selection
+11926,HIGH,52,Comparação de modelos
+11560,MEDIUM,6198,Criar sala [Treinamento]
+11560,MEDIUM,6201,Criar sala [Suporte]
+12123,CRITICAL,9617,Problema em acessar sensor de Contagem na Reconfiguração
+12120,LOW,9592,Botão Back da tela de sensor de imagem
+12116,CRITICAL,9203,Vincular conta a um gatewayGo
+12114,HIGH,9203,Vincular conta a um gatewayGo
+12113,HIGH,9567,Configurar sensor de contagem com sucesso
+12082,CRITICAL,9608,Reconfigurar sensor de contagem com sucesso
+12272,CRITICAL,9939,Funcionamento da tag 1 - Quem é o Fernando?
+12274,MEDIUM,9939,Funcionamento da tag 1 - Quem é o Fernando?
+12273,HIGH,9939,Funcionamento da tag 1 - Quem é o Fernando?
+12281,CRITICAL,9936,Funcionamento da tag 2 -  Vídeos dos familiares homenageando o Fernando
+12275,HIGH,9940,Funcionamento da tag 3 - Plotagem do personagem 3D
+12291,MEDIUM,9934,Regras de visualização de tags
+12288,MEDIUM,9936,Funcionamento da tag 2 -  Vídeos dos familiares homenageando o Fernando
+12289,MEDIUM,9934,Regras de visualização de tags
+12202,MEDIUM,8646,Visualização de Objetos Tridimensionais
+12339,LOW,7098,Interromper transmissão de streaming
+12296,CRITICAL,9742,Acessar as informações de Real time
+12295,CRITICAL,9742,Acessar as informações de Real time
+12191,HIGH,9721,Transmissão interrompida com áudio desabilitado (suporte)
+12191,HIGH,9731,Função de pause e mute em uma sala de streaming
+12191,HIGH,9736,Transmissão interrompida com áudio desabilitado (treinamento)
+12191,HIGH,9739,Finalizar uma sala com áudio desabilitado
+12191,HIGH,9737,Acessar sala de streaming com áudio desabilitado
+12191,HIGH,9738,Acessar sala de streaming com áudio habilitado
+12191,HIGH,9741,Função de Mute
+12195,HIGH,9740,Função do botão Pause/Play
+12341,MEDIUM,9583,Notificações de alertas durante streaming [Suporte]
+12341,MEDIUM,9584,Notificações de alertas durante streaming [Treinamento]
+11629,LOW,4261,Inspeção de desempenho do Demo Visão 360
+11615,LOW,9037,Visualização de tags
+11614,LOW,9037,Visualização de tags
+11612,LOW,9037,Visualização de tags
+11611,LOW,9037,Visualização de tags
+12292,MEDIUM,9934,Regras de visualização de tags
+11608,HIGH,9037,Visualização de tags
+11607,HIGH,9037,Visualização de tags
+12175,MEDIUM,9583,Notificações de alertas durante streaming [Suporte]
+12199,MEDIUM,8646,Visualização de Objetos Tridimensionais
+12206,HIGH,8894,Receber áudio numa sala de streaming
+12303,CRITICAL,9948,Gráfico de Pessoas
+12301,CRITICAL,9947,Gráfico de Gênero
+12300,CRITICAL,9946,Gráfico de idade
+12297,CRITICAL,9729,Filtros de Emoções e de Tempo
+12149,HIGH,4995,Troca de senhas - dados válidos
+12115,HIGH,9594,Reconfigurar sensor de imagem com sucesso
+12283,MEDIUM,8886,Criar salas através de right now
+12256,MEDIUM,9539,Teste estático de internacionalização
+12247,MEDIUM,8707,Agendamento de relatórios
+12243,HIGH,8633,Ações na listagem de atendimentos
+12234,LOW,8892,Funções do player de áudio para instrutor
+12229,MEDIUM,8886,Criar salas através de right now
+12223,MEDIUM,9412,Notificações de alertas durante streaming [Treinamento]
+12221,MEDIUM,9412,Notificações de alertas durante streaming [Treinamento]
+12221,MEDIUM,9640,Notificações de alertas durante streaming [Suporte]
+12220,MEDIUM,9412,Notificações de alertas durante streaming [Treinamento]
+12220,MEDIUM,9640,Notificações de alertas durante streaming [Suporte]
+12218,CRITICAL,9374,Ações dos botões minimizar e maximizar para Tec Suporte
+12215,MEDIUM,7130,Enviar objeto 3D
+12214,LOW,7125,Ações de visualizar objeto 3D para técnico de suporte
+12212,LOW,7130,Enviar objeto 3D
+12208,LOW,6197,Opções de streaming para usuário transmissor
+12208,LOW,6202,Opções de streaming para usuário receptor
+12203,MEDIUM,7127,Visualizar objeto 3D
+12198,LOW,9498,Funções da listagem de participantes [Treinamento]
+12198,LOW,9500,Funções da listagem de participantes [Suporte]
+12190,MEDIUM,6197,Opções de streaming para usuário transmissor
+12190,MEDIUM,6202,Opções de streaming para usuário receptor
+12177,MEDIUM,7130,Enviar objeto 3D
+12176,HIGH,7130,Enviar objeto 3D
+12173,LOW,7145,Cards de envio de objeto 3D
+12170,MEDIUM,7130,Enviar objeto 3D
+12154,HIGH,6198,Criar sala [Treinamento]
+12154,HIGH,6201,Criar sala [Suporte]
+11982,MEDIUM,8707,Agendamento de relatórios
+11982,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+11973,MEDIUM,8707,Agendamento de relatórios
+11973,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+11345,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+12285,MEDIUM,9632,Disconnect da Rede do GW na reconfiguração
+12466,CRITICAL,9949,Acessar informações do indicador de Permanência
+12465,LOW,10190,Gráfico de Visitas/Região/Período
+12313,HIGH,9734,Problema ao acessar Dashboard Qualitativo
+12312,HIGH,9744,Problema ao acessar o Dashboard Quantitativo
+12310,CRITICAL,9947,Gráfico de Gênero
+12309,CRITICAL,9946,Gráfico de idade
+12308,CRITICAL,9729,Filtros de Emoções e de Tempo
+12307,CRITICAL,9951,Acessar informações do indicador de Visita/hora
+12306,CRITICAL,9950,Acessar informações do indicador de Visitas
+12304,CRITICAL,9743,Acessar o Dashboard Quantitativo antes dos 15 minutos de criação de conta
+12302,CRITICAL,9948,Gráfico de Pessoas
+11518,CRITICAL,9203,Vincular conta a um gatewayGo
+11984,HIGH,8709,Download de relatórios mediante aplicação de filtros
+11984,HIGH,8707,Agendamento de relatórios
+12496,MEDIUM,6247,Acessar e sair de sala de streaming com perfis distintos
+12264,MEDIUM,8892,Funções do player de áudio para instrutor
+12264,MEDIUM,9015,Funções do player de áudio para aluno
+12258,LOW,8892,Funções do player de áudio para instrutor
+12252,LOW,8892,Funções do player de áudio para instrutor
+12252,LOW,9015,Funções do player de áudio para aluno
+12251,MEDIUM,8891,Receber áudio [Desktop]
+12251,MEDIUM,9010,Receber áudio compartilhado [Desktop]
+12249,MEDIUM,8886,Criar salas através de right now
+12248,LOW,9622,Função do botão Pause/Play
+12248,LOW,9623,Função do botão Mute
+12233,LOW,5183,Ações no menu lateral [Mobile]
+12226,MEDIUM,9412,Notificações de alertas durante streaming [Treinamento]
+12226,MEDIUM,9640,Notificações de alertas durante streaming [Suporte]
+12204,LOW,7130,Enviar objeto 3D
+12194,MEDIUM,7125,Ações de visualizar objeto 3D para técnico de suporte
+12192,LOW,7125,Ações de visualizar objeto 3D para técnico de suporte
+12192,LOW,9374,Ações dos botões minimizar e maximizar para Tec Suporte
+12187,LOW,7130,Enviar objeto 3D
+12182,MEDIUM,7145,Cards de envio de objeto 3D
+12174,HIGH,9486,Interromper transmissão de streaming
+12164,LOW,6266,Opções de finalização de streaming
+12266,HIGH,9015,Funções do player de áudio para aluno
+12266,HIGH,8892,Funções do player de áudio para instrutor
+12250,HIGH,8892,Funções do player de áudio para instrutor
+12250,HIGH,9015,Funções do player de áudio para aluno
+12420,LOW,10292,Conversão de minúsculo para maiúsculo das Letras do Lacre
+12417,MEDIUM,10006,Status do Lacre
+12415,MEDIUM,10281,Lacres expirados em 24 horas
+12421,LOW,10295,Conversão de minúsculo para maiúsculo das Letras do campo Prefixo
+12414,LOW,9988,Criação válida de lacres sequenciais
+12410,LOW,10239,Filtrar com valor inválido no campo Status
+12464,CRITICAL,9742,Acessar as informações de Real time
+12463,CRITICAL,9742,Acessar as informações de Real time
+12418,MEDIUM,9988,Criação válida de lacres sequenciais
+12412,MEDIUM,9988,Criação válida de lacres sequenciais
+12413,MEDIUM,9960,Criação válida de lacre individual
+12516,CRITICAL,9484,Problema ao configurar uma rede
+12521,HIGH,9426,Erro ao conectar a uma rede
+12517,CRITICAL,9628,Cadastrar mais de quatro regiões na Configuração do Sensor de contagem
+12498,HIGH,8918,Restrições de right now
+12471,MEDIUM,9631,"Ações do filtro ""Pesquisar"" 12224,MEDIUM,9412,""Notificações de alertas durante streaming [Treinamento]"
+12224,MEDIUM,9640,Notificações de alertas durante streaming [Suporte]
+12217,LOW,9408,Ações na listagem de participantes
+12217,LOW,6197,Opções de streaming para usuário transmissor
+12217,LOW,6202,Opções de streaming para usuário receptor
+12216,MEDIUM,6197,Opções de streaming para usuário transmissor
+12216,MEDIUM,6202,Opções de streaming para usuário receptor
+12153,HIGH,6266,Opções de finalização de streaming
+12580,HIGH,10404,Erro ao cadastrar aplicativo já cadastrado no grupo
+12428,HIGH,9561,Restrições no cadastro de um objeto 3D
+12501,CRITICAL,4055,Editar Usuário com dados válidos
+12582,HIGH,10468,Acessar Sala sem dispositivos conectados [Desktop]
+12546,MEDIUM,10421,Limpar os campos Palete e SN ao inserir um valor inválido
+12534,MEDIUM,9988,Criação válida de lacres sequenciais
+11581,MEDIUM,8709,Download de relatórios mediante aplicação de filtros
+12242,MEDIUM,8707,Agendamento de relatórios
+12282,HIGH,8634,Visualizar atendimentos
+12461,MEDIUM,9338,Enviar novo objeto 3D para técnico de campo
+12601,HIGH,9539,Teste estático de internacionalização
+12599,HIGH,6151,Menu [Desktop]
+12488,MEDIUM,9486,Interromper transmissão de streaming
+12509,HIGH,7127,Visualizar objeto 3D
+12509,HIGH,9338,Enviar novo objeto 3D para técnico de campo
+12236,LOW,9498,Funções da listagem de participantes [Treinamento]
+12236,LOW,9500,Funções da listagem de participantes [Suporte]
+12280,MEDIUM,8634,Visualizar atendimentos
+12441,MEDIUM,8892,Funções do player de áudio para instrutor
+12441,MEDIUM,9015,Funções do player de áudio para aluno
+12499,LOW,5183,Ações no menu lateral [Mobile]
+12508,MEDIUM,9640,Notificações de alertas durante streaming [Suporte]
+12431,HIGH,9038,Acessar sala na plataforma mobile com transmissão do Moverio
+12241,MEDIUM,9757,Transmissão interrompida com áudio desabilitado (suporte)
+12241,MEDIUM,9754,Transmissão interrompida com áudio desabilitado (treinamento)
+12607,CRITICAL,10329,"Presentation of ""Cover Timeline"" screen components"
+12607,CRITICAL,10331,"Presentation of ""Cover picture"" in timeline screen with ""Circular light"" 12607,CRITICAL,10333,""Action of the ""Home"" button on the ""Cover Timeline"" screen"
+12607,CRITICAL,10344,Presentation of home screen components
+12607,CRITICAL,10342,"Action of the ""top of page"" button on the ""Cover timeline"" screen"
+12607,CRITICAL,10341,"Click action on the ""Cover picture"" on the ""Cover timeline"" screen"
+12607,CRITICAL,10340,"Presentation of the image of the day on the ""Home"" screen"
+12607,CRITICAL,10346,User interface aesthetics
+12565,MEDIUM,10331,"Presentation of ""Cover picture"" in timeline screen with ""Circular light"" 12425,HIGH,10384,""Alertas para usuário com username grande"
+12426,LOW,9533,Funções da listagem de participantes
+12432,HIGH,9721,Transmissão interrompida com áudio desabilitado (suporte)
+12432,HIGH,9736,Transmissão interrompida com áudio desabilitado (treinamento)
+12433,HIGH,9728,Acessar sala de Streaming com vídeo pausado
+12434,HIGH,9728,Acessar sala de Streaming com vídeo pausado
+12448,LOW,9737,Acessar sala de streaming com áudio desabilitado
+12449,LOW,9583,Notificações de alertas durante streaming [Suporte]
+12468,LOW,9577,Ações no menu FAB
+12484,MEDIUM,8896,Funções do player de áudio para instrutor
+12490,MEDIUM,9488,Acessar sala - restrições
+12491,MEDIUM,9727,Transmissão interrompida com vídeo pausado (treinamento)
+12491,MEDIUM,9720,Transmissão interrompida com vídeo pausado (suporte)
+12492,HIGH,9720,Transmissão interrompida com vídeo pausado (suporte)
+12492,HIGH,9727,Transmissão interrompida com vídeo pausado (treinamento)
+12494,CRITICAL,8646,Visualização de Objetos Tridimensionais
+12497,LOW,9024,Funções do player de áudio para aluno
+12497,LOW,8896,Funções do player de áudio para instrutor
+12207,LOW,8896,Funções do player de áudio para instrutor
+12625,MEDIUM,10535,Troca de câmera durante transmissão [Mobile]
+12595,LOW,6151,Menu [Desktop]
+12588,LOW,9408,Ações na listagem de participantes
+12586,HIGH,6247,Acessar e sair de sala de streaming com perfis distintos
+12515,HIGH,9628,Cadastrar mais de quatro regiões na Configuração do Sensor de contagem
+12475,CRITICAL,9732,Acessar o Dashboard Qualitativo antes dos 15 minutos de criação de conta
+12472,CRITICAL,9743,Acessar o Dashboard Quantitativo antes dos 15 minutos de criação de conta
+12470,LOW,9203,Vincular conta a um gatewayGo
+12305,CRITICAL,9949,Acessar informações do indicador de Permanência
+12126,CRITICAL,9633,Disconect da Rede do Gateway na Reconfiguração
+12469,LOW,9203,Vincular conta a um gatewayGo
+12520,MEDIUM,6247,Acessar e sair de sala de streaming com perfis distintos
+12097,MEDIUM,10561,Integração com o administrativo
+12343,MEDIUM,10077,Campos obrigatórios vazios
+12337,LOW,10069,Limite de caracteres para os filtros
+12351,LOW,10076,Limite de caracteres
+12507,MEDIUM,10232,Inserir registro com valores inválidos
+12594,LOW,9740,Função do botão Pause/Play
+12594,LOW,9741,Função de Mute
+12614,HIGH,10534,Ação de congelar e descongelar vídeo do streaming
+12587,LOW,9583,Notificações de alertas durante streaming [Suporte]
+12506,LOW,10231,Inserir Registro com Sucesso
+12162,HIGH,6229,Acessar e sair de sala de streaming com sucesso
+12662,MEDIUM,10493,Retrabalho de desvínculo do PO
+12662,MEDIUM,10519,Geração de Sales Return para Clientes diferentes de A31
+12662,MEDIUM,10520,Geração de Sales Return para o Cliente A31
+12600,LOW,10212,Chave NF correta
+12571,LOW,10080,Habilitação de Campos
+12561,MEDIUM,10339,Atualizações de PO (Decrease e Clear)
+12593,HIGH,10339,Atualizações de PO (Decrease e Clear)
+12539,LOW,10095,Vincular palete já vinculado a outro Lacre
+12540,LOW,10116,Mensagem de sucesso ao Salvar
+12541,LOW,9990,Criação inválida de lacres sequenciais
+12559,MEDIUM,10121,Escanear o palete já vinculado ao Lacre
+12617,LOW,10461,Escanear palete inexistente
+12621,LOW,10482,"Escanear Palete existente, mas que não seja de Retorno"
+12687,LOW,9074,Inserir registro com sucesso
+12683,LOW,9063,Aplicar Filtro com sucesso
+12683,LOW,9067,Exibir opções de filtro
+12743,HIGH,10464,Modificar um Job com valores inválidos
+12700,LOW,10507,Limite de caracteres para os filtros
+12696,LOW,10494,Exibir opções de filtro
+12688,LOW,9078,Limite de caracteres para a inserção
+12769,MEDIUM,10615,QT NF Maior que QT do Lacre
+12763,LOW,10658,Funcionamento do componente de Data
+12576,MEDIUM,10191,Quantidade disponível na tabela de PO for menor que  Ship Qty
+12661,LOW,10513,Tamanho dos campos
+12567,MEDIUM,10448,Associar um Palete a um Lacre que já tenha Paletes associados
+12535,LOW,9988,Criação válida de lacres sequenciais
+12616,LOW,10396,Alerta Sonoro de Palete Inexistente
+12690,MEDIUM,10601,Escanear Palete que tenha itens válidos e inválidos
+11538,CRITICAL,9203,Vincular conta a um gatewayGo
+12793,HIGH,10540,Seriais aptos para entrar em uma nota de retorno
+12631,MEDIUM,10540,Seriais aptos para entrar em uma nota de retorno
+12631,MEDIUM,10463,SN que não seja de Retorno
+12864,LOW,10715,Cores dos itens escaneados exibidos na tela
+12861,LOW,10652,Teste exploratório na área de Tecnologia
+12861,LOW,10653,Teste exploratório na área Tipos de Aparelho
+12861,LOW,10654,Teste exploratório na área de Família de Aparelhos
+12861,LOW,10656,Teste exploratório de Modelos de Aparelhos
+12873,LOW,10441,Teste exploratório na área de Empresas
+12881,LOW,10660,Teste exploratório da área de Desenvolvedores
+12801,LOW,10652,Teste exploratório na área de Tecnologia
+12801,LOW,10653,Teste exploratório na área Tipos de Aparelho
+12801,LOW,10656,Teste exploratório de Modelos de Aparelhos
+12801,LOW,10441,Teste exploratório na área de Empresas
+12801,LOW,10659,Teste exploratório da área de Grupos
+12801,LOW,10660,Teste exploratório da área de Desenvolvedores
+12801,LOW,10661,Teste exploratório na área de 'Usuários'
+12770,LOW,10622,Exibição da Tela de Alterar Senha
+12859,HIGH,10719,Validações de Chave da NF
+12848,HIGH,10718,Escaneamento inválido de Lacre existente
+12895,LOW,10662,Teste exploratório na área de Customização
+12874,HIGH,10702,Verificações ao VALIDAR
+12905,LOW,10618,Exibição de Informações Pessoais de um usuário
+12624,LOW,10344,Presentation of home screen components
+12624,LOW,10353,Adequacy for PIXIE APP installed on the device
+12829,HIGH,3973,Cadastro com dados inválidos - dados pessoais
+12844,MEDIUM,10754,Edição de Informações do Usuário com Dados Inválidos
+12870,MEDIUM,10754,Edição de Informações do Usuário com Dados Inválidos
+12863,LOW,10746,Reposicionamento do item ao escanear
+12888,LOW,10661,Teste exploratório na área de 'Usuários'
+12443,LOW,10652,Teste exploratório na área de Tecnologia
+12443,LOW,10654,Teste exploratório na área de Família de Aparelhos
+12443,LOW,10656,Teste exploratório de Modelos de Aparelhos
+12443,LOW,10441,Teste exploratório na área de Empresas
+12443,LOW,10660,Teste exploratório da área de Desenvolvedores
+12443,LOW,10661,Teste exploratório na área de 'Usuários'
+12776,HIGH,10630,Validação do campo 'Senha Atual'
+12778,HIGH,10420,Alterar senha com sucesso
+12935,LOW,10941,Teste exploratório SS-Mobile
+12592,LOW,9408,Ações na listagem de participantes
+12907,HIGH,11150,Login e logout em abas diferentes
+12630,MEDIUM,9010,Receber áudio compartilhado [Desktop]
+12630,MEDIUM,8892,Funções do player de áudio para instrutor
+12630,MEDIUM,11166,Receber áudio compartilhado [Mobile]
+12633,MEDIUM,9010,Receber áudio compartilhado [Desktop]
+12633,MEDIUM,11166,Receber áudio compartilhado [Mobile]
+12633,MEDIUM,8892,Funções do player de áudio para instrutor
+12612,HIGH,11149,Transmissão interrompida durante visualização de objeto 3D
+12726,LOW,10315,Cadastrar Linhas
+12725,CRITICAL,10317,Excluir Linhas
+12753,CRITICAL,10214,Excluir Usuários
+12932,MEDIUM,10941,Teste exploratório SS-Mobile
+12759,MEDIUM,10204,Cadastrar Usuários
+12821,MEDIUM,10204,Cadastrar Usuários
+12985,LOW,9740,Função do botão Pause/Play
+12965,HIGH,8646,Visualização de Objetos Tridimensionais
+12936,LOW,4494,Autenticação com dados válidos
+12987,LOW,7103,Opções de finalização de streaming [transmissor]
+12986,MEDIUM,11202,Acessar sala com transmissão através de outra plataforma
+11990,MEDIUM,9676,"Validações do campo ""nome"" 11995,HIGH,9681,""Validar detalhes de um dispositivo"
+13015,LOW,10765,Limite de caracteres para os filtros
+12686,MEDIUM,9070,Aplicar Filtro com valores inválidos
+12686,MEDIUM,9073,Limite de caracteres para os filtros
+12924,MEDIUM,6291,Visualização do Log Description - Adição
+12924,MEDIUM,10741,Visualização do Log Description - Modificação
+12924,MEDIUM,10745,Visualização do Log Description - Remoção
+12923,LOW,6254,Log para a ação de Adição
+12923,LOW,6273,Log para a ação de Modificação
+12923,LOW,6274,Log para a ação de Remoção
+12969,MEDIUM,6274,Log para a ação de Remoção
+12902,LOW,8892,Funções do player de áudio para instrutor
+12902,LOW,9015,Funções do player de áudio para aluno
+13108,MEDIUM,9754,Transmissão interrompida com áudio desabilitado (treinamento)
+13118,MEDIUM,9631,"Ações do filtro ""Pesquisar"" 13135,HIGH,8709,""Download de relatórios mediante aplicação de filtros"
+13135,HIGH,8636,Filtrar atendimentos por proprietário
+13129,LOW,11148,Redefinir permissões de dispositivos
+12897,LOW,8892,Funções do player de áudio para instrutor
+12897,LOW,9015,Funções do player de áudio para aluno
+12933,MEDIUM,11137,Encerrar visualização de 3D para novo participante
+12931,MEDIUM,11137,Encerrar visualização de 3D para novo participante
+12926,HIGH,8709,Download de relatórios mediante aplicação de filtros
+12914,LOW,7130,Enviar objeto 3D
+12911,HIGH,8890,Modal de gravação de áudio
+12913,HIGH,8890,Modal de gravação de áudio
+12906,LOW,8892,Funções do player de áudio para instrutor
+12906,LOW,9015,Funções do player de áudio para aluno
+12901,LOW,8891,Receber áudio [Desktop]
+12901,LOW,11138,Receber áudio [Mobile]
+12596,MEDIUM,8918,Restrições de right now
+12589,LOW,8633,Ações na listagem de atendimentos
+13110,HIGH,7125,Ações de visualizar objeto 3D para técnico de suporte
+13125,LOW,8886,Criar salas através de right now
+12569,MEDIUM,10027,Limites de caracteres aceitos na edição
+12569,MEDIUM,10017,Limites de caracteres aceitos na criação
+12531,LOW,10110,Editar Configuração de Cliente com dados válidos
+12526,MEDIUM,10390,Editar Configuração de Insumo em uso
+12524,MEDIUM,10085,Remover Configuração de Insumo em uso
+12530,MEDIUM,10125,Editar Configuração de Cliente com dados inválidos
+12528,MEDIUM,10110,Editar Configuração de Cliente com dados válidos
+12525,MEDIUM,10105,Criar Configuração de Cliente válida
+13137,LOW,10513,Tamanho dos campos
+13097,LOW,10116,Mensagem de sucesso ao Salvar
+13033,HIGH,10016,Associar 1 palete a 1 Lacre
+13107,LOW,10051,Limite de caracteres
+13141,HIGH,11298,"Escanear Palete do mesmo Lacre, mas de Nota Fiscal diferente"
+13095,LOW,11239,Ordenamento da lista de Lacres no campo Nº do Lacre
+13092,MEDIUM,7105,Acessar sala de streaming com dados inválidos
+13100,MEDIUM,11205,Permissões de usuários
+13111,MEDIUM,9497,Acessar sala de streaming através de diferentes plataformas
+13155,LOW,8896,Funções do player de áudio para instrutor
+13155,LOW,9024,Funções do player de áudio para aluno
+13239,LOW,10344,Presentation of home screen components
+12892,HIGH,10661,Teste exploratório na área de 'Usuários'
+12890,LOW,10661,Teste exploratório na área de 'Usuários'
+12886,HIGH,10661,Teste exploratório na área de 'Usuários'
+12885,HIGH,10439,Teste exploratório na área de Aplicações
+12884,MEDIUM,10660,Teste exploratório da área de Desenvolvedores
+12882,MEDIUM,10660,Teste exploratório da área de Desenvolvedores
+12880,LOW,10660,Teste exploratório da área de Desenvolvedores
+12877,LOW,10659,Teste exploratório da área de Grupos
+12872,LOW,10443,Teste exploratório nas áreas de Categoria
+12872,LOW,10650,Teste exploratório nas áreas de Segmentos
+12820,LOW,10441,Teste exploratório na área de Empresas
+13057,HIGH,10595,Verificar a exibição de Launchers exclusivos do Cliente
+13037,LOW,11147,Validar campo 'Logotipo' no cadastro de clientes
+13036,LOW,11147,Validar campo 'Logotipo' no cadastro de clientes
+13026,HIGH,11126,Validar paginação no Menu com múltiplos Clientes
+13023,LOW,11124,Validações do filtro por Clientes (REFATORAR AUT)
+12451,LOW,10652,Teste exploratório na área de Tecnologia
+12451,LOW,10653,Teste exploratório na área Tipos de Aparelho
+12451,LOW,10654,Teste exploratório na área de Família de Aparelhos
+12451,LOW,10656,Teste exploratório de Modelos de Aparelhos
+12956,HIGH,10329,"Presentation of ""Cover Timeline"" screen components"
+13297,MEDIUM,11901,Abrir formulário de Paletes sem Laces disponíveis no sistema
+12775,HIGH,10204,Cadastrar Usuários
+12777,LOW,10315,Cadastrar Linhas
+12988,MEDIUM,10209,Cadastrar Modelos
+12989,CRITICAL,10209,Cadastrar Modelos
+12989,CRITICAL,10317,Excluir Linhas
+12990,CRITICAL,10214,Excluir Usuários
+13005,HIGH,10211,Listagem e Busca de Usuários
+13007,HIGH,10211,Listagem e Busca de Usuários
+13018,CRITICAL,10209,Cadastrar Modelos
+13056,MEDIUM,10209,Cadastrar Modelos
+13059,LOW,10209,Cadastrar Modelos
+13061,LOW,10209,Cadastrar Modelos
+13153,LOW,11285,Inserir dados inválidos no cadastro de usuário
+12579,HIGH,10404,Erro ao cadastrar aplicativo já cadastrado no grupo
+12790,MEDIUM,10403,Cadastrar aplicativo em um grupo
+12817,LOW,10656,Teste exploratório de Modelos de Aparelhos
+12813,LOW,10654,Teste exploratório na área de Família de Aparelhos
+12809,LOW,10653,Teste exploratório na área Tipos de Aparelho
+12804,LOW,10652,Teste exploratório na área de Tecnologia
+12804,LOW,10653,Teste exploratório na área Tipos de Aparelho
+12804,LOW,10654,Teste exploratório na área de Família de Aparelhos
+12804,LOW,10656,Teste exploratório de Modelos de Aparelhos
+12806,LOW,10652,Teste exploratório na área de Tecnologia
+12819,LOW,10441,Teste exploratório na área de Empresas
+13058,HIGH,10596,Verificar a exibição de Parâmetros exclusivos do Cliente
+12948,HIGH,6274,Log para a ação de Remoção
+13039,LOW,11170,Listagem e Busca de Parafusadeiras
+12983,MEDIUM,10741,Visualização do Log Description - Modificação
+12983,MEDIUM,6273,Log para a ação de Modificação
+12971,MEDIUM,6273,Log para a ação de Modificação
+13232,HIGH,11467,Desvínculo de um Palete cuja sua NF já foi importada
+13150,MEDIUM,10702,Verificações ao VALIDAR
+13354,LOW,10619,Informar máquina não cadastrada ao realizar check-out
+13349,MEDIUM,11942,Check-in com Tag NFC com conteúdo inválido
+13347,MEDIUM,10624,Check-out com Tag NFC com conteúdo inválido
+13339,LOW,10610,Check-out no refrigerador com falha de conexão
+13267,HIGH,10309,Caracteres aceitos ao logar com usuário AD
+13267,HIGH,10298,Login manual com Usuário AD
+13200,LOW,9992,Filtrar Cola
+13198,LOW,9992,Filtrar Cola
+13367,MEDIUM,11327,Criar Perfil de Super Usuário com Sucesso
+13348,LOW,11215,Limite de caracteres ao realizar check-in
+13348,LOW,11217,Limite de caracteres ao editar lote no check-in
+13344,LOW,10779,Check-in no refrigerador com falha de conexão
+13289,MEDIUM,10236,Limite de caracteres para os campos de login
+12529,LOW,10144,Remover Configuração de Cliente com sucesso
+13117,MEDIUM,11271,Editar equipamento com caracteres especiais no campo Descrição
+13117,MEDIUM,11270,Criar equipamento com caracteres especiais no campo Descrição
+13134,LOW,10017,Limites de caracteres aceitos na criação
+13433,LOW,11822,MO Online faltando um Check Essential Part obrigatório na lista de BOM's
+13149,LOW,11140,Reimprimir etiquetas com sucesso
+13157,LOW,11132,Validar as cores do FEFO para os meses selecionados
+13345,LOW,10779,Check-in no refrigerador com falha de conexão
+13162,MEDIUM,9995,Limite de caracteres na inserção de Equipamento
+13162,MEDIUM,10026,Limite de caracteres na edição de Equipamento
+13342,LOW,10610,Check-out no refrigerador com falha de conexão
+13275,MEDIUM,10297,Login com código de barras do usuário AD marcando o checkbox Operador
+13276,MEDIUM,10220,Login com código de barras do Operador sem marcar o checkbox
+13270,MEDIUM,10309,Caracteres aceitos ao logar com usuário AD
+13265,MEDIUM,10291,Login com falha de conexão
+13264,MEDIUM,10291,Login com falha de conexão
+13195,MEDIUM,9969,Filtrar histórico de pasta de solda
+13195,MEDIUM,9998,Filtrar histórico de cola
+13196,MEDIUM,9998,Filtrar histórico de cola
+13196,MEDIUM,9969,Filtrar histórico de pasta de solda
+13197,MEDIUM,9970,Filtrar histórico por intervalo de data
+13197,MEDIUM,10001,Filtrar histórico de cola por intervalo de data
+13193,LOW,9975,Validar barra de status para pasta de solda
+13194,LOW,9975,Validar barra de status para pasta de solda
+13273,HIGH,10219,Login com código de barras de usuário Operador inválido
+13273,HIGH,10296,Login com código de barras de usuário AD inválido
+13284,MEDIUM,11371,Presentation of daily records in full screen
+13260,MEDIUM,10737,"Action of the native ""Back"" button in the application"
+13032,LOW,11145,Validar campo 'Nome' no cadastro de clientes
+13318,MEDIUM,11367,Criar Super Usuário Relacionado ao Mesmo Perfil
+13336,HIGH,11368,Validações no campo 'Perfil' em Cadastro de Super Usuário
+13031,LOW,11145,Validar campo 'Nome' no cadastro de clientes
+13022,HIGH,11129,Validação do filtro inválido por Clientes
+13054,HIGH,10588,Verificar a exibição de Indicadores exclusivos do Cliente
+13021,LOW,11143,Erro ao criar cliente já cadastrado
+13016,HIGH,10713,Criar cliente com sucesso
+13055,HIGH,10591,Verificar a exibição de Dispositivos exclusivos do Cliente
+12826,LOW,10204,Cadastrar Usuários
+13505,MEDIUM,10713,Criar cliente com sucesso
+13371,HIGH,11093,Replicar Processos
+13387,HIGH,11100,Dashboard do Usuário de Produção
+13387,HIGH,11905,Dashboard do Usuário de Qualidade
+13460,MEDIUM,11093,Replicar Processos
+12964,LOW,42,Internacionalização da aplicação
+12922,MEDIUM,7473,Adicionar novo scan
+12960,HIGH,7473,Adicionar novo scan
+9539,LOW,7411,Criar campanha com valores inválidos
+12510,MEDIUM,10232,Inserir registro com valores inválidos
+10900,MEDIUM,7232,Filtrar jogadores por data
+10257,MEDIUM,7236,Ordenação de jogadores mediante aplicação de filtros
+10242,MEDIUM,5819,Preenchimento do campo Apps no form Edit Ad Item
+10237,MEDIUM,7720,Permissões de usuários para Itens de Publicidade
+10237,MEDIUM,7721,Permissões de usuários para Campanhas
+10237,MEDIUM,7722,Permissões de usuários para Listagem de participantes
+10177,MEDIUM,5818,"Validação do campo ""Start Date"" no form Edit Ad Item"
+13673,MEDIUM,3105,Validações dos campos e regras da sessão Categoria no form de criar eventos
+10240,MEDIUM,5819,Preenchimento do campo Apps no form Edit Ad Item
+10240,MEDIUM,5815,Prenchimento de campos da seção Settings no form Edit Ad Item
+10170,MEDIUM,5335,Ordenação da lista de Apps
+10161,MEDIUM,2050,Ações de limpar e fechar no menu de filtros de administrador
+11075,MEDIUM,8832,Acessar tela de configurações (Tolerância a falhas e recuperabilidade)
+12780,CRITICAL,10545,Create meeting successfully
+13409,CRITICAL,11903,View messages sent field in the dashboard
+13606,HIGH,12048,View transcription time field in the dashboard
+13606,HIGH,12096,View Simplified Cost field in the dashboard
+13606,HIGH,11903,View messages sent field in the dashboard
+13607,MEDIUM,12048,View transcription time field in the dashboard
+13608,CRITICAL,11903,View messages sent field in the dashboard
+13608,CRITICAL,12048,View transcription time field in the dashboard
+13608,CRITICAL,12096,View Simplified Cost field in the dashboard
+13609,CRITICAL,12048,View transcription time field in the dashboard
+13609,CRITICAL,12096,View Simplified Cost field in the dashboard
+13609,CRITICAL,12135,View hosted meeting field in the dashboard
+13610,HIGH,12158,Filter the meetings by DATE interval
+13611,MEDIUM,12158,Filter the meetings by DATE interval
+13616,CRITICAL,12153,View the average meeting time field in the dashboard
+13618,HIGH,10545,Create meeting successfully
+13619,HIGH,10545,Create meeting successfully
+13154,CRITICAL,11110,Send message successfully
+13154,CRITICAL,11115,Send audio in a language other than the meeting language
+12781,CRITICAL,10545,Create meeting successfully
+10999,MEDIUM,8814,Exibição do botão para acessar site interativo quando o convidado já fez o check-in
+11022,HIGH,8826,Validação do idioma no Site Interativo
+11161,LOW,9048,Exibição do botão da webview quando houver erro no checkin
+13259,HIGH,11249,"Presentation of the components of the ""Gallery"" screen"
+13574,LOW,7057,Inserir SKU Inválido
+13241,MEDIUM,10344,Presentation of home screen components
+10924,LOW,4355,Inspeção de usabilidade para convidados
+10700,MEDIUM,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10147,LOW,6060,Atualização da listagem de eventos após convidado ser desabilitado ou removido
+10699,MEDIUM,8713,Exibição da tela de confirmação de dados
+12970,MEDIUM,6274,Log para a ação de Remoção
+11154,MEDIUM,9049,Idioma da webview após checkin do convidado
+12976,MEDIUM,6274,Log para a ação de Remoção
+13307,HIGH,7377,Modificar um registro
+13301,HIGH,11427,Modificar um registro com sucesso
+13711,HIGH,9598,PPB Rules com Sucesso
+13711,HIGH,9599,PPB Rules com valores inválidos
+13716,HIGH,9582,Duplicar PPB Rules com sucesso
+13716,HIGH,9642,Duplicar PPB Rules com valores inválidos
+13726,LOW,11478,Inserir registro com valores inválidos
+13726,LOW,11479,Modificar registro com valores inválidos
+13723,LOW,9074,Inserir registro com sucesso
+13534,HIGH,11252,"Action of the ""share"" button in ""Gallery"" screen"
+13306,LOW,8466,Limite de caracteres para os filtros
+13245,LOW,9073,Limite de caracteres para os filtros
+13705,LOW,8804,Limite de caracteres para os filtros
+13302,LOW,11433,Remoção de itens
+13702,MEDIUM,8796,Aplicar Filtro com sucesso
+13510,LOW,12227,Filtrar com dados válidos
+13407,LOW,9428,Colunas existentes no formulário
+13255,LOW,9081,Modificar um registro com sucesso
+13255,LOW,9074,Inserir registro com sucesso
+13559,LOW,8845,Inserir registro com valores inválidos
+13603,LOW,8437,Inserir registro com valores inválidos
+13561,MEDIUM,7151,Modificar um CFOP excedendo o limite de caracteres
+13288,LOW,11420,Limite de caracteres para os filtros
+13277,LOW,11414,Aplicar Filtro com sucesso
+13701,CRITICAL,12096,View Simplified Cost field in the dashboard
+13679,CRITICAL,11903,View messages sent field in the dashboard
+13675,CRITICAL,11903,View messages sent field in the dashboard
+12979,MEDIUM,6291,Visualização do Log Description - Adição
+12979,MEDIUM,10741,Visualização do Log Description - Modificação
+12979,MEDIUM,10745,Visualização do Log Description - Remoção
+12722,MEDIUM,10076,Limite de caracteres
+13258,LOW,9078,Limite de caracteres para a inserção
+13258,LOW,9084,Limite de caracteres para a modificação
+13580,LOW,8436,Inserir registro com valores inválidos
+13712,LOW,8882,PPB Rules com valores inválidos
+13712,LOW,12305,Inserir Residual Difference com valores inválidos no PPB Rules
+13712,LOW,12318,Modificar Residual Difference com valores inválidos no PPB Rules
+13712,LOW,12283,Inserir Surplus com valores inválidos no PPB Rules
+13712,LOW,12298,Modificar Surplus com valores inválidos no PPB Rules
+13712,LOW,12324,Inserir Productive Steps com valores inválidos
+13659,MEDIUM,10232,Inserir registro com valores inválidos
+13613,MEDIUM,7025,Inserir um Part com sucesso
+13455,CRITICAL,11468,Aferir torque com parafusadeira associada
+13658,MEDIUM,10232,Inserir registro com valores inválidos
+13808,LOW,7157,"Campo ""Dominio"" no formulário de criação de eventos globais"
+13454,MEDIUM,11092,Listagem e Busca de Modelos em Execução
+13817,MEDIUM,3435,Filtro da listagem de templates
+13489,HIGH,12029,Action of the Rotate 90º Left and Reset buttons in crop screen
+13486,HIGH,12013,"Presentation of ""Cropped"" screen components"
+13807,HIGH,11468,Aferir torque com parafusadeira associada
+13484,LOW,10209,Cadastrar Modelos
+13549,MEDIUM,12028,Action of the Close and Done button in crop screen
+13751,MEDIUM,12621,"Presentation of ""Timeline"" screen without an internet connection"
+13843,LOW,4912,Enquete para convidado (tolerância a falhas e recuperabilidade)
+13470,LOW,7130,Enviar objeto 3D
+12998,MEDIUM,9010,Receber áudio compartilhado [Desktop]
+13178,LOW,7130,Enviar objeto 3D
+13201,MEDIUM,8151,Acessar sala com dados inválidos
+13211,MEDIUM,11489,Permanência de login do usuário no sistema
+13237,MEDIUM,11487,Acessar sala com modal de visualização de 3D minimizado
+13467,LOW,8634,Visualizar atendimentos
+13468,LOW,8892,Funções do player de áudio para instrutor
+13468,LOW,9015,Funções do player de áudio para aluno
+13469,MEDIUM,9408,Ações na listagem de participantes
+13842,LOW,8792,Alteração dos dados para todos os eventos do convidado
+13522,MEDIUM,11117,Visualizar Menu de Clientes
+13522,MEDIUM,11124,Validações do filtro por Clientes (REFATORAR AUT)
+13639,HIGH,12556,"Validações de ""Grupo"" na criação"
+13645,HIGH,12570,Editar usuário com Sucesso
+13652,HIGH,12299,Criar Usuário com sucesso
+13652,HIGH,12577,Validações no campo Perfil na Edição de Usuário
+13652,HIGH,12561,Criar Usuário Relacionado ao Mesmo Perfil
+13652,HIGH,12563,Erro ao criar Usuário com Email existente
+13652,HIGH,12566,Validações no campo Perfil na criação de Usuário
+13652,HIGH,11195,Erro ao criar Super Usuário com e-mail existente
+13654,HIGH,12600,Remoção não concluída de Super usuário ao inserir senha errada
+13271,LOW,11914,Exportação com sucesso
+13759,LOW,12333,Limite de caracteres ao inserir Productive Steps no PPB Rules
+13759,LOW,12342,Limite de caracteres ao modificar Productive Step no PPB Rules
+13757,HIGH,12327,Inserir Productive Steps sem selecionar cálculo base
+13770,MEDIUM,12174,Limite de caracteres na inserção
+13770,MEDIUM,12274,Limite de caracteres na modificação
+13177,LOW,11274,Cadastrar um novo usuário
+13165,MEDIUM,11315,Editar nome de modelo por um nome já cadastrado
+13164,MEDIUM,11277,Editar um equipamento com nome já cadastrado
+13156,MEDIUM,11301,Cadastrar modelo
+13152,CRITICAL,11105,Join meeting after meeting finish
+13771,MEDIUM,12694,View the confidence level of each user on each meeting in the dashboard
+13752,MEDIUM,12634,Limite de caracteres para modificação
+13754,MEDIUM,10346,User interface aesthetics
+13769,MEDIUM,12650,Alteração automática de First Group e End Group
+13791,MEDIUM,12334,Cenários inválidos
+12603,MEDIUM,10347,Installing the PIXIE APP application correctly on the device
+13788,MEDIUM,12334,Cenários inválidos
+13490,CRITICAL,12028,Action of the Close and Done button in crop screen
+13295,MEDIUM,11380,Add a text note to the daily record
+13287,HIGH,11371,Presentation of daily records in full screen
+13287,HIGH,11380,Add a text note to the daily record
+14025,LOW,3028,"Validações do campo ""E-mail para Contato"" do Evento"
+13272,HIGH,10346,User interface aesthetics
+13996,LOW,10201,Login
+13821,HIGH,12458,Notas integradas com sucesso no New PCS
+14037,LOW,3342,Validações do campo Latitude na edição do evento
+13570,MEDIUM,11350,Access Live Stream Full screen by home screen
+12831,HIGH,6123,Logout de sistema [Desktop]
+12831,HIGH,11135,Logout de sistema [Mobile]
+12869,MEDIUM,10535,Troca de câmera durante transmissão [Mobile]
+12879,MEDIUM,11148,Redefinir permissões de dispositivos
+12883,HIGH,6247,Acessar e sair de sala de streaming com perfis distintos
+12896,MEDIUM,8890,Modal de gravação de áudio
+12920,LOW,7127,Visualizar objeto 3D
+13463,HIGH,6229,Acessar e sair de sala de streaming com sucesso
+12919,HIGH,9338,Enviar novo objeto 3D para técnico de campo
+13485,MEDIUM,6229,Acessar e sair de sala de streaming com sucesso
+13868,LOW,13057,Verificar internacionalização na tela de suíte
+12958,MEDIUM,10329,"Presentation of ""Cover Timeline"" screen components"
+12957,MEDIUM,10329,"Presentation of ""Cover Timeline"" screen components"
+13878,LOW,12962,Filtrar casos de teste em itens por página na suíte
+13870,LOW,13059,Verificar comportamentos do textarea dos steps ao serem expandidos
+13254,MEDIUM,11252,"Action of the ""share"" button in ""Gallery"" screen"
+13530,LOW,12129,Validar drag-ad-drop na estrutura da árvore
+13920,LOW,13097,Verificar ícone de edição
+14107,MEDIUM,4795,"Alteração dos dados de um convidado que confirmou presença com ""NÃO"" 14093,MEDIUM,4813,""Alteração de dados com presença já confirmada"
+14111,MEDIUM,1998,Exportar convidados selecionados
+14112,MEDIUM,4385,"Ação do botão ""back"" para administrador com perfil de convidado"
+14123,MEDIUM,5066,Regras dos campos do formulário de confirmação de dados (campo inválido)
+14095,MEDIUM,2183,Importação de convidados com as informações dos convidados inválidas
+14132,MEDIUM,7350,Exibição das respostas da enquete no card do convidado
+14133,MEDIUM,7053,Card de detalhe do convidado que recebeu brinde no evento
+12977,MEDIUM,6274,Log para a ação de Remoção
+13651,HIGH,12554,"Validações do campo ""Nome"" na criação"
+13651,HIGH,12555,"Validações do campo ""Destino"" na criação"
+13651,HIGH,11197,Validações no campo 'Nome' em Cadastro de Super Usuário
+13651,HIGH,12564,Validações no campo Nome na criação de Usuário
+13663,HIGH,12551,Validar Paginação padrão com scroll infinito
+13949,HIGH,12665,Criar subpasta de arquivos com sucesso
+13965,HIGH,12664,Exibir auditoria do sistema MDM para um cliente
+13983,LOW,12554,"Validações do campo ""Nome"" na criação"
+13983,LOW,12572,"Validações do campo ""Nome"" na edição"
+14004,HIGH,12666,Carregar arquivos em uma pasta
+14004,HIGH,12760,Carregar arquivo com mesmo nome de arquvio existente na pasta
+14074,HIGH,12551,Validar Paginação padrão com scroll infinito
+14091,HIGH,12666,Carregar arquivos em uma pasta
+14077,MEDIUM,12551,Validar Paginação padrão com scroll infinito
+13370,MEDIUM,11330,Erro ao Criar Perfil de Super Usuário Existente
+13888,MEDIUM,12736,Listagem de anos-base
+13890,HIGH,12480,Criar usuário
+13894,HIGH,12480,Criar usuário
+13543,MEDIUM,11394,"Action ""Event History"" and ""Drawer Menu"" buttons after Drag Motion in live Stream by Home Screen"
+13246,MEDIUM,11249,"Presentation of the components of the ""Gallery"" screen"
+13950,LOW,12700,Validar campos do formulário de submissão de e-kaizen
+13948,CRITICAL,12700,Validar campos do formulário de submissão de e-kaizen
+13884,LOW,13066,Acessar sala com servidor Kurento indisponível
+13934,LOW,12489,Visualizar E-Kaizens
+13931,CRITICAL,12487,Criar um E-Kaizen com sucesso
+13923,MEDIUM,12716,Listagem de usuários
+13921,MEDIUM,12716,Listagem de usuários
+13918,HIGH,12483,Editar usuário com sucesso
+13898,LOW,12485,Desativar/ativar usuário
+13897,MEDIUM,12712,Validações do formulário de criação de usuários
+13896,LOW,12712,Validações do formulário de criação de usuários
+13895,LOW,12712,Validações do formulário de criação de usuários
+14130,LOW,11171,Disponibilizar parafusadeira
+14129,MEDIUM,11171,Disponibilizar parafusadeira
+13789,MEDIUM,12334,Cenários inválidos
+14146,MEDIUM,11093,Replicar Processos
+14021,LOW,12697,Página inicial vazia
+14015,CRITICAL,12713,Criar ekaizen com sucesso
+14008,LOW,12718,Validar campos do formulário de submissão
+14154,LOW,12990,Configuração do Dashboard da TV
+14163,MEDIUM,11906,Dashboard da TV
+14172,HIGH,4837,Ação de envio de e-mail para resetar senha do usuário
+13856,MEDIUM,2099,Filtrar administrador por dados pessoais
+14028,CRITICAL,11120,Leave meeting successfully
+14026,CRITICAL,13113,Send message with Zoom/Skype closed
+14026,CRITICAL,11110,Send message successfully
+13779,HIGH,11484,Logout successfully
+13462,LOW,11093,Replicar Processos
+13692,CRITICAL,11171,Disponibilizar parafusadeira
+13744,LOW,10209,Cadastrar Modelos
+14006,MEDIUM,11092,Listagem e Busca de Modelos em Execução
+12891,MEDIUM,10661,Teste exploratório na área de 'Usuários'
+14068,HIGH,13123,Realizar Recovery com status 3 e 5
+14068,HIGH,13124,Realizar Recovery com status 1
+12900,HIGH,10439,Teste exploratório na área de Aplicações
+14076,LOW,12666,Carregar arquivos em uma pasta
+12878,MEDIUM,10659,Teste exploratório da área de Grupos
+12867,HIGH,10656,Teste exploratório de Modelos de Aparelhos
+12818,HIGH,10405,Editar aplicativo cadastrado em um grupo
+12818,HIGH,10422,Editar mesmo aplicativo cadastrado para outro grupo
+12818,HIGH,10423,Editar mesmo aplicativo cadastrado para outro grupo após após aplicação na SmartStore ter sido bloqueada
+12818,HIGH,10424,Editar mesmo aplicativo cadastrado para outro grupo após aplicação na SmartStore ter sido excluída
+14002,HIGH,13091,Inserir BOM normal com o mesmo kp relation de uma BOM virtual já importada
+13982,MEDIUM,13087,Modificação do Target Qty da BOM Virtual
+13972,MEDIUM,13110,Status de importação de BOMs Virtuais
+13981,MEDIUM,13102,Modificação do Available da BOM Virtual
+14039,MEDIUM,12453,Cenários inválidos
+14090,HIGH,13136,Recuperação de Seriais de uma MO Removida
+14094,HIGH,13137,Recuperação de Seriais que já existentem na MO
+13971,MEDIUM,11910,Campos obrigatórios
+13509,LOW,12284,Weight Reason vazio
+14179,MEDIUM,8823,"Validação da seção ""Delete your information"" da tela ""Configurações"" 14167,MEDIUM,13131,""Validar os dados das colunas - Stages Summary por FG"
+14158,MEDIUM,13131,Validar os dados das colunas - Stages Summary por FG
+14186,HIGH,11906,Dashboard da TV
+14016,MEDIUM,9740,Função do botão Pause/Play
+14200,MEDIUM,10319,Cadastrar Configurações com Sucesso
+14162,HIGH,12907,Executar o Job com sucesso
+12938,LOW,6254,Log para a ação de Adição
+12938,LOW,6273,Log para a ação de Modificação
+12938,LOW,6274,Log para a ação de Remoção
+13104,MEDIUM,4979,Login com dados inválidos
+13410,MEDIUM,6254,Log para a ação de Adição
+13410,MEDIUM,6273,Log para a ação de Modificação
+13410,MEDIUM,6274,Log para a ação de Remoção
+14135,LOW,6254,Log para a ação de Adição
+14160,MEDIUM,13131,Validar os dados das colunas - Stages Summary por FG
+13763,HIGH,9642,Duplicar PPB Rules com valores inválidos
+14157,HIGH,13115,Validar os dados das colunas - Stages Summary por Part Type
+13749,CRITICAL,12004,"Actions in ""Cry Analysis"" screen without internet connection"
+13746,MEDIUM,12004,"Actions in ""Cry Analysis"" screen without internet connection"
+13566,HIGH,11375,Drag Motion Action in the Live Stream of the Home Screen
+13545,HIGH,10737,"Action of the native ""Back"" button in the application"
+13545,HIGH,11398,Actions to exit from Full Live Stream Screen to Home Screen
+13283,MEDIUM,11371,Presentation of daily records in full screen
+13248,HIGH,11249,"Presentation of the components of the ""Gallery"" screen"
+13244,MEDIUM,11250,"Action of the ""back"" button in ""Gallery"" screen"
+13492,HIGH,11993,"Action on the native ""Lock/Unlock"" button in the application"
+13285,MEDIUM,11252,"Action of the ""share"" button in ""Gallery"" screen"
+13282,MEDIUM,10738,"Action of the ""Home"" button native in the application screens"
+13282,MEDIUM,10739,"Action of the native ""Multitasks"" button in the application"
+12912,MEDIUM,10739,"Action of the native ""Multitasks"" button in the application"
+13309,MEDIUM,10346,User interface aesthetics
+13968,MEDIUM,12912,Executar o Job com notas que possuam Brand Names não cadastrados
+14027,LOW,12718,Validar campos do formulário de submissão
+14029,MEDIUM,12718,Validar campos do formulário de submissão
+14183,MEDIUM,11906,Dashboard da TV
+13755,LOW,10209,Cadastrar Modelos
+14266,CRITICAL,13181,Edição das informações dos e-kaizens
+13674,MEDIUM,3105,Validações dos campos e regras da sessão Categoria no form de criar eventos
+13787,MEDIUM,2133,Pesquisar eventos globais por nome
+13792,MEDIUM,3111,"Validações do filtro de eventos por ""Data inicial""."
+13794,MEDIUM,3716,"Filtrar eventos globais por ""Evento global"
+14114,HIGH,13142,Realizar o decrease mais de uma vez
+13793,MEDIUM,3448,"Filtrar eventos por ""Nome do evento"
+13998,HIGH,13090,Importar bom virtual com o mesmo relation de uma BOM normal
+10162,MEDIUM,4424,Recebimento de notificação push no dispositivo após ativar auto inicialização
+13823,HIGH,2306,Formulário de edição de um convidado
+14118,MEDIUM,13060,On Line para On Line mudando a Qty de Macs e depois recuperar os seriais
+14098,CRITICAL,3422,Desabilitar opção de login por biometria
+14221,HIGH,10346,User interface aesthetics
+14018,LOW,3033,Validações do campo Limite de Convidado do Evento
+14019,MEDIUM,3033,Validações do campo Limite de Convidado do Evento
+12909,CRITICAL,10738,"Action of the ""Home"" button native in the application screens"
+12909,CRITICAL,10739,"Action of the native ""Multitasks"" button in the application"
+13735,MEDIUM,12625,"Same message on Home screen, Timeline screen and Gallery screen"
+13735,MEDIUM,12644,Opening the application without a daily photo taken
+13735,MEDIUM,12656,Reopening the application after taking the daily photo
+13735,MEDIUM,12657,Message displayed on baby's birthday
+13735,MEDIUM,12658,Message displayed on the US holidays
+13735,MEDIUM,12660,Message displayed on milestone
+13735,MEDIUM,11447,"Presentation of ""Home"" screen without an internet connection"
+14080,CRITICAL,4924,"Ação ""Voltar"" na tela de enquete do convidado associado a mais de uma enquete"
+13312,HIGH,11360,"Actions in the ""Gallery"" screen without internet connection"
+10002,HIGH,4421,Notificação push sem estar logado no app
+13827,MEDIUM,2229,Preenchimento do Campo Senha durante a edição do convidado
+13740,HIGH,4000,Login de convidado por biometria
+13867,MEDIUM,2319,"Campo ""Senha"" no formulário de criação de administradores"
+13747,MEDIUM,12621,"Presentation of ""Timeline"" screen without an internet connection"
+13738,CRITICAL,12608,Validação do push para contatos de notificação (Leitura do QR Code)
+13737,CRITICAL,12608,Validação do push para contatos de notificação (Leitura do QR Code)
+13925,LOW,13089,Verificar data de criação da suíte
+13883,MEDIUM,13089,Verificar data de criação da suíte
+13748,HIGH,4802,Edição dos dados de um convidado
+14147,MEDIUM,3414,Confirmação de dados com mudança de senha para usuário associado a vários eventos globais
+13844,MEDIUM,12953,Criar suíte com testes manuais e automatizados
+14198,MEDIUM,8828,Validação dos links de privacidade exibidos no popup Sobre
+14035,HIGH,13121,Mensagens de redirecionamento
+14333,MEDIUM,13183,Verificar exibição de campos no formulário de atualizar perfil
+14270,LOW,13150,Validação do Formulário de Troca de Senha
+14356,HIGH,10204,Cadastrar Usuários
+14326,HIGH,12477,Validações no formulário de edição de anos-base
+14315,HIGH,12746,Validar edição dos campos de um E-Kaizen
+14301,HIGH,12746,Validar edição dos campos de um E-Kaizen
+14279,HIGH,12631,Ocultar/Mostrar dados de E-Kaizens
+14324,MEDIUM,12736,Listagem de anos-base
+14314,MEDIUM,12700,Validar campos do formulário de submissão de e-kaizen
+14314,MEDIUM,12746,Validar edição dos campos de um E-Kaizen
+14313,MEDIUM,12700,Validar campos do formulário de submissão de e-kaizen
+14313,MEDIUM,12746,Validar edição dos campos de um E-Kaizen
+14268,MEDIUM,12484,Validações do formulário de edição de usuários
+13876,MEDIUM,13147,Validações no formulário de criação de anos-base
+13875,MEDIUM,13147,Validações no formulário de criação de anos-base
+14307,LOW,12746,Validar edição dos campos de um E-Kaizen
+14291,LOW,12489,Visualizar E-Kaizens
+14288,LOW,12700,Validar campos do formulário de submissão de e-kaizen
+13943,LOW,12700,Validar campos do formulário de submissão de e-kaizen
+13941,LOW,12700,Validar campos do formulário de submissão de e-kaizen
+14360,CRITICAL,12480,Criar usuário
+14286,CRITICAL,10204,Cadastrar Usuários
+14281,HIGH,13177,Informações da tela de Listagem de e-kaizens
+14296,MEDIUM,12718,Validar campos do formulário de submissão
+14289,MEDIUM,13180,Informações dos cards dos e-kaizens
+14290,MEDIUM,13180,Informações dos cards dos e-kaizens
+14283,LOW,13163,Tela de perfil do usuário
+14038,MEDIUM,13177,Informações da tela de Listagem de e-kaizens
+14277,MEDIUM,12718,Validar campos do formulário de submissão
+14373,CRITICAL,12483,Editar usuário com sucesso
+14384,MEDIUM,12489,Visualizar E-Kaizens
+14385,CRITICAL,12489,Visualizar E-Kaizens
+14303,HIGH,13181,Edição das informações dos e-kaizens
+14225,MEDIUM,13119,Validar os dados das colunas - Monthly Summary
+14222,MEDIUM,13141,Validar os dados das colunas - FG com accomplishment ultrapassando 100%
+14272,LOW,12718,Validar campos do formulário de submissão
+14369,HIGH,11899,Editar Modelos
+13337,MEDIUM,11368,Validações no campo 'Perfil' em Cadastro de Super Usuário
+13341,MEDIUM,11245,Edição de Cliente com Sucesso
+13352,LOW,11257,Validação do campo Data de Expiração
+13666,LOW,11368,Validações no campo 'Perfil' em Cadastro de Super Usuário
+13944,HIGH,12280,Criar pasta de arquivos com sucesso
+14009,LOW,12754,Validações do campo 'Destino' após salvar pasta
+14084,MEDIUM,12767,Paginação de listagem de arquivos de uma pasta
+14205,MEDIUM,13161,Validações nos campos Filtrar resultados de itens de auditoria
+14214,HIGH,13164,Filtrar auditoria por (Usuário) como Super Usuário no MDM Web
+14214,HIGH,13165,Filtrar auditoria por (Usuário) como Administrador de dispositivo no MDM Web
+14389,LOW,10316,Listagem e Busca de Linhas
+14389,LOW,11169,Listagem e Busca de Modelos
+14097,HIGH,12676,Remover arquivos através da listagem
+14410,MEDIUM,12746,Validar edição dos campos de um E-Kaizen
+14409,CRITICAL,12746,Validar edição dos campos de um E-Kaizen
+14407,LOW,13147,Validações no formulário de criação de anos-base
+14406,HIGH,12700,Validar campos do formulário de submissão de e-kaizen
+14406,HIGH,12746,Validar edição dos campos de um E-Kaizen
+14402,LOW,12712,Validações do formulário de criação de usuários
+14387,MEDIUM,12484,Validações do formulário de edição de usuários
+14387,MEDIUM,12712,Validações do formulário de criação de usuários
+14284,MEDIUM,12716,Listagem de usuários
+14284,MEDIUM,12736,Listagem de anos-base
+14284,MEDIUM,12489,Visualizar E-Kaizens
+14390,MEDIUM,13177,Informações da tela de Listagem de e-kaizens
+14411,CRITICAL,13177,Informações da tela de Listagem de e-kaizens
+14378,MEDIUM,13238,Pesquisar nome válido na lista de suíte de teste que estão dentro do plano de teste
+14349,HIGH,13375,Consolidação mensal de mais de uma nota com mesmo SKU e Brand Name
+14349,HIGH,13379,Verificação de mês com notas de retorno - Finish Good
+14226,LOW,9642,Duplicar PPB Rules com valores inválidos
+14341,LOW,13184,Verificar ícone e label dos botões de ação do formulário de editar perfil do usuário
+13186,LOW,4988,Envio de e-mail ao esquecer senha
+13188,LOW,13268,Explorar exibição de toasts de erro e modificações
+13845,LOW,4979,Login com dados inválidos
+14421,LOW,13388,Inserir espaços em todos os campos obrigatórios do sistema
+14336,LOW,13285,Limite de caracteres para edição no status Not On Line (1)
+14295,LOW,13298,Cliente A31 Área SMT - Modificar MO sem preencher todos os campos obrigatórios
+14295,LOW,13296,Cliente ABO Área AP - Modificar MO sem preencher todos os campos obrigatórios
+14295,LOW,13297,Cliente ABO Área SMT - Modificar MO sem preencher todos os campos obrigatórios
+14372,LOW,13296,Cliente ABO Área AP - Modificar MO sem preencher todos os campos obrigatórios
+14350,LOW,13298,Cliente A31 Área SMT - Modificar MO sem preencher todos os campos obrigatórios
+14350,LOW,13297,Cliente ABO Área SMT - Modificar MO sem preencher todos os campos obrigatórios
+14321,HIGH,13310,Alterar target da MO e tentar colocar On Line
+14458,HIGH,10201,Login
+13405,MEDIUM,6274,Log para a ação de Remoção
+13405,MEDIUM,6273,Log para a ação de Modificação
+13405,MEDIUM,6254,Log para a ação de Adição
+14275,LOW,12491,Exibição do botão MODIFY
+13491,CRITICAL,10738,"Action of the ""Home"" button native in the application screens"
+14397,LOW,13222,Teste exploratório nas funcionalidades do diagrama
+13669,LOW,2759,Adicionar Eventos Validando os Campos Informados
+14480,MEDIUM,13155,Buscar itens de auditoria pelo email do usuário como Super Usuário no MDM Web
+14363,MEDIUM,13307,Validação da janela de preview dos QR Codes
+13818,MEDIUM,5066,Regras dos campos do formulário de confirmação de dados (campo inválido)
+13832,MEDIUM,3434,Cancelar alteração de senha de usuário associado a vários eventos globais
+14455,MEDIUM,10319,Cadastrar Configurações com Sucesso
+14464,CRITICAL,11092,Listagem e Busca de Modelos em Execução
+13814,LOW,4929,Validações do campo de resposta da enquete
+14345,MEDIUM,13366,Atualizar página ao editar o usuário
+14330,LOW,13183,Verificar exibição de campos no formulário de atualizar perfil
+14422,LOW,13308,Validar autorização para consultar SPGEC
+14096,MEDIUM,2183,Importação de convidados com as informações dos convidados inválidas
+13199,LOW,9967,Limite de caracteres para os filtros
+13199,LOW,9996,Limite de caracteres para os filtros de Cola
+14224,MEDIUM,5146,Atualização da lista de eventos (tolerância a falhas e recuperabilidade)
+14177,MEDIUM,4795,"Alteração dos dados de um convidado que confirmou presença com ""NÃO"" 13161,MEDIUM,9995,""Limite de caracteres na inserção de Equipamento"
+13161,MEDIUM,10026,Limite de caracteres na edição de Equipamento
+14453,LOW,13427,Exibir opções de filtro
+14456,LOW,13432,Limite de caracteres para os filtros
+14456,LOW,13431,Aplicar Filtro com valores inválidos
+14215,MEDIUM,4795,"Alteração dos dados de um convidado que confirmou presença com ""NÃO"" 13262,MEDIUM,10208,""Configuração do servidor sem sucesso"
+14420,MEDIUM,13133,Exportar tabela de Pasta de Solda
+14420,MEDIUM,13132,Exportar tabela de Cola
+14445,LOW,13370,Validar lista de status na pesquisa de insumo
+14417,LOW,9973,Exportar histórico de Pasta de Solda
+14417,LOW,10003,Exportar histórico de Cola
+14192,HIGH,5208,Utilização do app após notificação de atualização de versão
+14217,MEDIUM,4813,Alteração de dados com presença já confirmada
+14220,LOW,12774,Limite de caracteres para justificativa de descarte
+14204,LOW,12756,Realizar Descarte de Insumo sem sucesso através de QR Code
+14461,HIGH,13270,Validar vencimento do insumo após Skip na Máquina de Descanso
+14419,LOW,13346,Executar o Job com notas que possuam SKU não cadastrados
+13975,MEDIUM,12912,Executar o Job com notas que possuam Brand Names não cadastrados
+13975,MEDIUM,12958,Executar o JOB após realizar a inserção de um SKU existente em uma nota não processada
+14424,HIGH,13377,"Consolidação mensal de mais de uma nota com mesmo Brand Name, Part Type e Tax Origin"
+14427,LOW,13417,Reimportar nota
+14427,LOW,12907,Executar o Job com sucesso
+14423,LOW,13350,Executar Job com sucesso
+14156,MEDIUM,13118,Validar os dados das colunas - SKU Summary
+13980,MEDIUM,12921,Visualização de objeto 3D sem conexão com internet
+14523,LOW,13461,Verificar melhorias visuais de usabilidade
+14010,HIGH,12935,Ações de pause e mute sem conexão com Internet
+13976,MEDIUM,12871,Navegar no sistema sem conexão com Internet
+13976,MEDIUM,12906,Áudio sem conexão com Internet
+13493,MEDIUM,10535,Troca de câmera durante transmissão [Mobile]
+13871,MEDIUM,6723,Login no sistema de suporte/treinamento sem conexão com Internet
+13872,MEDIUM,9033,Reprodução e compartilhamento de áudio sem conexão com Internet [Treinamento]
+13907,MEDIUM,13264,Ações do menu quando sistema administrativo está indisponível durante transmissão de streaming
+14564,LOW,12156,Validar quantidade de testes cadastrado na pasta raiz
+14426,LOW,13350,Executar Job com sucesso
+14577,LOW,12126,Excluir todos os steps da especificação de teste no momento do cadastro
+13860,LOW,12994,Login sem conexão com internet
+13862,MEDIUM,12994,Login sem conexão com internet
+13881,MEDIUM,13066,Acessar sala com servidor Kurento indisponível
+13899,HIGH,12995,Transmissão de streaming com servidor Kurento indisponível
+13900,HIGH,12997,Navegar no sistema com sistema administrativo indisponível
+13917,MEDIUM,13002,Receber objeto 3D com sistema administrativo indisponível
+13922,MEDIUM,13002,Receber objeto 3D com sistema administrativo indisponível
+13937,LOW,13261,Mensagem de problemas na conexão
+13942,HIGH,12996,Navegar no sistema sem conexão com internet
+13942,HIGH,12998,Áudio sem conexão com Internet
+14386,LOW,12966,Finalizar uso da Pasta de Solda na Máquina de Pasta de Solda
+13846,LOW,9033,Reprodução e compartilhamento de áudio sem conexão com Internet [Treinamento]
+14352,LOW,13186,Verificar breadcrumb
+13869,MEDIUM,12871,Navegar no sistema sem conexão com Internet
+14014,HIGH,13257,Ação do botão de objeto 3D
+13873,LOW,12871,Navegar no sistema sem conexão com Internet
+13880,MEDIUM,6796,Acessar sala com servidor Kurento indisponível
+13904,MEDIUM,12871,Navegar no sistema sem conexão com Internet
+13904,MEDIUM,12893,Navegar no sistema com o administrativo indisponível
+13906,LOW,12893,Navegar no sistema com o administrativo indisponível
+13910,LOW,12893,Navegar no sistema com o administrativo indisponível
+13912,MEDIUM,13264,Ações do menu quando sistema administrativo está indisponível durante transmissão de streaming
+13924,MEDIUM,12946,Etapas de envio de objeto 3D com sistema administrativo indisponível
+13924,MEDIUM,12942,Envio de objeto 3D com sistema administrativo indisponível
+14013,HIGH,12996,Navegar no sistema sem conexão com internet
+13927,LOW,12906,Áudio sem conexão com Internet
+13974,MEDIUM,13004,Ações de pause e mute sem conexão com internet
+13964,HIGH,13014,Remover dispositivo de áudio do receptor durante streaming
+13962,MEDIUM,13000,Receber objeto 3D sem conexão com internet
+13952,LOW,12999,Reprodução e compartilhamento de áudio sem conexão com Internet
+13935,CRITICAL,13262,Fechar e abrir aplicação sem conexão com internet
+13928,MEDIUM,12906,Áudio sem conexão com Internet
+13933,MEDIUM,12915,Etapas de envio de objeto 3D sem conexão com Internet
+13936,MEDIUM,12917,Envio de objeto 3D sem conexão com Internet
+13951,HIGH,12935,Ações de pause e mute sem conexão com Internet
+13954,MEDIUM,12935,Ações de pause e mute sem conexão com Internet
+13967,MEDIUM,9033,Reprodução e compartilhamento de áudio sem conexão com Internet [Treinamento]
+13973,MEDIUM,12935,Ações de pause e mute sem conexão com Internet
+13978,MEDIUM,7130,Enviar objeto 3D
+13991,MEDIUM,6723,Login no sistema de suporte/treinamento sem conexão com Internet
+13994,MEDIUM,9033,Reprodução e compartilhamento de áudio sem conexão com Internet [Treinamento]
+14017,MEDIUM,9033,Reprodução e compartilhamento de áudio sem conexão com Internet [Treinamento]
+14045,MEDIUM,12915,Etapas de envio de objeto 3D sem conexão com Internet
+14048,MEDIUM,12921,Visualização de objeto 3D sem conexão com internet
+14058,MEDIUM,12935,Ações de pause e mute sem conexão com Internet
+14061,MEDIUM,12935,Ações de pause e mute sem conexão com Internet
+14612,LOW,13213,Associar suítes ao plano de teste com alguns casos de testes iguais
+14620,MEDIUM,11280,Buscar modelo por nome
+14620,MEDIUM,11269,Buscar equipamento por nome
+14620,MEDIUM,13253,Buscar plano de teste por nome
+14620,MEDIUM,12968,Pesquisar suíte por nome
+12636,HIGH,10362,Login successfully
+12640,HIGH,10362,Login successfully
+12642,MEDIUM,10365,Login with credentials invalid
+12646,HIGH,10368,Create content successfully
+12647,HIGH,10371,Create content without fields required filled
+12648,HIGH,10371,Create content without fields required filled
+12649,MEDIUM,10371,Create content without fields required filled
+14605,HIGH,12492,Pular máquina de descanso de insumo com tempo de descanso igual a zero
+14170,MEDIUM,12492,Pular máquina de descanso de insumo com tempo de descanso igual a zero
+14507,MEDIUM,13468,Deletar portaria com balance calculado
+14520,MEDIUM,13326,Recalculo do balance ao tornar uma etapa produtiva bônus
+14503,MEDIUM,13327,Recalculo do balance ao alterar o Score Máximo do Residual Difference da Portaria
+14627,MEDIUM,13482,Create Rule successfully
+14087,HIGH,12668,Visualizar arquivos no dispositivo
+14591,HIGH,13441,Balance de Portaria com etapa produtiva por FG e com Part Types selecionados
+13852,LOW,13046,Exploratory: Filtro de Itens Duplicados do Repair
+13847,LOW,13046,Exploratory: Filtro de Itens Duplicados do Repair
+14563,MEDIUM,12131,Realizar busca na árvore de pasta com dados válidos
+14526,LOW,13461,Verificar melhorias visuais de usabilidade
+14510,MEDIUM,13458,Restringir cadastro de arquivo de configuração com nome repetido
+14674,HIGH,13500,"Check the result of ""ml-git [entity] add [entity-name]"" command"
+13472,LOW,6198,Criar sala [Treinamento]
+13472,LOW,6201,Criar sala [Suporte]
+14518,HIGH,13330,"Recalculo do balance ao alterar a importância de um CFOP para ""não importante"" 14518,HIGH,13355,""Recalculo do balance ao alterar a importância de um CFOP para ""importante"" 14731,CRITICAL,12918,""[Workflow] Validar Tela de Home"
+14738,HIGH,11963,Create new project – from exported project plan
+14742,CRITICAL,11190,Edit customer
+14750,LOW,12889,Validar formulário de cadastro de usuário
+14752,MEDIUM,13275,[Scenario] Pesquisar apresentações
+14753,HIGH,12889,Validar formulário de cadastro de usuário
+14758,HIGH,12884,Validar formulário de recuperar senha
+14760,LOW,12856,Validar formulário de configurações de Conta
+14756,HIGH,12889,Validar formulário de cadastro de usuário
+14773,CRITICAL,13549,Join Meeting
+14774,HIGH,13562,[Scenario] Validar Tela de Apresentação
+14776,CRITICAL,13550,Chat Meeting
+13668,LOW,2205,Edição de Evento no formulário de Adição do Convidado
+14342,LOW,13278,Exportar QR Codes dos convidados
+14351,MEDIUM,13305,Notificação push de convidado com contato Asus
+14367,LOW,13291,Inspeção de usabilidade número da mesa
+14374,LOW,13307,Validação da janela de preview dos QR Codes
+14377,LOW,13291,Inspeção de usabilidade número da mesa
+14320,LOW,12608,Validação do push para contatos de notificação (Leitura do QR Code)
+14793,MEDIUM,13584,[Scenario] Scannear QRCode sem sucesso
+10003,MEDIUM,6211,Inspeção de Compatibilidade de Administrador
+11153,MEDIUM,9050,Exibição da webview quando app não está aberto
+14797,MEDIUM,2451,Importação de convidados com sucesso
+10964,MEDIUM,8832,Acessar tela de configurações (Tolerância a falhas e recuperabilidade)
+14492,MEDIUM,2451,Importação de convidados com sucesso
+14766,LOW,9416,Remover Product Category através do Protheus
+14765,LOW,6851,Remover registro no Protheus
+14765,LOW,6854,Modificar registro no Protheus
+14768,LOW,6844,Remover registro de Part Types através do Protheus
+14762,LOW,6850,Remover SKU com sucesso
+14694,LOW,10629,Realizar Check-in sem sucesso em máquina não permitida
+14818,MEDIUM,13575,[Scenario] Visualizar apresentação com erro na sincronização
+14786,HIGH,9975,Validar barra de status para pasta de solda
+14786,HIGH,10004,Validar barra de status na aba Cola
+14807,HIGH,13569,[Workflow] Visualizar apresentação com sucesso
+14789,LOW,13062,Validar Log da Pasta de Solda
+14789,LOW,13056,Validar Log da Cola
+14819,HIGH,12862,Sincronizar com sucesso
+14822,MEDIUM,12867,[Data-driven] Validar Formulário de Login
+14816,MEDIUM,13575,[Scenario] Visualizar apresentação com erro na sincronização
+14791,HIGH,13569,[Workflow] Visualizar apresentação com sucesso
+14828,CRITICAL,13550,Chat Meeting
+14680,LOW,13107,Remover insumo de um lote com um único insumo da lista para check-in
+14814,MEDIUM,13562,[Scenario] Validar Tela de Apresentação
+14382,LOW,12718,Validar campos do formulário de submissão
+14715,LOW,9586,Ações de contadores durante streaming [Suporte]
+14709,LOW,9727,Transmissão interrompida com vídeo pausado (treinamento)
+14709,LOW,9736,Transmissão interrompida com áudio desabilitado (treinamento)
+14798,HIGH,13327,Recalculo do balance ao alterar o Score Máximo do Residual Difference da Portaria
+14703,MEDIUM,8646,Visualização de Objetos Tridimensionais
+14673,LOW,9527,Ações na listagem de participantes [Suporte]
+14673,LOW,9529,Ações na listagem de participantes [Treinamento]
+14611,MEDIUM,8618,Autenticação com dados inválidos (internacionalização)
+14479,MEDIUM,13014,Remover dispositivo de áudio do receptor durante streaming
+14800,MEDIUM,12870,Validar Preview de apresentação
+14757,HIGH,12884,Validar formulário de recuperar senha
+14755,LOW,12882,Validar formulário de login
+14787,MEDIUM,13649,[Workflow] Ação de FullScreen quando apresentação é carregada
+14557,MEDIUM,12999,Reprodução e compartilhamento de áudio sem conexão com Internet
+14782,MEDIUM,13277,[Exploratory] Navegação na apresentação
+14779,LOW,13562,[Scenario] Validar Tela de Apresentação
+14769,MEDIUM,13634,[Data-Driven] Validar Fomulário de pesquisa
+14180,MEDIUM,4698,Acesso de um convidado à rotas
+14103,LOW,2147,Opções de filtro na lista de eventos específicos
+14230,LOW,4912,Enquete para convidado (tolerância a falhas e recuperabilidade)
+14230,LOW,5111,Resetar senha (tolerância a falhas e recuperabilidade)
+14230,LOW,5142,Login (tolerância a falhas e recuperabilidade)
+14230,LOW,5143,Confirmar dados (tolerância a falhas e recuperabilidade)
+14230,LOW,5144,Alterar dados (tolerância a falhas e recuperabilidade)
+14230,LOW,5145,Confirmação de presença (tolerância a falhas e recuperabilidade)
+14230,LOW,5146,Atualização da lista de eventos (tolerância a falhas e recuperabilidade)
+14825,HIGH,13581,Send files with push command
+14740,LOW,12895,Validar tela de Home
+14748,MEDIUM,13650,Ações na função manter-me logado
+14859,MEDIUM,13548,Init a entity in the project
+14751,LOW,12888,Validar tela de cadastro de usuário
+14751,LOW,12879,Validar tela de autenticação
+14514,MEDIUM,12997,Navegar no sistema com sistema administrativo indisponível
+14702,LOW,12276,Modificar individualmente os campos de Weight
+14532,HIGH,13276,Edição de campos no status Not On Line (1)
+14795,LOW,12653,Limite de caracteres para modificação
+14671,LOW,11874,Limite de caracteres para os campos dos filtros
+13911,MEDIUM,12997,Navegar no sistema com sistema administrativo indisponível
+13984,HIGH,13004,Ações de pause e mute sem conexão com internet
+14840,HIGH,12926,"Recovery ""misto"" com a recuperação de alguns MACs/UUIDs e criação de outros para Cliente diferente de C16"
+14840,HIGH,12927,"Recovery sem a recuperação de MAC/UUID, criando todos os MACs/UUIDs para Cliente diferente de C16"
+13938,HIGH,13258,Acessar sala sem conexão com Internet
+13945,MEDIUM,12998,Áudio sem conexão com Internet
+9709,HIGH,7196,Permissões de usuários associado a administrador para eventos
+10899,MEDIUM,7572,Permissões de usuário associado a Administrador
+14366,MEDIUM,13307,Validação da janela de preview dos QR Codes
+14561,MEDIUM,13399,"Validação da seção ""Participação em Eventos"" 14565,LOW,13422,""Validação da seção ""Mensagens"" 14565,LOW,13423,""Validação da seção ""Mensagens"" 14810,LOW,5133,""Configuração de versão mínima de android/IOS"
+14865,MEDIUM,7023,Modificar um Part com sucesso
+14142,MEDIUM,3414,Confirmação de dados com mudança de senha para usuário associado a vários eventos globais
+14354,LOW,13305,Notificação push de convidado com contato Asus
+10063,MEDIUM,7198,Permissões de usuários associado a administrador para Convidados(Eventos)
+14496,CRITICAL,4795,"Alteração dos dados de um convidado que confirmou presença com ""NÃO"" 14319,CRITICAL,12608,""Validação do push para contatos de notificação (Leitura do QR Code)"
+14543,MEDIUM,12999,Reprodução e compartilhamento de áudio sem conexão com Internet
+14910,MEDIUM,12587,Inspeção de usabilidade para a visualização da senha na tela de Login
+14911,MEDIUM,12587,Inspeção de usabilidade para a visualização da senha na tela de Login
+14912,LOW,5208,Utilização do app após notificação de atualização de versão
+14655,CRITICAL,5208,Utilização do app após notificação de atualização de versão
+14857,HIGH,13626,Apagar informações (Validação no BD)
+14914,MEDIUM,13626,Apagar informações (Validação no BD)
+14920,MEDIUM,3105,Validações dos campos e regras da sessão Categoria no form de criar eventos
+14824,MEDIUM,12866,Sincronizar apresentação em condições adversas de conexão
+14827,MEDIUM,12865,Sincronizar apresentação sem sucesso
+14826,MEDIUM,12882,Validar formulário de login
+14821,MEDIUM,12865,Sincronizar apresentação sem sucesso
+14823,LOW,12892,Visualizar/Escanear QRCode
+14835,MEDIUM,11380,Add a text note to the daily record
+14813,LOW,12879,Validar tela de autenticação
+14726,HIGH,13534,Add a remote to dataset entity
+14812,LOW,12870,Validar Preview de apresentação
+14804,LOW,12878,Validar formulário de comentário
+14801,MEDIUM,12878,Validar formulário de comentário
+14092,MEDIUM,2451,Importação de convidados com sucesso
+14808,LOW,7169,Edição do campo sessão expirada com valores válidos
+14811,MEDIUM,5133,Configuração de versão mínima de android/IOS
+14881,MEDIUM,2183,Importação de convidados com as informações dos convidados inválidas
+14883,MEDIUM,2183,Importação de convidados com as informações dos convidados inválidas
+14871,MEDIUM,13612,Get the dataset of a specific tag
+14794,MEDIUM,12897,Validar card de apresentação
+14792,MEDIUM,12898,Pesquisar apresentação com sucesso
+14790,LOW,12895,Validar tela de Home
+14788,MEDIUM,12898,Pesquisar apresentação com sucesso
+14785,MEDIUM,12897,Validar card de apresentação
+14772,LOW,12859,Validar formulário de alterar senha
+14771,MEDIUM,12882,Validar formulário de login
+14764,LOW,12885,Validar formulário de definição de senha na recuperação de senha
+14763,HIGH,12856,Validar formulário de configurações de Conta
+14761,LOW,12856,Validar formulário de configurações de Conta
+14672,MEDIUM,9374,Ações dos botões minimizar e maximizar para Tec Suporte
+14487,HIGH,6266,Opções de finalização de streaming
+14579,CRITICAL,8707,Agendamento de relatórios
+14579,CRITICAL,8709,Download de relatórios mediante aplicação de filtros
+14876,LOW,2028,Listagem do histórico de importações
+14394,MEDIUM,13287,Exportar QR Codes utilizando o checkbox
+14391,MEDIUM,13287,Exportar QR Codes utilizando o checkbox
+14980,MEDIUM,6930,Exportar lista de convidados do evento com enquete
+14982,MEDIUM,13566,Validação do fluxo após o recebimento da notificação
+14676,HIGH,12979,Visualizar 3D para novo participante
+14676,HIGH,11487,Acessar sala com modal de visualização de 3D minimizado
+14924,MEDIUM,11151,Create product type
+13224,MEDIUM,11185,Create customer with invalid email
+14844,CRITICAL,8846,Exibição e comportamento dos Menus nas telas de Confirmar presença e responder enquete
+14602,MEDIUM,12745,Verificar impossibilidade de criação de subpasta maior que nível 7
+14538,HIGH,13168,Filtrar auditoria por (Ação) para Itens Afetados como Super Usuário no MDM Web
+14538,HIGH,13176,Filtrar auditoria por (Ação) para Itens Afetados como Administrador de dispositivo no MDM Web
+14534,HIGH,13168,Filtrar auditoria por (Ação) para Itens Afetados como Super Usuário no MDM Web
+14483,HIGH,13155,Buscar itens de auditoria pelo email do usuário como Super Usuário no MDM Web
+14483,HIGH,13157,Buscar itens de auditoria pelo email do usuário como Administrador de dispositivo no MDM Web
+14668,MEDIUM,7127,Visualizar objeto 3D
+14239,HIGH,13168,Filtrar auditoria por (Ação) para Itens Afetados como Super Usuário no MDM Web
+14196,MEDIUM,13176,Filtrar auditoria por (Ação) para Itens Afetados como Administrador de dispositivo no MDM Web
+14044,HIGH,12732,Validar Modo Manutenção Solicitado através do MDM web para Dispositivo do Subgrupo quando Launcher está associado ao mesmo Subgrupo
+14667,HIGH,7125,Ações de visualizar objeto 3D para técnico de suporte
+14078,MEDIUM,12760,Carregar arquivo com mesmo nome de arquvio existente na pasta
+14071,HIGH,12759,Exibir listagem de arquivos de diferentes tamanhos na pasta
+14086,HIGH,12772,Baixar multiplos arquivos de uma pasta
+13222,MEDIUM,11184,Create customer with invalid phone
+14593,LOW,8636,Filtrar atendimentos por proprietário
+14636,LOW,6198,Criar sala [Treinamento]
+14529,MEDIUM,12893,Navegar no sistema com o administrativo indisponível
+14628,HIGH,9486,Interromper transmissão de streaming
+14628,HIGH,6247,Acessar e sair de sala de streaming com perfis distintos
+14686,HIGH,13176,Filtrar auditoria por (Ação) para Itens Afetados como Administrador de dispositivo no MDM Web
+15014,LOW,13429,Exportar informações de um ou mais dispositivos
+14535,MEDIUM,12992,Desconexão do streaming
+14617,HIGH,11344,Filtrar atendimentos por right now
+14235,LOW,13106,Verificar aumento do tempo de espera ao utilizar senha de manutenção errada
+14873,HIGH,13563,Commit Files
+14873,HIGH,13581,Send files with push command
+14957,LOW,13563,Commit Files
+15000,MEDIUM,13563,Commit Files
+15009,HIGH,13647,Fetch the metadata of a specified tag
+15012,LOW,13612,Get the dataset of a specific tag
+14683,MEDIUM,6247,Acessar e sair de sala de streaming com perfis distintos
+14846,HIGH,10344,Presentation of home screen components
+14598,MEDIUM,8890,Modal de gravação de áudio
+14598,MEDIUM,7125,Ações de visualizar objeto 3D para técnico de suporte
+14598,MEDIUM,6229,Acessar e sair de sala de streaming com sucesso
+14598,MEDIUM,6247,Acessar e sair de sala de streaming com perfis distintos
+13863,LOW,12965,Remover microfone do receptor durante transmissão [Desktop]
+14511,LOW,12917,Envio de objeto 3D sem conexão com Internet
+14511,LOW,12906,Áudio sem conexão com Internet
+14511,LOW,12935,Ações de pause e mute sem conexão com Internet
+14511,LOW,12915,Etapas de envio de objeto 3D sem conexão com Internet
+14511,LOW,9033,Reprodução e compartilhamento de áudio sem conexão com Internet [Treinamento]
+14511,LOW,12921,Visualização de objeto 3D sem conexão com internet
+14505,HIGH,12942,Envio de objeto 3D com sistema administrativo indisponível
+14459,HIGH,10329,"Presentation of ""Cover Timeline"" screen components"
+12866,MEDIUM,10535,Troca de câmera durante transmissão [Mobile]
+15044,LOW,11796,Limite de caracteres para os campos Input do Protheus
+14371,MEDIUM,12718,Validar campos do formulário de submissão
+14383,LOW,12631,Ocultar/Mostrar dados de E-Kaizens
+14293,LOW,12489,Visualizar E-Kaizens
+14404,MEDIUM,12716,Listagem de usuários
+14282,LOW,12489,Visualizar E-Kaizens
+14276,MEDIUM,12718,Validar campos do formulário de submissão
+14274,MEDIUM,12700,Validar campos do formulário de submissão de e-kaizen
+14273,MEDIUM,12489,Visualizar E-Kaizens
+14273,MEDIUM,12490,Pesquisar E-Kaizens
+14273,MEDIUM,12669,Filtrar E-Kaizen
+15070,HIGH,10368,Create content successfully
+15071,MEDIUM,10664,Edit Content without fields required filled
+15072,MEDIUM,10371,Create content without fields required filled
+14267,MEDIUM,12483,Editar usuário com sucesso
+14312,MEDIUM,12718,Validar campos do formulário de submissão
+14312,MEDIUM,13180,Informações dos cards dos e-kaizens
+14304,MEDIUM,12700,Validar campos do formulário de submissão de e-kaizen
+15077,HIGH,10373,Content Tag field validations
+15078,HIGH,10665,Tag field validations
+14306,LOW,13181,Edição das informações dos e-kaizens
+15048,CRITICAL,13534,Add a remote to dataset entity
+15080,CRITICAL,13475,Create content with a title already exists
+15081,HIGH,13476,Create content with a description in another language
+15082,CRITICAL,13477,Start date and End date field validations
+15083,LOW,13481,Key-value validations
+15084,LOW,13525,Content session field limit
+15085,LOW,13525,Content session field limit
+15086,HIGH,10669,Remove content successfully
+15087,HIGH,10670,Cancel content removal
+15090,HIGH,13560,Delete content that has already been deleted
+15092,LOW,4374,Filtros de Convidados de um evento global
+15094,CRITICAL,13484,Create rule with blank space on the required fields
+15096,HIGH,13579,Cancel rule removal
+15097,HIGH,13580,Delete rule that has already been deleted
+15095,HIGH,13578,Remove rule successfully
+15095,HIGH,13589,Remove rule being used in some content
+15099,CRITICAL,13528,Validate Parameter added (Key-value)
+14381,LOW,12718,Validar campos do formulário de submissão
+15100,CRITICAL,13486,Edit content with a title already exists
+15102,LOW,13481,Key-value validations
+15104,HIGH,13487,Edit content with a description in another language
+15106,CRITICAL,10368,Create content successfully
+15107,CRITICAL,13488,Start date and End date field validations
+15108,MEDIUM,5040,Login no Invitation App com um e-mail inválido
+15109,HIGH,10368,Create content successfully
+14899,CRITICAL,13507,Capturing a photo successfully
+15111,MEDIUM,5040,Login no Invitation App com um e-mail inválido
+15112,CRITICAL,10368,Create content successfully
+15115,LOW,13491,Key-value validations
+15119,HIGH,13573,Edit rule that was deleted for another user
+15120,LOW,13576,Rules field validations
+15121,CRITICAL,13576,Rules field validations
+15117,MEDIUM,4825,Permanência do login com o aplicativo fechado
+14684,MEDIUM,13168,Filtrar auditoria por (Ação) para Itens Afetados como Super Usuário no MDM Web
+14684,MEDIUM,13176,Filtrar auditoria por (Ação) para Itens Afetados como Administrador de dispositivo no MDM Web
+14708,HIGH,13176,Filtrar auditoria por (Ação) para Itens Afetados como Administrador de dispositivo no MDM Web
+14708,HIGH,13168,Filtrar auditoria por (Ação) para Itens Afetados como Super Usuário no MDM Web
+15129,LOW,11854,Diminuir o target quantity da MO
+15132,CRITICAL,13576,Rules field validations
+15060,LOW,11819,MO On Line com campo obrigatório vazio ou inválido (A31 - SMT)
+15060,LOW,11820,Mo On Line com campo obrigatório vazio ou inválido (ABO - AP)
+15060,LOW,11821,MO On Line com campo obrigatório vazio ou inválido (ABO - SMT)
+15113,MEDIUM,12720,Pesquisar usuários
+15130,MEDIUM,12720,Pesquisar usuários
+15093,CRITICAL,12490,Pesquisar E-Kaizens
+15088,MEDIUM,13286,Inspeção de usabilidade listagem de eventos
+15103,LOW,13608,Validar QR Code de um convidado
+15145,MEDIUM,12487,Criar um E-Kaizen com sucesso
+13858,CRITICAL,8821,Exibição e Comportamento dos Menus na tela Home para convidados
+15089,MEDIUM,13286,Inspeção de usabilidade listagem de eventos
+14981,MEDIUM,13539,Validação do push para contatos de notificação (Check-in pelo GaMMa)
+15079,MEDIUM,13286,Inspeção de usabilidade listagem de eventos
+15155,MEDIUM,12718,Validar campos do formulário de submissão
+15157,MEDIUM,12718,Validar campos do formulário de submissão
+14405,MEDIUM,12700,Validar campos do formulário de submissão de e-kaizen
+15170,HIGH,12669,Filtrar E-Kaizen
+15175,LOW,13394,Menu de opções
+15165,LOW,12736,Listagem de anos-base
+14408,LOW,12746,Validar edição dos campos de um E-Kaizen
+15136,MEDIUM,13875,Action to Logoff the Pixie App Without Connection Internet
+15118,LOW,11397,"Action ""Event History"" and ""Drawer Menu"" buttons by Home Screen"
+14853,MEDIUM,13508,"Action of the ""view"" button in image upload"
+15179,LOW,13181,Edição das informações dos e-kaizens
+14830,CRITICAL,11350,Access Live Stream Full screen by home screen
+14858,CRITICAL,11350,Access Live Stream Full screen by home screen
+15067,CRITICAL,13612,Get the dataset of a specific tag
+14872,CRITICAL,13559,Action send music to Pixie camera with camera is off
+15183,MEDIUM,13394,Menu de opções
+14847,HIGH,10346,User interface aesthetics
+15127,CRITICAL,13581,Send files with push command
+14854,HIGH,10344,Presentation of home screen components
+15059,HIGH,13783,Resending the e-mail
+15059,HIGH,13789,Sing up without internet connection
+15194,LOW,13825,Solicitação de validação externa com sucesso
+15195,MEDIUM,13825,Solicitação de validação externa com sucesso
+15198,MEDIUM,13181,Edição das informações dos e-kaizens
+15105,MEDIUM,13800,Action Login without Connection Internet
+15066,HIGH,13783,Resending the e-mail
+15066,HIGH,13796,Action of the resend button the email verification
+14901,MEDIUM,13507,Capturing a photo successfully
+14907,LOW,11255,Cancel sharing action
+15206,HIGH,13832,Ações na validação externa
+15209,MEDIUM,13835,Validação do campo pesquisa de usuários
+15146,MEDIUM,13829,"Ações no campo ""justificativa"" 15205,MEDIUM,13837,""Ações dos botões enviar e cancelar"
+15205,MEDIUM,13828,Validar elementos do modal de validação externa
+15144,MEDIUM,4660,Exibição de data e hora na listagem de eventos globais
+15154,MEDIUM,12718,Validar campos do formulário de submissão
+15168,MEDIUM,12669,Filtrar E-Kaizen
+15074,MEDIUM,13795,Error Messages During Login Attempts
+15110,MEDIUM,13801,"Action ""Resend Email Verification"" button without Internet connection"
+15211,LOW,13871,Validar elementos do modal de auditoria
+8425,MEDIUM,6086,Armazenamento da senha do usuário no local storage
+15216,LOW,13852,Validar campos do modal de encaminhar para comitê
+15042,MEDIUM,13168,Filtrar auditoria por (Ação) para Itens Afetados como Super Usuário no MDM Web
+15046,LOW,13742,Aplicar ordenação de itens na tela de Auditoria do sistema ADM
+9562,LOW,7367,"Campo ""Domínio"" no formulário de edição de evento global"
+9571,LOW,7372,Inspeção de usabilidade para o formulário de criação de evento global
+15223,MEDIUM,13852,Validar campos do modal de encaminhar para comitê
+9799,MEDIUM,7729,Permissões de usuários para Configurações
+9799,MEDIUM,7728,Permissões de usuários para Grupos
+9799,MEDIUM,7727,Permissões de usuários para Regiões
+9799,MEDIUM,7724,Permissões de usuários para Jogadores
+9799,MEDIUM,7722,Permissões de usuários para Listagem de participantes
+9799,MEDIUM,7721,Permissões de usuários para Campanhas
+9799,MEDIUM,7720,Permissões de usuários para Itens de Publicidade
+9799,MEDIUM,7718,Permissões de usuários para Apps
+9808,MEDIUM,7725,Permissões de usuários para Push
+9990,MEDIUM,4813,Alteração de dados com presença já confirmada
+10135,MEDIUM,3355,Validações do campo endereço do Evento específico
+15234,HIGH,11371,Presentation of daily records in full screen
+10222,MEDIUM,7725,Permissões de usuários para Push
+15227,CRITICAL,13768,Forgot Password successfully
+10231,MEDIUM,7729,Permissões de usuários para Configurações
+10262,MEDIUM,7493,Ordenação da lista Destinatários do push
+10500,MEDIUM,7199,Permissões de usuários associado a administrador para Recepcionista(Eventos)
+15236,MEDIUM,13849,Ativar comitê de avaliação
+15235,LOW,13844,Criar comitê de avaliação com sucesso
+15232,LOW,13847,Formulário de cadastro de comitês de avaliação
+15231,LOW,13847,Formulário de cadastro de comitês de avaliação
+15229,MEDIUM,13844,Criar comitê de avaliação com sucesso
+15186,LOW,13548,Init a entity in the project
+15237,LOW,12746,Validar edição dos campos de um E-Kaizen
+14932,MEDIUM,12001,Project Details - Validate layout
+11163,MEDIUM,4424,Recebimento de notificação push no dispositivo após ativar auto inicialização
+11164,MEDIUM,9050,Exibição da webview quando app não está aberto
+15204,MEDIUM,13612,Get the dataset of a specific tag
+14917,CRITICAL,11948,Create new project
+15199,LOW,13992,Editar e-kaizen passível de validação
+15180,MEDIUM,13158,Validar ação dos Cards de Notificação
+15178,MEDIUM,13177,Informações da tela de Listagem de e-kaizens
+15174,MEDIUM,12718,Validar campos do formulário de submissão
+15256,MEDIUM,13774,Acionar Bloqueio em dispositivo durante Modo Manutenção
+15259,LOW,13920,Visualizar mensagem de confirmação ao sair da tela de popular o plano de teste
+15169,LOW,12731,Navegação no formulário de submissão
+15161,HIGH,12351,1º acesso ao sistema (sucesso)
+15151,HIGH,12718,Validar campos do formulário de submissão
+15254,CRITICAL,13859,Failed login
+15265,LOW,13993,Run init ml-git in a directory without write access
+15152,MEDIUM,13612,Get the dataset of a specific tag
+15267,HIGH,13590,Create Content Tag successfully
+15267,HIGH,13616,Content tag field validations
+15268,HIGH,13620,View all content tags
+15172,MEDIUM,12718,Validar campos do formulário de submissão
+15270,MEDIUM,13632,Edit content tag successfully
+15273,CRITICAL,13636,Edit content tag with the existing name
+15272,MEDIUM,13906,Visualizar mensagem de confirmação ao sair da tela de criar novo usuário acessando menu do usuário logado
+14946,LOW,13548,Init a entity in the project
+13290,HIGH,11385,Actions during video playback
+15188,LOW,10344,Presentation of home screen components
+15018,CRITICAL,13648,Check the working tree status of a entity
+15240,CRITICAL,13768,Forgot Password successfully
+15116,LOW,13526,Content session field limit
+15116,LOW,13616,Content tag field validations
+15233,MEDIUM,13769,"Action the of ""cancel"" forgot password"
+14829,LOW,10344,Presentation of home screen components
+15250,MEDIUM,13638,Download de informações
+15284,LOW,13535,Add a data store to a ml-git project
+15286,LOW,13534,Add a remote to dataset entity
+15261,MEDIUM,13921,Visualizar mensagem de confirmação ao sair da tela de popular o plano de teste acessando menu do perfil do usuário logado
+15261,MEDIUM,13918,Visualizar mensagem de confirmação ao sair da tela de popular a suíte de teste acessando menu do usuário logado
+15261,MEDIUM,13915,Visualizar mensagem de confirmação ao tentar sair da tela de criar nova especificação de teste acessando menu do usuário logado
+15261,MEDIUM,13909,Visualizar mensagem de confirmação ao sair da tela de criar novo modelo acessando menu de usuário logado
+15261,MEDIUM,13969,Visualizar mensagem de confirmação ao tentar sair da tela acessando o menu do usuário logado
+15261,MEDIUM,13905,Verificar mensagem de confirmação ao sair da tela de criar novo usuário
+15274,LOW,13922,Visualizar lista de ciclos cadastrados
+15215,MEDIUM,13543,Action send music to Pixie Camera
+15215,MEDIUM,13552,"Action of the ""stop"" in the home screen when the music play on the device"
+15215,MEDIUM,13557,Action send music to Pixie Camera without internet connection
+13479,MEDIUM,11988,View Streaming by timeline screen rotations
+14878,MEDIUM,13587,Behavior of the app without connection during Live Streaming Monitoring
+15253,LOW,13778,Action of the forgot password without internet connection
+15299,MEDIUM,13947,Editar ciclo inserindo nome de um ciclo já criado
+15299,MEDIUM,13957,Cadastrar um ciclo de teste inserindo o nome já existente
+14897,HIGH,11447,"Presentation of ""Home"" screen without an internet connection"
+15246,HIGH,13773,"Action of the ""Resend the code"" 15213,MEDIUM,13511,""Capturing a photo with error state in live streaming"
+15308,HIGH,13773,"Action of the ""Resend the code"" 15238,MEDIUM,13770,""Forgot Password with invalid e-mail"
+15310,LOW,13534,Add a remote to dataset entity
+15101,HIGH,13796,Action of the resend button the email verification
+15314,MEDIUM,13220,Criar topologia
+15315,MEDIUM,13924,Criar topologia sem preencher os campos obrigatórios
+11225,MEDIUM,8822,"Validação da seção ""Download your information"" da tela ""Configurações"" 15327,LOW,13548,""Init a entity in the project"
+14759,CRITICAL,12854,Editar informações de conta com sucesso
+15329,LOW,13561,Add Files
+14733,CRITICAL,12889,Validar formulário de cadastro de usuário
+15331,MEDIUM,13581,Send files with push command
+15185,LOW,11414,Aplicar Filtro com sucesso
+15171,LOW,12086,Limite de caracteres para os filtros
+15166,HIGH,5206,Remover Roles com sucesso
+15140,LOW,10765,Limite de caracteres para os filtros
+15140,LOW,10507,Limite de caracteres para os filtros
+15061,MEDIUM,13425,Aplicar Filtro com sucesso
+15056,LOW,12912,Executar o Job com notas que possuam Brand Names não cadastrados
+14734,CRITICAL,12896,Validar lista de Apresentações
+14877,LOW,6954,Aplicar Filtro com sucesso
+15098,LOW,5158,Inserir um usuário com falha interna de requisição
+15098,LOW,5170,Remover um usuário com falha interna de requisição
+15098,LOW,5210,Remover um role com falha interna de requisição
+15098,LOW,5166,Alterar um usuário com falha interna de requisição
+15098,LOW,10533,Exportação do formulário com serviço indisponível
+15098,LOW,10778,Exportação do formulário com serviço indisponível
+15342,MEDIUM,11285,Inserir dados inválidos no cadastro de usuário
+14864,LOW,8882,PPB Rules com valores inválidos
+14898,LOW,6959,Limite de caracteres para os filtros
+15343,MEDIUM,11285,Inserir dados inválidos no cadastro de usuário
+14882,MEDIUM,8585,Inserir registro de Brand Name já existente
+13268,MEDIUM,10329,"Presentation of ""Cover Timeline"" screen components"
+13268,MEDIUM,11990,Action of the Close Button in View Streaming Screen by timeline
+15346,HIGH,13561,Add Files
+14863,LOW,8882,PPB Rules com valores inválidos
+15075,LOW,5153,Inserir um usuário com um USERNAME já existente
+15350,MEDIUM,2187,Importação de convidados com arquivo inválido
+15034,LOW,9063,Aplicar Filtro com sucesso
+15033,LOW,9074,Inserir registro com sucesso
+14908,HIGH,7022,Remover Part com sucesso
+14903,HIGH,6850,Remover SKU com sucesso
+15354,MEDIUM,13648,Check the working tree status of a entity
+15354,MEDIUM,13612,Get the dataset of a specific tag
+14869,HIGH,7222,Remover registro de Customer
+15248,LOW,10480,Executar Job agendado com sucesso
+15249,HIGH,10480,Executar Job agendado com sucesso
+15356,LOW,13561,Add Files
+15301,HIGH,13595,Distribuir aplicativos para grupos de dispositivos
+15364,CRITICAL,14040,Edit User Attribute successfully
+15364,CRITICAL,14048,User Attribute field validations in the edit
+15279,HIGH,13595,Distribuir aplicativos para grupos de dispositivos
+15221,MEDIUM,13852,Validar campos do modal de encaminhar para comitê
+15208,MEDIUM,12712,Validações do formulário de criação de usuários
+15207,CRITICAL,12485,Desativar/ativar usuário
+15192,LOW,13825,Solicitação de validação externa com sucesso
+15191,MEDIUM,13147,Validações no formulário de criação de anos-base
+15173,MEDIUM,12669,Filtrar E-Kaizen
+15167,MEDIUM,13159,Exibição do histórico de edição
+15164,MEDIUM,13863,Incluir implementação com sucesso
+15162,LOW,13159,Exibição do histórico de edição
+15160,HIGH,13991,Modificar Status de E-Kaizen
+15159,LOW,13842,Listagem de comitê de avaliação
+15073,LOW,10667,Edit Content without permission
+15073,LOW,13493,Create Rule without permission
+15073,LOW,10376,Create Content without permission
+15073,LOW,10679,View Contents listing without permission
+15073,LOW,13574,Edit Rule without permission
+15073,LOW,13593,Create Content tag without permission
+15073,LOW,13640,Edit tag without permission
+15073,LOW,14044,Edit User Attribute without permission
+15368,LOW,14031,Create User Attribute successfully
+15370,LOW,14036,User Attribute field validations
+15372,CRITICAL,14036,User Attribute field validations
+15372,CRITICAL,14031,Create User Attribute successfully
+15367,LOW,14048,User Attribute field validations in the edit
+14870,MEDIUM,9074,Inserir registro com sucesso
+14728,MEDIUM,12895,Validar tela de Home
+14732,HIGH,12890,Cadastrar usuário com sucesso
+14732,HIGH,12886,Recuperar senha com link expirado
+14737,MEDIUM,12897,Validar card de apresentação
+14739,CRITICAL,12860,Submeter apresentação com sucesso
+15338,MEDIUM,2029,Exportar convidados importados
+15241,HIGH,13771,Forgot Password with Invalid verification code
+14850,HIGH,13507,Capturing a photo successfully
+14466,CRITICAL,10739,"Action of the native ""Multitasks"" button in the application"
+14466,CRITICAL,11993,"Action on the native ""Lock/Unlock"" button in the application"
+15281,LOW,13793,Impossibilidade de salvar cadastro com campos obrigatórios sem preenchimento
+15278,LOW,13798,Validação de listagem de grupos no campo 'Associar ao(s) grupo(s)' na tela de cadastro
+14852,MEDIUM,10344,Presentation of home screen components
+15337,CRITICAL,2183,Importação de convidados com as informações dos convidados inválidas
+15371,LOW,6248,Com dados ordenados por coluna
+14861,HIGH,13507,Capturing a photo successfully
+13743,MEDIUM,10346,User interface aesthetics
+13546,MEDIUM,11993,"Action on the native ""Lock/Unlock"" button in the application"
+14862,HIGH,13517,Progress video recording
+15386,LOW,13191,Editar nome do plano de teste
+14641,CRITICAL,13493,Create Rule without permission
+13278,HIGH,11376,Action to remove daily records
+14632,HIGH,13484,Create rule with blank space on the required fields
+14635,HIGH,13474,Register user with email is already registered
+15295,MEDIUM,13709,Aplicar paginação de itens da listagem da tela de Distribuição
+14630,MEDIUM,13467,Register user successfully
+14626,HIGH,13472,Register user with invalid fields
+14637,MEDIUM,13495,Validation of Registration Fields
+14648,MEDIUM,13482,Create Rule successfully
+15392,HIGH,11249,"Presentation of the components of the ""Gallery"" screen"
+14653,MEDIUM,13482,Create Rule successfully
+14638,CRITICAL,10366,Access the system without authentication

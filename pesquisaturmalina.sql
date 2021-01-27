@@ -93,3 +93,28 @@ inner join turmalina.user_story_test_case ut on ut.test_case_id = ts.id
 inner join turmalina.requirement r on r.id = ut.requirement_id
 inner join turmalina.requirement_version rv on rv.requirement_id = r.id
 where tsv.id = 3219
+
+# Bugs candidatos a serem utilizados.
+select b.id, b.severity, t.id, tv.name
+from bug b
+     inner join bug_specs bs on bs.bug_id = b.id
+     inner join test_specification t on t.id = bs.spec_id
+     inner join test_specification_version tv on t.actual_version_id = tv.id
+where tv.status IN('FINAL', 'FOR_REVIEW', 'REVIEW_DONE', 'FOR_APPROVAL', 'REVIEW_ONGOING')
+
+select p.id as project_id, p.description, i.id as us_id, i.title, i.acceptance_criteria, tsv.id as test_id, tsv.name from turmalina.issue i
+   inner join turmalina.project p on i.project_id = p.id
+   inner join turmalina.requirement r on r.id = i.requirement_id
+   inner join turmalina.test_specification ts on ts.requirement_id = r.id
+   inner join turmalina.test_specification_version tsv on tsv.id = ts.actual_version_id
+where i.issue_type = 'USER_STORY'
+  and i.acceptance_criteria is not null
+  and i.acceptance_criteria <> ''
+  and i.status != 'CANCELED'
+  and i.status != 'REJECTED'
+  and i.acceptance_criteria is not null
+  and i.acceptance_criteria <> ''
+  and tsv.status IN('FINAL', 'FOR_REVIEW', 'REVIEW_DONE', 'FOR_APPROVAL', 'REVIEW_ONGOING')
+  and r.active = 1
+  and p.active = 1
+  and ts.active = 1

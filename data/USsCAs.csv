@@ -537,3 +537,46 @@ MyPocket,MPT-US17,24,Listagem sem autenticação,1,20
 MyPocket,MPT-US17,26,Ordenar dados,1,22
 MyPocket,MPT-US17,27,Buscar dados de um item,1,34
 MyPocket,MPT-US17,21,"No resultado da busca, a página deve exibir no máximo 10 valores",1,17
+TestRec,TR-22784,,Campos Obrigatórios devem estar preenchidos,1,2
+TestRec,TR-22784,,Caso usuário não esteja cadastrado o sistema deverá enviar mensagem,1,24
+TestRec,TR-22784,,Caso o usuário forneça senha inválida o sistema deverá enviar mensagem,1,40
+TestRec,TR-22784,,Caso o usuário esteja logado o sistema deverá ser redirecionado para tela principal,1,55
+TestRec,TR-27899,,"Ao registrar o usuário, o mesmo poderá acessar o sistema.",1,64
+TestRec,TR-27899,,"O usuário deverá fornecer e-mail, nome de usuário, nome, senha e confirmação.",1,65
+TestRec,TR-27899,,"Caso algum dos campos não seja informado, o sistema não deverá permitir a inclusão.",1,2
+TestRec,TR-27899,,Caso o nome de usuário já exista o sistema deverá exibir uma mensagem,1,13
+TestRec,TR-27787-E,,Ao alterar campos do projeto e clicar em salvar o projeto deve ser atualizado,1,8
+TestRec,TR-27787-E,,Alteração com campos obrigatórios não preenchidos,1,9
+TestRec,TR-27787-E,,Alteração com campos inválidos,1,10
+TestRec,TR-27787-E,,Alteração sem autenticação,1,11
+TestRec,TR-27787-E,,Ao inserir um link de um projeto inexistente um erro 404 deve ser exibido,1,44
+TestRec,TR-27787-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no projeto,1,47
+TestRec,TR-27787-C,,Inserção com dados corretos,1,1
+TestRec,TR-27787-C,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,1,3
+TestRec,TR-27787-C,,Inserção sem autenticação,1,4
+TestRec,TR-27787-C,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+TestRec,TR-27787-C,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+TestRec,TR-27787-L,,Listagem de dados,1,15
+TestRec,TR-27787-L,,Listagem sem dados cadastrados,1,16
+TestRec,TR-27787-L,,No resultado da busca a página deve exibir no máximo 10 valores,1,17
+TestRec,TR-27787-L,,Listagem com valor do filtro cadastrado,1,18
+TestRec,TR-27787-L,,Listagem com valor do filtro não cadastrado,1,19
+TestRec,TR-27787-L,,Listagem sem autenticação,1,20
+TestRec,TR-27789-L,,Listagem de dados,1,15
+TestRec,TR-27789-L,,Listagem sem dados cadastrados,1,16
+TestRec,TR-27789-L,,No resultado da busca a página deve exibir no máximo <x> valores,1,17
+TestRec,TR-27789-L,,Listagem com valor do filtro cadastrado,1,18
+TestRec,TR-27789-L,,Listagem com valor do filtro não cadastrado,1,19
+TestRec,TR-27789-L,,Listagem sem autenticação,1,20
+TestRec,TR-27789-C,,Inserção com dados corretos,1,1
+TestRec,TR-27789-C,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,1,3
+TestRec,TR-27789-C,,Inserção sem autenticação,1,4
+TestRec,TR-27789-C,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+TestRec,TR-27789-C,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+TestRec,TR-27789-E,,Ao alterar campos do projeto e clicar em salvar o projeto deve ser atualizado,1,8
+TestRec,TR-27789-E,,Alteração com campos obrigatórios não preenchidos,1,9
+TestRec,TR-27789-E,,Alteração sem autenticação,1,11
+TestRec,TR-27789-E,,Ao inserir um link de um projeto inexistente um erro 404 deve ser exibido,1,44
+TestRec,TR-27789-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no projeto,1,47
+TestRec,TR-27789-X,,Cancelar exclusão da entidade,1,27
+TestRec,TR-27789-X,,Excluir com sucesso,1,12

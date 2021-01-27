@@ -1,5 +1,6 @@
 from datahandler import NewUSsDataHandler
 from recommender import get_recommendations_heuristcs
+from recommender import METRIC_EUCLIDEAN
 
 
 def recommend():
@@ -7,10 +8,12 @@ def recommend():
     uss = data_handler.load_us_data()
     uss_x = uss.drop(columns=['TCs'])
 
-    us_alvo = {'ID_US': '123456', 'Módulo': 'Cadastro', 'Operação': 'Inserir_dados', 'Plataforma': 'Desktop', 'RNFs': '1,2',
-               'CAs': '1,3,4,5,38,39'}
+    us_alvo = {'ID_US': '123456', 'Módulo': 'Cadastro', 'Operação': 'Recuperação_de_dados', 'Plataforma': 'Web', 'RNFs': '1',
+               'CAs': '15,16,17,18,19,20'}
 
-    recommendations = get_recommendations_heuristcs(us_alvo, uss_x, 3, 'euclidean')
+
+
+    recommendations = get_recommendations_heuristcs(us_alvo, uss_x, 3, METRIC_EUCLIDEAN)
     print(recommendations.loc[:, ['Descrição', 'similaridade']].to_string())
 
 

@@ -1090,3 +1090,57 @@ MyPocket,MPT-US17,Validar resultado da consulta de contas,21
 MyPocket,MPT-US17,Visualizar dados da entidade,51
 MyPocket,MPT-US17,Verificar dados retornados,16
 MyPocket,MPT-US17,Acessar página sem fazer login,55
+TestRec,TR-22784,Login com sucesso,40
+TestRec,TR-22784,Login com usuário inexistente,59
+TestRec,TR-22784,Login com senha inválida,60
+TestRec,TR-22784,Login com campo obrigatório não preenchido,61
+TestRec,TR-22784,Acessar a tela protegida sem ter realizado autenticação,13
+TestRec,TR-22784,Testar com senha no formato inválido,25
+TestRec,TR-27899,Registrar usuário com sucesso,1
+TestRec,TR-27899,Registrar com campos obrigatórios não preenchidos,4
+TestRec,TR-27899,Registrar com senha diferente da confirmação,39
+TestRec,TR-27899,Registrar com nome de usuário existente,3
+TestRec,TR-27899,Registrar com senha no formato inválido,43
+TestRec,TR-27899,Cancelar registro com sucesso,2
+TestRec,TR-27787-E,Editar projeto com data inicial maior que data final,62
+TestRec,TR-27787-E,Editar projeto com sucesso,6
+TestRec,TR-27787-E,Editar projeto com campo obrigatório não preenchido,8
+TestRec,TR-27787-E,Verificar se todos os dados do projeto estão sendo exibidos,22
+TestRec,TR-27787-E,Verificar inserção de link de projeto inexistente,23
+TestRec,TR-27787-E,Fechar a tela antes de excutar ação,26
+TestRec,TR-27787-E,Cancelar edição do projeto com sucesso,10
+TestRec,TR-27787-E,Editar projeto com data inválida,44
+TestRec,TR-27787-C,Cadastro de projeto com sucesso,1
+TestRec,TR-27787-C,Cancelar cadastro de projeto com sucesso,2
+TestRec,TR-27787-C,Validar ação sem conexão com servidor,37
+TestRec,TR-27787-C,Executar ação sem ter feito login,55
+TestRec,TR-27787-C,Cadastro de projeto com data inicial maior que data final,62
+TestRec,TR-27787-C,Cadastro de projeto com campo obrigatório não preenchido,4
+TestRec,TR-27787-C,Cadastrar entidade com campos inválidos,43
+TestRec,TR-27787-L,Listar todas as entidades com sucesso,15
+TestRec,TR-27787-L,Verificar presença de campos retornados,16
+TestRec,TR-27787-L,Verificar paginação,19
+TestRec,TR-27787-L,Realizar ação sem ter feito login,55
+TestRec,TR-27787-L,Acessar a tela sem estar autenticado na aplicação,13
+TestRec,TR-27787-L,Validar resultado da consulta de entidade sem dados,17
+TestRec,TR-27789-L,Listar US cadastradas com sucesso,15
+TestRec,TR-27789-L,Listar US sem dados cadastrados,17
+TestRec,TR-27789-L,Verificar presença de campos retornados,16
+TestRec,TR-27789-L,Verificar paginação,19
+TestRec,TR-27789-L,Realizar ação sem ter feito login,55
+TestRec,TR-27789-L,Visualizar dados da <entidade>,16
+TestRec,TR-27789-C,Cadastro de User Story com sucesso,1
+TestRec,TR-27789-C,Cadastro de US com campo obrigatório não preenchido,4
+TestRec,TR-27789-C,Cancelar cadastro com sucesso,2
+TestRec,TR-27789-C,Fechar a tela antes de excutar ação,26
+TestRec,TR-27789-C,Validar ação sem conexão com servidor,37
+TestRec,TR-27789-C,Executar ação sem ter feito login,55
+TestRec,TR-27789-E,Editar User story com sucesso,6
+TestRec,TR-27789-E,Editar User story sem campos obrigatórios preenchidos,8
+TestRec,TR-27789-E,Cancelar edição com sucesso,10
+TestRec,TR-27789-E,Verificar se todos os dados da <entidade> estão sendo exibidos,16
+TestRec,TR-27789-E,Verificar inserção de link de <entidade> inexistente,23
+TestRec,TR-27789-E,Fechar a tela antes de excutar ação,26
+TestRec,TR-27789-X,Excluir US com sucesso,12
+TestRec,TR-27789-X,Fechar a tela antes de excutar ação,26
+TestRec,TR-27789-X,Cancelar exclusão da entidade,27

@@ -8,10 +8,8 @@ def recommend():
     uss = data_handler.load_us_data()
     uss_x = uss.drop(columns=['TCs'])
 
-    us_alvo = {'ID_US': '123456', 'Módulo': 'Cadastro', 'Operação': 'Recuperação_de_dados', 'Plataforma': 'Web', 'RNFs': '1',
-               'CAs': '15,16,17,18,19,20'}
-
-
+    us_alvo = {'ID_US': '123456', 'Módulo': 'Cadastro', 'Operação': 'Remover_dados', 'Plataforma': 'Web', 'RNFs': '1',
+               'CAs': '12,27'}
 
     recommendations = get_recommendations_heuristcs(us_alvo, uss_x, 3, METRIC_EUCLIDEAN)
     print(recommendations.loc[:, ['Descrição', 'similaridade']].to_string())

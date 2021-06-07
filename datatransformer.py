@@ -1,5 +1,5 @@
 
-def transform_one_hot_encoding(self, newUS, baseUSs):
+def transform_one_hot_encoding(newUS, baseUSs):
     # Separando os ids dos critérios de aceitação da us nova para cálculo do vetor de características.
     filtered_uss = baseUSs.copy()
     newUSACs = newUS['CAs'].split(',')

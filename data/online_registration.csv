@@ -1,0 +1,410 @@
+Project;User_Story;Developed;Recommended;Merge;Status;Relevance;Rejection_reason;Date
+TestRec;User Login;Login com sucesso;;Login com sucesso;Developed;;;12/9/2020
+TestRec;User Login;Login com usuário inexistente;;Login com usuário inexistente;Developed;;;12/9/2020
+TestRec;User Login;Login com senha inválida;;Login com senha inválida;Developed;;;12/9/2020
+TestRec;User Login;Login com campo obrigatório não preenchido;;Login com campo obrigatório não preenchido;Developed;;;12/9/2020
+TestRec;User Login;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Accepted;High;;12/9/2020
+TestRec;User Login;;O campo senha deve seguir a regra, conter pelo menos uma letra, um caracter especial, um número e uma letra maiúscula;O campo senha deve seguir a regra, conter pelo menos uma letra, um caracter especial, um número e uma letra maiúscula;Accepted;High;;12/9/2020
+TestRec;User Login;;Realizar login com usuário inativo;Realizar login com usuário inativo;Rejected;-;Business compliance;12/9/2020
+TestRec;User Registration;Registrar com sucesso;Registrar com sucesso;Registrar com sucesso;Reuse;High;;12/9/2020
+TestRec;User Registration;Registrar com campo obrigatório não preenchido;Registrar com campos obrigatórios não preenchidos;Registrar com campos obrigatórios não preenchidos;Reuse;High;;12/9/2020
+TestRec;User Registration;Registrar com senha diferente da confirmação;;Registrar com senha diferente da confirmação;Developed;-;;12/9/2020
+TestRec;User Registration;Registrar com nome de usuário existente;Registrar com nome de usuário existente;Registrar com nome de usuário existente;Reuse;High;;12/9/2020
+TestRec;User Registration;;Registrar com senha no formato inválido;Registrar com senha no formato inválido;Accepted;High;;12/9/2020
+TestRec;User Registration;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Rejected;-;Not possible;12/9/2020
+TestRec;User Registration;;Verificar acesso por papeis;Verificar acesso por papeis;Rejected;-;Not possible;12/9/2020
+TestRec;User Registration;;Cadatrar entidade com restrição de negócio <restrição>;Cadatrar entidade com restrição de negócio <restrição>;Rejected;-;Business compliance;12/9/2020
+TestRec;User Registration;;Cancelar registro com sucesso;Cancelar registro com sucesso;Accepted;Low;;12/9/2020
+TestRec;Project creation;Cadastro de projeto com sucesso;Cadastro de projeto com sucesso;Cadastro de projeto com sucesso;Reuse;;;12/20/2020
+TestRec;Project creation;;Cancelar cadastro de projeto com sucesso;Cancelar cadastro de projeto com sucesso;Accepted;;;12/20/2020
+TestRec;Project creation;;Cadastrar projeto com ID existente;Cadastrar projeto com ID existente;Rejected;;Business compliance;12/20/2020
+TestRec;Project creation;;Verificar acesso por papeis;Verificar acesso por papeis;Rejected;;Business compliance;12/20/2020
+TestRec;Project creation;;Fechar tela antes de executar ação;Fechar tela antes de executar ação;Accepted;;;12/20/2020
+TestRec;Project creation;;Cadastrar entidade com ID previamente excluído;Cadastrar entidade com ID previamente excluído;Rejected;;Business compliance;12/20/2020
+TestRec;Project creation;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;;;12/20/2020
+TestRec;Project creation;;Executar ação sem ter feito login;Executar ação sem ter feito login;Accepted;;;12/20/2020
+TestRec;Project creation;Cadastro de projeto com data inicial maior que data final;;Cadastro de projeto com data inicial maior que data final;Developed;;;12/20/2020
+TestRec;Project creation;Cadastro de projeto com campo obrigatório não preenchido;Cadastro de projeto com campo obrigatório não preenchido;Cadastro de projeto com campo obrigatório não preenchido;Reuse;;;12/20/2020
+TestRec;Project creation;Cadastro de projeto com campo data inválida;Cadastrar entidade com campos inválidos;Cadastrar entidade com campos inválidos;Reuse;;;12/20/2020
+TestRec;Project list;Listagem de projetos cadastrados com sucesso;Listar todas as entidades com sucesso;Listar todas as entidades com sucesso;Reuse;;;12/20/2020
+TestRec;Project list;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;;;12/20/2020
+TestRec;Project list;;Verificar paginação;Verificar paginação;Accepted;;;12/20/2020
+TestRec;Project list;;Visualizar dados da entidade;Visualizar dados da entidade;Rejected;;Too simple;12/20/2020
+TestRec;Project list;;Validar logout da aplicação;Validar logout da aplicação;Rejected;;Other business rule;12/20/2020
+TestRec;Project list;;Realizar ação sem ter feito login;Realizar ação sem ter feito login;Accepted;;;12/20/2020
+TestRec;Project list;;Verificar comportamento do campo;Verificar comportamento do campo;Rejected;;Business compliance;12/20/2020
+TestRec;Project list;;Acessar a tela sem estar autenticado na aplicação;Acessar a tela sem estar autenticado na aplicação;Accepted;;;12/20/2020
+TestRec;Project list;;Realizar ação com usuário inativo;Realizar ação com usuário inativo;Rejected;;Business compliance;12/20/2020
+TestRec;Project list;;Verificar resultado da consulta (filtro) da entidade;Verificar resultado da consulta (filtro) da entidade;Rejected;;Business compliance;12/20/2020
+TestRec;Project list;Listagem de projetos cadastrados sem dados;Validar resultado da consulta de entidade sem dados;Validar resultado da consulta de entidade sem dados;Reuse;;;12/20/2020
+TestRec;Project edit;Editar projeto com sucesso;Editar informações da <entidade> com sucesso;Editar projeto com sucesso;Reuse;;;12/20/2020
+TestRec;Project edit;Editar projeto com data inicial maior que data final;;Editar projeto com data inicial maior que data final;Developed;;;12/20/2020
+TestRec;Project edit;Editar projeto com campo obrigatório não preenchido;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar projeto com campo obrigatório não preenchido;Reuse;;;12/20/2020
+TestRec;Project edit;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;12/20/2020
+TestRec;Project edit;;Verificar presença de campos retornados;Verificar presença de campos retornados;Rejected;;Too simple;12/20/2020
+TestRec;Project edit;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;;;12/20/2020
+TestRec;Project edit;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Accepted;;;12/20/2020
+TestRec;Project edit;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;;;12/20/2020
+TestRec;Project edit;;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Accepted;;;12/20/2020
+TestRec;Project edit;Editar projeto com data inválida;;Editar projeto com data inválida;Developed;;;12/20/2020
+TestRec;US list;Listar US cadastradas com sucesso;Listar todas as <entidades> com sucesso;Listar US cadastradas com sucesso;Reuse;;;1/8/2021
+TestRec;US list;Listar US sem dados cadastrados;Validar resultado da consulta de <entidade> sem dados;Listar US sem dados cadastrados;Reuse;;;1/8/2021
+TestRec;US list;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;1/8/2021
+TestRec;US list;Verificar paginação;Verificar paginação;Verificar paginação;Reuse;;;1/8/2021
+TestRec;US list;Realizar ação sem ter feito login;Executar ação sem ter feito login;Realizar ação sem ter feito login;Reuse;;;1/8/2021
+TestRec;US list;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;1/8/2021
+TestRec;US list;;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Rejected;;Business compliance;1/8/2021
+TestRec;US list;;Visualizar dados da <entidade>;Visualizar dados da <entidade>;Accepted;;;1/8/2021
+TestRec;US creation;Cadastro de User Story com sucesso;Cadastrar <entidade> com sucesso;Cadastro de User Story com sucesso;Reuse;;;1/8/2021
+TestRec;US creation;Cadastro de US com campo obrigatório não preenchido;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastro de US com campo obrigatório não preenchido;Reuse;;;1/8/2021
+TestRec;US creation;Cancelar cadastro com sucesso;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro com sucesso;Reuse;;;1/8/2021
+TestRec;US creation;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;Business compliance;1/8/2021
+TestRec;US creation;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;1/8/2021
+TestRec;US creation;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;;;1/8/2021
+TestRec;US creation;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;1/8/2021
+TestRec;US creation;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;;;1/8/2021
+TestRec;US creation;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Rejected;;Business compliance;1/8/2021
+TestRec;US creation;;Executar ação sem ter feito login;Executar ação sem ter feito login;Accepted;;;1/8/2021
+TestRec;US Edit;Editar User story com sucesso;Editar informações da <entidade> com sucesso;Editar User story com sucesso;Reuse;;;1/8/2021
+TestRec;US Edit;Editar User story sem campos obrigatórios preenchidos;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar User story sem campos obrigatórios preenchidos;Reuse;;;1/8/2021
+TestRec;US Edit;Cancelar edição com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar edição com sucesso;Reuse;;;1/8/2021
+TestRec;US Edit;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;1/8/2021
+TestRec;US Edit;;Verificar presença de campos retornados;Verificar presença de campos retornados;Rejected;;Too simple;1/8/2021
+TestRec;US Edit;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;;;1/8/2021
+TestRec;US Edit;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Accepted;;;1/8/2021
+TestRec;US Edit;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;;;1/8/2021
+TestRec;US exclude;Excluir US com sucesso;Excluir <entidade> com sucesso;Excluir US com sucesso;Reuse;;;1/8/2021
+TestRec;US exclude;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;1/8/2021
+TestRec;US exclude;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;;;1/8/2021
+TestRec;US exclude;;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Accepted;;;1/8/2021
+TestRec;US exclude;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Not possible;1/8/2021
+TestRec;US exclude;;Verificar presença de campos retornados;Verificar presença de campos retornados;Rejected;;Too simple;1/8/2021
+TestRec;Sprints creation;Cadastro de sprint com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;1/26/2021
+TestRec;Sprints creation;Cadastro de sprint com campos obrigatórios não preenchidos.;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Reuse;;;1/26/2021
+TestRec;Sprints creation;Cancelar cadastro com sucesso;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Reuse;;;1/26/2021
+TestRec;Sprints creation;Fechar tela antes de executar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Reuse;;;1/26/2021
+TestRec;Sprints creation;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Reuse;;;1/26/2021
+TestRec;Sprints creation;Criar sprint sem período conflitante com outra;;Criar sprint sem período conflitante com outra;Developed;;;1/26/2021
+TestRec;Sprints creation;Criar sprint com data incial maior que data final;;Criar sprint com data incial maior que data final;Developed;;;1/26/2021
+TestRec;Sprints creation;Criar sprint com período fora do período do projeto;;Criar sprint com período fora do período do projeto;Developed;;;1/26/2021
+TestRec;Sprints creation;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints creation;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints creation;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints creation;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints creation;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Not possible;1/26/2021
+TestRec;Sprints edit;Editar sprint com sucesso;Editar informações da <entidade> com sucesso;Editar sprint com sucesso;Reuse;;;1/26/2021
+TestRec;Sprints edit;Editar sprint sem campos obrigatórios prenchidos;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar sprint sem campos obrigatórios prenchidos;Reuse;;;1/26/2021
+TestRec;Sprints edit;Cancelar cadastro com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar cadastro com sucesso;Reuse;;;1/26/2021
+TestRec;Sprints edit;Fechar a tela antes de executar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de executar ação;Reuse;;;1/26/2021
+TestRec;Sprints edit;Validar ação sem conexão com servidor;;Validar ação sem conexão com servidor;Developed;;;1/26/2021
+TestRec;Sprints edit;Editar sprint sem período conflitante com outra;;Editar sprint sem período conflitante com outra;Developed;;;1/26/2021
+TestRec;Sprints edit;Editar sprint com data inicial maior que data final;;Editar sprint com data inicial maior que data final;;;;1/26/2021
+TestRec;Sprints edit;Editar sprint com período fora do período do projeto;;Editar sprint com período fora do período do projeto;Developed;;;1/26/2021
+TestRec;Sprints edit;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Reuse;;;1/26/2021
+TestRec;Sprints edit;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints edit;;Verificar presença de campos retornados;Verificar presença de campos retornados;Rejected;;Too simple;1/26/2021
+TestRec;Sprints edit;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Rejected;;Too simple;1/26/2021
+TestRec;Sprints list;Listar Sprints cadastradas com sucesso;Listar todas as <entidades> com sucesso;Listar Sprints cadastradas com sucesso;Reuse;;;1/26/2021
+TestRec;Sprints list;Listar Sprints sem dados cadastrados;Validar resultado da consulta de <entidade> sem dados;Listar Sprints sem dados cadastrados;Reuse;;;1/26/2021
+TestRec;Sprints list;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;1/26/2021
+TestRec;Sprints list;Verificar paginação;Verificar paginação;Verificar paginação;Reuse;;;1/26/2021
+TestRec;Sprints list;Realizar ação sem ter feito login;Executar ação sem ter feito login;Realizar ação sem ter feito login;Reuse;;;1/26/2021
+TestRec;Sprints list;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints list;;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Rejected;;Business compliance;1/26/2021
+TestRec;Sprints list;;Visualizar dados da <entidade>;Visualizar dados da <entidade>;Rejected;;Too simple;1/26/2021
+TestRec;Backlog planning;Associar US à sprint;;Associar US à sprint;Developed;;;2/8/2021
+TestRec;Backlog planning;Desassociar US à sprint;;Desassociar US à sprint;Developed;;;2/8/2021
+TestRec;Backlog planning;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Verificar presença de campos retornados;Verificar presença de campos retornados;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Rejected;;Business compliance;2/8/2021
+TestRec;Backlog planning;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Rejected;;Business compliance;2/8/2021
+TestRec;Tet Cases creation;Cadastro de item com campos obrigatórios não preenchidos.;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Reuse;;;2/8/2021
+TestRec;Tet Cases creation;Cancelar cadastro com sucesso;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Reuse;;;2/8/2021
+TestRec;Tet Cases creation;Fechar tela antes de executar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Reuse;;;2/8/2021
+TestRec;Tet Cases creation;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Reuse;;;2/8/2021
+TestRec;Tet Cases creation;Cadastro de item com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;2/8/2021
+TestRec;Tet Cases creation;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;Business compliance;2/8/2021
+TestRec;Tet Cases creation;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;2/8/2021
+TestRec;Tet Cases creation;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;2/8/2021
+TestRec;Tet Cases creation;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Rejected;;Business compliance;2/8/2021
+TestRec;Tet Cases creation;;Executar ação sem ter feito login;Executar ação sem ter feito login;Reuse;;;2/8/2021
+TestRec;Test Cases edit;Editar test case com sucesso;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Reuse;;;2/8/2021
+TestRec;Test Cases edit;Editar test case sem campos obrigatórios prenchidos;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Reuse;;;2/8/2021
+TestRec;Test Cases edit;Cancelar cadastro com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Reuse;;;2/8/2021
+TestRec;Test Cases edit;Fechar a tela antes de executar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Reuse;;;2/8/2021
+TestRec;Test Cases edit;Validar ação sem conexão com servidor;;Validar ação sem conexão com servidor;Developed;;;2/8/2021
+TestRec;Test Cases edit;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Reuse;;;2/8/2021
+TestRec;Test Cases edit;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;2/8/2021
+TestRec;Test Cases edit;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;;;2/8/2021
+TestRec;Test Cases edit;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Reuse;;;2/8/2021
+TestRec;Associate USand Acceptance Crtieria;Adicionar critério de aceitação previamente cadastrado;Editar informações da <entidade> com sucesso;Adicionar critério de aceitação previamente cadastrado;Reuse;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;Cadastrar novo critério, adicionar e salvar;Editar informações da <entidade> com sucesso;Cadastrar novo critério, adicionar e salvar;Reuse;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;Adicionar critério previamente cadastrado e cancelar;Cancelar edição da <entidade> com sucesso;Adicionar critério previamente cadastrado e cancelar;Reuse;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;Adicionar critério previamente cadastrado e fechar tela;Fechar a tela antes de excutar ação;Adicionar critério previamente cadastrado e fechar tela;Reuse;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;Cadastrar novo critério e cancelar;;Cadastrar novo critério e cancelar;Developed;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;Cadastrar novo critério e fechar tela;Fechar a tela antes de excutar ação;Cadastrar novo critério e fechar tela;Reuse;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Rejected;;Business compliance;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;;;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Rejected;;Business compliance;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;3/1/2021
+TestRec;Associate USand Acceptance Crtieria;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Reuse;;;3/1/2021
+TestRec;Dashboard view;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Reuse;;;3/15/2021
+TestRec;Dashboard view;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;3/15/2021
+TestRec;Dashboard view;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Reuse;;;3/15/2021
+TestRec;Dashboard view;;Verificar paginação;Verificar paginação;Rejected;;Business compliance;3/15/2021
+TestRec;Dashboard view;;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Rejected;;Business compliance;3/15/2021
+TestRec;Dashboard view;;Realizar <ação> com usuário inativo;Realizar <ação> com usuário inativo;Rejected;;Business compliance;3/15/2021
+TestRec;Dashboard view;;Validar logout da aplicação;Validar logout da aplicação;Rejected;;Not possible;3/15/2021
+TestRec;Dashboard view;Visualizar dados da <entidade>;Visualizar dados da <entidade>;Visualizar dados da <entidade>;Reuse;;;3/15/2021
+TestRec;Dashboard view;Executar ação sem ter feito login;Executar ação sem ter feito login;Executar ação sem ter feito login;Reuse;;;3/15/2021
+TestRec;Dashboard view;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Reuse;;;3/15/2021
+TestRec;Dashboard view;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Rejected;;Business compliance;3/15/2021
+TestRec;Dashboard view;Listar dashboard sem sprint em andamento;;Listar dashboard sem sprint em andamento;Developed;;;3/15/2021
+TestRec;Copy selected recommendations;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;3/15/2021
+TestRec;Copy selected recommendations;;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Rejected;;Business compliance;3/15/2021
+TestRec;Copy selected recommendations;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Reuse;;;3/15/2021
+TestRec;Copy selected recommendations;;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Rejected;;Business compliance;3/15/2021
+TestRec;Copy selected recommendations;Verificar acesso por papéis;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;3/15/2021
+TestRec;Copy selected recommendations;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Reuse;;;3/15/2021
+TestRec;Copy selected recommendations;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;3/15/2021
+TestRec;Copy selected recommendations;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Reuse;;;3/15/2021
+TestRec;Copy selected recommendations;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Rejected;;Business compliance;3/15/2021
+TestRec;Copy selected recommendations;Executar ação sem ter feito login;Executar ação sem ter feito login;Executar ação sem ter feito login;Reuse;;;3/15/2021
+TestRec;Copy selected recommendations;;Cadastrar usuários com diferentes papéis;Cadastrar usuários com diferentes papéis;Rejected;;Business compliance;3/15/2021
+RiskControl;User Login;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Accepted;;;3/15/2021
+RiskControl;User Login;;O campo senha deve seguir regra <regra>;O campo senha deve seguir regra <regra>;Accepted;;;3/15/2021
+RiskControl;User Login;;Realizar <ação> com usuário inativo;Realizar <ação> com usuário inativo;Rejected;;Business compliance;3/15/2021
+RiskControl;User Login;Fazer login com usuário e senha válidos;Fazer login com usuário e senha válidos;Fazer login com usuário e senha válidos;Reuse;;;3/15/2021
+RiskControl;User Login;Fazer login com usuário inexistente;Fazer login com usuário inexistente;Fazer login com usuário inexistente;Reuse;;;3/15/2021
+RiskControl;User Login;Fazer login com senha inválida;Fazer login com senha inválida;Fazer login com senha inválida;Reuse;;;3/15/2021
+RiskControl;User Login;Fazer login com campo obrigatório não preenchido;Fazer login com campo obrigatório não preenchido;Fazer login com campo obrigatório não preenchido;Reuse;;;3/15/2021
+RiskControl;Project Edit;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Reuse;;;3/15/2021
+RiskControl;Project Edit;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Reuse;;;3/15/2021
+RiskControl;Project Edit;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Reuse;;;3/15/2021
+RiskControl;Project Edit;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;;;3/15/2021
+RiskControl;Project Edit;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Accepted;;;3/15/2021
+RiskControl;Project Edit;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;;;3/15/2021
+RiskControl;Project Edit;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;3/15/2021
+RiskControl;Project Edit;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;;;3/15/2021
+RiskControl;Project Edit;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Accepted;;;3/15/2021
+RiskControl;Register Domains;Cadastro domínio com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;4/14/2021
+RiskControl;Register Domains;Cancelar cadastro com sucesso;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Reuse;;;4/14/2021
+RiskControl;Register Domains;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;;4/14/2021
+RiskControl;Register Domains;Cadastrar domínio sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Reuse;;;4/14/2021
+RiskControl;Register Domains;;Verificar acesso por papéis;Verificar acesso por papéis;Accepted;High;;4/14/2021
+RiskControl;Register Domains;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;4/14/2021
+RiskControl;Register Domains;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;4/14/2021
+RiskControl;Register Domains;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;Low;;4/14/2021
+RiskControl;Register Domains;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Rejected;;Business compliance;4/14/2021
+RiskControl;Register Domains;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;4/14/2021
+RiskControl;Register Domains;;Cadastrar usuários com diferentes papéis;Cadastrar usuários com diferentes papéis;Rejected;;Business compliance;4/14/2021
+RiskControl;Edit Domain;Cancelar edição com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Reuse;;;4/14/2021
+RiskControl;Edit Domain;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Reuse;;;4/14/2021
+RiskControl;Edit Domain;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Reuse;;;4/14/2021
+RiskControl;Edit Domain;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;4/14/2021
+RiskControl;Edit Domain;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Rejected;;Business compliance;4/14/2021
+RiskControl;Edit Domain;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;4/14/2021
+RiskControl;Edit Domain;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;Medium;;4/14/2021
+RiskControl;Edit Domain;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Rejected;;Business compliance;4/14/2021
+RiskControl;Edit Domain;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;4/14/2021
+RiskControl;List Domains;;Verificar acesso por papéis;Verificar acesso por papéis;Accepted;High;;4/14/2021
+RiskControl;List Domains;Listar todas com sucesso;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Reuse;;;4/14/2021
+RiskControl;List Domains;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;4/14/2021
+RiskControl;List Domains;Validar reusltado da consulta sem dados;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Reuse;;;4/14/2021
+RiskControl;List Domains;Verificar paginação;Verificar paginação;Verificar paginação;Reuse;;;4/14/2021
+RiskControl;List Domains;;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Accepted;Medium;;4/14/2021
+RiskControl;List Domains;;Realizar <ação> com usuário inativo;Realizar <ação> com usuário inativo;Rejected;;Business compliance;4/14/2021
+RiskControl;List Domains;;Validar logout da aplicação;Validar logout da aplicação;Rejected;;Not possible;4/14/2021
+RiskControl;List Domains;Visualizar dados do domínio;Visualizar dados da <entidade>;Visualizar dados da <entidade>;Reuse;;;4/14/2021
+RiskControl;List Domains;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;4/14/2021
+RiskControl;List Domains;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Rejected;;Business compliance;4/14/2021
+RiskControl;List Domains;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Accepted;;;4/14/2021
+Smart Classroom;System teacher login;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Accepted;Medium;;4/14/2021
+Smart Classroom;System teacher login;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Rejected;;Not possible;4/14/2021
+Smart Classroom;System teacher login;;O campo senha deve seguir regra <regra>;O campo senha deve seguir regra <regra>;Accepted;High;;4/14/2021
+Smart Classroom;System teacher login;Autenticar-se com sucesso;Fazer login com usuário e senha válidos;Fazer login com usuário e senha válidos;Reuse;;;4/14/2021
+Smart Classroom;System teacher login;;Fazer login com usuário inexistente;Fazer login com usuário inexistente;Accepted;High;;4/14/2021
+Smart Classroom;System teacher login;Autenticar-se sem sucesso;Fazer login com senha inválida;Fazer login com senha inválida;Reuse;;;4/14/2021
+Smart Classroom;System teacher login;;Fazer login com campo obrigatório não preenchido;Fazer login com campo obrigatório não preenchido;Accepted;High;;4/14/2021
+Smart Classroom;System teacher login;;Validar logout da aplicação;Validar logout da aplicação;Accepted;High;;4/14/2021
+Smart Classroom;System teacher login;;Fechar browser e abrir aplicação novamente;Fechar browser e abrir aplicação novamente;Rejected;;Business compliance;4/14/2021
+Smart Classroom;System teacher login;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;High;;4/14/2021
+Smart Classroom;System teacher login;Validar Termos de Uso e Política de Privacidade;;Validar Termos de Uso e Política de Privacidade;Developed;;;4/14/2021
+Smart Classroom;Create User;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create User;Criar usuário com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;4/20/2021
+Smart Classroom;Create User;Cancelar criação de usuário;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Reuse;;;4/20/2021
+Smart Classroom;Create User;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Accepted;High;;4/20/2021
+Smart Classroom;Create User;Validar Regras do Formulário de Criação de Usuário;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Reuse;;;4/20/2021
+Smart Classroom;Create User;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create User;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;4/20/2021
+Smart Classroom;Create User;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create User;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;Medium;;4/20/2021
+Smart Classroom;Create User;Validar Regras do Formulário de Criação de Usuário;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Reuse;;;4/20/2021
+Smart Classroom;Create User;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create User;;Cadastrar usuários com diferentes papéis;Cadastrar usuários com diferentes papéis;Accepted;Medium;;4/20/2021
+Smart Classroom;List Users;;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Accepted;High;;4/20/2021
+Smart Classroom;List Users;Validar componentes da listagem de usuário;Verificar presença de campos retornados;Validar componentes da listagem de usuário;Reuse;;;4/20/2021
+Smart Classroom;List Users;;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Accepted;Medium;;4/20/2021
+Smart Classroom;List Users;Validar paginação do usuário;Verificar paginação;Validar paginação do usuário;Reuse;;;4/20/2021
+Smart Classroom;List Users;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;4/20/2021
+Smart Classroom;List Users;Pesquisar usuário;Validar resultado da consulta (filtro) de <entidade>;Pesquisar usuário;Reuse;;;4/20/2021
+Smart Classroom;List Users;Visualizar Usuário;Visualizar dados da <entidade>;Visualizar Usuário;Reuse;;;4/20/2021
+Smart Classroom;List Users;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;4/20/2021
+Smart Classroom;List Users;Validar Formulários de Usuário;;Validar Formulários de Usuário;Developed;;;4/20/2021
+Smart Classroom;List Users;Ordenar usuários;;Ordenar usuários;Developed;;;4/20/2021
+Smart Classroom;List Users;Desativar/Ativar Usuário;;Desativar/Ativar Usuário;Developed;;;4/20/2021
+Smart Classroom;Edit User;Cancelar edição do usuário;Cancelar edição da <entidade> com sucesso;Cancelar edição do usuário;Reuse;;;4/20/2021
+Smart Classroom;Edit User;Editar Usuário com Sucesso;Editar informações da <entidade> com sucesso;Editar Usuário com Sucesso;Reuse;;;4/20/2021
+Smart Classroom;Edit User;Validar Regras do Formulário de Edição de Usuário;Editar entidade deixando os campos obrigatórios do formulário em branco;Validar Regras do Formulário de Edição de Usuário;Reuse;;;4/20/2021
+Smart Classroom;Edit User;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;4/20/2021
+Smart Classroom;Edit User;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Accepted;Medium;;4/20/2021
+Smart Classroom;Edit User;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Medium;;4/20/2021
+Smart Classroom;Edit User;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;Low;;4/20/2021
+Smart Classroom;Edit User;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Edit User;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Accepted;High;;4/20/2021
+Smart Classroom;Edit User;Validar Regras do Formulário de Edição de Usuário (Campos Inválidos);;Validar Regras do Formulário de Edição de Usuário (Campos Inválidos);Developed;;;4/20/2021
+Smart Classroom;Create Profile;Criar perfil com sucesso;Cadastrar <entidade> com sucesso;Criar perfil com sucesso;Reuse;;;4/20/2021
+Smart Classroom;Create Profile;Cancelar Criação de Perfil;Cancelar cadastro de <entidade> com sucesso;Cancelar Criação de Perfil;Reuse;;;4/20/2021
+Smart Classroom;Create Profile;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create Profile;Validar Regras do Formulário de Criação de Perfil;Cadastrar <entidade> sem campos obrigatórios preenchidos;Validar Regras do Formulário de Criação de Perfil;Reuse;;;4/20/2021
+Smart Classroom;Create Profile;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create Profile;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;4/20/2021
+Smart Classroom;Create Profile;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Create Profile;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;Low;;4/20/2021
+Smart Classroom;Create Profile;Validar Regras do Formulário de Criação de Perfil;Cadastrar <entidade> com campos inválidos;Validar Regras do Formulário de Criação de Perfil;Reuse;;;4/20/2021
+Smart Classroom;Create Profile;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;4/20/2021
+Smart Classroom;Edit Profile;Cancelar Edição de Perfil;Cancelar edição da <entidade> com sucesso;Cancelar Edição de Perfil;Reuse;;;4/20/2021
+Smart Classroom;Edit Profile;Editar Perfil com sucesso;Editar informações da <entidade> com sucesso;Editar Perfil com sucesso;Reuse;;;4/20/2021
+Smart Classroom;Edit Profile;Validar Regras do Formulário de Edição de Perfil;Editar entidade deixando os campos obrigatórios do formulário em branco;Validar Regras do Formulário de Edição de Perfil;Reuse;;;4/20/2021
+Smart Classroom;Edit Profile;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;4/20/2021
+Smart Classroom;Edit Profile;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Accepted;Medium;;4/20/2021
+Smart Classroom;Edit Profile;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;4/20/2021
+Smart Classroom;Edit Profile;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;Low;;4/20/2021
+Smart Classroom;Edit Profile;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Rejected;;Not possible;4/20/2021
+Smart Classroom;Edit Profile;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;4/20/2021
+Smart Classroom;List Proflies;;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Accepted;High;;4/20/2021
+Smart Classroom;List Proflies;Validar Componentes da Listagem de Perfis;Verificar presença de campos retornados;Validar Componentes da Listagem de Perfis;Reuse;;;4/20/2021
+Smart Classroom;List Proflies;;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Accepted;Medium;;4/20/2021
+Smart Classroom;List Proflies;Validar Paginação de Perfis;Verificar paginação;Validar Paginação de Perfis;Reuse;;;4/20/2021
+Smart Classroom;List Proflies;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;4/20/2021
+Smart Classroom;List Proflies;Pesquisar Perfil;Validar resultado da consulta (filtro) de <entidade>;Pesquisar Perfil;Reuse;;;4/20/2021
+Smart Classroom;List Proflies;Visualizar Perfil;Visualizar dados da <entidade>;Visualizar Perfil;Reuse;;;4/20/2021
+Smart Classroom;List Proflies;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;4/20/2021
+Smart Classroom;List Proflies;Ordenar Perfis;;Ordenar Perfis;Developed;;;4/20/2021
+Smart Classroom;List Proflies;Desativar/Ativar Perfil;;Desativar/Ativar Perfil;Developed;;;4/20/2021
+RiskControl;Register techonologies;Cadastrar Entidade com sucesso;Cadastrar Entidade com sucesso;Cadastrar Entidade com sucesso;Reuse;;;4/20/2021
+RiskControl;Register techonologies;Cancelar cadastro de Entidade com sucesso;Cancelar cadastro de Entidade com sucesso;Cancelar cadastro de Entidade com sucesso;Reuse;;;4/20/2021
+RiskControl;Register techonologies;;Cadastrar Entidade com ID existente;Cadastrar Entidade com ID existente;Rejected;;Business compliance;4/20/2021
+RiskControl;Register techonologies;Cadastrar Entidade sem campos obrigatórios preenchidos;Cadastrar Entidade sem campos obrigatórios preenchidos;Cadastrar Entidade sem campos obrigatórios preenchidos;Reuse;;;4/20/2021
+RiskControl;Register techonologies;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;4/20/2021
+RiskControl;Register techonologies;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;4/20/2021
+RiskControl;Register techonologies;;Cadastrar Entidade com o ID de um previamente excluído;Cadastrar Entidade com o ID de um previamente excluído;Rejected;;Business compliance;4/20/2021
+RiskControl;Register techonologies;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;Medium;;4/20/2021
+RiskControl;Register techonologies;Cadastrar Entidade com campos inválidos;Cadastrar Entidade com campos inválidos;Cadastrar Entidade com campos inválidos;Reuse;;;4/20/2021
+RiskControl;Register techonologies;;Executar ação sem ter feito login;Executar ação sem ter feito login;Accepted;Low;;4/20/2021
+RiskControl;Edit Tecnology;Editar informações da entidade com sucesso;Editar informações da entidade com sucesso;Editar informações da entidade com sucesso;Reuse;;;5/10/2021
+RiskControl;Edit Tecnology;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;5/10/2021
+RiskControl;Edit Tecnology;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Reuse;;;5/10/2021
+RiskControl;Edit Tecnology;Cancelar edição da entidade com sucesso;Cancelar edição da entidade com sucesso;Cancelar edição da entidade com sucesso;Reuse;;;5/10/2021
+RiskControl;Edit Tecnology;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;5/10/2021
+RiskControl;Edit Tecnology;;Verificar se todos os dados da entidade estão sendo exibidos;Verificar se todos os dados da entidade estão sendo exibidos;Accepted;Low;;5/10/2021
+RiskControl;Edit Tecnology;;Verificar inserção de link de entidade inexistente;Verificar inserção de link de entidade inexistente;Accepted;Medium;;5/10/2021
+RiskControl;Edit Tecnology;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Medium;;5/10/2021
+RiskControl;Edit Tecnology;;Realizar ação com campo inválido;Realizar ação com campo inválido;Accepted;Low;;5/10/2021
+RiskControl;Edit Tecnology;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Rejected;;Business compliance;5/10/2021
+RiskControl;Edit Tecnology;;Cadastro de Sprint com fora do período do projeto;Cadastro de Sprint com fora do período do projeto;Rejected;;Not possible;5/10/2021
+RiskControl;Edit Tecnology;;Cadastro de Sprint com período conflitante com outra sprint;Cadastro de Sprint com período conflitante com outra sprint;Rejected;;Not possible;5/10/2021
+RiskControl;List Technologies;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Rejected;;Business compliance;5/10/2021
+RiskControl;List Technologies;Listar todas as Entidades com sucesso;Listar todas as Entidades com sucesso;Listar todas as Entidades com sucesso;Reuse;;;5/10/2021
+RiskControl;List Technologies;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;5/10/2021
+RiskControl;List Technologies;Validar resultado da consulta de Entidade sem dados;Validar resultado da consulta de Entidade sem dados;Validar resultado da consulta de Entidade sem dados;Reuse;;;5/10/2021
+RiskControl;List Technologies;Verificar paginação;Verificar paginação;Verificar paginação;Reuse;;;5/10/2021
+RiskControl;List Technologies;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/10/2021
+RiskControl;List Technologies;;Validar resultado da consulta (filtro) de Entidade;Validar resultado da consulta (filtro) de Entidade;Accepted;Medium;;5/10/2021
+RiskControl;List Technologies;;Realizar ação com usuário inativo;Realizar ação com usuário inativo;Rejected;;Business compliance;5/10/2021
+RiskControl;List Technologies;;Verificar comportamento do campo;Verificar comportamento do campo;Accepted;Medium;;5/10/2021
+RiskControl;List Technologies;;Validar logout da aplicação;Validar logout da aplicação;Rejected;;Not possible;5/10/2021
+RiskControl;List Technologies;;Visualizar dados da Entidade;Visualizar dados da Entidade;Accepted;Low;;5/10/2021
+RiskControl;List Technologies;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;5/10/2021
+RiskControl;Delete Technology;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Reuse;;;5/10/2021
+RiskControl;Delete Technology;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Rejected;;Business compliance;5/10/2021
+RiskControl;Delete Technology;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Reuse;;;5/10/2021
+RiskControl;Delete Technology;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/10/2021
+RiskControl;Delete Technology;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;5/10/2021
+RiskControl;Delete Technology;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;5/10/2021
+RiskControl;Create Strategy;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;5/10/2021
+RiskControl;Create Strategy;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Reuse;;;5/10/2021
+RiskControl;Create Strategy;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;Business compliance;5/10/2021
+RiskControl;Create Strategy;Cancelar cadastro de <entidade> com sucesso;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Reuse;;;5/10/2021
+RiskControl;Create Strategy;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/10/2021
+RiskControl;Create Strategy;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;5/10/2021
+RiskControl;Create Strategy;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Reuse;;;5/10/2021
+RiskControl;Create Strategy;;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Accepted;Medium;;5/10/2021
+RiskControl;Create Strategy;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Accepted;High;;5/10/2021
+RiskControl;Create Strategy;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;5/10/2021
+RiskControl;Edit Strategy;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Reuse;;;5/10/2021
+RiskControl;Edit Strategy;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Reuse;;;5/10/2021
+RiskControl;Edit Strategy;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Reuse;;;5/10/2021
+RiskControl;Edit Strategy;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;5/10/2021
+RiskControl;Edit Strategy;;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Rejected;;Business compliance;5/10/2021
+RiskControl;Edit Strategy;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Rejected;;Business compliance;5/10/2021
+RiskControl;Edit Strategy;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;Low;;5/10/2021
+RiskControl;Edit Strategy;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Rejected;;Business compliance;5/10/2021
+RiskControl;Edit Strategy;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;5/10/2021
+RiskControl;List Strageties;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;5/10/2021
+RiskControl;List Strageties;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/10/2021
+RiskControl;List Strageties;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Reuse;;;5/10/2021
+RiskControl;List Strageties;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Reuse;;;5/10/2021
+RiskControl;List Strageties;Verificar paginação;Verificar paginação;Verificar paginação;Reuse;;;5/10/2021
+RiskControl;List Strageties;;Realizar <ação> com usuário inativo;Realizar <ação> com usuário inativo;Rejected;;Business compliance;5/10/2021
+RiskControl;List Strageties;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Rejected;;Business compliance;5/10/2021
+RiskControl;List Strageties;;Validar logout da aplicação;Validar logout da aplicação;Rejected;;Business compliance;5/10/2021
+RiskControl;List Strageties;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Rejected;;Business compliance;5/10/2021
+RiskControl;List Strageties;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Reuse;;;5/10/2021
+RiskControl;Delete Strategy;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Reuse;;;5/10/2021
+RiskControl;Delete Strategy;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Reuse;;;5/10/2021
+RiskControl;Delete Strategy;;Verificar presença de campos retornados;Verificar presença de campos retornados;Accepted;Low;;5/10/2021
+RiskControl;Delete Strategy;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/10/2021
+RiskControl;Delete Strategy;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Rejected;;Business compliance;5/10/2021
+TestRec;Create NFR;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Cadastrar <entidade> com sucesso;Reuse;;;5/7/2021
+TestRec;Create NFR;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Cancelar cadastro de <entidade> com sucesso;Reuse;;;5/7/2021
+TestRec;Create NFR;;Cadastrar <entidade> com ID existente;Cadastrar <entidade> com ID existente;Rejected;;Business compliance;5/7/2021
+TestRec;Create NFR;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Cadastrar <entidade> sem campos obrigatórios preenchidos;Reuse;;;5/7/2021
+TestRec;Create NFR;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/7/2021
+TestRec;Create NFR;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Reuse;;;5/7/2021
+TestRec;Create NFR;;Cadastrar <entidade> com o ID de um previamente excluído;Cadastrar <entidade> com o ID de um previamente excluído;Rejected;;Business compliance;5/7/2021
+TestRec;Create NFR;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Validar ação sem conexão com servidor;Reuse;;;5/7/2021
+TestRec;Create NFR;;Cadastrar <entidade> com campos inválidos;Cadastrar <entidade> com campos inválidos;Rejected;;Business compliance;5/7/2021
+TestRec;Create NFR;;Executar ação sem ter feito login;Executar ação sem ter feito login;Rejected;;Business compliance;5/7/2021
+TestRec;List NFRs;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;5/7/2021
+TestRec;List NFRs;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/7/2021
+TestRec;List NFRs;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Listar todas as <entidades> com sucesso;Reuse;;;5/7/2021
+TestRec;List NFRs;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Validar resultado da consulta de <entidade> sem dados;Reuse;;;5/7/2021
+TestRec;List NFRs;Verificar paginação;Verificar paginação;Verificar paginação;Reuse;;;5/7/2021
+TestRec;List NFRs;;Realizar <ação> com usuário inativo;Realizar <ação> com usuário inativo;Rejected;;Business compliance;5/7/2021
+TestRec;List NFRs;;Verificar comportamento <comportamento> do campo <campo>;Verificar comportamento <comportamento> do campo <campo>;Rejected;;Business compliance;5/7/2021
+TestRec;List NFRs;;Validar logout da aplicação;Validar logout da aplicação;Rejected;;Business compliance;5/7/2021
+TestRec;List NFRs;;Acessar tela sem estar autenticado na aplicação;Acessar tela sem estar autenticado na aplicação;Accepted;Low;;5/7/2021
+TestRec;List NFRs;;Validar resultado da consulta (filtro) de <entidade>;Validar resultado da consulta (filtro) de <entidade>;Rejected;;Business compliance;5/7/2021
+TestRec;Edit NFR;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Cancelar edição da <entidade> com sucesso;Reuse;;;5/21/2021
+TestRec;Edit NFR;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Editar informações da <entidade> com sucesso;Reuse;;;5/21/2021
+TestRec;Edit NFR;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Editar entidade deixando os campos obrigatórios do formulário em branco;Reuse;;;5/21/2021
+TestRec;Edit NFR;Verificar presença de campos retornados;Verificar presença de campos retornados;Verificar presença de campos retornados;Reuse;;;5/21/2021
+TestRec;Edit NFR;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Verificar inserção de link de <entidade> inexistente;Reuse;;;5/21/2021
+TestRec;Edit NFR;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Reuse;;;5/21/2021
+TestRec;Edit NFR;;Verificar se todos os dados da <entidade> estão sendo exibidos;Verificar se todos os dados da <entidade> estão sendo exibidos;Accepted;Low;;5/21/2021
+TestRec;Edit NFR;;Salvar com data inical maior que data final;Salvar com data inical maior que data final;Rejected;;Business compliance;5/21/2021
+TestRec;Edit NFR;;Editar entidade alterando o ID para um existente;Editar entidade alterando o ID para um existente;Rejected;;Business compliance;5/21/2021
+TestRec;Delete NFR;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Excluir <entidade> com sucesso;Reuse;;;5/21/2021
+TestRec;Delete NFR;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Cancelar exclusão da entidade;Reuse;;;5/21/2021
+TestRec;Delete NFR;;Verificar presença de campos retornados;Verificar presença de campos retornados;Rejected;;Business compliance;5/21/2021
+TestRec;Delete NFR;;Verificar acesso por papéis;Verificar acesso por papéis;Rejected;;Business compliance;5/21/2021
+TestRec;Delete NFR;;Fechar a tela antes de excutar ação;Fechar a tela antes de excutar ação;Accepted;Low;;5/21/2021

@@ -55,7 +55,7 @@ def get_recommendations(new_us, base_uss, k, distance_metric='euclidean'):
         return pd.DataFrame()
 
     # Transforma as estórias na codificação one hot.
-    df = transform_one_hot_encoding(new_us, base_uss_filtrada)
+    df = transform_one_hot_encoding(newUS=new_us, baseUSs=base_uss_filtrada)
 
     # Nesse ponto verifico que a base filtrada é menor que o K, pois não é possível calcular a distância com K maior
     # que quantidade de itens.
@@ -72,6 +72,7 @@ def get_recommendations(new_us, base_uss, k, distance_metric='euclidean'):
     candidate_uss.loc[:, 'similaridade'] = 1 / (1 + distances[0])
 
     test_data = data_handler.load_test_data(candidate_uss.index.values)
+
     test_data = test_data.merge(candidate_uss, left_on='ID_US', right_on='ID_US')
 
     results = test_data.groupby("ID_STD_TC").sum()["similaridade"] / k

@@ -114,24 +114,24 @@ Cadastro,Recuperação de Dados,Criar ordenação para listagem,520,NewPCS,#1489
 ,,,521,NewPCS,#14890,Reagrupar os itens do menu principal,,,Code Review,Tecnica,Nao,Virtus
 ,,,522,NewPCS,#17062,Geração de Builds,,,Geração da Build v0.15.1,Tecnica,Nao,Virtus
 ,,,523,NewPCS,#17519,Ajustes no relatório PPB Score,,#46556,Ajustes de nomenclatura e correções na develop,Tecnica,Nao,Virtus
-Cadastro,Modificar cadastro de dados,Modificar rota de inserção de dados,524,NewPCS,#17519,Ajustes no relatório PPB Score,,#46558,"Adicionar ""Target Score"" na aba ""Customer Balance""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,524,NewPCS,#17519,Ajustes no relatório PPB Score,,#46558,"Adicionar ""Target Score"" na aba ""Customer Balance""",Negocio,Sim,Virtus
 ,,,525,NewPCS,#17519,Ajustes no relatório PPB Score,,#46575,"Alterar a coluna ""Balance"" da aba ""PPB Rules"" para informar o ""Previous Balance""",Negocio,Nao,Virtus
 ,,,526,NewPCS,#17523,Ajustes em R&D investment,,,"Alterar nome do campo/coluna ""Quantity"" para ""R&D Additional Points""",Negocio,Nao,Virtus
-Cadastro,Modificar cadastro de dados,Modificar validação de dados no cliente,527,NewPCS,#17523,Ajustes em R&D investment,,,"Ajustar precisão do campo ""R&D Additional Points"" para 5 casas decimais",Negocio,Sim,Virtus
-Cadastro,Modificar cadastro de dados,Modificar validação de dados no cliente,528,NewPCS,#17523,Ajustes em R&D investment,,,Padronizar formatação numérica para utilizar vírgula como separador decimal,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,527,NewPCS,#17523,Ajustes em R&D investment,,,"Ajustar precisão do campo ""R&D Additional Points"" para 5 casas decimais",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar validação de dados no cliente,528,NewPCS,#17523,Ajustes em R&D investment,,,Padronizar formatação numérica para utilizar vírgula como separador decimal,Negocio,Sim,Virtus
 ,,,529,NewPCS,#17510,Ajustes de nomenclatura,,,Nomenclatura de PPB Rules,Tecnica,Nao,Virtus
-Cadastro,Importar dados,Processar em Lote,530,NewPCS,#17500,Manutenção do Core (New),,,Importação de notas de venda deve processar as notas logo que são importadas,Negocio,Sim,Virtus
+Gerencial,Importar_dados,Processar em Lote,530,NewPCS,#17500,Manutenção do Core (New),,,Importação de notas de venda deve processar as notas logo que são importadas,Negocio,Sim,Virtus
 ,,,531,NewPCS,#17500,Manutenção do Core (New),,,"Tratar notas de venda retornadas para determinar as ""notas originais""",Negocio,Nao,Virtus
 ,,,532,NewPCS,#17500,Manutenção do Core (New),,,Code Review,Tecnica,Nao,Virtus
-Cadastro,Modificar cadastro de dados,Modificar rota de inserção de dados,533,NewPCS,#17500,Manutenção do Core (New),,,"Ajustar a consolidação de balanço para tratar adição/remoção de part types na lista de ""Productive Steps"" cadastrados",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar rota de inserção de dados,533,NewPCS,#17500,Manutenção do Core (New),,,"Ajustar a consolidação de balanço para tratar adição/remoção de part types na lista de ""Productive Steps"" cadastrados",Negocio,Sim,Virtus
 ,,,534,NewPCS,#17520,Manutenção do Core Engine,,,Criar serviço para alterar Status das Notas baseado no Status e vigência das portarias vinculadas ao Part alterado,Negocio,Nao,Virtus
 ,,,535,NewPCS,#17520,Manutenção do Core Engine,,,"Atualização dos job de balanço para considerar atualização de ""score"" de etapas produtivas",Negocio,Nao,Virtus
 ,,,536,NewPCS,#17520,Manutenção do Core Engine,,,Code Review,Tecnica,Nao,Virtus
 ,,,537,NewPCS,#17520,Manutenção do Core Engine,,,Ajustes nos serviços de consolidação mensal de party type e finisehd good,Negocio,Nao,Virtus
 ,,,538,NewPCS,#17520,Manutenção do Core Engine,,,Ajuste no serviço de consolidação do balance,Negocio,Nao,Virtus
 ,,,539,NewPCS,#17520,Manutenção do Core Engine,,,Ajuste no serviço de Part para considerar alteração do vínculo de Part com Part Type,Negocio,Nao,Virtus
-Cadastro,Modificar cadastro de dados,Modificar entidade no banco de dados,540,NewPCS,#17520,Manutenção do Core Engine,,,Ajuste na tabela de Part para incluir coluna de status,Negocio,Sim,Virtus
-Cadastro,Modificar cadastro de dados,Modificar entidade no banco de dados,541,NewPCS,#17520,Manutenção do Core Engine,,,"Remover as consolidações das tabelas ""PART_TYPE_DAILY_CONSOLID"" e ""PART_TYPE_MONTHLY_CONSOLID""",Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,540,NewPCS,#17520,Manutenção do Core Engine,,,Ajuste na tabela de Part para incluir coluna de status,Negocio,Sim,Virtus
+Cadastro,Modificar_inserção_de_dados,Modificar entidade no banco de dados,541,NewPCS,#17520,Manutenção do Core Engine,,,"Remover as consolidações das tabelas ""PART_TYPE_DAILY_CONSOLID"" e ""PART_TYPE_MONTHLY_CONSOLID""",Negocio,Sim,Virtus
 ,,,542,NewPCS,#17520,Manutenção do Core Engine,,,Ajustes de nomenclatura dos métodos,Negocio,Nao,Virtus
 ,,,543,NewPCS,#17520,Manutenção do Core Engine,,,Ajustes no cálculo do score de PPB rules,Negocio,Nao,Virtus
 ,,,544,NewPCS,#16985,Manutenção no Suporte ao Dapper,,,Validar listas vazias ao utilizar consultas com 'Contains',Negocio,Nao,Virtus
@@ -207,28 +207,28 @@ Cadastro,Modificar cadastro de dados,Modificar entidade no banco de dados,541,Ne
 ,,,614,NewPCS,#16236,Bug fixing,,,Bug fixing,Tecnica,Nao,Virtus
 ,,,615,NewPCS,#16236,Bug fixing,,,Bug fixing,Tecnica,Nao,Virtus
 ,,,616,SPGec,#17481,Estabilização,,,[Web] Adicionar loading nas requisições,Negocio,Nao,Virtus
-Cadastro,Inserir dados,Validar dados inserção no servidor,617,SPGec,#17481,Estabilização,,,[Web] Não permitir cadastro do tempo de mistura igual a zero ou nulo ,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Validar dados inserção no servidor,617,SPGec,#17481,Estabilização,,,[Web] Não permitir cadastro do tempo de mistura igual a zero ou nulo ,Negocio,Sim,Virtus
 Gerencial,Auditoria,Registrar Log,618,SPGec,#17481,Estabilização,,,[Web] Informar o que foi alterado no log de ações do usuário,Negocio,Sim,Virtus
 Gerencial,Auditoria,Visualizar Log,619,SPGec,#17481,Estabilização,,,[Web] Visualizar cliente na tela de log de insumos e na planilha,Negocio,Sim,Virtus
 ,,,620,SPGec,#17481,Estabilização,,,[Web] Corrigir o status errado após o checkout na máquina de descanso (Log de cola),Tecnica,Nao,Virtus
-Gerencial,Notificar via E-mail,Criar serviço de envio de e-mail,621,SPGec,#17481,Estabilização,,,Envio de e-mail de notificação,Negocio,Sim,Virtus
-Gerencial,Exportar relatório em XLS,Criar serviço para exportação de relatórios,622,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Exportar para excel (Aba Pasta de solda e cola),Negocio,Sim,Virtus
-Gerencial,Exportar relatório em XLS,Criar serviço para exportação de relatórios,623,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Exportar para excel (log de insumos e Aba pasta de solda e cola),Negocio,Sim,Virtus
+Gerencial,Notificar_via_email,Criar serviço de envio de e-mail,621,SPGec,#17481,Estabilização,,,Envio de e-mail de notificação,Negocio,Sim,Virtus
+Gerencial,Exportar_relatório_em_XLS,Criar serviço para exportação de relatórios,622,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Exportar para excel (Aba Pasta de solda e cola),Negocio,Sim,Virtus
+Gerencial,Exportar_relatório_em_XLS,Criar serviço para exportação de relatórios,623,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Exportar para excel (log de insumos e Aba pasta de solda e cola),Negocio,Sim,Virtus
 ,,,624,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Smoke Test,Negocio,Nao,Virtus
 ,,,625,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Exportar com filtros Aba de Pasta de Solda ou Cola,Negocio,Nao,Virtus
 ,,,626,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Ajustes para User Guide,Tecnica,Nao,Virtus
 ,,,627,SPGec,#17459,Exportar para excel (log de insumos e Aba pasta de solda e cola),,,Bug fixing,Tecnica,Nao,Virtus
-Autenticação,Fazer login com usuário e senha,Criar campos Login e Senha,628,SPGec,#17478,Autenticação e permissão ,,,Fazer login,Negocio,Sim,Virtus
-Autenticação,Fazer login com usuário e senha,Fazer o roteamento da URL,629,SPGec,#17478,Autenticação e permissão ,,,Roteamento  fluxo de autorização,Negocio,Sim,Virtus
+Autenticação,Fazer_login_com_usuário_e_senha,Criar campos Login e Senha,628,SPGec,#17478,Autenticação e permissão ,,,Fazer login,Negocio,Sim,Virtus
+Autenticação,Fazer_login_com_usuário_e_senha,Fazer o roteamento da URL,629,SPGec,#17478,Autenticação e permissão ,,,Roteamento  fluxo de autorização,Negocio,Sim,Virtus
 ,,,630,SPGec,#17478,Autenticação e permissão ,,,Smoke Test,Tecnica,Nao,Virtus
 ,,,631,SPGec,#17478,Autenticação e permissão ,,,Refatoramento do fluxo de autorização de descarte,Tecnica,Nao,Virtus
 ,,,632,SPGec,#17478,Autenticação e permissão ,,,Smoke test,Tecnica,Nao,Virtus
-Cadastro,Recuperação de Dados,Criar tela listagem,633,SPGec,#17478,Cadastro e ajustes gerais,,,Listar itens adicionados,Negocio,Sim,Virtus
+Cadastro,Recuperação_de_dados,Criar tela listagem,633,SPGec,#17478,Cadastro e ajustes gerais,,,Listar itens adicionados,Negocio,Sim,Virtus
 ,,,634,SPGec,#17478,Cadastro e ajustes gerais,,,Recalcular vencimento de insumo,Negocio,Nao,Virtus
-Cadastro,Inserir dados,Criar método de inserção,635,SPGec,#17478,Cadastro e ajustes gerais,,,Criar serviço para inserir dados gerados,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Criar método de inserção,635,SPGec,#17478,Cadastro e ajustes gerais,,,Criar serviço para inserir dados gerados,Negocio,Sim,Virtus
 ,,,636,SPGec,#17478,Cadastro e ajustes gerais,,,Code review,Tecnica,Nao,Virtus
-Cadastro,Inserir dados,Validar dados inserção no servidor,637,SPGec,#17478,Cadastro e ajustes gerais,,,Validar campo data para formato correto,Negocio,Sim,Virtus
-Cadastro,Inserir dados,Criar entidade no banco de dados,638,SPGec,#17478,Cadastro e ajustes gerais,,,Criar tabela no banco de dados,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Validar dados inserção no servidor,637,SPGec,#17478,Cadastro e ajustes gerais,,,Validar campo data para formato correto,Negocio,Sim,Virtus
+Cadastro,Inserir_dados,Criar entidade no banco de dados,638,SPGec,#17478,Cadastro e ajustes gerais,,,Criar tabela no banco de dados,Negocio,Sim,Virtus
 ,,,639,SPGec,#17478,Cadastro e ajustes gerais,,,Enviar dados para check-in,Negocio,Nao,Virtus
 ,,,640,SPGec,#17478,Cadastro e ajustes gerais,,,Enviar dados para check-out,Negocio,Nao,Virtus
 ,,,641,SPGec,#17478,Cadastro e ajustes gerais,,,Smoke Test,Tecnica,Nao,Virtus
@@ -518,8 +518,7 @@ Cadastro,Inserir_dados,,,MyPocket,MPT-US03,Cadastrar transações,Web,,,,,
 Cadastro,Atualizar_dados,,,MyPocket,MPT-US04,Alterar transação,Web,,,,,
 Cadastro,Recuperação_de_dados,,,MyPocket,MPT-US05,Listar transações por mês/ano,Web,,,,,
 Cadastro,Remover_dados,,,MyPocket,MPT-US06,Excluir transações,Web,,,,,
-Cadastro,Recuperação_de_dados,,,MyPocket,MPT-US07,"Listar categorias
-",Web,,,,,
+Cadastro,Recuperação_de_dados,,,MyPocket,MPT-US07,"Listar categorias",Web,,,,,
 Cadastro,Inserir_dados,,,MyPocket,MPT-US08,Cadastrar categorias,Web,,,,,
 Cadastro,Atualizar_dados,,,MyPocket,MPT-US09,Alterar categorias,Web,,,,,
 Autenticação,Recuperar_senha,,,MyPocket,MPT-US10,Recuperar senha,Web,,,,,
@@ -535,8 +534,7 @@ Cadastro,Atualizar_dados,,,MyPocket,MPT-US19,Atualizar orçamento anual,Web,,,,,
 Cadastro,Inserir_dados,,,MyPocket,MPT-US20,Cadastrar meta mensal,Web,,,,,
 Cadastro,Recuperação_de_dados,,,MyPocket,MPT-US21,Listar meta mensal,Web,,,,,
 Cadastro,Atualizar_dados,,,MyPocket,MPT-US22,Alterar meta mensal,Web,,,,,
-Cadastro,Inserir_dados,,,MyPocket,MPT-US23,"Cadastrar investimento
-",Web,,,,,
+Cadastro,Inserir_dados,,,MyPocket,MPT-US23,"Cadastrar investimento",Web,,,,,
 Cadastro,Recuperação_de_dados,,,MyPocket,MPT-US24,Listar investimento,Web,,,,,
 Cadastro,Atualizar_dados,,,MyPocket,MPT-US25,Alterar investimento,Web,,,,,
 Cadastro,Remover_dados,,,MyPocket,MPT-US26,Excluir investimento,Web,,,,,
@@ -550,3 +548,34 @@ Cadastro,Recuperação_de_dados,,,TestRec,TR-27789-L,US Registration,Web,,,,,
 Cadastro,Inserir_dados,,,TestRec,TR-27789-C,US Registration,Web,,,,,
 Cadastro,Atualizar_dados,,,TestRec,TR-27789-E,US Registration,Web,,,,,
 Cadastro,Remover_dados,,,TestRec,TR-27789-X,US Registration,Web,,,,,
+Cadastro,Inserir_dados,,,TestRec,TR-27788-C,Sprints Registration,Web,,,,,
+Cadastro,Atualizar_dados,,,TestRec,TR-27788-E,Sprints Registration,Web,,,,,
+Cadastro,Recuperação_de_dados,,,TestRec,TR-27788-L,Sprints Registration,Web,,,,,
+Cadastro,Recuperação_de_dados,,,TestRec,TR-28652,Backlog Planning,Web,,,,,
+Cadastro,Inserir_dados,,,TestRec,TR-27786-C,Test Case Registration,Web,,,,,
+Cadastro,Atualizar_dados,,,TestRec,TR-27786-E,Test Case Registration,Web,,,,,
+Cadastro,Recuperação_de_dados,,,TestRec,TR-27786-L,Test Case Registration,Web,,,,,
+Cadastro,Atualizar_dados,,,TestRec,TR-29212,Associate USs and Acceptance Criteria,Web,,,,,
+Cadastro,Recuperação_de_dados,,,TestRec,TR-27790,Dashboard view,Web,,,,,
+Cadastro,Inserir_dados,,,TestRec,TR-28363,Copy selected recommendations,Web,,,,,
+Autenticação,Fazer_login_com_usuário_e_senha,,,RiskControl,RC-29386,Login,Web,,,,,
+Cadastro,Atualizar_dados,,,RiskControl,RC-29391-E,Edit project,Web,,,,,
+Cadastro,Recuperação_de_dados,,,RiskControl,RC-29391-L,List projects,Web,,,,,
+Cadastro,Inserir_dados,,,RiskControl,RC-29390,Create project,Web,,,,,
+Cadastro,Inserir_dados,,,RiskControl,RC-30352-C,Register Domains,Web,,,,,
+Cadastro,Atualizar_dados,,,RiskControl,RC-30352-E,Register Domains,Web,,,,,
+Cadastro,Recuperação_de_dados,,,RiskControl,RC-30352-L,Register Domains,Web,,,,,
+Cadastro,Inserir_dados,,,SmartClassroom,SC-29966,Create User,Web,,,,,
+Autenticação,Fazer_login_com_usuário_e_senha,,,SmartClassroom,SC-29048,Login on system,Mobile,,,,,
+Cadastro,Recuperação_de_dados,,,SmartClassroom,SC-29966-L,List Users,Web,,,,,
+Cadastro,Atualizar_dados,,,SmartClassroom,SC-29966-E,Edit Users,Web,,,,,
+Cadastro,Inserir_dados,,,SmartClassroom,SC-29348,Create profile,Web,,,,,
+Cadastro,Atualizar_dados,,,SmartClassroom,SC-29348-E,Edit profile,Web,,,,,
+Cadastro,Recuperação_de_dados,,,SmartClassroom,SC-29348-L,List profiles,Web,,,,,
+Cadastro,Inserir_dados,,,RiskControl,RC-30354,Register Technologies,Web,,,,,
+Cadastro,Atualizar_dados,,,RiskControl,RC-30354-E,Edit Technologies,Web,,,,,
+Cadastro,Recuperação_de_dados,,,RiskControl,RC-30354-L,List Technologies,Web,,,,,
+Cadastro,Remover_dados,,,RiskControl,RC-30354-X,Delete Technology,Web,,,,,
+Cadastro,Inserir_dados,,,RiskControl,RC-31119,Create Strategies,Web,,,,,
+Cadastro,Atualizar_dados,,,RiskControl,RC-31119-E,Edit Strategies,Web,,,,,
+Cadastro,Recuperação_de_dados,,,RiskControl,RC-31119-L,List Strategies,Web,,,,,

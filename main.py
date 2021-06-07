@@ -224,7 +224,7 @@ def plot_graphs():
             marker='o')
     ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
                 'Recall'].to_frame(), label='Cosine Heuristica', marker='d')
-    ax.legend(loc='up right', frameon=False)
+    ax.legend(loc='upper right', frameon=False)
     ax.set_ylabel('Value', fontsize=12)
     ax.set_xlabel('K', fontsize=12)
     ax.yaxis.grid()
@@ -232,7 +232,7 @@ def plot_graphs():
     plt.xticks(np.arange(1, 11, step=1))
     plt.title('Recalls by algorithm')
     plt.tight_layout()
-    plt.savefig('recalls.pdf')
+    plt.savefig('recalls.png')
     plt.show()
 
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -250,7 +250,7 @@ def plot_graphs():
             marker='o')
     ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'sim')].groupby('K').mean()[
                 'Precision'].to_frame(), label='Cosine Heuristic', marker='d')
-    ax.legend(loc='up right', frameon=False)
+    ax.legend(loc='upper right', frameon=False)
     ax.set_ylabel('Value')
     ax.set_xlabel('K')
     ax.yaxis.grid()
@@ -258,7 +258,7 @@ def plot_graphs():
     plt.xticks(np.arange(1, 11, step=1))
     plt.title('Precisions by algorithm')
     plt.tight_layout()
-    plt.savefig('precisoes.pdf')
+    plt.savefig('precisoes.png')
     plt.show()
 
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -270,7 +270,7 @@ def plot_graphs():
     ax.plot(data[(data['Algoritmo'] == 'euclidean') & (data['Heuristica'] == 'sim')].groupby('K').mean()['FMeasure'].to_frame(), label='Euclidean Heuristic',
             marker='o')
     ax.plot(data[(data['Algoritmo'] == 'cosine') & (data['Heuristica'] == 'sim')].groupby('K').mean()['FMeasure'].to_frame(), label='Cosine Heuristic', marker='d')
-    ax.legend(loc='up right', frameon=False)
+    ax.legend(loc='upper right', frameon=False)
     ax.set_ylabel('Value')
     ax.set_xlabel('K')
     ax.yaxis.grid()
@@ -278,9 +278,38 @@ def plot_graphs():
     plt.xticks(np.arange(1, 11, step=1))
     plt.title('F-Measures by algorithm')
     plt.tight_layout()
-    plt.savefig('f-measures.pdf')
+    plt.savefig('f-measures.png')
+    plt.show()
+
+
+def plot_online_evolution():
+    data = pd.read_csv('./data/online_registration.csv', delimiter=';')
+    data['Date'] = pd.to_datetime(data['Date'], format='%m/%d/%Y')
+    df_data = data.groupby(['Date', 'Status'])['Merge'].count().reset_index()
+    table = pd.pivot_table(df_data, values='Merge', index='Date', columns='Status', fill_value=0)
+    table['Total_Developed'] = table['Developed'] + table['Reuse']
+    table['Total_Recomended'] = table['Accepted'] + table['Reuse'] + table['Rejected']
+    table['Total_Accepted'] = table['Accepted'] + table['Reuse']
+    table['Increase_Percent'] = (table['Accepted'] / table['Total_Developed']) * 100
+    table['Precision'] = (table['Total_Accepted'] / table['Total_Recomended']) * 100
+    table['Reuse_Percent'] = (table['Reuse'] / table['Total_Developed']) * 100
+    table['Reject_Percent'] = (table['Rejected'] / table['Total_Recomended']) * 100
+
+    table['Percentual de incremento'] = table['Increase_Percent']
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.yaxis.grid()
+    ax.plot(table.loc[:, ['Increase_Percent']], marker='o', label='Percentual de incremento')
+    ax.plot(table.loc[:, ['Precision']], marker='d', label='Precisão')
+    ax.plot(table.loc[:, ['Reuse_Percent']], marker='x', label='Percentual de reuso')
+    ax.plot(table.loc[:, ['Reject_Percent']], marker='p', label='Percentual de rejeição')
+    ax.legend(loc='lower left', frameon=False)
+
+    plt.title('Evolução das métricas no tempo')
+    plt.tight_layout()
+    plt.savefig('metrics_evolution.pdf')
     plt.show()
 
 
 if __name__ == '__main__':
-    plot_graphs()
+    plot_online_evolution()

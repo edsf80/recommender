@@ -1144,3 +1144,147 @@ TestRec,TR-27789-E,Fechar a tela antes de excutar ação,26
 TestRec,TR-27789-X,Excluir US com sucesso,12
 TestRec,TR-27789-X,Fechar a tela antes de excutar ação,26
 TestRec,TR-27789-X,Cancelar exclusão da entidade,27
+TestRec,TR-27788-C,Cancelar cadastro com sucesso,2
+TestRec,TR-27788-C,Cadastro de Sprint com sucesso,1
+TestRec,TR-27788-C,Cadastro de Sprint com campo obrigatório não preenchido,4
+TestRec,TR-27788-C,Cadastro de Sprint com fora do período do projeto,70
+TestRec,TR-27788-C,Cadastro de Sprint com período conflitante com outra sprint,71
+TestRec,TR-27788-C,Fechar a tela antes de excutar ação,26
+TestRec,TR-27788-C,Validar ação sem conexão com servidor,37
+TestRec,TR-27788-C,Executar ação sem ter feito login,55
+TestRec,TR-27788-C,Cadastro de sprint com data inicial maior que data final,62
+TestRec,TR-27788-E,Editar Sprint com sucesso,6
+TestRec,TR-27788-E,Editar Sprint sem campos obrigatórios preenchidos,8
+TestRec,TR-27788-E,Cancelar edição com sucesso,10
+TestRec,TR-27788-E,Verificar se todos os dados da <entidade> estão sendo exibidos,16
+TestRec,TR-27788-E,Verificar inserção de link de <entidade> inexistente,23
+TestRec,TR-27788-E,Fechar a tela antes de excutar ação,26
+TestRec,TR-27788-E,Editar sprint fora do período do projeto,70
+TestRec,TR-27788-E,Editar sprint com período conflitante com outra,71
+TestRec,TR-27788-E,Editar sprint com data inicial maior que data final,62
+TestRec,TR-27788-L,Listar Sprints cadastradas com sucesso,15
+TestRec,TR-27788-L,Listar Sprints sem dados cadastrados,17
+TestRec,TR-27788-L,Verificar presença de campos retornados,16
+TestRec,TR-27788-L,Verificar paginação,19
+TestRec,TR-27788-L,Realizar ação sem ter feito login,55
+TestRec,TR-28652,Associar US à sprint,72
+TestRec,TR-28652,Desassociar US à sprint,73
+TestRec,TR-27786-C,Cadastrar <entidade> sem campos obrigatórios preenchidos,4
+TestRec,TR-27786-C,Cancelar cadastro de <entidade> com sucesso,2
+TestRec,TR-27786-C,Fechar a tela antes de excutar ação,26
+TestRec,TR-27786-C,Validar ação sem conexão com servidor,37
+TestRec,TR-27786-C,Cadastrar <entidade> com sucesso,1
+TestRec,TR-27786-E,Editar informações da <entidade> com sucesso,6
+TestRec,TR-27786-E,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+TestRec,TR-27786-E,Cancelar edição da <entidade> com sucesso,10
+TestRec,TR-27786-E,Fechar a tela antes de excutar ação,26
+TestRec,TR-27786-E,Validar ação sem conexão com servidor,37
+TestRec,TR-27786-E,Verificar inserção de link de <entidade> inexistente,23
+TestRec,TR-27786-E,Verificar presença de campos retornados,16
+TestRec,TR-29212,Adicionar critério de aceitação previamente cadastrado,21
+TestRec,TR-29212,Cadastrar novo critério adicionar e salvar,6
+TestRec,TR-29212,Adicionar critério previamente cadastrado e cancelar,10
+TestRec,TR-29212,Adicionar critério previamente cadastrado e fechar tela,26
+TestRec,TR-29212,Cadastrar novo critério e cancelar,10
+TestRec,TR-29212,Cadastrar novo critério e fechar tela,26
+TestRec,TR-29212,Verificar presença de campos retornados,16
+TestRec,TR-27790,Listar todas as <entidades> com sucesso,15
+TestRec,TR-27790,Verificar presença de campos retornados,16
+TestRec,TR-27790,Validar resultado da consulta de <entidade> sem dados,17
+TestRec,TR-27790,Visualizar dados da <entidade>,16
+TestRec,TR-27790,Executar ação sem ter feito login,55
+TestRec,TR-27790,Acessar tela sem estar autenticado na aplicação,13
+TestRec,TR-27790,Listar dashboard sem sprint em andamento,63
+TestRec,TR-28363,Cadastrar <entidade> com sucesso,1
+TestRec,TR-28363,Cadastrar <entidade> com ID existente,3
+TestRec,TR-28363,Fechar a tela antes de excutar ação,26
+TestRec,TR-28363,Validar ação sem conexão com servidor,37
+TestRec,TR-28363,Executar ação sem ter feito login,55
+RiskControl,RC-29386,Acessar tela sem estar autenticado na aplicação,13
+RiskControl,RC-29386,O campo senha deve seguir regra <regra>,25
+RiskControl,RC-29386,Fazer login com usuário e senha válidos,40
+RiskControl,RC-29386,Fazer login com usuário inexistente,59
+RiskControl,RC-29386,Fazer login com senha inválida,60
+RiskControl,RC-29386,Fazer login com campo obrigatório não preenchido,61
+RiskControl,RC-29391-E,Cancelar edição da <entidade> com sucesso,10
+RiskControl,RC-29391-E,Editar informações da <entidade> com sucesso,6
+RiskControl,RC-29391-E,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+RiskControl,RC-29391-E,Verificar presença de campos retornados,16
+RiskControl,RC-29391-E,Verificar inserção de link de <entidade> inexistente,23
+RiskControl,RC-29391-E,Fechar a tela antes de excutar ação,26
+RiskControl,RC-29391-E,Verificar se todos os dados da <entidade> estão sendo exibidos,22
+RiskControl,RC-29391-E,Salvar com data inical maior que data final,62
+RiskControl,RC-30352-C,Cadastrar <entidade> com sucesso,10
+RiskControl,RC-30352-C,Cancelar cadastro de <entidade> com sucesso,2
+RiskControl,RC-30352-C,Cadastrar <entidade> sem campos obrigatórios preenchidos,4
+RiskControl,RC-30352-C,Verificar acesso por papéis,20
+RiskControl,RC-30352-C,Fechar a tela antes de executar ação,26
+RiskControl,RC-30352-C,Validar ação sem conexão com servidor,37
+RiskControl,RC-30352-E,Cancelar edição da <entidade> com sucesso,10
+RiskControl,RC-30352-E,Editar informações da <entidade> com sucesso,6
+RiskControl,RC-30352-E,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+RiskControl,RC-30352-E,Verificar presença de campos retornados,16
+RiskControl,RC-30352-E,Fechar a tela antes de excutar ação,26
+RiskControl,RC-30352-E,Verificar se todos os dados da <entidade> estão sendo exibidos,22
+RiskControl,RC-30352-L,Verificar acesso por papéis,20
+RiskControl,RC-30352-L,Listar todas as <entidades> com sucesso,15
+RiskControl,RC-30352-L,Verificar presença de campos retornados,16
+RiskControl,RC-30352-L,Validar resultado da consulta de <entidade> sem dados,17
+RiskControl,RC-30352-L,Verificar paginação,19
+RiskControl,RC-30352-L,Validar resultado da consulta (filtro) de <entidade>,21
+RiskControl,RC-30352-L,Visualizar dados da <entidade>,16
+RiskControl,RC-30352-L,Verificar comportamento <comportamento> do campo <campo>,34
+SmartClassroom,SC-29048,Acessar tela sem estar autenticado na aplicação,13
+SmartClassroom,SC-29048,O campo senha deve seguir regra <regra>,25
+SmartClassroom,SC-29048,Fazer login com usuário e senha válidos,40
+SmartClassroom,SC-29048,Fazer login com usuário inexistente,59
+SmartClassroom,SC-29048,Fazer login com senha inválida,60
+SmartClassroom,SC-29048,Fazer login com campo obrigatório não preenchido,61
+SmartClassroom,SC-29048,Validar logout da aplicação,35
+SmartClassroom,SC-29048,Validar ação sem conexão com servidor,37
+SmartClassroom,SC-29048,Validar Termos de Uso e Política de Privacidade,
+SmartClassroom,SC-29348-E,Cancelar Edição de Perfil,10
+SmartClassroom,SC-29348-E,Editar Perfil com sucesso,6
+SmartClassroom,SC-29348-E,Validar Regras do Formulário de Edição de Perfil,8
+SmartClassroom,SC-29348-E,Verificar presença de campos retornados,16
+SmartClassroom,SC-29348-E,Verificar inserção de link de <entidade> inexistente,23
+SmartClassroom,SC-29348-E,Fechar a tela antes de excutar ação,26
+SmartClassroom,SC-29348-E,Verificar se todos os dados da <entidade> estão sendo exibidos,22
+SmartClassroom,SC-29348-L,Listar todas as <entidades> com sucesso,15
+SmartClassroom,SC-29348-L,Validar Componentes da Listagem de Perfis,16
+SmartClassroom,SC-29348-L,Validar resultado da consulta de <entidade> sem dados,17
+SmartClassroom,SC-29348-L,Validar Paginação de Perfis,19
+SmartClassroom,SC-29348-L,Pesquisar Perfil,21
+SmartClassroom,SC-29348-L,Visualizar Perfil,16
+SmartClassroom,SC-29348-L,Ordenar Perfis,649
+SmartClassroom,SC-29348-L,Desativar/Ativar Perfil,9
+RiskControl,RC-30354,Cadastrar Entidade com sucesso,10
+RiskControl,RC-30354,Cancelar cadastro de Entidade com sucesso,2
+RiskControl,RC-30354,Cadastrar Entidade sem campos obrigatórios preenchidos,4
+RiskControl,RC-30354,Fechar a tela antes de excutar ação,26
+RiskControl,RC-30354,Validar ação sem conexão com servidor,37
+RiskControl,RC-30354,Cadastrar Entidade com campos inválidos,43
+RiskControl,RC-30354,Executar ação sem ter feito login,55
+RiskControl,RC-30354-E,Editar informações da entidade com sucesso,6
+RiskControl,RC-30354-E,Editar entidade deixando os campos obrigatórios do formulário em branco,8
+RiskControl,RC-30354-E,Cancelar edição da entidade com sucesso,10
+RiskControl,RC-30354-E,Verificar presença de campos retornados,16
+RiskControl,RC-30354-E,Verificar se todos os dados da entidade estão sendo exibidos,22
+RiskControl,RC-30354-E,Verificar inserção de link de entidade inexistente,23
+RiskControl,RC-30354-E,Fechar a tela antes de excutar ação,26
+RiskControl,RC-30354-E,Realizar ação com campo inválido,44
+RiskControl,RC-30354-L,Acessar tela sem estar autenticado na aplicação,13
+RiskControl,RC-30354-L,Listar todas as Entidades com sucesso,15
+RiskControl,RC-30354-L,Verificar presença de campos retornados,16
+RiskControl,RC-30354-L,Validar resultado da consulta de Entidade sem dados,17
+RiskControl,RC-30354-L,Verificar paginação,19
+RiskControl,RC-30354-L,Verificar acesso por papéis,20
+RiskControl,RC-30354-L,Validar resultado da consulta (filtro) de Entidade,21
+RiskControl,RC-30354-L,Realizar ação com usuário inativo,24
+RiskControl,RC-30354-L,Verificar comportamento do campo,34
+RiskControl,RC-30354-L,Validar logout da aplicação,35
+RiskControl,RC-30354-L,Visualizar dados da Entidade,16
+RiskControl,RC-30354-X,Excluir <entidade> com sucesso,12
+RiskControl,RC-30354-X,Cancelar exclusão da entidade,27
+RiskControl,RC-30354-X,Verificar acesso por papéis,20
+RiskControl,RC-30354-X,Verificar presença de campos retornados,16

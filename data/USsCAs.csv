@@ -580,3 +580,142 @@ TestRec,TR-27789-E,,Ao inserir um link de um projeto inexistente um erro 404 dev
 TestRec,TR-27789-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no projeto,1,47
 TestRec,TR-27789-X,,Cancelar exclusão da entidade,1,27
 TestRec,TR-27789-X,,Excluir com sucesso,1,12
+TestRec,TR-27788-C,,Inserção com dados corretos,1,1
+TestRec,TR-27788-C,,Inserção sem autenticação,1,4
+TestRec,TR-27788-C,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+TestRec,TR-27788-C,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+TestRec,TR-27788-C,,Ao informar um período em que haja outra sprint o sistema não deve permitir o cadastro.,1,66
+TestRec,TR-27788-C,,Ao informar o período da sprint fora do período do projeto o sistema não deve permitir o cadastro.,1,67
+TestRec,TR-27788-C,,Campos Obrigatórios devem estar preenchidos,1,2
+TestRec,TR-27788-E,,Ao alterar campos da sprint e clicar em salvar o projeto deve ser atualizado,1,8
+TestRec,TR-27788-E,,Alteração com campos obrigatórios não preenchidos,1,9
+TestRec,TR-27788-E,,Alteração sem autenticação,1,11
+TestRec,TR-27788-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,1,44
+TestRec,TR-27788-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,1,47
+TestRec,TR-27788-E,,Ao informar um período em que haja outra sprint o sistema não deve permitir o cadastro.,1,66
+TestRec,TR-27788-E,,Ao informar o período da sprint fora do período do projeto o sistema não deve permitir o cadastro.,1,67
+TestRec,TR-27788-L,,Listagem de dados,1,15
+TestRec,TR-27788-L,,Listagem sem dados cadastrados,1,16
+TestRec,TR-27788-L,,No resultado da busca a página deve exibir no máximo <x> valores,1,17
+TestRec,TR-27788-L,,Listagem com valor do filtro cadastrado,1,18
+TestRec,TR-27788-L,,Listagem com valor do filtro não cadastrado,1,19
+TestRec,TR-27788-L,,Listagem sem autenticação,1,20
+TestRec,TR-28652,,Ao arrastar um item para um grupo os mesmos devem ser associados,1,68
+TestRec,TR-28652,,Ao remover um item de um grupo os mesmos devem ser desassociados,1,69
+TestRec,TR-27786-C,,Inserção com dados corretos,1,1
+TestRec,TR-27786-C,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,1,3
+TestRec,TR-27786-C,,Inserção sem autenticação,1,4
+TestRec,TR-27786-C,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+TestRec,TR-27786-C,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+TestRec,TR-27786-E,,Ao alterar campos do test case e clicar em salvar o teste deve ser atualizado,1,8
+TestRec,TR-27786-E,,Alteração com campos obrigatórios não preenchidos,1,9
+TestRec,TR-27786-E,,Alteração sem autenticação,1,11
+TestRec,TR-27786-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,1,44
+TestRec,TR-27786-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,1,47
+TestRec,TR-29212,,Ao adicionar um ou vários critérios de aceitação e clicar em salvar os critérios devem ser associados a US.,1,1
+TestRec,TR-29212,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+TestRec,TR-29212,,Alteração sem autenticação,1,11
+TestRec,TR-27790,,Listagem de dados,1,15
+TestRec,TR-27790,,Listagem sem dados cadastrados,1,16
+TestRec,TR-27790,,Listagem sem sprint em andamento,1,74
+TestRec,TR-27790,,Listagem sem autenticação,1,20
+TestRec,TR-28363,,Inserção com dados corretos,1,1
+TestRec,TR-28363,,Inserção sem autenticação,1,4
+TestRec,TR-28363,,Copiar entidade previamente copiada,1,75
+RiskControl,RC-29386,,Campos Obrigatórios devem estar preenchidos,1,2
+RiskControl,RC-29386,,Caso usuário não esteja cadastrado o sistema deverá enviar mensagem,1,24
+RiskControl,RC-29386,,Caso o usuário forneça senha inválida o sistema deverá enviar mensagem,1,40
+RiskControl,RC-29386,,Caso o usuário esteja logado o sistema deverá ser redirecionado para tela principal,1,55
+RiskControl,RC-29391-E,,Ao alterar campos do projeto e clicar em salvar o teste deve ser atualizado,1,8
+RiskControl,RC-29391-E,,Alteração com campos obrigatórios não preenchidos,1,9
+RiskControl,RC-29391-E,,Alteração sem autenticação,1,11
+RiskControl,RC-29391-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,1,44
+RiskControl,RC-29391-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,1,47
+RiskControl,RC-29391-L,,Listagem de dados,1,15
+RiskControl,RC-29391-L,,Listagem sem dados cadastrados,1,16
+RiskControl,RC-29391-L,,No resultado da busca a página deve exibir no máximo <x> valores,1,17
+RiskControl,RC-29391-L,,Listagem sem autenticação,1,20
+RiskControl,RC-30352-C,,Inserção com dados corretos,1,1
+RiskControl,RC-30352-C,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,1,3
+RiskControl,RC-30352-C,,Inserção sem autenticação,1,4
+RiskControl,RC-30352-C,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+RiskControl,RC-30352-C,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+RiskControl,RC-30352-E,,Ao alterar campos do projeto e clicar em salvar o teste deve ser atualizado,1,8
+RiskControl,RC-30352-E,,Alteração com campos obrigatórios não preenchidos,1,9
+RiskControl,RC-30352-E,,Alteração sem autenticação,1,11
+RiskControl,RC-30352-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,1,44
+RiskControl,RC-30352-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,1,47
+RiskControl,RC-30352-L,,Listagem de dados,1,15
+RiskControl,RC-30352-L,,Listagem sem dados cadastrados,1,16
+RiskControl,RC-30352-L,,No resultado da busca a página deve exibir no máximo <x> valores,1,17
+RiskControl,RC-30352-L,,Listagem sem autenticação,1,20
+SmartClassroom,SC-29048,,Ao executar/abrir/ligar o Raspberry Pi o sistema deverá mostrar para o usuário uma tela de login para acessar as demais funcionalidades;,"1,2",76
+SmartClassroom,SC-29048,,O usuário poderá escrever suas credenciais via teclado físico nessa primeira versão;,"1,2",77
+SmartClassroom,SC-29048,,O sistema deverá requisitar ao site de gerenciamento de usuários para logar-se corretamente,"1,2",78
+SmartClassroom,SC-29048,,O site de gerenciamento de usuários deve ser verificado para não haver problemas de cadastro;,"1,2",79
+SmartClassroom,SC-29048,,O site de gerenciamento deve estar no ar utilizando o AWS do projeto Epson VIRTUS: A URL do site deve ser portal.virtus-smart-classroom.com,"1,2",80
+SmartClassroom,SC-29048,,O site deve ter um login (pode ser fixo: admin / admin@admin) para que apenas pessoas autorizadas tenham acesso,"1,2",81
+SmartClassroom,SC-29966,,Ao registrar o usuário o mesmo poderá acessar o sistema.,"1,2",64
+SmartClassroom,SC-29966,,O usuário deverá fornecer e-mail nome de usuário nome senha e confirmação.,"1,2",65
+SmartClassroom,SC-29966,,Caso algum dos campos não seja informado o sistema não deverá permitir a inclusão.,"1,2",2
+SmartClassroom,SC-29966,,Caso o nome de usuário já exista o sistema deverá exibir uma mensagem,"1,2",13
+SmartClassroom,SC-29966,,Uma vez criado o usuário já deve estar logado na aplicação,"1,2",64
+SmartClassroom,SC-29966-L,,Listagem de dados,"1,2",15
+SmartClassroom,SC-29966-L,,Listagem sem dados cadastrados	1,2	16
+SmartClassroom,SC-29966-L,,No resultado da busca a página deve exibir no máximo <x> valores,"1,2",17
+SmartClassroom,SC-29966-L,,Listagem com valor do filtro cadastrado,"1,2",18
+SmartClassroom,SC-29966-L,,Listagem com valor do filtro não cadastrado,"1,2",19
+SmartClassroom,SC-29966-L,,Listagem sem autenticação,"1,2",20
+SmartClassroom,SC-29966-L,,Ao clicar nos campos a listagem deverá ser ordenada,"1,2",22
+SmartClassroom,SC-29966-E,,Ao alterar campos do projeto e clicar em salvar o teste deve ser atualizado,"1,2",8
+SmartClassroom,SC-29966-E,,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SmartClassroom,SC-29966-E,,Alteração sem autenticação,"1,2",11
+SmartClassroom,SC-29966-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,"1,2",44
+SmartClassroom,SC-29966-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,"1,2",47
+SmartClassroom,SC-29348,,Inserção com dados corretos,"1,2",1
+SmartClassroom,SC-29348,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,"1,2",3
+SmartClassroom,SC-29348,,Inserção sem autenticação,"1,2",4
+SmartClassroom,SC-29348,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,"1,2",47
+SmartClassroom,SC-29348,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,"1,2",51
+SmartClassroom,SC-29348-E,,Ao alterar campos do projeto e clicar em salvar o teste deve ser atualizado,"1,2",8
+SmartClassroom,SC-29348-E,,Alteração com campos obrigatórios não preenchidos,"1,2",9
+SmartClassroom,SC-29348-E,,Alteração sem autenticação,"1,2",11
+SmartClassroom,SC-29348-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,"1,2",44
+SmartClassroom,SC-29348-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,"1,2",47
+SmartClassroom,SC-29348-L,,Listagem de dados,"1,2",15
+SmartClassroom,SC-29348-L,,Listagem sem dados cadastrados,"1,2",16
+SmartClassroom,SC-29348-L,,No resultado da busca a página deve exibir no máximo <x> valores,"1,2",17
+SmartClassroom,SC-29348-L,,Listagem com valor do filtro cadastrado,"1,2",18
+SmartClassroom,SC-29348-L,,Listagem com valor do filtro não cadastrado,"1,2",19
+SmartClassroom,SC-29348-L,,Listagem sem autenticação,"1,2",20
+SmartClassroom,SC-29348-L,,Ao clicar nos campos a listagem deverá ser ordenada,"1,2",22
+RiskControl,RC-30354,,Inserção com dados corretos,1,1
+RiskControl,RC-30354,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,1,3
+RiskControl,RC-30354,,Inserção sem autenticação,1,4
+RiskControl,RC-30354,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+RiskControl,RC-30354,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+RiskControl,RC-30354-E,,Ao alterar campos do projeto e clicar em salvar o teste deve ser atualizado,1,8
+RiskControl,RC-30354-E,,Alteração com campos obrigatórios não preenchidos,1,9
+RiskControl,RC-30354-E,,Alteração sem autenticação,1,11
+RiskControl,RC-30354-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,1,44
+RiskControl,RC-30354-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,1,47
+RiskControl,RC-30354-L,,Listagem de dados,1,15
+RiskControl,RC-30354-L,,Listagem sem dados cadastrados,1,16
+RiskControl,RC-30354-L,,No resultado da busca a página deve exibir no máximo <x> valores,1,17
+RiskControl,RC-30354-L,,Listagem sem autenticação,1,20
+RiskControl,RC-30354-X,,Cancelar exclusão da entidade,1,27
+RiskControl,RC-30354-X,,Excluir com sucesso,1,12
+RiskControl,RC-31119,,Inserção com dados corretos,1,1
+RiskControl,RC-31119,,Ao informar <campo> inválido o sistema deverá exibir mensagem de campo inválido,1,3
+RiskControl,RC-31119,,Inserção sem autenticação,1,4
+RiskControl,RC-31119,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita na <entidade>,1,47
+RiskControl,RC-31119,,Ao clicar no botão adicionar a tela de inserção da <entidade> deve ser exibida sem dados preenchidos,1,51
+RiskControl,RC-31119-E,,Ao alterar campos do projeto e clicar em salvar o teste deve ser atualizado,1,8
+RiskControl,RC-31119-E,,Alteração com campos obrigatórios não preenchidos,1,9
+RiskControl,RC-31119-E,,Alteração sem autenticação,1,11
+RiskControl,RC-31119-E,,Ao inserir um link de um item inexistente um erro 404 deve ser exibido,1,44
+RiskControl,RC-31119-E,,Ao clicar no botão cancelar a tela de listagem deve ser exibida e nenhuma alteração deve ser feita no item,1,47
+RiskControl,RC-31119-L,,Listagem de dados,1,15
+RiskControl,RC-31119-L,,Listagem sem dados cadastrados,1,16
+RiskControl,RC-31119-L,,No resultado da busca a página deve exibir no máximo <x> valores,1,17
+RiskControl,RC-31119-L,,Listagem sem autenticação,1,20

@@ -55,7 +55,8 @@ def cross_validate(fold_length, k, metric='euclidean', heuristic=False):
 
 
 def calculate_fbeta(precision, recall, beta):
-    return 2 * (((beta**2) * precision * recall) / (((beta**2) * precision) + recall))
+    # return 2 * (((beta**2) * precision * recall) / (((beta**2) * precision) + recall))
+    return ((beta**2 + 1) * precision * recall) / ((beta**2 * precision) + recall)
 
 
 if __name__ == '__main__':

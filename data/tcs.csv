@@ -57,3 +57,8 @@ ID,Descrição
 56,Verificar se estados da <entidade> estão de acordo
 57,Recuperar senha com nome de usuário inválido
 58,Recuperar senha com nome de usuário não cadastrado
+59,Fazer login com usuário inexistente
+60,Fazer login com senha inválida
+61,Fazer login com campo obrigatório não preenchido
+62,Salvar com data inical maior que data final
+63,Listar dashboard sem sprint em andamento
